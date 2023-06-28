@@ -32,6 +32,9 @@ unique_values = elections['cst_n'].unique()
 
 
 
+#elections_grouped =
+
+sys.exit()
 # Create the Dash app
 app = dash.Dash(__name__)
 

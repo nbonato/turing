@@ -88,7 +88,11 @@ manual_replacements =  {
     "caithness-shire" : "caithness",
     "dorsetshire": "dorset",
     "fifeshire" : "fife",
-    "edinburghshire" : "edingburghshire" # This is most likely a typo on the CLEA side
+    "ross-shire" : "ross and cromarty", # There might be a cromartshire also
+    "roxburghshire" : "rowburghshire", #Typo
+    "londonderry county" : "londonberry county", #Typo, also there's the city
+    "edinburghshire" : "edingburghshire", # This is most likely a typo on the CLEA side, there's also the city
+    "inverness-shire" : "iverness-shire" # Typo, but also this can be district of burghs too
 }
 
 
@@ -97,11 +101,7 @@ manual_replacements =  {
 df["county"] = df["county"].replace(manual_replacements)
 
 
-'''
-
-Special cases
-
-carnarvonshire can be both caernarvonshire and caernarvon district of boroughs
+special_cases = '''carnarvonshire can be both caernarvonshire and caernarvon district of boroughs
     at different times
 
 cheshire was split into cheshire, northern and cheshire, southern in 1832. 
@@ -121,7 +121,31 @@ essex was split into essex, northern and essex, southern in 1832.
 gloucestershire was split into gloucestershire, eastern and gloucestershire, western
     gloucester was also a constituency on itself
 
+guernsey has no representation in the UK parliament
+
+hempshire was split into hempshire, northern and hempshire, southern in 1832. 
+
+jersey has no representation in the UK parliament
+
+kent was split into kent, eastern and kent, western
+
+lincolnshire was split into "lincolnshire, parts of kesteven a" and "lincolnshire, parts of lindsey"
+
+nainshire might be nairnshire, which was joined with elgin in elginshire and nairnshire
+
+isle of man has no representation in the UK parliament
 '''
+
+
+special_cases = special_cases.split("\n\n")
+
+# adding isle of man manually to avoid split via space
+special_cases_list = ["isle of man"]
+for line in special_cases:
+    special_cases_list.append(line.split(" ")[0])
+special_cases_list.pop() # remove "isle" added by split
+
+
 
 selected_rows = df[df['county'].str.contains('in the province')]
 counties_escaping_filtering = selected_rows["county"].unique()
