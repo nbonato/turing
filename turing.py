@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
-import pickle
-import os
+import numpy as np
+
 import dash
 from dash import dcc
 from dash import html
@@ -11,46 +11,101 @@ from dash.exceptions import PreventUpdate
 import plotly.graph_objs as go
 import sys
 
-pickle_file = 'data/press_directories.pkl'
+from elections import elections, unique_values
+from press_directories_cleaner import press_directories, cleaned_press_directories
 
-if os.path.exists(pickle_file):
-    # Load pickle file if it exists
-    with open(pickle_file, 'rb') as f:
-        press_directories = pickle.load(f)
-else:
-    # this loads the full dataset with 32 columns
-    press_directories_general = pd.read_csv("data/pressDirectories.csv")
-    # this restricts the dataset to the main columns used in the projects, keeping
-    # the id one for compatibility with the original dataset
-    press_directories = press_directories_general[["id", 
-                                                   "S-TITLE", 
-                                                   "county", 
-                                                   "district", 
-                                                   "wiki_id", 
-                                                   "year", 
-                                                   "S-POL" 
-                                                   ]]
-    # Save the press_directories as a pickle file for future use
-    with open(pickle_file, 'wb') as f:
-        pickle.dump(press_directories, f)
-        f.close()
-value_counts = press_directories['S-POL'].value_counts()
+
+#value_counts = press_directories['S-POL'].value_counts()
 
 
 df = press_directories
 
 # Group by 'year' and 'county' and count the occurrences of 'S-TIME'
-result_df = press_directories.groupby(['year', 'county'])['S-POL'].count().reset_index()
+#result_df = press_directories.groupby(['year', 'county'])['S-POL'].count().reset_index()
 
 # Rename the count column to 'Count'
-result_df = result_df.rename(columns={'Political leaning': 'Count'})
+#result_df = result_df.rename(columns={'Political leaning': 'Count'})
 
-london = df[(df['year'] == 1888) & (df['county'] == 'london')][['S-TITLE', 'S-POL']]
 
-frequency = london['S-POL'].value_counts()
 
-#sys.exit()
+#london = df[(df['year'] == 1888) & (df['county'] == 'london')][['S-TITLE', 'S-POL']]
 
+#frequency = london['S-POL'].value_counts()
+
+
+
+'''
+counties = df["county"].unique()
+districts = df["district"].unique()
+years = df["year"].unique()
+election_years = elections["yr"].unique()
+
+
+common_constituencies = np.intersect1d(districts, unique_values)
+
+
+
+not_in_districts = np.setdiff1d(unique_values, districts)
+not_in_unique_values = np.setdiff1d(districts, unique_values)
+
+'''
+
+
+
+
+
+# testing out two specific dates
+first_press = df[df['year'] == 1846]
+first_election = elections[elections['yr'] == 1847]
+
+first_press_counties = first_press["county"].unique()
+first_election_counties = first_election["cst_n"].unique()
+
+first_common_constituencies = np.intersect1d(first_press_counties, first_election_counties)
+
+
+only_in_press = np.setdiff1d(first_press_counties, first_election_counties)
+only_in_elections = np.setdiff1d(first_election_counties, first_press_counties)
+
+
+
+# compare with cleaned 
+
+
+df = cleaned_press_directories.copy()
+# testing out two specific dates
+cleaned_first_press = df[df['year'] == 1846]
+cleaned_first_election = elections[elections['yr'] == 1847]
+
+cleaned_first_press_counties = cleaned_first_press["county"].unique()
+cleaned_first_election_counties = cleaned_first_election["cst_n"].unique()
+
+cleaned_first_common_constituencies = np.intersect1d(cleaned_first_press_counties, cleaned_first_election_counties)
+
+
+only_in_press_cleaned = np.setdiff1d(cleaned_first_press_counties, cleaned_first_election_counties)
+only_in_elections_cleaned = np.setdiff1d(cleaned_first_election_counties, cleaned_first_press_counties)
+
+
+# Sort both arrays alphabetically
+sorted_elections = sorted(only_in_elections_cleaned)
+sorted_press = sorted(only_in_press_cleaned)
+
+
+
+
+
+# deleting useless variables to avoid cluttering the variable explorer
+#del  first_press, first_election,first_press_counties, first_election_counties, first_common_constituencies
+
+
+# block the Dash app code from execution
+sys.exit()
+
+
+
+
+## Dash App starts below
 
 app = dash.Dash(__name__)
 
