@@ -11,7 +11,7 @@ from dash.exceptions import PreventUpdate
 import plotly.graph_objs as go
 import sys
 
-from elections import elections, unique_values
+from elections import elections_replaced
 from press_directories_cleaner import press_directories, cleaned_press_directories
 
 
@@ -51,7 +51,7 @@ not_in_unique_values = np.setdiff1d(districts, unique_values)
 '''
 
 
-
+elections = elections_replaced.copy()
 
 
 # testing out two specific dates

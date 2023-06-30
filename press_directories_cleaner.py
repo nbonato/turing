@@ -87,12 +87,8 @@ manual_replacements =  {
     "brecknockshire" : "breconshire",
     "caithness-shire" : "caithness",
     "dorsetshire": "dorset",
-    "fifeshire" : "fife",
-    "ross-shire" : "ross and cromarty", # There might be a cromartshire also
-    "roxburghshire" : "rowburghshire", #Typo
-    "londonderry county" : "londonberry county", #Typo, also there's the city
-    "edinburghshire" : "edingburghshire", # This is most likely a typo on the CLEA side, there's also the city
-    "inverness-shire" : "iverness-shire" # Typo, but also this can be district of burghs too
+    "fifeshire" : "fife"
+
 }
 
 
@@ -101,7 +97,16 @@ manual_replacements =  {
 df["county"] = df["county"].replace(manual_replacements)
 
 
-special_cases = '''carnarvonshire can be both caernarvonshire and caernarvon district of boroughs
+special_cases = '''
+
+    "ross-shire" : "ross and cromarty", # There might be a cromartshire also
+    "roxburghshire" : "rowburghshire", #Typo
+    "londonderry county" : "londonberry county", #Typo, also there's the city
+    "edinburghshire" : "edingburghshire", # This is most likely a typo on the CLEA side, there's also the city
+    "inverness-shire" : "iverness-shire" # Typo, but also this can be district of burghs too
+    
+    
+carnarvonshire can be both caernarvonshire and caernarvon district of boroughs
     at different times
 
 cheshire was split into cheshire, northern and cheshire, southern in 1832. 
