@@ -21,7 +21,7 @@ else:
 
 
 
-elections = elections[elections['yr'] < 1923]
+elections = elections[elections['yr'] < 1923].reset_index()
 elections = elections[elections['yr'] > 1845]
 
 
@@ -84,12 +84,31 @@ matching_elements = districts.intersection(electoral_check)
 # Create an empty dictionary
 district_county_dict = {}
 
+
+# Remove all districts that are not present in the elections dataset
+# It would be useless to keep them since they won't help in getting
+# from the constituency name to the relevant county
+
+
+
+districts = set(districts_counties["district"].to_list())
+keep = districts.intersection(electoral_check)
+differe = districts.difference(electoral_check)
+
+
 # Iterate over the rows of the districts_counties dataset
 for index, row in districts_counties.iterrows():
     year = row['year']
     district = row['district']
     county = row['county']
     
+    # for now, I am skipping districts that are duplicate
+    if district in matching_elements:
+        continue
+    
+    # skip districts that are not in the elections dataset
+    if district not in keep:
+        continue
     # Check if the year is already a key in the dictionary
     if year in district_county_dict:
         # Append the district-county mapping to the existing dictionary
@@ -97,6 +116,9 @@ for index, row in districts_counties.iterrows():
     else:
         # Create a new entry in the dictionary for the year and district-county mapping
         district_county_dict[year] = {district: county}
+
+
+
 
 
 # This dictionary matches each year with the replacements to do for that specific
@@ -156,14 +178,44 @@ constituency_grouper = {
     
 }
 
-        
+
+
+my_dict = {
+    'key1': ['value1', 'value2', 'value3'],
+    'key2': ['value4', 'value5'],
+    'key3': ['value6', 'value7', 'value8']
+}
+
+name = 'value5'
+
+
+for key, values in my_dict.items():
+    if name in values:
+        result = key
+        break
+
+compare = elections_replaced.copy()        
 # Replace values in the 'cst_n' column based on the year-specific sub-dictionaries
 for index, row in elections_replaced.iterrows():
-    yr = row['yr']
-    if yr in constituency_grouper:
-        district_county_dict = constituency_grouper[yr]
+    yr = str(row['yr'])
+    if yr in constituency_grouper.keys():
+
+        replace = constituency_grouper[yr]
         cst_n = row['cst_n']
-        if cst_n in district_county_dict:
-            county = district_county_dict[cst_n]
-            elections_replaced.at[index, 'cst_n'] = county
+        for key, values in replace.items():
+            if cst_n in values:
+                elections_replaced.at[index, 'cst_n'] = key
+                print(f"replacing {cst_n} with {key}")
+                
+
+for index, row in elections_replaced.iterrows():
+    yr = row['yr']
+    if yr in electoral_district_county.keys():
+        cst_n = row['cst_n']
+        replace = electoral_district_county[yr]
+        if cst_n in replace.keys():        
+            print(f"replacing {cst_n}", end="")
+            print(f" with {replace[cst_n]}")
+            elections_replaced.at[index, 'cst_n'] = replace[cst_n]
+        
         

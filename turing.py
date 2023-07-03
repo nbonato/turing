@@ -74,8 +74,8 @@ only_in_elections = np.setdiff1d(first_election_counties, first_press_counties)
 
 df = cleaned_press_directories.copy()
 # testing out two specific dates
-cleaned_first_press = df[df['year'] == 1846]
-cleaned_first_election = elections[elections['yr'] == 1847]
+cleaned_first_press = df.copy()
+cleaned_first_election = elections.copy()
 
 cleaned_first_press_counties = cleaned_first_press["county"].unique()
 cleaned_first_election_counties = cleaned_first_election["cst_n"].unique()
