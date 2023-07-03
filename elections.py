@@ -59,6 +59,25 @@ districts_counties = cleaned_press_directories[["county", "district", "year"]]
 
 # I should make sure I am not accidentally erasing places with the same name 
 # in two different counties
+# This is how I am doing it
+
+df = districts_counties.copy()
+
+# This groups the counties by district
+district_counties_duplicate = df.groupby('district')['county'].agg(["unique"])
+# This adds a column counting how many counties are there for each district
+district_counties_duplicate['county_count'] = district_counties_duplicate['unique'].apply(len)
+
+
+# Filter districts with county_count higher than 1
+filtered_districts = district_counties_duplicate[district_counties_duplicate['county_count'] > 1].reset_index()
+
+# Convert bot to sets
+districts = set(filtered_districts["district"].to_list())
+electoral_check = set(elections_reduced["cst_n"].to_list())
+        
+# These are the districts that appear in the election dataset
+matching_elements = districts.intersection(electoral_check)
 
 
 
