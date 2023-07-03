@@ -3,6 +3,9 @@ import os
 import pickle
 from press_directories_cleaner import cleaned_press_directories
 
+
+
+
 pickle_file = 'data/elections.pkl'
 
 if os.path.exists(pickle_file):
@@ -26,6 +29,21 @@ elections = elections[elections['yr'] > 1845]
 
 
 
+
+
+#################################
+  #  _    _                 _           _   _               _____ _____   
+  # | |  | |               | |         | | (_)             |_   _|  __ \  
+  # | |  | |___  ___    ___| | ___  ___| |_ _  ___  _ __     | | | |  | | 
+  # | |  | / __|/ _ \  / _ \ |/ _ \/ __| __| |/ _ \| '_ \    | | | |  | | 
+  # | |__| \__ \  __/ |  __/ |  __/ (__| |_| | (_) | | | |  _| |_| |__| | 
+  #  \____/|___/\___|  \___|_|\___|\___|\__|_|\___/|_| |_| |_____|_____/  
+                                                                       
+                                                                      
+###############################
+
+
+
 #grouped_data = elections.groupby('yr')['mag'].apply(lambda x: x.unique().tolist())
 #unique_values = elections['cst_n'].unique()
 
@@ -34,7 +52,7 @@ years_list = elections["yr"].unique()
 
 
 
-elections_reduced = elections[["yr", "cst_n", "cst", "mag", "pty_n", "pty", "can","vot1", "pev1", "pv1", "pvs1"]]
+elections_reduced = elections[["id","yr", "cst_n", "cst", "mag", "pty_n", "pty", "can","vot1", "pev1", "pv1", "pvs1"]]
 # The dataset contains pv1 which is party votes, but also pvs which is the share
 # I should use the share afterwards to check that the calculations are right
 
@@ -153,6 +171,14 @@ for outer_key, outer_value  in district_county_dict.items():
         electoral_district_county[new_year] = outer_value
 
 
+
+replace_typos = {
+    "rowburghshire" : "roxburghshire"
+    }
+
+elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(replace_typos)   
+
+
 constituency_grouper = {
     "1847" : {
 
@@ -162,17 +188,19 @@ constituency_grouper = {
         "cumberland": ["cumberland, eastern", "cumberland, western"],
         "derbyshire": ["derbyshire, northern", "derbyshire, southern"],
         "devonshire": ["devon, northern", "devon, southern"],
-        "elgin": ["elgin district of burghs", "elginshire and nairnshire"],
+        # Elginshire and nairnshire have a difficult situation where 
+        # the election datasets contains data for distric of burghs and
+        # elginshire and nairnshire, while press contains separate records
+        # for elgin and nairn county. The only possibility might be to join them
+        # "elgin": ["elgin district of burghs", "elginshire and nairnshire"],
         "essex": ["essex, northern", "essex, southern"],
         "gloucestershire": ["gloucestershire, eastern", "gloucestershire, western"],
         "gloucester": ["gloucester"],
-        "guernsey": [],
         "hempshire": ["hempshire, northern", "hempshire, southern"],
-        "jersey": [],
         "kent": ["kent, eastern", "kent, western"],
         "lincolnshire": ["lincolnshire, parts of kesteven a", "lincolnshire, parts of lindsey"],
-        "nainshire": ["nairnshire"],
-        "isle of man": []
+        #"inverness-shire" : ["iverness-shire","iverness district of burghs"]
+        
     }
     
     
@@ -180,19 +208,19 @@ constituency_grouper = {
 
 
 
-my_dict = {
-    'key1': ['value1', 'value2', 'value3'],
-    'key2': ['value4', 'value5'],
-    'key3': ['value6', 'value7', 'value8']
-}
+# my_dict = {
+#     'key1': ['value1', 'value2', 'value3'],
+#     'key2': ['value4', 'value5'],
+#     'key3': ['value6', 'value7', 'value8']
+# }
 
-name = 'value5'
+# name = 'value5'
 
 
-for key, values in my_dict.items():
-    if name in values:
-        result = key
-        break
+# for key, values in my_dict.items():
+#     if name in values:
+#         result = key
+#         break
 
 compare = elections_replaced.copy()        
 # Replace values in the 'cst_n' column based on the year-specific sub-dictionaries
@@ -205,7 +233,7 @@ for index, row in elections_replaced.iterrows():
         for key, values in replace.items():
             if cst_n in values:
                 elections_replaced.at[index, 'cst_n'] = key
-                print(f"replacing {cst_n} with {key}")
+                # print(f"replacing {cst_n} with {key}")
                 
 
 for index, row in elections_replaced.iterrows():
@@ -214,8 +242,55 @@ for index, row in elections_replaced.iterrows():
         cst_n = row['cst_n']
         replace = electoral_district_county[yr]
         if cst_n in replace.keys():        
-            print(f"replacing {cst_n}", end="")
-            print(f" with {replace[cst_n]}")
+            # print(f"replacing {cst_n}", end="")
+            # print(f" with {replace[cst_n]}")
             elections_replaced.at[index, 'cst_n'] = replace[cst_n]
-        
-        
+
+
+
+pickle_file = 'data/elections_replaced.pkl'
+          
+with open(pickle_file, 'rb') as f:
+    elections_replaced = pickle.load(f)
+
+# with open(pickle_file, 'wb') as f:
+#     pickle.dump(elections_replaced, f)
+#     f.close()
+
+            
+# test = elections_replaced[elections_replaced["cst_n"] == "ross and cromarty"]
+
+
+
+elections_test = elections_replaced
+#[elections_replaced['yr'] > 1910]  
+elections_test.to_csv("rosshire.csv")
+
+
+
+# These are changes that need to be scrutinised
+
+dubious_changes = {
+    
+    # The constituency was actually called ross and cromarty
+    "ross and cromarty" : "ross-shire",
+    
+    # Inverness-shire seems to have been split and recomposed with Inverness 
+    # and Ross and Cromarty. I am not completely sure that they are fully equivalent
+    "iverness-shire and ross and croma" : "ross-shire" 
+    
+    }        
+
+dubious_regex = {
+    r"\bnorthumberland\b.*": "northumberland"
+}
+
+elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(dubious_regex, regex=True)
+
+elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(dubious_changes)   
+
+
+
+
+
+test = elections[elections["cst_n"].str.contains("elgin")]

@@ -72,7 +72,9 @@ escaped_replacements =  {
     'in the prov . of munster and co . clare' : 'clare county',
     'in the prov. of ulster and co. antrim' : 'antrim county',
     'county wicklow and province of leinster' : 'wicklow county',
-    'prov . of connaught & county leitrim' : 'leitrim county'
+    'prov . of connaught & county leitrim' : 'leitrim county',
+    'co . tyrone' : "tyrone county",
+    "london" : "city of london" 
     }
 
 
@@ -87,14 +89,18 @@ manual_replacements =  {
     "brecknockshire" : "breconshire",
     "caithness-shire" : "caithness",
     "dorsetshire": "dorset",
-    "fifeshire" : "fife"
-
+    "fifeshire" : "fife",
+    "nainshire" : "nairnshire"
 }
 
 
 
 # Replace values using the dictionary
 df["county"] = df["county"].replace(manual_replacements)
+
+removal_list = ["guernsey", "isle of man", "jersey"]
+
+df = df[~df["county"].isin(removal_list)]
 
 
 special_cases = '''
@@ -155,3 +161,6 @@ special_cases_list.pop() # remove "isle" added by split
 selected_rows = df[df['county'].str.contains('in the province')]
 counties_escaping_filtering = selected_rows["county"].unique()
 cleaned_press_directories = df.copy()
+
+
+test = press_directories[press_directories["county"].str.contains("elgin")]
