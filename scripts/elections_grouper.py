@@ -14,6 +14,7 @@ Particular situations are highlighted here: https://www.notion.so/nbonato/Errors
 """
 import numpy as np
 import pickle
+import json
 
 file = open("pickles/elections_cleaned.pkl", 'rb')
 
@@ -48,19 +49,46 @@ def process_unique(x):
 
 
 
+
 grouped_dict = elections.groupby(
     ['yr', 'cst', 'pty']
-    ).agg({'pv1': process_unique, 'pev1': process_unique}
+    ).agg({'pev1': process_unique, 'pvs1': process_unique}
     ).reset_index()
           
-          
-nested_dict = {}
-for _, row in grouped_dict.iterrows():
+counties_equivalence = {}
+for _, row in elections.iterrows():
     yr = row['yr']
     cst = row['cst']
-    nested_dict.setdefault(yr, {})
-    nested_dict[yr][cst] = {
-        'pv1': row['pv1'],
-        'pev1': row['pev1']
-    }
+    cst_n = row['cst_n']
+
+    counties_equivalence.setdefault(yr, {})
+    counties_equivalence[yr][cst] = cst_n
     
+    
+parties_equivalence = {}
+for _, row in elections.iterrows():
+    yr = row['yr']
+    pty = row['pty']
+    pty_n = row['pty_n']
+
+    parties_equivalence.setdefault(yr, {})
+    parties_equivalence[yr][pty] = pty_n
+    
+    
+nested_dict = {}
+
+for _, row in grouped_dict.iterrows():
+    yr = int(row['yr'])
+    #cst = row['cst']
+    cst = counties_equivalence[yr][row['cst']]
+    pty = parties_equivalence[yr][row['pty']]
+    pvs1 = row['pvs1']
+    if pvs1 == -992:
+        pvs1 = "uncontested"
+
+    nested_dict.setdefault(yr, {})
+    nested_dict[yr].setdefault(cst, {})
+    nested_dict[yr][cst][pty] = pvs1
+    
+with open("elections.json", "w") as json_file:
+    json.dump(nested_dict, json_file)
