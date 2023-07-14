@@ -1,0 +1,37 @@
+.popup .leaflet-popup-content-wrapper, .popup .leaflet-popup-tip {
+    background-color: white;
+    color: black;
+    width: fit-content;
+}
+
+.leaflet-popup-content {
+    width: fit-content;
+}
+
+
+.chart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-template-rows: auto auto; /* Two rows of auto height */
+    gap: 10px; /* Gap between grid items */
+}
+
+.chart-container h2 {
+    grid-row: 1; /* Place first element in the first row */
+    grid-column: 1 / span 2; /* Span both columns */
+    justify-self: center; /* Center horizontally */
+}
+
+
+.popup {
+    min-width: 300px;
+    
+}
+
+#map {
+    background-color: rgb(190, 190, 190); /* Set your desired background color */
+    height: 80vh;
+    width: 100%;
+    margin: auto
+}
+
