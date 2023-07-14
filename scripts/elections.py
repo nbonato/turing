@@ -41,7 +41,6 @@ elections = elections[elections['yr'] > 1845]
 years_list = elections["yr"].unique()
 
 
-
 elections_reduced = elections[["id","yr", "cst_n", "cst", "mag", "pty_n", "pty", "can","vot1", "pev1", "pv1", "pvs1"]]
 # The dataset contains pv1 which is party votes, but also pvs which is the share
 # I should use the share afterwards to check that the calculations are right
