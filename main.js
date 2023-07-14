@@ -29,6 +29,21 @@ var map = L.map('map', {
 }).setView([55.3781, -3.4360], 5);
 
 
+// Find the first election year that is equal or greater than the target year.
+var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
+
+function electionYear(pressYear) {
+    let largerYear = null;
+    for (const electionYear of electionYears) {
+        if (electionYear >= pressYear) {
+            largerYear = electionYear;
+          return largerYear
+        }
+    }
+}
+
+
+
 
 // Function to create the chart
 
@@ -75,7 +90,8 @@ fetch('updated_map.json')
         slider.addEventListener('mouseup', function () {
             
             year = parseInt(this.value);
-            sliderValue.innerText = year;
+            closestElection = electionYear(year);
+            sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
             geojsonLayer.eachLayer(function (layer) {
                 if (layer === clickedLayer && layer.isPopupOpen()) {
                     layer.getPopup().setContent(pressChartWrapper);
@@ -83,7 +99,7 @@ fetch('updated_map.json')
             });
         });
         var year = 1846; // Initial value of the year variable
-
+        var closestElection = 1847;
         var geojsonLayer = L.geoJSON(data, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
@@ -128,9 +144,10 @@ fetch('updated_map.json')
                     .then(response => response.json())
                     .then(data => {
                         // Retrieve the data for the specific key
-                        var electionChartData = data[year.toString()][feature.properties.NAME.toLowerCase()];
+                        var electionChartData = data[closestElection.toString()][feature.properties.NAME.toLowerCase()];
                         console.log(electionChartData);
-
+                        // Create the chart
+                        chartCreator(electionChart, electionChartData);
 
                     }).catch(error => console.error(error));
                     var popupContent = document.createElement("div");
