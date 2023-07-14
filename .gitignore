@@ -2,3 +2,4 @@ scripts/data/
 __pycache__/
 script/pickles/
 geodata/
+rosshire.csv

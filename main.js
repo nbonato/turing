@@ -2,9 +2,21 @@ var pressChartWrapper = document.createElement("div");
 var pressChart = document.createElement("canvas")
 pressChartWrapper.appendChild(pressChart);
 
+
+
+
 var electionChartWrapper = document.createElement("div");
 var electionChart = document.createElement("canvas")
 electionChartWrapper.appendChild(electionChart);
+
+// Get the slider element
+var slider = document.getElementById("yearSlider");
+
+// Get the value display element
+var sliderValue = document.getElementById("sliderValue");
+
+// Display the initial value
+sliderValue.innerText = slider.value;
 
 // Define a variable to store the clicked layer
 var clickedLayer = null;
@@ -60,8 +72,10 @@ fetch('updated_map.json')
     .then(response => response.json())
     .then(data => {
         // Update the map when the slider value changes
-        document.getElementById('yearSlider').addEventListener('mouseup', function () {
+        slider.addEventListener('mouseup', function () {
+            
             year = parseInt(this.value);
+            sliderValue.innerText = year;
             geojsonLayer.eachLayer(function (layer) {
                 if (layer === clickedLayer && layer.isPopupOpen()) {
                     layer.getPopup().setContent(pressChartWrapper);
@@ -107,8 +121,16 @@ fetch('updated_map.json')
                         // Create the chart
                         chartCreator(pressChart, pressChartData);
 
-                        // Create the chart
-                        chartCreator(electionChart, pressChartData);
+                    }).catch(error => console.error(error));
+
+                    // Fetch data from the JSON file
+                    fetch('scripts/elections.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        // Retrieve the data for the specific key
+                        var electionChartData = data[year.toString()][feature.properties.NAME.toLowerCase()];
+                        console.log(electionChartData);
+
 
                     }).catch(error => console.error(error));
                     var popupContent = document.createElement("div");
