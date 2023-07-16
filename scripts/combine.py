@@ -44,24 +44,54 @@ common_constituencies = np.intersect1d(districts, unique_values)
 not_in_districts = np.setdiff1d(unique_values, districts)
 not_in_unique_values = np.setdiff1d(districts, unique_values)
 
+
+
+
+
+
+
+
+
+
+1847
+1852
+1857
+1859
+1865
+1868
+1874
+1880
+1885
+1886
+1892
+1895
+1900
+1906
+1910
+1918
+1922
+
+
+
+
 '''
 
 
-elections = elections_replaced.copy()
 
 
-# testing out two specific dates
-first_press = df[df['year'] >= 1846]
-first_election = elections[elections['yr'] >= 1847]
 
-first_press_counties = first_press["county"].unique()
-first_election_counties = first_election["cst_n"].unique()
+# # testing out two specific dates
+# first_press = df[df['year'] >= 1846]
+# first_election = elections[elections['yr'] >= 1847]
 
-first_common_constituencies = np.intersect1d(first_press_counties, first_election_counties)
+# first_press_counties = first_press["county"].unique()
+# first_election_counties = first_election["cst_n"].unique()
+
+# first_common_constituencies = np.intersect1d(first_press_counties, first_election_counties)
 
 
-only_in_press = np.setdiff1d(first_press_counties, first_election_counties)
-only_in_elections = np.setdiff1d(first_election_counties, first_press_counties)
+# only_in_press = np.setdiff1d(first_press_counties, first_election_counties)
+# only_in_elections = np.setdiff1d(first_election_counties, first_press_counties)
 
 
 
@@ -70,11 +100,19 @@ only_in_elections = np.setdiff1d(first_election_counties, first_press_counties)
 
 df = cleaned_press_directories.copy()
 # testing out two specific dates
-cleaned_first_press = df[df['year'] == 1846]
-cleaned_first_election = elections[elections['yr'] == 1847]
+cleaned_first_press = df
+#[df['year'] <= 1922]
+cleaned_first_election = elections_replaced
+#elections_replaced['yr'] <= 1922]
+
+
 
 cleaned_first_press_counties = cleaned_first_press["county"].unique()
+cleaned_first_press_counties = np.sort(cleaned_first_press_counties)
+
 cleaned_first_election_counties = cleaned_first_election["cst_n"].unique()
+cleaned_first_election_counties = np.sort(cleaned_first_election_counties)
+
 
 cleaned_first_common_constituencies = np.intersect1d(cleaned_first_press_counties, cleaned_first_election_counties)
 
