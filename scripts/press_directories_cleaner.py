@@ -98,7 +98,11 @@ manual_replacements =  {
     "caithness-shire" : "caithness",
     "dorsetshire": "dorset",
     "fifeshire" : "fife",
-    "nainshire" : "nairnshire"
+    "nainshire" : "nairnshire",
+    "dumbartonshire" : "dunbartonshire",
+    "orkney": "orkney and shetland",
+    "shetland isles" : "orkney and shetland"
+    
 }
 
 
