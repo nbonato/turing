@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import pickle
 import sys
+import winsound 
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
@@ -148,7 +149,6 @@ electoral_district_county = {}
 
 
 
-
 for outer_key, outer_value  in district_county_dict.items():
     new_year = next((y for y in years_list if y >= outer_key), None)
     if new_year in electoral_district_county:
@@ -178,13 +178,14 @@ for outer_key, outer_value  in district_county_dict.items():
 
 
 replace_typos = {
-    "rowburghshire" : "roxburghshire"
+    "rowburghshire" : "roxburghshire",
+    "bershire, wokingham" : "berkshire, wokingham"
     }
 
 
 
 
-elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(replace_typos)   
+elections_replaced["press_county"] = elections_replaced["cst_n"].replace(replace_typos)   
 
 
 
@@ -213,12 +214,16 @@ constituency_grouper = {
 
 
 
-# Replace values in the 'cst_n' column based on the year-specific sub-dictionaries
+
+
+
+# Assign values in the press_county based on the replacemnt in the 'cst_n' column
+# using the dictionary
 for index, row in elections_replaced.iterrows():
     cst_n = row['cst_n']
     for key, values in constituency_grouper.items():
         if cst_n in values:
-            elections_replaced.at[index, 'cst_n'] = key
+            elections_replaced.at[index, 'press_county'] = key
             #print(f"replacing {cst_n} with {key} at index {index}")
 
 
@@ -274,6 +279,12 @@ for index, row in elections_replaced.iterrows():
 compare = elections_replaced.copy()
 
 
+
+
+
+# This uses the dictionary electoral_district_county to match each district to 
+# a county using a sub-dictionary tailored to the year
+
 for index, row in elections_replaced.iterrows():
     yr = row['yr']
     if yr in electoral_district_county.keys():
@@ -282,7 +293,7 @@ for index, row in elections_replaced.iterrows():
         if cst_n in replace.keys():        
             # print(f"replacing {cst_n}", end="")
             # print(f" with {replace[cst_n]}")
-            elections_replaced.at[index, 'cst_n'] = replace[cst_n]
+            elections_replaced.at[index, 'press_county'] = replace[cst_n]
 
 
 
@@ -300,9 +311,9 @@ for index, row in elections_replaced.iterrows():
 
 
 
-elections_test = elections_replaced
-#[elections_replaced['yr'] > 1910]  
-elections_test.to_csv("rosshire.csv")
+# elections_test = elections_replaced
+# #[elections_replaced['yr'] > 1910]  
+# elections_test.to_csv("rosshire.csv")
 
 
 
@@ -324,27 +335,68 @@ dubious_changes = {
     }        
 
 dubious_regex = {
-    r"\bnorthumberland\b.*": "northumberland"
+    r"\bnorthumberland\b.*": "northumberland",
+    # This will require merging Kincardineshire with aberdeenshire from 1918
+    r"\bantrim.*" : "antrim county"
 }
 
-elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(dubious_regex, regex=True)
 
 
 
-elections_replaced["cst_n"] = elections_replaced["cst_n"].replace(dubious_changes)   
+
+elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_regex, regex=True)
 
 
 
-elections_cleaned = elections_replaced.copy()
 
-pickle_file = os.path.join(current_dir, 'pickles', 'elections_cleaned.pkl')
+# This part creates a dictionary matching with regex, which can be used to try
+# and match places like "aberdeen, north" to "aberdeen". After that, I run
+# the district-county matching to try and improve the matching
 
-with open(pickle_file, 'wb') as f:
-    pickle.dump(elections_cleaned, f)
-    f.close()
+# # Does it make sense to tailor it to the year?
+composed_regex = {rf"\b{element}.*": element for element in districts}
+
+#cleaned_press_directories["county"].unique()
+
+elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
+# # I re-run this on the replaced districts, to match new ones
+
+# for index, row in elections_replaced.iterrows():
+#     yr = row['yr']
+#     if yr in electoral_district_county.keys():
+#         cst_n = row['press_county']
+#         replace = electoral_district_county[yr]
+#         if cst_n in replace.keys():
+#             if "east" in cst_n:
+#                 print(f"replacing {cst_n}", end="")
+#                 print(f" with {replace[cst_n]}")
+#             elections_replaced.at[index, 'press_county'] = replace[cst_n]
 
 
-test = elections[elections["cst_n"].str.contains("elgin")]
+
+
+elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_changes)   
+
+
+# Ding sound when the script is finished
+frequency = 800  # Set the frequency of the sound (in Hz)
+duration = 1000  # Set the duration of the sound (in milliseconds)
+winsound.Beep(frequency, duration)
+
+
+
+
+
+# elections_cleaned = elections_replaced.copy()
+
+# pickle_file = os.path.join(current_dir, 'pickles', 'elections_cleaned.pkl')
+
+# with open(pickle_file, 'wb') as f:
+#     pickle.dump(elections_cleaned, f)
+#     f.close()
+
+
+# test = elections[elections["cst_n"].str.contains("elgin")]
 
 
 

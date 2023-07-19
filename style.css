@@ -8,6 +8,17 @@
     width: fit-content;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#map {
+    border: 1px solid black;
+    height: 80vh;
+    width: 80%;
+    margin: auto
+}
 
 .chart-container {
     display: grid;
@@ -28,12 +39,7 @@
     
 }
 
-#map {
-    background-color: rgb(190, 190, 190); /* Set your desired background color */
-    height: 80vh;
-    width: 100%;
-    margin: auto
-}
+
 
 
 .slider-value {

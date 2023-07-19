@@ -5,7 +5,7 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
-
+import winsound
 
 from elections import elections_replaced
 from press_directories_cleaner import press_directories, cleaned_press_directories
@@ -110,7 +110,7 @@ cleaned_first_election = elections_replaced
 cleaned_first_press_counties = cleaned_first_press["county"].unique()
 cleaned_first_press_counties = np.sort(cleaned_first_press_counties)
 
-cleaned_first_election_counties = cleaned_first_election["cst_n"].unique()
+cleaned_first_election_counties = cleaned_first_election["press_county"].unique()
 cleaned_first_election_counties = np.sort(cleaned_first_election_counties)
 
 
@@ -127,7 +127,10 @@ sorted_press = sorted(only_in_press_cleaned)
 
 
 
-
+# Ding sound when the script is finished
+frequency = 1500  # Set the frequency of the sound (in Hz)
+duration = 1000  # Set the duration of the sound (in milliseconds)
+winsound.Beep(frequency, duration)
 
 # deleting useless variables to avoid cluttering the variable explorer
 #del  first_press, first_election,first_press_counties, first_election_counties, first_common_constituencies
