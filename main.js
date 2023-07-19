@@ -1,9 +1,8 @@
+var infoBox = document.getElementById("info-box");
+
 var pressChartWrapper = document.createElement("div");
 var pressChart = document.createElement("canvas")
 pressChartWrapper.appendChild(pressChart);
-
-
-
 
 var electionChartWrapper = document.createElement("div");
 var electionChart = document.createElement("canvas")
@@ -77,7 +76,8 @@ function chartCreator(canvas, data) {
 }
 
 
-
+var year = 1846; // Initial value of the year variable
+var closestElection = 1847; // First available election
 // Removes the attribution watermark
 map.attributionControl.setPrefix(''); 
 //map.setMaxBounds(map.getBounds());
@@ -85,21 +85,7 @@ map.attributionControl.setPrefix('');
 //fetch('geodata/UKDefinitionA.json')
 fetch('updated_map.json')
     .then(response => response.json())
-    .then(data => {
-        // Update the map when the slider value changes
-        slider.addEventListener('mouseup', function () {
-            
-            year = parseInt(this.value);
-            closestElection = electionYear(year);
-            sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
-            geojsonLayer.eachLayer(function (layer) {
-                if (layer === clickedLayer && layer.isPopupOpen()) {
-                    layer.getPopup().setContent(pressChartWrapper);
-                }
-            });
-        });
-        var year = 1846; // Initial value of the year variable
-        var closestElection = 1847;
+    .then(data => {        
         var geojsonLayer = L.geoJSON(data, {
             pointToLayer: function (feature, latlng) {
                 return L.circleMarker(latlng, {
@@ -113,8 +99,24 @@ fetch('updated_map.json')
             },
             onEachFeature: function (feature, layer) {
                 layer.on('click', function () {
-                    //console.log(`${feature.properties.NAME} ${year}`);
-
+                    // Update the map when the slider value changes
+                    let alreadyUpdated = false;
+                    slider.addEventListener('mouseup', function () {
+                        
+                        year = parseInt(this.value);
+                        closestElection = electionYear(year);
+                        sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+                        alreadyUpdated = true;
+                        populateInfoBox(feature);
+                        geojsonLayer.eachLayer(function (layer) {
+                            if (layer === clickedLayer && layer.isPopupOpen()) {
+                                layer.getPopup().setContent(pressChartWrapper);
+                            }
+                        });
+                    });
+                    if (alreadyUpdated === false) {
+                        populateInfoBox(feature);
+                    }
                     // Change the style of the clicked feature
                     layer.setStyle({
                         fillColor: 'red'
@@ -127,37 +129,6 @@ fetch('updated_map.json')
                             geojsonLayer.resetStyle(otherLayer);
                         }
                     });
-                    // Fetch data from the JSON file
-                    fetch('new_data.json')
-                    .then(response => response.json())
-                    .then(data => {
-                        // Retrieve the data for the specific key
-                        var pressChartData = data[feature.properties.NAME.toLowerCase()][year];
-
-                        // Create the chart
-                        chartCreator(pressChart, pressChartData);
-
-                    }).catch(error => console.error(error));
-
-                    // Fetch data from the JSON file
-                    fetch('scripts/elections.json')
-                    .then(response => response.json())
-                    .then(data => {
-                        // Retrieve the data for the specific key
-                        var electionChartData = data[closestElection.toString()][feature.properties.NAME.toLowerCase()];
-                        console.log(electionChartData);
-                        // Create the chart
-                        chartCreator(electionChart, electionChartData);
-
-                    }).catch(error => console.error(error));
-                    var popupContent = document.createElement("div");
-                    var popupTitle = document.createElement("h2");
-                    popupTitle.textContent = `${feature.properties.NAME} ${year}`;
-                    popupContent.className = "chart-container"
-                    popupContent.appendChild(popupTitle);
-                    popupContent.appendChild(pressChartWrapper);
-                    popupContent.appendChild(electionChartWrapper);
-                    layer.bindPopup(popupContent, {className: "popup"}).openPopup();
                 });
 
                 //layer.bindTooltip(feature.properties.NAME, { permanent: true, direction: 'center' }).openTooltip();
@@ -165,8 +136,42 @@ fetch('updated_map.json')
             }
         }).addTo(map);
 
-        // Function to get the updated popup content based on the feature and year
-        function getPopupContent(feature) {
-            return `${feature.properties.NAME}, ${year}`;
-        }
+    
+
     });
+
+
+function populateInfoBox(feature) {
+    console.log(`${feature.properties.NAME} ${year}`);
+    // Fetch data from the JSON file
+    fetch('new_data.json')
+    .then(response => response.json())
+    .then(data => {
+        // Retrieve the data for the specific key
+        var pressChartData = data[feature.properties.NAME.toLowerCase()][year];
+
+        // Create the chart
+        chartCreator(pressChart, pressChartData);
+
+    }).catch(error => console.error(error));
+
+    // Fetch data from the JSON file
+    fetch('scripts/elections.json')
+    .then(response => response.json())
+    .then(data => {
+        // Retrieve the data for the specific key
+        var electionChartData = data[closestElection.toString()][feature.properties.NAME.toLowerCase()];
+        // Create the chart
+        chartCreator(electionChart, electionChartData);
+
+    }).catch(error => console.error(error));
+    infoBox.innerHTML = "";
+    var infoBoxContent = document.createElement("div");
+    var infoBoxTitle = document.createElement("h2");
+    infoBoxTitle.textContent = `${feature.properties.NAME} ${year}`;
+    infoBoxContent.className = "chart-container"
+    infoBoxContent.appendChild(infoBoxTitle);
+    infoBoxContent.appendChild(pressChartWrapper);
+    infoBoxContent.appendChild(electionChartWrapper);
+    infoBox.appendChild(infoBoxContent);
+}
