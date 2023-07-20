@@ -6,16 +6,6 @@ body {
     margin: auto;
 }
 
-.popup .leaflet-popup-content-wrapper, .popup .leaflet-popup-tip {
-    background-color: white;
-    color: black;
-    width: fit-content;
-}
-
-.leaflet-popup-content {
-    width: fit-content;
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,33 +15,19 @@ body {
     border: 1px solid black;
     height: 80vh;
     width: 80%;
-    margin: auto
+    margin: auto;
+    margin-top: 1vh;
 }
-
-.chart-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
-    grid-template-rows: auto auto; /* Two rows of auto height */
-    gap: 10px; /* Gap between grid items */
-}
-
-.chart-container h2 {
-    grid-row: 1; /* Place first element in the first row */
-    grid-column: 1 / span 2; /* Span both columns */
-    justify-self: center; /* Center horizontally */
-}
-
-
-.popup {
-    min-width: 300px;
-    
-}
-
-
 
 
 .slider-value {
 
   text-align: center;
   font-weight: bold;
+}
+
+
+.donut-chart-wrapper {
+    max-width: 300px;
+    max-height: 300px;
 }

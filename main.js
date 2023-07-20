@@ -8,6 +8,9 @@ var electionChartWrapper = document.createElement("div");
 var electionChart = document.createElement("canvas")
 electionChartWrapper.appendChild(electionChart);
 
+pressChartWrapper.classList.add("donut-chart-wrapper");
+electionChartWrapper.classList.add("donut-chart-wrapper");
+
 // Get the slider element
 var slider = document.getElementById("yearSlider");
 
@@ -60,23 +63,27 @@ function chartCreator(canvas, data) {
     var values = Object.values(data);
 
     new Chart(canvas.getContext('2d'), {
-        type: 'pie',
+        type: 'doughnut',
         data: {
             labels: labels,
             datasets: [{
-            data: values
+                data: values
             }]
         },
         options: {
-            cutout: 50, // Make it a donut chart
             responsive: true,
-            maintainAspectRatio: true
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    position: 'right'
+                }
+            }
         }
     });
 }
 
 
-var year = 1846; // Initial value of the year variable
+var year = parseInt(slider.value); // Initial value of the year variable
 var closestElection = 1847; // First available election
 // Removes the attribution watermark
 map.attributionControl.setPrefix(''); 
@@ -102,17 +109,11 @@ fetch('updated_map.json')
                     // Update the map when the slider value changes
                     let alreadyUpdated = false;
                     slider.addEventListener('mouseup', function () {
-                        
                         year = parseInt(this.value);
                         closestElection = electionYear(year);
                         sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
                         alreadyUpdated = true;
                         populateInfoBox(feature);
-                        geojsonLayer.eachLayer(function (layer) {
-                            if (layer === clickedLayer && layer.isPopupOpen()) {
-                                layer.getPopup().setContent(pressChartWrapper);
-                            }
-                        });
                     });
                     if (alreadyUpdated === false) {
                         populateInfoBox(feature);
