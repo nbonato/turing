@@ -30,6 +30,12 @@ var map = L.map('map', {
     zoomSnap: 0.5 
 }).setView([55.3781, -3.4360], 5);
 
+// Block users from panning away from the map
+map.setMaxBounds(map.getBounds());
+
+document.getElementById("reset-button").onclick = function() {
+    map.setView([55.3781, -3.4360], 5);
+};
 
 // Find the first election year that is equal or greater than the target year.
 var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
