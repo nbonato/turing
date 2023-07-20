@@ -6,6 +6,13 @@ body {
     margin: auto;
 }
 
+#year-selector {
+    display: flex;
+}
+
+h3 {
+    margin: 0;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;

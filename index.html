@@ -20,12 +20,15 @@
 </head>
 <body>
     <h1>Press and politics in the UK</h1>
-
-    <input type="range" id="yearSlider" min="1846" max="1920" value="1846">
+    <div id="year-selector">
+        <h3>Year:</h3>
+        <input type="range" id="yearSlider" min="1846" max="1920" value="1846">
+        
+    </div>
     <div class="slider-value" id="sliderValue"></div>
     <div class="container">
         <div id="info-box">
-            Test
+            Click on any available county to see the data. If a county is not available, it means that there are no press information on it for that year, so try moving around the slider above.
         </div>
         <div id="map">
             <button id="reset-button">Reset</button>
