@@ -57,9 +57,14 @@ function electionYear(pressYear) {
     }
 }
 
+// Function to find the intersection of two lists
+function findIntersection(list1, list2) {
+    const intersection = [...new Set(list1)].filter(item => list2.includes(item));
+    return intersection;
+}
+
 // Function to update the map and info box
 function updateView(county, year) {
-    console.log(`${county} ${year}`);
 
     // Use the localStorage datasets
 
@@ -139,8 +144,6 @@ function checkLocalStorage(key) {
 
 // Function to initialize the web app after data is ready
 function initializeWebApp(elections, pressDirectories) {
-	console.log("Elections data:", elections);
-	console.log("Press directories data:", pressDirectories);
 
 	
     // Update the map when the slider value changes
@@ -148,6 +151,22 @@ function initializeWebApp(elections, pressDirectories) {
         year = parseInt(this.value);
         closestElection = electionYear(year);
         sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+
+        // Create a list of available counties for the year
+        //let relevantPressCounties = Object.keys(pressDirectories[year]);
+
+        let availableCounties = Object.keys(elections[closestElection])
+        // Loop through the GeoJSON features and update fillColor based on selectedYear
+        geojsonLayer.eachLayer(function (layer) {
+            if (availableCounties.includes(layer.feature.properties.NAME.toLowerCase())) {
+                layer.setStyle({
+                    fillColor: "green"
+                });
+            }
+            //console.log(layer.feature.properties.NAME);
+            
+        });
+
         updateView(county, year);
     });
     // Removes the attribution watermark
