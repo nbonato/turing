@@ -90,7 +90,19 @@ function chartCreator(canvas, data) {
 
 
 var year = parseInt(slider.value); // Initial value of the year variable
-var closestElection = 1847; // First available election
+var closestElection = electionYear(year); // First available election
+
+var county = "";
+
+
+
+// Update the map when the slider value changes
+slider.addEventListener('mouseup', function () {
+    year = parseInt(this.value);
+    closestElection = electionYear(year);
+    sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+    updateView(county, year);
+});
 // Removes the attribution watermark
 map.attributionControl.setPrefix(''); 
 //map.setMaxBounds(map.getBounds());
@@ -112,18 +124,8 @@ fetch('updated_map.json')
             },
             onEachFeature: function (feature, layer) {
                 layer.on('click', function () {
-                    // Update the map when the slider value changes
-                    let alreadyUpdated = false;
-                    slider.addEventListener('mouseup', function () {
-                        year = parseInt(this.value);
-                        closestElection = electionYear(year);
-                        sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
-                        alreadyUpdated = true;
-                        populateInfoBox(feature);
-                    });
-                    if (alreadyUpdated === false) {
-                        populateInfoBox(feature);
-                    }
+                    county = feature.properties.NAME;
+                    updateView(county, year);
                     // Change the style of the clicked feature
                     layer.setStyle({
                         fillColor: 'red'
@@ -148,14 +150,14 @@ fetch('updated_map.json')
     });
 
 
-function populateInfoBox(feature) {
-    console.log(`${feature.properties.NAME} ${year}`);
+function updateView(county, year) {
+    console.log(`${county} ${year}`);
     // Fetch data from the JSON file
     fetch('new_data.json')
     .then(response => response.json())
     .then(data => {
         // Retrieve the data for the specific key
-        var pressChartData = data[feature.properties.NAME.toLowerCase()][year];
+        var pressChartData = data[county.toLowerCase()][year];
 
         // Create the chart
         chartCreator(pressChart, pressChartData);
@@ -167,7 +169,7 @@ function populateInfoBox(feature) {
     .then(response => response.json())
     .then(data => {
         // Retrieve the data for the specific key
-        var electionChartData = data[closestElection.toString()][feature.properties.NAME.toLowerCase()];
+        var electionChartData = data[closestElection.toString()][county.toLowerCase()];
         // Create the chart
         chartCreator(electionChart, electionChartData);
 
@@ -175,7 +177,7 @@ function populateInfoBox(feature) {
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
     var infoBoxTitle = document.createElement("h2");
-    infoBoxTitle.textContent = `${feature.properties.NAME} ${year}`;
+    infoBoxTitle.textContent = `${county} ${year}`;
     infoBoxContent.className = "chart-container"
     infoBoxContent.appendChild(infoBoxTitle);
     infoBoxContent.appendChild(pressChartWrapper);
