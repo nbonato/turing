@@ -155,7 +155,6 @@ function checkLocalStorage(key) {
 // Function to initialize the web app after data is ready
 function initializeWebApp(elections, pressDirectories) {
 
-	
     // Update the map when the slider value changes
     slider.addEventListener('mouseup', function () {
         year = parseInt(this.value);
@@ -230,7 +229,7 @@ var pressDirectories;
 function initializeApp() {
 	const electionsData = checkLocalStorage("elections");
 	const pressDirectoriesData = checkLocalStorage("pressDirectories");
-
+    electionYears = Object.keys(electionsData);
 	if (electionsData && pressDirectoriesData) {
 		// Data exists in local storage, use it directly
 		elections = electionsData;
