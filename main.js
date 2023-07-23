@@ -69,7 +69,7 @@ function updateView(county, year) {
     // Use the localStorage datasets
 
     // Retrieve the data for the specific key
-    var pressChartData = pressDirectories[county.toLowerCase()][year];
+    var pressChartData = pressDirectories[year][county.toLowerCase()];
 
     // Create the chart
     chartCreator(pressChart, pressChartData);

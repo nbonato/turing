@@ -49,14 +49,14 @@ def calculate_frequency(x):
 
 
 frequency = (
-    df.groupby(["county", "year"])
+    df.groupby(["year", "county"])
     .apply(calculate_frequency)
     .reset_index(name="results")
 )
 
 
 
-test_dict = frequency.groupby('county')[['year','results']].apply(lambda x: x.set_index('year')["results"].to_dict()).to_dict()
+test_dict = frequency.groupby('year')[['county','results']].apply(lambda x: x.set_index('county')["results"].to_dict()).to_dict()
 
 
 
