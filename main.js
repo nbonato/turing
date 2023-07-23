@@ -66,16 +66,26 @@ function findIntersection(list1, list2) {
 // Function to update the map and info box
 function updateView(county, year) {
 
+
+
     // Use the localStorage datasets
 
     // Retrieve the data for the specific key
     var pressChartData = pressDirectories[year][county.toLowerCase()];
-
+    if (typeof(pressChartData) === "undefined") {
+        infoBox.innerHTML = "No press data"
+        return
+    };
     // Create the chart
     chartCreator(pressChart, pressChartData);
 
     // Retrieve the data for the specific key
     var electionChartData = elections[closestElection.toString()][county.toLowerCase()];
+
+    if (typeof(electionChartData) === "undefined") {
+        infoBox.innerHTML = "No press data"
+        return
+    };
     // Create the chart
     chartCreator(electionChart, electionChartData);
 
@@ -153,9 +163,10 @@ function initializeWebApp(elections, pressDirectories) {
         sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
 
         // Create a list of available counties for the year
-        //let relevantPressCounties = Object.keys(pressDirectories[year]);
+        let relevantPressCounties = Object.keys(pressDirectories[year]);
 
-        let availableCounties = Object.keys(elections[closestElection])
+        let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
+
         // Loop through the GeoJSON features and update fillColor based on selectedYear
         geojsonLayer.eachLayer(function (layer) {
             if (availableCounties.includes(layer.feature.properties.NAME.toLowerCase())) {
