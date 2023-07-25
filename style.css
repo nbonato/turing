@@ -44,8 +44,7 @@ h3 {
     background: rgb(204, 204, 204);
 }
 
-.slider-value {
-
+#year-select-value {
   text-align: center;
   font-weight: bold;
 }

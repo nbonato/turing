@@ -10,17 +10,16 @@ electionChartWrapper.appendChild(electionChart);
 pressChartWrapper.classList.add("donut-chart-wrapper");
 electionChartWrapper.classList.add("donut-chart-wrapper");
 
-// Define geojsonLayer outside so it's accessible by the slider
+// Define geojsonLayer outside so it's accessible by the select element
 let geojsonLayer;
 
-// Get the slider element
-var slider = document.getElementById("yearSlider");
 
 // Get the value display element
-var sliderValue = document.getElementById("sliderValue");
+var yearSelectValue = document.getElementById("year-select-value");
 
+const yearSelect = document.getElementById('year-select');
 // Display the initial value
-sliderValue.innerText = slider.value;
+yearSelectValue.innerText = yearSelect.value;
 
 // Define a variable to store the clicked layer
 var clickedLayer = null;
@@ -40,7 +39,7 @@ document.getElementById("reset-button").onclick = function() {
 };
 // Find the first election year that is equal or greater than the target year.
 var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
-var year = parseInt(slider.value); // Initial value of the year variable
+var year = parseInt(yearSelect.value); // Initial value of the year variable
 var closestElection = electionYear(year); // First available election
 
 var county = "";
@@ -154,12 +153,20 @@ function checkLocalStorage(key) {
 
 // Function to initialize the web app after data is ready
 function initializeWebApp(elections, pressDirectories) {
+    
 
-    // Update the map when the slider value changes
-    slider.addEventListener('mouseup', function () {
+    Object.keys(pressDirectories).forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.textContent = option;
+        optionElement.value = option; // Set the value if needed
+        yearSelect.appendChild(optionElement);
+    });
+
+    // Update the map when the select value changes
+    yearSelect.addEventListener('change', function () {
         year = parseInt(this.value);
         closestElection = electionYear(year);
-        sliderValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+        yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
 
         // Create a list of available counties for the year
         let relevantPressCounties = Object.keys(pressDirectories[year]);
