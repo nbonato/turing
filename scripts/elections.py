@@ -6,7 +6,7 @@ import winsound
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
-from press_directories_cleaner import cleaned_press_directories
+from press_directories_cleaner import cleaned_press_directories, irish_counties
 
 
 pickle_file = os.path.join(current_dir, 'data', 'elections.pkl')
@@ -361,9 +361,9 @@ elections_replaced['press_county'] = elections_replaced['press_county'].replace(
 
 
 press_counties = cleaned_press_directories["county"].unique()
-composed_regex = {rf"\b{element}.*": element for element in press_counties}
+composed_regex_counties = {rf"\b{element}.*": element for element in press_counties}
 
-elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
+elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex_counties, regex=True)
 
 
 # I re-run this on the replaced districts, to match new ones
@@ -419,6 +419,47 @@ for index, row in elections_replaced.iterrows():
 
         if cst_n in replace.keys():
             elections_replaced.at[index, 'press_county'] = replace[cst_n]
+
+
+
+#counties_before_irish = elections_replaced["press_county"].unique()
+
+# Removing these two counties temporarily is necessary to avoid matching UK counties 
+# such as king's lynn and queen's university of belfast
+elements_to_remove = ["king's", "queen's"]
+
+# List of regex patterns to match in 'press_county', excluding elements_to_remove
+counties_regex = [rf"\b{county}.*" for county in irish_counties if county not in elements_to_remove]
+
+# add the regex for king's and queen's county
+counties_regex += [r"\bking's county.*", r"\bqueen's county.*"]
+
+# Create the regex pattern by joining the list elements with '|'
+regex_pattern = '|'.join(counties_regex)
+
+# exclude matched counties using the regex
+elections_replaced = elections_replaced[~elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
+
+# # check if the match worked correctly
+# matched_regex_counties = elections_replaced[elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
+
+# matched_regex_counties = list(matched_regex_counties["press_county"].unique())
+
+
+# add back the two excluded counties
+irish_counties += elements_to_remove
+
+# add county to the end of each county's name
+irish_counties_county = [county + " county" for county in irish_counties]
+
+# remove the irish counties
+elections_replaced = elections_replaced[~elections_replaced['press_county'].isin(irish_counties_county)]
+
+
+
+
+#counties_after_irish = elections_replaced["press_county"].unique()
+
 
 
 # Ding sound when the script is finished

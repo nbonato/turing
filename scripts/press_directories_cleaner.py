@@ -121,7 +121,9 @@ escaped_replacements =  {
     "county cork" : "cork county",
     # This would actually be both, but I am taking it out of the dataset anyway
     "in the province of leinster , and between counties meath and  louth" : "meath county",
-    "county donegal" : "donegal county"
+    "county donegal" : "donegal county",
+    "county down" : "down county",
+    "county fermanagh" : "fermanagh county"
     }
 
 
@@ -217,18 +219,19 @@ counties_escaping_filtering = selected_rows["county"].unique()
 
 cleaned_press_directories = df.copy()
 
-irish_counties = [county + " county" for county in irish_counties]
 
 # These two correspond to lois and offaly county
-irish_counties += ["king's county", "queen's county"]
+irish_counties += ["king's", "queen's"]
+
+irish_counties_county = [county + " county" for county in irish_counties]
 
 
-cleaned_press_directories = cleaned_press_directories[~cleaned_press_directories['county'].isin(irish_counties)]
+cleaned_press_directories = cleaned_press_directories[~cleaned_press_directories['county'].isin(irish_counties_county)]
 
 press_counties= df["county"].unique()
 
 
-differe = set(irish_counties).difference(set(press_counties))
+differe = set(irish_counties_county).difference(set(press_counties))
 
 press_counties_no_ireland = cleaned_press_directories["county"].unique()
 
