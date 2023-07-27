@@ -359,18 +359,19 @@ composed_regex = {rf"\b{element}.*": element for element in districts}
 #cleaned_press_directories["county"].unique()
 
 elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
-# # I re-run this on the replaced districts, to match new ones
 
-# for index, row in elections_replaced.iterrows():
-#     yr = row['yr']
-#     if yr in electoral_district_county.keys():
-#         cst_n = row['press_county']
-#         replace = electoral_district_county[yr]
-#         if cst_n in replace.keys():
-#             if "east" in cst_n:
-#                 print(f"replacing {cst_n}", end="")
-#                 print(f" with {replace[cst_n]}")
-#             elections_replaced.at[index, 'press_county'] = replace[cst_n]
+# I re-run this on the replaced districts, to match new ones
+
+for index, row in elections_replaced.iterrows():
+    yr = row['yr']
+    if yr in electoral_district_county.keys():
+        cst_n = row['press_county']
+        replace = electoral_district_county[yr]
+        if cst_n in replace.keys():
+            if "east" in cst_n:
+                print(f"replacing {cst_n}", end="")
+                print(f" with {replace[cst_n]}")
+            elections_replaced.at[index, 'press_county'] = replace[cst_n]
 
 
 
@@ -378,9 +379,46 @@ elections_replaced['press_county'] = elections_replaced['press_county'].replace(
 elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_changes)   
 
 
+shire_counties = elections_replaced[~elections_replaced['press_county'].str.endswith('shire')]
+
+grouped_election_counties = shire_counties.groupby('yr')['press_county'].unique().apply(list).to_dict()
+
+
+def find_next_election_year(year):
+    for year_value in years_list:
+        if year_value >= year:
+            return year_value
+    return None  # Return None if no election year found
+
+
+cleaned_press_directories['election_year'] = cleaned_press_directories['year'].apply(find_next_election_year)
+
+grouped_press_counties = cleaned_press_directories.groupby('election_year')['county'].unique().apply(list).to_dict()
+
+
+election_counties = {}
+for year, counties in grouped_election_counties.items():
+    election_counties[str(year)] = {}
+    for county in counties:
+        if county + "shire" in grouped_press_counties[year]:
+            election_counties[str(year)][county] = county + "shire"
+
+
+
+for index, row in elections_replaced.iterrows():
+    yr = row['yr']
+    if str(yr) in election_counties.keys():
+        cst_n = row['press_county']
+        replace = election_counties[str(yr)]
+
+        if cst_n in replace.keys():
+            print(cst_n, replace[cst_n])
+            elections_replaced.at[index, 'press_county'] = replace[cst_n]
+
+
 # Ding sound when the script is finished
-frequency = 800  # Set the frequency of the sound (in Hz)
-duration = 1000  # Set the duration of the sound (in milliseconds)
+frequency = 600  # Set the frequency of the sound (in Hz)
+duration = 100  # Set the duration of the sound (in milliseconds)
 winsound.Beep(frequency, duration)
 
 

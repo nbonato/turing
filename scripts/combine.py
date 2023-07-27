@@ -128,7 +128,7 @@ sorted_press = sorted(only_in_press_cleaned)
 
 
 # Ding sound when the script is finished
-frequency = 1500  # Set the frequency of the sound (in Hz)
+frequency = 500  # Set the frequency of the sound (in Hz)
 duration = 1000  # Set the duration of the sound (in milliseconds)
 winsound.Beep(frequency, duration)
 
