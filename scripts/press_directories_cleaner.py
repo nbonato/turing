@@ -39,7 +39,42 @@ else:
         
 
 df = press_directories.copy()
+
+# Remove counties in the current Republic of Ireland
+irish_counties = [
+    "carlow",
+    "cavan",
+    "clare",
+    "cork",
+    "donegal",
+    "dublin",
+    "galway",
+    "kerry",
+    "kildare",
+    "kilkenny",
+    "laois",
+    "leitrim",
+    "limerick",
+    "longford",
+    "louth",
+    "mayo",
+    "meath",
+    "monaghan",
+    "offaly",
+    "roscommon",
+    "sligo",
+    "tipperary",
+    "waterford",
+    "westmeath",
+    "wexford",
+    "wicklow",
+]
+
+
+
+
 # Define the regular expression pattern
+
 pattern = r'in the province of ([\w\s\']+?) and county ([\w\s\']+)'
 
 # Function to replace the matched phrases
@@ -82,7 +117,11 @@ escaped_replacements =  {
     'prov . of connaught & county leitrim' : 'leitrim county',
     'co . tyrone' : "tyrone county",
     'co . leitrim' : "leitrim county",
-    "london" : "city of london" 
+    "london" : "city of london",
+    "county cork" : "cork county",
+    # This would actually be both, but I am taking it out of the dataset anyway
+    "in the province of leinster , and between counties meath and  louth" : "meath county",
+    "county donegal" : "donegal county"
     }
 
 
@@ -172,7 +211,32 @@ special_cases_list.pop() # remove "isle" added by split
 
 selected_rows = df[df['county'].str.contains('in the province')]
 counties_escaping_filtering = selected_rows["county"].unique()
+
+
+
+
 cleaned_press_directories = df.copy()
+
+irish_counties = [county + " county" for county in irish_counties]
+
+# These two correspond to lois and offaly county
+irish_counties += ["king's county", "queen's county"]
+
+
+cleaned_press_directories = cleaned_press_directories[~cleaned_press_directories['county'].isin(irish_counties)]
+
+press_counties= df["county"].unique()
+
+
+differe = set(irish_counties).difference(set(press_counties))
+
+press_counties_no_ireland = cleaned_press_directories["county"].unique()
+
+
+
+
+
+
 
 # Save the cleaned_press_directories DataFrame as a pickle file
 cleaned_press_directories.to_pickle("cleaned_press_directories.pkl")

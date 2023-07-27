@@ -356,9 +356,15 @@ elections_replaced["press_county"] = elections_replaced["press_county"].replace(
 # # Does it make sense to tailor it to the year?
 composed_regex = {rf"\b{element}.*": element for element in districts}
 
-#cleaned_press_directories["county"].unique()
 
 elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
+
+
+press_counties = cleaned_press_directories["county"].unique()
+composed_regex = {rf"\b{element}.*": element for element in press_counties}
+
+elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
+
 
 # I re-run this on the replaced districts, to match new ones
 
@@ -412,7 +418,6 @@ for index, row in elections_replaced.iterrows():
         replace = election_counties[str(yr)]
 
         if cst_n in replace.keys():
-            print(cst_n, replace[cst_n])
             elections_replaced.at[index, 'press_county'] = replace[cst_n]
 
 
