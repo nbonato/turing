@@ -3,3 +3,4 @@ __pycache__/
 script/pickles/
 geodata/
 rosshire.csv
+scripts/APIKeys.txt

@@ -42,7 +42,7 @@ elections = elections.reset_index(drop = True)
 years_list = elections["yr"].unique()
 
 
-elections_reduced = elections[["id","yr", "cst_n", "cst", "mag", "pty_n", "pty", "can","vot1", "pev1", "pv1", "pvs1"]]
+elections_reduced = elections[["id","yr", "cst_n", "sub", "cst", "mag", "pty_n", "pty", "can","vot1", "pev1", "pv1", "pvs1"]]
 # The dataset contains pv1 which is party votes, but also pvs which is the share
 # I should use the share afterwards to check that the calculations are right
 
@@ -346,6 +346,17 @@ dubious_regex = {
 
 elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_regex, regex=True)
 
+
+locations = elections_replaced[["cst_n", "sub"]]
+locations["sub"] = locations["sub"].str.split("-", 1).str[0]
+locations["sub"] = locations["sub"].str.lstrip().str.rstrip()
+# Keep only the unique rows.
+locations = locations.drop_duplicates()
+
+nations = locations["sub"].unique()
+
+
+sys.exit()
 
 
 
