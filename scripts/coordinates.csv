@@ -1,0 +1,51 @@
+;query;searched_type;coordinates;confidence;searched;found
+0;caithness;county;58.404267000000004, -3.4340269886950203;1.0;;
+1;calne;;51.437977, -2.0050911;1.0;calne;
+2;cambridge;;52.2055314, 0.1186637;1.0;cambridge;
+3;cambridgeshire;county;52.333333, 0.083333;1.0;;
+4;canterbury;;51.2800275, 1.0802533;1.0;canterbury;
+5;cardiff district of boroughs;;;;;no
+6;cardigan district of boroughs;;;;;no
+7;cardiganshire;county;52.2945764, -3.9527809990291427;1.0;;
+8;carlisle;;54.8948478, -2.9362311;1.0;carlisle;
+9;carlow county;amenity;52.20538725, 0.137539144622093;0.9;;
+10;carmarthen district of boroughs;;;;;no
+11;carmarthenshire;county;51.893669849999995, -4.217282721429928;1.0;;
+12;carow;;;;;no
+13;carrickfergus;;54.7136165, -5.8073112;1.0;carrickfergus;
+14;cashel;;56.1117781, -4.5742788;1.0;cashel;
+15;cavan county;postcode;54.8210814, -6.5243641;0.9;;
+16;chatham;;51.3819167, 0.526559;1.0;chatham;
+17;cheltenham;;51.8995685, -2.0711559;1.0;cheltenham;
+18;cheshire, northern;;53.3353269, -2.2686679;0.9;cheshire;
+19;cheshire, southern;amenity;53.2404667, -2.140798;0.5103000000000001;;
+20;chester;;53.1908873, -2.8908955;1.0;chester;
+21;chichester;;50.8364862, -0.7791721;1.0;chichester;
+22;chippenham;;51.4587621, -2.1159032;1.0;chippenham;
+23;christchurch;;50.734902, -1.7778853;1.0;christchurch;
+24;cirenchester;;;;;no
+25;city of london;;51.5156177, -0.0919983;1.0;city of london;
+26;clackmannanshire and kinross-shir;;;;;no
+27;clare county;postcode;54.3261911, -6.4466378;0.9;;
+28;clitheroe;;53.8717465, -2.3926783;1.0;clitheroe;
+29;clonmel;;51.4346494, -0.18495899924058473;1.0;clonmel;
+30;cockermouth;;54.6614392, -3.3590111;1.0;cockermouth;
+31;colchester;;51.8896903, 0.8994651;1.0;colchester;
+32;coleraine;postcode;55.1315912, -6.671861;1.0;;
+33;cork city;city;51.80174, -0.20691;0.567;;
+34;cork county;street;52.630675, -1.108827;0.0;;
+35;cornwall, eastern;;50.263317, -5.051811;1.0;cornwall;
+36;cornwall, western;;50.263317, -5.051811;1.0;cornwall;
+37;coventry;;52.4081812, -1.510477;1.0;coventry;
+38;cricklade;;51.6414188, -1.8579414;1.0;cricklade;
+39;cumberland, eastern;amenity;54.89635, -2.957436;0.0;;
+40;cumberland, western;;51.45443745, -2.6210722090918237;0.9;cumberland;
+41;dartmouth;;50.3514839, -3.583844;1.0;dartmouth;
+42;denbigh district of boroughs;;;;;no
+43;denbigshire;;;;;no
+44;derby;;52.9212617, -1.4761491;1.0;derby;
+45;derbyshire, northern;amenity;53.019890000000004, -1.3238510613404277;0.567;;
+46;derbyshire, southern;city;52.822, -1.53296;0.567;;
+47;devizes;;51.3525027, -1.9958302;1.0;devizes;
+48;devon, northern;city;50.75632, -3.23487;0.567;;
+49;devon, southern;city;50.75632, -3.23487;0.567;;

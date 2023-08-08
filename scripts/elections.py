@@ -348,17 +348,11 @@ elections_replaced["press_county"] = elections_replaced["press_county"].replace(
 
 
 locations = elections_replaced[["cst_n", "sub"]]
-locations["sub"] = locations["sub"].str.split("-", 1).str[0]
-locations["sub"] = locations["sub"].str.lstrip().str.rstrip()
-# Keep only the unique rows.
-locations = locations.drop_duplicates()
-
-nations = locations["sub"].unique()
 
 
-sys.exit()
+#sys.exit()
 
-
+'''
 
 # This part creates a dictionary matching with regex, which can be used to try
 # and match places like "aberdeen, north" to "aberdeen". After that, I run
@@ -494,4 +488,4 @@ winsound.Beep(frequency, duration)
 # test = elections[elections["cst_n"].str.contains("elgin")]
 
 
-
+'''
