@@ -1,51 +1,958 @@
-;query;searched_type;coordinates;confidence;searched;found
-0;caithness;county;58.404267000000004, -3.4340269886950203;1.0;;
-1;calne;;51.437977, -2.0050911;1.0;calne;
-2;cambridge;;52.2055314, 0.1186637;1.0;cambridge;
-3;cambridgeshire;county;52.333333, 0.083333;1.0;;
-4;canterbury;;51.2800275, 1.0802533;1.0;canterbury;
-5;cardiff district of boroughs;;;;;no
-6;cardigan district of boroughs;;;;;no
-7;cardiganshire;county;52.2945764, -3.9527809990291427;1.0;;
-8;carlisle;;54.8948478, -2.9362311;1.0;carlisle;
-9;carlow county;amenity;52.20538725, 0.137539144622093;0.9;;
-10;carmarthen district of boroughs;;;;;no
-11;carmarthenshire;county;51.893669849999995, -4.217282721429928;1.0;;
-12;carow;;;;;no
-13;carrickfergus;;54.7136165, -5.8073112;1.0;carrickfergus;
-14;cashel;;56.1117781, -4.5742788;1.0;cashel;
-15;cavan county;postcode;54.8210814, -6.5243641;0.9;;
-16;chatham;;51.3819167, 0.526559;1.0;chatham;
-17;cheltenham;;51.8995685, -2.0711559;1.0;cheltenham;
-18;cheshire, northern;;53.3353269, -2.2686679;0.9;cheshire;
-19;cheshire, southern;amenity;53.2404667, -2.140798;0.5103000000000001;;
-20;chester;;53.1908873, -2.8908955;1.0;chester;
-21;chichester;;50.8364862, -0.7791721;1.0;chichester;
-22;chippenham;;51.4587621, -2.1159032;1.0;chippenham;
-23;christchurch;;50.734902, -1.7778853;1.0;christchurch;
-24;cirenchester;;;;;no
-25;city of london;;51.5156177, -0.0919983;1.0;city of london;
-26;clackmannanshire and kinross-shir;;;;;no
-27;clare county;postcode;54.3261911, -6.4466378;0.9;;
-28;clitheroe;;53.8717465, -2.3926783;1.0;clitheroe;
-29;clonmel;;51.4346494, -0.18495899924058473;1.0;clonmel;
-30;cockermouth;;54.6614392, -3.3590111;1.0;cockermouth;
-31;colchester;;51.8896903, 0.8994651;1.0;colchester;
-32;coleraine;postcode;55.1315912, -6.671861;1.0;;
-33;cork city;city;51.80174, -0.20691;0.567;;
-34;cork county;street;52.630675, -1.108827;0.0;;
-35;cornwall, eastern;;50.263317, -5.051811;1.0;cornwall;
-36;cornwall, western;;50.263317, -5.051811;1.0;cornwall;
-37;coventry;;52.4081812, -1.510477;1.0;coventry;
-38;cricklade;;51.6414188, -1.8579414;1.0;cricklade;
-39;cumberland, eastern;amenity;54.89635, -2.957436;0.0;;
-40;cumberland, western;;51.45443745, -2.6210722090918237;0.9;cumberland;
-41;dartmouth;;50.3514839, -3.583844;1.0;dartmouth;
-42;denbigh district of boroughs;;;;;no
-43;denbigshire;;;;;no
-44;derby;;52.9212617, -1.4761491;1.0;derby;
-45;derbyshire, northern;amenity;53.019890000000004, -1.3238510613404277;0.567;;
-46;derbyshire, southern;city;52.822, -1.53296;0.567;;
-47;devizes;;51.3525027, -1.9958302;1.0;devizes;
-48;devon, northern;city;50.75632, -3.23487;0.567;;
-49;devon, southern;city;50.75632, -3.23487;0.567;;
+
+0;aylesbury;aylesbury;51.8161412, -0.8130383;1;;
+1;shrewsbury, shropshire;shrewsbury;52.707755, -2.7540658;1;;
+2;herefordshire;herefordshire;52.083333, -2.75;1;county;yes
+3;kent, canterbury;kent;51.2800275, 1.0802533;0.567;;
+4;lewes;lewes;50.8746139, 0.005115324110936268;1;;
+5;surrey, wimbledon;surrey, wimbledon;51.404853, -0.304818;0.567;amenity;yes
+6;wrexham, denbighshire;wrexham;53.0465084, -2.9937869;1;;
+7;leeds;leeds;53.7974185, -1.5437941;1;;
+8;tower hamlets, poplar;tower hamlets, poplar;51.51667, -0.05;0.6666666666666667;city;yes
+9;kingston upon hull;kingston upon hull;53.7435722, -0.3394758;1;;
+10;surrey, mitcham;surrey;51.3532584, -0.7183142;0.9;;
+11;glasgow, gorbals;glasgow;55.861155, -4.2501687;1;;
+12;durham, blaydon;durham, blaydon;54.9557596, -1.7431158;0.9;postcode;yes
+13;youghal;youghal;51.5370644, -3.1396811;1;;
+14;morpeth;morpeth;55.1675437, -1.6907444;1;;
+15;hammersmith;hammersmith;51.4920377, -0.2236401;1;postcode;yes
+16;eddisbury, cheshire;eddisbury;53.2198327, -2.6710783;0.9;;
+17;leominster;leominster;52.2273558, -2.7375333;1;;
+18;essex, epping;essex, epping;51.6982689, 0.1102918;0.5;city;yes
+19;denbigh;denbigh;53.1853776, -3.4178289;1;;
+20;grimsby;grimsby;53.5671407, -0.0788045;1;;
+21;partick, lanarkshire;partick, lanarkshire;55.8685425, -4.308412;0;amenity;yes
+22;peterborough;peterborough;52.5725769, -0.2427336;1;;
+23;cumberland;cumberland;54.67842505, -3.304001955591123;1;;
+24;caernarvonshire;caernarvonshire;53.0296552, -4.2897999;1;amenity;yes
+25;dover;dover;51.1251275, 1.3134228;1;;
+26;glasgow, kelvingrove;glasgow, kelvingrove;55.860766, -4.268234;0.5;city;yes
+27;roscommon north;roscommon north;53.419543, -2.975673;0;street;yes
+28;wexford county;wexford county;51.427015, -2.591497;0;street;yes
+29;limerick county;limerick county;54.842209, -1.984424;0;street;yes
+30;coventry;coventry;52.4081812, -1.510477;1;;
+31;west ham;west ham;51.5280966, 0.0045685;1;amenity;yes
+32;coleraine;coleraine;55.1315912, -6.671861;1;postcode;yes
+33;liverpool, scotland;liverpool;53.4071991, -2.99168;1;;
+34;llanelly, carmarthenshire;llanelly;51.7300218, -4.3169784;0.7290000000000001;;
+35;pontefract;pontefract;53.6917422, -1.3105722;1;;
+36;bedford, bedfordshire;bedford;52.1363806, -0.4675041;1;;
+37;glasgow, partick;glasgow, partick;55.8699211, -4.3094365;0.5714285714285714;amenity;yes
+38;parts of kesteven a, lincolnshire;parts of kesteven a, lincolnshire;52.95, -0.5;0;district;yes
+39;lyme regis;lyme regis;50.7252897, -2.934559;1;;
+40;kent, st augustine's;kent, st augustine's;51.295329, 1.065338;0.405;amenity;yes
+41;accrington;accrington;53.7541156, -2.3655434;1;;
+42;waterford west;waterford west;50.784209000000004, -0.6862173492929786;0.9;amenity;yes
+43;antrim north;antrim north;54.60167345, -5.92912240354873;0.81;amenity;yes
+44;rugby, warwickshire;rugby;52.3726682, -1.2620038;1;;
+45;windsor;windsor;51.4800285, -0.6125716;1;;
+46;donegal east;donegal east;52.205858, 0.136471;0.9;amenity;yes
+47;bewdley;bewdley;52.3754763, -2.3162408;1;;
+48;bermondsey;bermondsey;51.4970125, -0.063268;1;suburb;yes
+49;glasgow, backfriars and hutcheson;glasgow, backfriars and hutcheson;;;;no
+0;aylesbury, buckinghamshire;aylesbury;51.8161412, -0.8130383;1;;
+1;down west;down west;51.46488145, -2.6260755054180525;0;amenity;yes
+2;city of london;city of london;51.5156177, -0.0919983;1;;
+3;east retford;east retford;53.3233189, -0.9426596;1;;
+4;blackburn;blackburn;53.749326, -2.4840566;1;;
+5;west ham, upton;upton;53.620327, -1.282117;1;;
+6;whitby;whitby;54.4874141, -0.6155111;1;;
+7;suffolk;suffolk;52.241001350000005, 1.0466830312565236;1;county;yes
+8;kidderminster;kidderminster;52.3880787, -2.2478582;1;;
+9;brigg, lincolnshire;brigg;53.5525329, -0.4896411;1;;
+10;battersea and clapham ii;battersea and clapham ii;52.6235358, 1.2944737751526694;0.63;amenity;yes
+11;devon, honiton;devon, honiton;50.7981119, -3.1924599;0.5;city;yes
+12;totnes;totnes;50.4322816, -3.6871525;1;;
+13;cork east;cork east;51.385632, -2.380681;0;street;yes
+14;durham, barnard castle;durham, barnard castle;54.5433311, -1.9269265885034277;0.6666666666666667;amenity;yes
+15;kildare north;kildare north;51.3849175, -2.3488860931208064;0.9;amenity;yes
+16;cannock, staffordshire;cannock;52.688227, -2.0324197;1;;
+17;wandsworth, putney;wandsworth, putney;51.457052, -0.200794;0.81;amenity;yes
+18;anglesey;anglesey;53.2782273, -4.33133929345189;1;amenity;yes
+19;harwich;harwich;51.9445801, 1.2898522;1;;
+20;manchester, gorton;manchester, gorton;53.46456525, -2.1768155155113984;0.7290000000000001;amenity;yes
+21;richmond;richmond;51.4613531, -0.3032767;1;;
+22;camberwell, peckham;camberwell, peckham;51.47402, -0.0914172;0.7290000000000001;amenity;yes
+23;mayo county;mayo county;54.6636121, -3.3655157;0.9;amenity;yes
+24;maldon;maldon;51.731198, 0.6791849;1;;
+25;armagh county;armagh county;54.3481977, -6.6540432;0.9;postcode;yes
+26;sligo county;sligo county;54.3309051, -7.6322089;0;street;yes
+27;monmouth, monmouthshire;monmouth;51.8098882, -2.7160441;1;;
+28;tower hamlets, st george;tower hamlets, st george;51.51667, -0.05;0.81;city;yes
+29;kent, tornbridge;kent, tornbridge;51.302492, 0.585529;0;amenity;yes
+30;east ham;east ham;51.5394005, 0.0526042;1;amenity;yes
+31;clitheroe, lancashire;clitheroe;53.8717465, -2.3926783;1;;
+32;montgomeryshire;montgomeryshire;52.697605, -2.7453006;1;amenity;yes
+33;ilford;ilford;51.5582734, 0.0711669;1;postcode;yes
+34;edinburghshire;edinburghshire;;;;no
+35;plymouth, devonport;plymouth, devonport;50.3785212, -4.1701007;0.5;amenity;yes
+36;warwick and leaming, warwickshire;warwickshire;52.282749, -1.589157;0.25004699999999996;;
+37;bute;bute;55.824188899999996, -5.08148580774648;1;;
+38;glasgow, college;glasgow, college;55.860766, -4.268234;0.5;city;yes
+39;lincoln;lincoln;53.2293545, -0.5404819;1;;
+40;middlesex, brentford;brentford;51.489129, -0.307382;0.5;;
+41;peeblesshire and selkirkshire;peeblesshire and selkirkshire;;;;no
+42;durham;durham;54.666667, -1.75;1;county;yes
+43;radcliffe-cum-farnwor, lancashire;radcliffe-cum-farnwor;53.888754, -2.672673;0;;
+44;wokingham, bershire;wokingham, bershire;51.376879, -0.856097;0.5;city;yes
+45;pontypool, monmouthshire;pontypool;51.7016878, -3.0405374;1;;
+46;sunderland;sunderland;55.7955457, -6.3958349;1;;
+47;cork south;cork south;51.613393, -0.031756;0;street;yes
+48;dartmouth;dartmouth;50.3514839, -3.583844;1;;
+49;westminster, st george's;st george's;53.381885, -1.477006;0.5;;
+0;reigate;reigate;51.2376557, -0.2057067;1;;
+1;stalybridge;stalybridge;53.4840214, -2.0562536;1;;
+2;forfarshire;forfarshire;56.715141349999996, -2.890562836754113;1;county;yes
+3;stepney, mile end;mile;51.5174023, -0.0462189;0.3969;;
+4;cornwall;cornwall;50.416667, -4.75;1;;
+5;malton;malton;54.1349419, -0.7965915;1;;
+6;kent;kent;51.2474823, 0.7105077;1;county;yes
+7;stepney, limehouse;limehouse;51.5174023, -0.0462189;0.3969;;
+8;aberavon, glamorganshire;aberavon, glamorganshire;51.593815, -3.801832;0.5;city;yes
+9;isle of ely;isle of ely;52.4101888, 0.2506969;1;amenity;yes
+10;westmeath;westmeath;52.6353168, -1.071519;1;street;yes
+11;arundel;arundel;50.85453835, -0.5648162995576137;1;;
+12;cornwall, camborne;cornwall;50.2138828, -5.2990347;0.25004699999999996;;
+13;haborough, leicestershire;haborough;52.672084, -0.9275;0;;
+14;donegal north;donegal north;52.205858, 0.136471;0.9;amenity;yes
+15;cashel;cashel;56.1117781, -4.5742788;1;;
+16;barnsley;barnsley;53.5527719, -1.4827755;1;;
+17;tower hamlets,bow and bromley;tower hamlets,bow and bromley;52.49162, -2.138843;0;street;yes
+18;calne;calne;51.437977, -2.0050911;1;;
+19;city of chester, cheshire;city of chester;53.1888838, -2.8907471527256074;1;;
+20;donegal south;donegal south;52.205858, 0.136471;0.9;amenity;yes
+21;galway connemara;galway connemara;53.06025, -2.449185;0;street;yes
+22;lancashire;lancashire;53.8611703, -2.5650887919475496;1;county;yes
+23;montrose;montrose;56.7114295, -2.4681544;1;;
+24;salisbury, wiltshire;salisbury;51.0690613, -1.7954134;1;;
+25;queen's county;queen's county;51.780964499999996, -1.4973095399951668;0.6561000000000001;amenity;yes
+26;glamorganshire;glamorganshire;51.7352168, -3.3761498;1;amenity;yes
+27;kesington;kesington;;;;no
+28;king's county;king's county;54.1790491, -6.337904624659713;0.9;amenity;yes
+29;cumberland, egremont;egremont;54.4838316, -3.5327921;0.5;;
+30;dublin st. stephen's green;dublin st. stephen's green;55.956442800000005, -3.1925626250562913;0.1111111111111111;amenity;yes
+31;cumberland, penrith and cockermou;cumberland, penrith and cockermou;54.609603, -3.149913;0;street;yes
+32;henley, oxfordshire;henley;51.3297576, -1.5311185;1;;
+33;northampton;northampton;52.2381355, -0.8963907;1;;
+34;kent, sevenoaks;kent;51.27452185, 0.1961165562194977;0;;
+35;kerry west;kerry west;52.50156, -3.25862;0.9;city;yes
+36;truro;truro;50.2633173, -5.0518107;1;;
+37;glasgow, cathcart;glasgow;55.861155, -4.2501687;1;;
+38;manchester, withington;manchester, withington;53.47741975, -2.230833394921874;0.567;amenity;yes
+39;glasgow, springburn;glasgow;55.861155, -4.2501687;1;;
+40;ross and cromarty;ross and cromarty;57.593, -5.253873;1;state;yes
+41;galway north;galway north;53.3291258, -0.9658489;0.567;amenity;yes
+42;burton, staffordshire;burton;53.1104634, -2.9615762;1;;
+43;chichester;chichester;50.8364862, -0.7791721;1;;
+44;warwick;warwick;52.2814519, -1.5815742;1;;
+45;stafforshire;stafforshire;;;;no
+46;dundee;dundee;56.4605938, -2.97019;1;;
+47;stoke-on-trent, stoke;stoke-on-trent;53.0162014, -2.1812607;1;;
+48;cirenchester;cirenchester;;;;no
+49;leitrim north;leitrim north;54.16667, -7.31667;0.9;city;yes
+0;sussex, chichester;chichester;50.8307252, -0.7902974671537156;1;;
+1;surrey;surrey;51.2715316, -0.3414523511290909;1;;
+2;surrey, chertsey;chertsey;51.392296, -0.5038294;0.5;;
+3;kilkenny south;kilkenny south;51.024068, -3.10295;0;amenity;yes
+4;liverpool, edge hill;liverpool, edge hill;53.410374, -2.979375;0.81;city;yes
+5;armagh south;armagh south;54.3477776, -6.663106641607193;1;suburb;yes
+6;leominster, herefordshire;leominster;52.2273558, -2.7375333;1;;
+7;west ham, plaistow;west ham, plaistow;51.5280966, 0.0045685;0.6666666666666667;amenity;yes
+8;tower hamlets, limehouse;tower hamlets, limehouse;51.5112411, -0.031176655894780386;0.567;amenity;yes
+9;newington, walworth;newington, walworth;51.4852627, -0.10158303133535646;1;suburb;yes
+10;surrey, reigate;surrey, reigate;51.33585, -0.66199;0.9;city;yes
+11;macclesfield, cheshire;macclesfield;53.2606635, -2.1255158;1;;
+12;fulham;fulham;51.4744221, -0.2060772;1;postcode;yes
+13;birkenhead;birkenhead;53.3895177, -3.0248007;1;;
+14;leith;leith;55.9725499, -3.1709492;1;;
+15;mossley, lancashire;mossley;53.51638545, -2.0235190148351148;1;;
+16;tyrone county;tyrone county;54.6008742, -7.283036973903879;1;amenity;yes
+17;wareham;wareham;50.6868972, -2.1098377;1;;
+18;leitrim south;leitrim south;54.16667, -7.31667;0.9;city;yes
+19;salisbury;salisbury;51.0690613, -1.7954134;1;;
+20;cumberland, workington;workington;54.6415716, -3.5459287;1;;
+21;wexford north;wexford north;52.592335, -1.061057;0;street;yes
+22;croydon;croydon;51.3550556, -0.0643103753173489;1;district;yes
+23;cornwall, stives;cornwall, stives;50.263317, -5.051811;0.5;amenity;yes
+24;pembroke;pembroke;51.6754422, -4.9144858;1;;
+25;sligo south;sligo south;54.344717, -7.6479166;0.567;amenity;yes
+26;stoke-on-trent;stoke-on-trent;53.0162014, -2.1812607;1;;
+27;hitchin, hertfordshire;hitchin;51.9464129, -0.2791646;1;;
+28;somerset, frome;somerset, frome;51.2309875, -2.3216982;0.5;postcode;yes
+29;west bromwich;west bromwich;52.5186579, -1.9923114;1;;
+30;cork north;cork north;51.385632, -2.380681;0;street;yes
+31;lincolnshire;lincolnshire;53.1823034, -0.2031208542548153;1;county;yes
+32;liverpool, everton;liverpool, everton;53.424389, -2.966944;0.567;amenity;yes
+33;wycombe, buckinghamshire;wycombe;51.627422, -0.7484153;0.9;;
+34;cork city;cork city;51.80174, -0.20691;0.567;city;yes
+35;longford north;longford north;52.933611, -1.681477;0.9;city;yes
+36;lambeth, norwood;norwood;51.4346192, -0.1036917;0.9;;
+37;antrim south;antrim south;52.59802155, 1.169656842200752;0.9;amenity;yes
+38;stamford, lincolnshire;stamford;52.6519973, -0.4804579;1;;
+39;liverpool, fairfield;fairfield;53.4181381, -2.934096126818182;1;;
+40;rossendale, lancashire;rossendale;53.6848806, -2.261439758907419;1;;
+41;middlesex;middlesex;51.546055800000005, -0.2537791389340719;1;county;yes
+42;grantham;grantham;52.913192, -0.6438974;1;;
+43;dublin city;dublin city;53.4524866, -3.0186397;0;;
+44;edinburgh;edinburgh;55.9533456, -3.1883749;1;;
+45;dumbarton;dumbarton;55.9432443, -4.5708479;1;;
+46;haddingtonshire;haddingtonshire;;;;no
+47;manchester, platting;manchester, platting;53.483872149999996, -2.20408596139014;0.567;amenity;yes
+48;stirlingshire;stirlingshire;56.0701208, -3.9087351;1;postcode;yes
+49;wednesbury;wednesbury;52.5521806, -2.0224441;1;;
+0;devonport;devonport;50.3713958, -4.1734878;1;;
+1;kettering, northamptonshire;kettering;52.3994233, -0.728004;1;;
+2;finsbury, holborn;finsbury, holborn;51.526403, -0.105606;0;amenity;yes
+3;krikcaldy;krikcaldy;;;;no
+4;hemel hempstead, hertfordshire;hemel hempstead;51.7511784, -0.472528;1;;
+5;belper, derbyshire;belper;53.0229029, -1.4817414;1;;
+6;westbury;westbury;51.261079, -2.1836535;1;;
+7;down south;down south;51.58412, -2.55473;0.63;city;yes
+8;suffolk, stowmarket;stowmarket;52.1878147, 0.9973428;0.5;;
+9;wandsworth, clapham;wandsworth, clapham;51.4702083, -0.139762;0.81;amenity;yes
+10;yorkshire;yorkshire;53.9825271, -1.3852499932684972;1;;
+11;essex, romford;essex, romford;51.5407328, -0.0961859;0.9;amenity;yes
+12;selkirkshire;selkirkshire;55.5, -3;1;postcode;yes
+13;birmingham, king's norton;birmingham, king's norton;52.4508239, -1.7253357;0.63;amenity;yes
+14;devon;devon;50.724140500000004, -3.6607788161410735;1;county;yes
+15;staffordhsire, lichfield;lichfield;52.681, -1.829439;0.5;;
+16;kilkenny north;kilkenny north;51.4886578, -2.774959074021345;0.9;amenity;yes
+17;derby;derby;52.9212617, -1.4761491;1;;
+18;guildford;guildford;51.2356068, -0.5732063;1;;
+19;blackpool;blackpool;53.8179442, -3.0509812;1;;
+20;cavan east;cavan east;51.46728525, -0.26643790915473364;0;amenity;yes
+21;clackmannanshire and kinross-shir;clackmannanshire and kinross-shir;;;;no
+22;leyton;leyton;51.5568183, -0.0051322;1;amenity;yes
+23;hertfordshire;hertfordshire;51.840052299999996, -0.09785519224523963;1;county;yes
+24;sheffield;sheffield;53.3806626, -1.4702278;1;;
+25;donegal west;donegal west;52.205858, 0.136471;0.9;amenity;yes
+26;denbighshire;denbighshire;53.1097895, -3.367128402684635;1;county;yes
+27;cornwall, penryn and falmouth;cornwall, penryn and falmouth;50.138951, -5.090249;0;amenity;yes
+28;prtsmouth;prtsmouth;;;;no
+29;surrey, kingston;kingston;52.1782, -0.033;1;;
+30;birmingham, edgbaston;birmingham, edgbaston;52.47100415, -1.921455396432302;0.81;amenity;yes
+31;st marylebone;st marylebone;51.52427, -0.1634083;0.9;amenity;yes
+32;swansea;swansea;51.6195955, -3.9459248;1;;
+33;isle of wight;isle of wight;50.67108245, -1.3328042802764226;1;amenity;yes
+34;hamilton, lanarkshire;hamilton, lanarkshire;55.7759095, -4.033442;0.504;postcode;yes
+35;wexford;wexford;52.592335, -1.061057;1;;
+36;swansea, district;swansea, district;51.6576223, -3.8715324;1;amenity;yes
+37;berwick-upon-tweed;berwick-upon-tweed;55.7692442, -2.0026472;1;;
+38;surrey, epsom;epsom;51.3347075, -0.268833;0.567;;
+39;kilkenny city;kilkenny city;51.82680725, 1.2426533536365905;0.63;amenity;yes
+40;thornbury, gloucestershire;thornbury;51.6078094, -2.5254942;1;;
+41;holborn;holborn;51.5171149, -0.1200657;1;amenity;yes
+42;armagh mid;armagh mid;54.35, -6.66667;0.9;city;yes
+43;stratford-on-avon, warwickshire;stratford-on-avon;52.1927803, -1.70634;1;;
+44;boston;boston;52.9776561, -0.0237985;1;;
+45;kerry east;kerry east;51.51449455, -0.05857245931016587;0.9;amenity;yes
+46;manchester, ardwick;manchester, ardwick;53.4711176, -2.2130325;0.5;amenity;yes
+47;wandsworth;wandsworth;51.4570271, -0.1932607;1;postcode;yes
+48;luton, bedfordshire;luton;51.8784385, -0.4152837;1;;
+49;king's lynn;king's lynn;52.7538673, 0.3954774;1;;
+0;down mid;down mid;postcode;yes;50.8251727, -3.7845004;0.44099999999999995
+1;wolverhampton;wolverhampton;;;52.5847651, -2.127567;1
+2;flint;flint;;;53.2492828, -3.1345262;1
+3;ludlow, shropshire;ludlow;;;52.3679896, -2.7193114;1
+4;tower hamlets, stepney;tower hamlets, stepney;amenity;yes;51.513574, -0.042373;0.567
+5;limerick west;limerick west;street;yes;51.471153, -2.600028;0
+6;rotherham;rotherham;;;53.4310417, -1.355187;1
+7;northamptonshire;northamptonshire;county;yes;52.3106138, -0.8659129831915817;1
+8;aldershot, hampshire;aldershot;;;51.2494169, -0.7630148;1
+9;somerset, yeovil;yeovil;;;50.944553049999996, -2.6095621787951884;0.567
+10;kent, gravesend;gravesend;;;51.443331, 0.33218;0.81
+11;carlow;carlow;;;52.20538725, 0.137539144622093;1
+12;liverpool, abercromby;liverpool, abercromby;city;yes;53.410374, -2.979375;0.5
+13;portarlington;portarlington;;;50.7186254, -1.8966518;1
+14;ebbw vale, monmouthshire;ebbw vale;;;51.7812925, -3.2084383;1
+15;roscommon south;roscommon south;amenity;yes;53.4199309, -2.9722137;0.7290000000000001
+16;the hartlepools;the hartlepools;amenity;yes;54.6966814, -1.1758925;1
+17;wisbech, cabridgeshire;wisbech, cabridgeshire;amenity;yes;52.650605, 0.158108;0.567
+18;clare west;clare west;city;yes;52.0793283, 0.5820634;0.9
+19;glasgow, bridgeton;glasgow;;;55.861155, -4.2501687;1
+20;heywood and radcliffe, lancashire;heywood and radcliffe;;;53.592634, -2.21966;0.33333333333333337
+21;glasgow, pollok;glasgow;;;55.861155, -4.2501687;1
+22;roxburghshire and selkirkshire;roxburghshire and selkirkshire;;no;;
+23;rutherglen, lanarkshire;rutherglen, lanarkshire;postcode;yes;55.8283888, -4.2116533;0.5
+24;kent, ashford;kent;;;51.148555, 0.8722566;0.567
+25;huntingdon;huntingdon;;;52.3314292, -0.1847723;1
+26;mallow;mallow;;;51.5062423, -0.0903798;1
+27;middlesex, finchley;middlesex, finchley;amenity;yes;51.472718, -0.323957;0.81
+28;kincardineshire;kincardineshire;;;56.925681, -2.458549;1
+29;kingston upon thames;kingston upon thames;district;yes;51.38177625, -0.27699333824284805;1
+30;handsworth, staffordshire;handsworth;;;53.3723004, -1.3830121;1
+31;iverness-shire and ross and croma;iverness-shire and ross and croma;street;yes;53.180191, -2.549774;0
+32;kirkcaldy;kirkcaldy;;;56.1110218, -3.1582296;1
+33;oxford;oxford;;;51.7520131, -1.2578499;1
+34;caithness;caithness;county;yes;58.404267000000004, -3.4340269886950203;1
+35;derbyshire;derbyshire;county;yes;53.1185033, -1.5566179305872214;1
+36;bury st. edmunds;bury st. edmunds;;;52.2460367, 0.7125173;1
+37;marylebone;marylebone;suburb;yes;51.5232789, -0.155596;1
+38;buckingham;buckingham;;;51.9983175, -0.9786725;1
+39;camberwell;camberwell;suburb;yes;51.4745706, -0.0925416;1
+40;stretford, lancashire;stretford;;;53.445428, -2.3223051;1
+41;sheffield, attercliffe;sheffield, attercliffe;street;yes;53.3825, -1.433688;0.9
+42;battersea and clapham i;battersea and clapham i;amenity;yes;52.6235358, 1.2944737751526694;0.63
+43;radnorshire;radnorshire;suburb;yes;52.4627049, -3.2561628;1
+44;ayr;ayr;;;55.4628044, -4.6302502;1
+45;cardiff;cardiff;;;51.4816546, -3.1791934;1
+46;denbigh, denbighshire;denbigh;;;53.1853776, -3.4178289;1
+47;rutland and stamfor, lincolnshire;rutland and stamfor, lincolnshire;amenity;yes;52.655389, -0.468268;0
+48;middlesex, ealing;ealing;;;51.51282, -0.3023;1
+49;somerset, taunton;taunton;;;51.018223, -3.100356;1
+0;battersea;battersea;suburb;yes;51.4707933, -0.172214;1
+1;tipperary south;tipperary south;amenity;yes;51.514088099999995, -0.10761511148648525;0.63
+2;llandaff and barr, glamorganshire;llandaff and barr, glamorganshire;amenity;yes;52.545319, -1.901123;0
+3;portsmouth;portsmouth;;;50.800031, -1.0906023;1
+4;mayo west;mayo west;amenity;yes;50.96115255, -0.129404356413449;0.9
+5;glasgow, st rollox;glasgow, st rollox;amenity;yes;55.8782262, -4.2425961;0.6666666666666667
+6;great grimsby;great grimsby;;;53.5671407, -0.0788045;1
+7;st. ives;st. ives;;;50.2149064, -5.4795083;1
+8;glasgow, hillhead;glasgow, hillhead;amenity;yes;55.879505, -4.290972;0.567
+9;kerry county;kerry county;amenity;yes;54.3634879, -7.623427004792043;0.9
+10;rochdale;rochdale;;;53.6153659, -2.1557561;1
+11;poplar;poplar;suburb;yes;51.5110713, -0.0144629;1
+12;monmouthshire;monmouthshire;county;yes;51.7501058, -2.8333331;1
+13;cheltenham;cheltenham;;;51.8995685, -2.0711559;1
+14;Western Isles, Inverness-shire and Ross and Cromarty;Western Isles, Inverness-shire and Ross and Cromarty;;no;;
+15;bolton;bolton;;;53.5782863, -2.4300367;1
+16;wenlock;wenlock;;;52.5955951, -2.5578451;1
+17;kilmarnock;kilmarnock;;;55.6100589, -4.4964652;1
+18;cornwall, bodmin;cornwall, bodmin;city;yes;50.470725, -4.7243205;0.5
+19;kent, isle of thanet;kent, isle of thanet;amenity;yes;51.3243438, 1.3314426;0.75
+20;wandsworthm, balham and tooting;wandsworthm, balham and tooting;amenity;yes;51.44621, -0.154467;0
+21;ayrshire;ayrshire;;;55.5, -4.5;1
+22;devon, barnstaple;devon, barnstaple;city;yes;51.0804057, -4.0600467;0.5
+23;newport;newport;;;51.5882332, -2.9974967;1
+24;shoreditch, haggerston;shoreditch, haggerston;amenity;yes;51.5390915, -0.0703107;0.9
+25;stepney, whitechapel and st georg;stepney, whitechapel and st georg;city;yes;51.5175, -0.04292;0.19999999999999996
+26;manchester, moss side;manchester, moss side;amenity;yes;53.4595044, -2.2356078;0.5904900000000001
+27;somerset, wells;somerset, wells;city;yes;51.2094511, -2.6451203;0.5
+28;norfold;norfold;;no;;
+29;tower hamlets, mile end;tower hamlets, mile end;amenity;yes;51.5253378, -0.033435;0.5
+30;beaumaris;beaumaris;amenity;yes;53.2648344, -4.089759711165446;1
+31;chippenham, wiltshire;chippenham;;;51.4587621, -2.1159032;1
+32;nelson and colne;nelson and colne;amenity;yes;53.84462805, -2.2216431082180117;0.9
+33;durham, bishop auckland;bishop auckland;;;54.66119, -1.678765;0.9
+34;cheshire;cheshire;county;yes;53.2141028, -2.471770086071205;1
+35;belfast south;belfast south;city;yes;54.603533, -5.928807;0.9
+36;meath north;meath north;amenity;yes;51.1790522, -0.1559338;0.567
+37;sussex, lewes;sussex, lewes;city;yes;50.8746139, 0.005115324110936268;0.5
+38;st. andrews;st. andrews;;;56.3403902, -2.7955844;1
+39;birmingham, deritend;birmingham, deritend;amenity;yes;52.4735217, -1.8826851;0.5
+40;cornwall, lauceston;cornwall, lauceston;amenity;yes;50.263317, -5.051811;0.5
+41;carmarthen, carmarthenshire;carmarthen;;;51.8591257, -4.3115907;1
+42;hasting;hasting;amenity;yes;54.883288, -1.4521818;1
+43;scarborough;scarborough;;;54.2820009, -0.4011868;1
+44;surrey, farnham;farnham;;;51.2109359, -0.7937917;0.567
+45;cumberland, penrith;penrith;;;54.6607482, -2.740025;1
+46;tyrone east;tyrone east;amenity;yes;51.88309315, 1.0384498;0.9
+47;lanarkshire;lanarkshire;postcode;yes;55.5752966, -3.833333;1
+48;plymouth, drake;plymouth, drake;city;yes;50.393988, -4.113637;0.5
+49;new ross;new ross;;;51.72051, -3.2413;0.567
+0;surrey, guildford;guildford;51.24697, -0.588931;0.9;;
+1;berwickshire and haddingtonshire;berwickshire and haddingtonshire;;;no;
+2;devizes;devizes;51.3525027, -1.9958302;1;;
+3;lancaster;lancaster;54.0484068, -2.7990345;1;;
+4;watford, hertfordshire;watford;51.6553875, -0.3957425;1;;
+5;perth;perth;56.3958186, -3.4286805;1;;
+6;gravesend;gravesend;51.4424747, 0.3694468;1;yes;suburb
+7;sheffiled, attercliffe;sheffiled, attercliffe;53.3944795, -1.4315196;0.5;yes;suburb
+8;down north;down north;51.46056, -2.82694;0.27782999999999997;yes;city
+9;tewkesbury, gloucestershire;tewkesbury;51.9937857, -2.1549574;1;;
+10;perthshire;perthshire;56.76615485, -3.3391095;1;;
+11;kilkenny county;kilkenny county;51.024068, -3.10295;0;yes;amenity
+12;dudley;dudley;52.5110832, -2.0816813;1;;
+13;shrewsbury;shrewsbury;52.707755, -2.7540658;1;;
+14;tynemouth;tynemouth;55.0177847, -1.4256042;1;;
+15;winchester;winchester;51.0672545, -1.3200089;1;;
+16;aberdeenshire;aberdeenshire;57.166667, -2.666667;1;yes;county
+17;norwich;norwich;52.6285576, 1.2923954;1;;
+18;westmorland, appleby;appleby;53.620235, -0.566291;0.5;;
+19;helston;helston;50.1016731, -5.273032;1;;
+20;argyll;argyll;57.8967251, -5.15604;1;yes;amenity
+21;ayrshire and bute;ayrshire and bute;55.4585713, -4.6292662;0.567;yes;amenity
+22;kent, turnbridge;kent, turnbridge;51.302492, 0.585529;0;yes;amenity
+23;essex, chelmsford;essex;51.54450755, 0.5840084067307691;0.81;;
+24;gower, glamorganshire;gower, glamorganshire;51.584092, -4.103997;0.567;yes;amenity
+25;carmarthenshire;carmarthenshire;51.893669849999995, -4.217282721429928;1;yes;county
+26;gainsborough, lincolnshire;gainsborough;53.3995376, -0.7758801;1;;
+27;northumberland, hexham;northumberland, hexham;54.971478, -2.1017927;0.5;yes;city
+28;wicklow county;wicklow county;52.757887, -0.876157;0;yes;amenity
+29;monaghan north;monaghan north;51.3476467, -2.786797826995941;0;yes;suburb
+30;hawick;hawick;55.422564, -2.7866951;1;;
+31;gloucester;gloucester;51.8653705, -2.2458192;1;;
+32;hythe;hythe;51.0691421, 1.0841634;1;;
+33;eye;eye;52.6088657, -0.1890209;1;;
+34;bootle, lancashire;bootle;53.4506931, -2.9948834;1;;
+35;poplar, bow and bromley;poplar, bow and bromley;51.5246287, -0.0123189;0;yes;amenity
+36;leek, staffordshire;leek;53.1057636, -2.0242837;1;;
+37;rye;rye;50.9511871, 0.7327667;1;;
+38;dumfries;dumfries;55.069836, -3.6092292;1;;
+39;dublin;dublin;57.7386289, -4.3255225;1;;
+40;halifax;halifax;53.7229229, -1.8604874;1;;
+41;lichfield, staffordshire;lichfield;52.6843696, -1.8275286;1;;
+42;devon, tavistock;devon, tavistock;50.5496154, -4.1446358;0.5;yes;city
+43;huntingdonshire;huntingdonshire;52.37104395, -0.22357789271655937;1;yes;city
+44;ilkeston, derbyshire;ilkeston;52.9710869, -1.307171;1;;
+45;dorset;dorset;50.79683685, -2.34473226124306;1;yes;county
+46;great marlow;great marlow;51.586075949999994, -0.8013756797940633;1;;
+47;ramsey, huntingdonshire;ramsey;51.9279381, 1.2206721;1;;
+48;newry;newry;54.1775283, -6.337506;1;;
+49;poole;poole;50.7179472, -1.981521;1;;
+0;leigh, lancashire;leigh;53.4960455, -2.5171495;1.0;;
+1;sheffield, brightside;sheffield, brightside;53.404212, -1.431107;0.81;amenity;yes
+2;ipswich;ipswich;52.0579495, 1.1526345;1.0;;
+3;wycombe;wycombe;51.66356185, -0.818083680966309;1.0;county;yes
+4;walsall;walsall;52.5847949, -1.9822687;1.0;;
+5;limerick east;limerick east;54.8435783, -1.986047;0.0;amenity;yes
+6;banffshire;banffshire;57.5, -3.083333;1.0;;
+7;dundalk;dundalk;54.127702, -6.568412;1.0;;
+8;harborough, leicestershire;harborough;52.538568850000004, -0.9200444888910031;1.0;;
+9;devon, torquay;devon, torquay;50.75632, -3.23487;0.567;city;yes
+10;radnor;radnor;51.36456775, -0.1711469014878434;1.0;;
+11;gloucestershire;gloucestershire;51.8333313, -2.1666674;1.0;county;yes
+12;stockton-on-tees;stockton-on-tees;54.564094, -1.3129164;1.0;;
+13;essex, saffron walden;essex, saffron walden;52.021569, 0.2411256;0.6666666666666667;postcode;yes
+14;cavan county;cavan county;54.8210814, -6.5243641;0.9;postcode;yes
+15;middlesex, harrow;harrow;51.58462, -0.329158;0.9;;
+16;merthyr tydfil, aberdare;merthyr tydfil;51.7455659, -3.3786082;1.0;;
+17;tipperary mid;tipperary mid;51.514088099999995, -0.10761511148648525;0.63;amenity;yes
+18;ormskirk, lancashire;ormskirk;53.5673603, -2.8859603;1.0;;
+19;burnley;burnley;53.793527, -2.245586;1.0;;
+20;cork county;cork county;52.630675, -1.108827;0.0;street;yes
+21;farnworth, lancashire;farnworth;53.5485989, -2.3969984;1.0;;
+22;haddington;haddington;55.9556144, -2.779317;1.0;postcode;yes
+23;tyrone mid;tyrone mid;54.509791, -6.769187;0.0;amenity;yes
+24;durham, seaham;durham;54.7770139, -1.5756205;1.0;;
+25;mayo east;mayo east;50.8616729, 0.4606052;0.0;street;yes
+26;st. albans;st. albans;51.753051, -0.3379675;1.0;;
+27;aberdeen;aberdeen;57.1482429, -2.0928095;1.0;;
+28;middlesex, acton;middlesex, acton;51.531318850000005, -0.2677642601310697;0.81;amenity;yes
+29;newmarket, cambridgeshire;newmarket;58.2367073, -6.3932062;1.0;;
+30;newport, shropshire;newport;51.5882332, -2.9974967;1.0;;
+31;devon, ashburton;devon, ashburton;50.5175973, -3.7560726;0.5;postcode;yes
+32;fareham, hampshire;fareham;50.8526637, -1.1783134;1.0;;
+33;clare east;clare east;52.079063, 0.581537;0.9;city;yes
+34;antrim county;antrim county;54.715139, -6.2192038;0.9;postcode;yes
+35;wimbledon;wimbledon;51.4214787, -0.2064027;1.0;postcode;yes
+36;breconshire;breconshire;52.9875065, -1.1773256;1.0;street;yes
+37;londonberry county;londonberry county;55, -6.16667;0.0;district;yes
+38;cavan west;cavan west;51.4303133, -2.5922015;0.0;street;yes
+39;islington;islington;51.5384287, -0.0999051;1.0;postcode;yes
+40;stirling and falkirk;stirling and falkirk;56.291291, -4.452616;1.0;state;yes
+41;birmingham, erdington;birmingham, erdington;52.5284461, -1.8425676;1.0;amenity;yes
+42;norfolk, kind's lynn;norfolk, kind's lynn;52.71864, 0.413064;0.0;street;yes
+43;canterbury;canterbury;51.2800275, 1.0802533;1.0;;
+44;antrim east;antrim east;54.719697, -6.216839;0.9;city;yes
+45;southend-on-sea;southend-on-sea;51.5388241, 0.7128137;1.0;;
+46;westminster;westminster;51.4973206, -0.137149;1.0;city;yes
+47;cork mid;cork mid;54.038514, -2.782603;0.0;amenity;yes
+48;banbury;banbury;52.0601807, -1.3402795;1.0;;
+49;ealing;ealing;51.5250846, -0.3142935008138148;1.0;district;yes
+0;wellington, shropshire;wellington;50.978376, -3.2275504;1;;
+1;merthyr tydfil;merthyr tydfil;51.7455659, -3.3786082;1;;
+2;heywood, lancashire;heywood;53.5967685, -2.2239715;1;;
+3;biggleswade, bedfordshire;biggleswade;52.0882012, -0.2589013;1;;
+4;roscommon county;roscommon county;53.419543, -2.975673;0;street;yes
+5;bradford;bradford;53.7944229, -1.7519186;1;;
+6;pontypridd, glamoranshire;pontypridd, glamoranshire;51.6054091, -3.339708139981046;0.81;amenity;yes
+7;tiverton;tiverton;53.1393479, -2.6716283;1;;
+8;waterford east;waterford east;51.8177638, -0.0977397;0.9;postcode;yes
+9;honiton;honiton;50.7981119, -3.1924599;1;;
+10;kent, maidstone;kent;51.2748258, 0.5231646;0.567;;
+11;berkshire;berkshire;51.453488899999996, -1.0318729593399247;1;county;yes
+12;shaftesbury;shaftesbury;51.0056195, -2.1955975;1;;
+13;kutsford, cheshire;kutsford, cheshire;;;;no
+14;pembroke and haverfordwest distri;pembroke and haverfordwest distri;51.8033774, -4.9685562;0;amenity;yes
+15;londonberry north;londonberry north;51.95642, -0.1644;0.3969;city;yes
+16;taunton;taunton;51.0147895, -3.1029086;1;;
+17;strand;strand;51.817725, -2.4107343;1;;
+18;stafford, staffordshire;stafford;52.8063157, -2.1163818;1;;
+19;wallsend;wallsend;54.9911912, -1.5342042;1;;
+20;kent, dover;kent;51.1251275, 1.3134228;0.567;;
+21;hampshire;hampshire;51.04483545, -1.2434093597173146;1;county;yes
+22;tyrone north-east;tyrone north-east;54.58333, -7;0;district;yes
+23;wells;wells;51.2094511, -2.6451203;1;;
+24;knutsford, cheshire;knutsford;53.3025402, -2.3716001;1;;
+25;huddersfield;huddersfield;53.6466645, -1.7822482;1;;
+26;newington;newington;55.9328287, -3.1732062;1;;
+27;down east;down east;51.1311372, 0.2636186;0.9;amenity;yes
+28;cornwall, st ives;cornwall, st ives;50.2149064, -5.4795083;0.6666666666666667;city;yes
+29;louth county;louth county;53.3712986, -0.009463030514810296;0.9;amenity;yes
+30;tyrone south;tyrone south;54.5101423, -6.769401629332267;0.9;amenity;yes
+31;down county;down county;54.33333, -5.75;0;district;yes
+32;newcastle under lyme;newcastle under lyme;53.0117627, -2.2273919;1;;
+33;preston;preston;53.7593363, -2.6992717;1;;
+34;stone, straffordshire;stone, straffordshire;57.332026, -2.81547;0.81;amenity;yes
+35;new forest and christc, hampshire;new forest and christc, hampshire;54.683331, -2.268323;0.25;city;yes
+36;maidstone;maidstone;51.2748258, 0.5231646;1;;
+37;dunfermline;dunfermline;56.0713724, -3.4616183;1;;
+38;armagh;armagh;54.3481977, -6.6540432;1;postcode;yes
+39;northumberland;northumberland;55.25, -2.000559;1;county;yes
+40;newton, lancashire;newton;51.4854638, -3.6763391;1;;
+41;liverpool, kirkdale;liverpool, kirkdale;53.44047405, -2.987070459687921;1;amenity;yes
+42;monmouth;monmouth;51.8098882, -2.7160441;1;;
+43;hanley;hanley;53.0259916, -2.1753695;1;;
+44;high peak, derbyshire;high peak;53.3675462, -1.8528746491564894;1;;
+45;middlesbrough;middlesbrough;54.5760419, -1.2344047;1;;
+46;galway county;galway county;52.949251, -1.169145;0;street;yes
+47;barrow-in-furness;barrow-in-furness;54.1113351, -3.2289494;1;;
+48;waterford city;waterford city;55.97130205, -3.3015686516703893;0.9;amenity;yes
+49;eifion, caernarvonshire;eifion, caernarvonshire;51.418502, -3.261394;0.5103;street;yes
+0;peterborough, northamptonshire;peterborough;52.5725769, -0.2427336;1;;
+1;bethnal green;bethnal green;51.5272449, -0.054752;1;amenity;yes
+2;whitehaven;whitehaven;54.5474199, -3.5885335;1;;
+3;govan, lanarkshire;govan, lanarkshire;55.860048, -4.310645;0;suburb;yes
+4;montgomery;montgomery;52.562033, -3.1474836;1;;
+5;birmingham, yardley;birmingham, yardley;52.493265, -1.937593;0.63;amenity;yes
+6;limerick city;limerick city;51.80174, -0.20691;0.567;city;yes
+7;galway east;galway east;53.06025, -2.449185;0;street;yes
+8;westmeath south;westmeath south;53.741418, -0.368105;0;street;yes
+9;stoke-on-trent, hanley;stoke-on-trent, hanley;53.0259916, -2.1753695;0.75;postcode;yes
+10;altrincham, cheshire;altrincham;53.3839662, -2.3525463;1;;
+11;tower hamlets;tower hamlets;51.1288633, 1.2986686;1;suburb;yes
+12;wolverhampton, bilston;wolverhampton;52.5700229, -2.0822333;1;;
+13;leominster, hereforedshire;leominster, hereforedshire;52.223206, -2.738751;0.81;amenity;yes
+14;monaghan south;monaghan south;54.17729, -6.343057;0;street;yes
+15;tamworth;tamworth;52.6345819, -1.6948438;1;;
+16;manchester, blackley;manchester;53.4794892, -2.2451148;1;;
+17;nuneaton, warwickshire;nuneaton;52.5246182, -1.4684488;1;;
+18;bermondsey, rotherhithe;bermondsey, rotherhithe;51.498036, -0.0634795;0.9;amenity;yes
+19;stirlingshire and clackmannanshir;stirlingshire and clackmannanshir;;;;no
+20;louth south;louth south;53.364466, -0.02411;0.9;city;yes
+21;northumberland, tyneside;northumberland, tyneside;55.02979945, -1.5082559996141889;0.9;district;yes
+22;bedford;bedford;52.1363806, -0.4675041;1;;
+23;mayo south;mayo south;50.30972, -4.0380533;0;suburb;yes
+24;liverpool, walton;liverpool, walton;53.4516732, -2.9578365465357654;1;amenity;yes
+25;stalybridge and hyde, cheshire;stalybridge and hyde;53.48414, -2.05908;0.33333333333333337;;
+26;drogheda;drogheda;;;;
+27;downpatrick;downpatrick;54.3279335, -5.71649;1;;
+28;stroud;stroud;51.745424, -2.2198605;1;;
+29;plymouth;plymouth;50.3712659, -4.1425658;1;;
+30;midhurst;midhurst;50.9841854, -0.74043;1;;
+31;galway south;galway south;51.486787, -0.060292;0;street;yes
+32;lambeth, kennington;kennington;51.4884523, -0.1092504;1;;
+33;tamworth, warwickshire;tamworth;52.6345819, -1.6948438;1;;
+34;northallerton;northallerton;54.3404812, -1.4344936;1;;
+35;bewdley, worcestershire;bewdley;52.3754763, -2.3162408;1;;
+36;nuneatton, warwickshire;warwickshire;;;;
+37;newcasle-upon-tyne;newcasle-upon-tyne;54.989692, -1.627914;1;city;yes
+38;leitrim county;leitrim county;54.2855309, -5.9982114;0.9;postcode;yes
+39;galway;galway;51.34453915, 1.0131679387527444;1;amenity;yes
+40;glasgow, shettleston;glasgow;55.861155, -4.2501687;1;;
+41;banbury, oxfordshire;banbury;52.0601807, -1.3402795;1;;
+42;paddington;paddington;51.5154795, -0.175365;1;amenity;yes
+43;wallasey;wallasey;53.4241208, -3.0394101;1;;
+44;haverfordwest;haverfordwest;51.8023297, -4.9651074;1;;
+45;cornwall, st austell;cornwall, st austell;;;;no
+46;bewdley, worcesternshire;bewdley, worcesternshire;52.375726, -2.317408;0.5;city;yes
+47;londonberry city;londonberry city;51.80174, -0.20691;0.567;city;yes
+48;antrim mid;antrim mid;54.863793, -6.27671;0.9;amenity;yes
+49;waterloo, lancashire;waterloo;51.5868946, -3.1625022;1;;
+0;weymouth and melcombe regis;weymouth and melcombe regis;suburb;yes;50.62057, -2.45136;0
+1;evesham, worcestershire;evesham;;;52.0940158, -1.9483083;1
+2;wilton;wilton;;;51.0805315, -1.8607051;1
+3;dublin harbour;dublin harbour;street;yes;54.544599, -1.548955;0
+4;st george, hanover square;st george, hanover square;street;yes;53.744634, -0.334045;0
+5;warrington;warrington;;;53.3899497, -2.5943178;1
+6;walthamstow;walthamstow;postcode;yes;51.5844701, -0.0188186;1
+7;wexford south;wexford south;street;yes;55.466432, -4.639677;0
+8;durham, chester-le-street;chester-le-street;;;54.851235, -1.573085;0.9
+9;stroud, gloucestershire;stroud;;;51.745424, -2.2198605;1
+10;chippenham;chippenham;;;51.4587621, -2.1159032;1
+11;leitrim;leitrim;postcode;yes;54.2855309, -5.9982114;1
+12;bassetlaw, nottinghamshire;bassetlaw, nottinghamshire;city;yes;53.34945205, -0.9616604011939824;0.5
+13;bridport;bridport;;;50.733785, -2.7589005;1
+14;lancaster, lancashire;lancaster;;;54.0484068, -2.7990345;1
+15;longford;longford;;;51.4807902, -0.4902523;1
+16;londonberry south;londonberry south;city;yes;50.4, -3.83333;0.63
+17;cornwall, truro;truro;;;50.2633173, -5.0518107;0.5
+18;cricklade;cricklade;;;51.6414188, -1.8579414;1
+19;norfolk;norfolk;;;52.666667, 1;1
+20;newcastle-upon-tyne;newcastle-upon-tyne;;;54.989692, -1.627914;1
+21;southwark, bermondsey;southwark, bermondsey;amenity;yes;51.4978011, -0.0816432;0.9
+22;longford county;longford county;city;yes;52.933611, -1.681477;0.9
+23;birmingham, bordesley;birmingham, bordesley;amenity;yes;52.4722127, -1.877661;0.5
+24;ashburton;ashburton;;;50.526735200000005, -3.755984991182407;1
+25;parts of lindsey, lincolnshire;parts of lindsey, lincolnshire;district;yes;52.95, -0.5;0
+26;rossendale;rossendale;;;53.6848806, -2.261439758907419;1
+27;sussex, horsahm;sussex, horsahm;amenity;yes;50.864503, -0.08715;0.9
+28;accrington, lancashire;accrington;;;53.7541156, -2.3655434;1
+29;bury st edmunds;bury st edmunds;;;52.2460367, 0.7125173;1
+30;camberwell, dulwich;camberwell, dulwich;suburb;yes;51.4418786, -0.0843244;1
+31;hereford, herefordshire;hereford;;;52.0553813, -2.7151735;1
+32;middlesex, brentford and chiswick;middlesex, brentford and chiswick;amenity;yes;51.49277, -0.270257;0
+33;durham, spennymoor;spennymoor;;;54.71006545, -1.5708645164149715;0.81
+34;ince, lancashire;ince;;;53.2828816, -2.8250708;1
+35;peeplesshire and selkirkshire;peeplesshire and selkirkshire;;no;;
+36;aston manor;aston manor;amenity;yes;52.5158144, -1.872822890890502;1
+37;somerset, bridgwater;bridgwater;;;51.13115255, -2.9829004220178925;0.9
+38;galloway;galloway;;;51.8291275, -0.8356277;1
+39;tyrone north-west;tyrone north-west;district;yes;54.58333, -7;0
+40;st andrews;st andrews;;;56.3403902, -2.7955844;1
+41;lanark, lanarkshire;lanark, lanarkshire;postcode;yes;55.6736271, -3.7780361;0.5
+42;windsor, berkshire;windsor;;;51.4800285, -0.6125716;1
+43;hitchin, herfortshire;hitchin, herfortshire;city;yes;51.953184, -0.274664;0.5
+44;kent, chislehurst;chislehurst;;;51.413146, 0.065479;0.5
+45;bedfordshire;bedfordshire;county;yes;52.064003400000004, -0.41111375560310925;1
+46;rochester, chatham;chatham;;;51.3754569, 0.518893;0.9
+47;glasgow, maryhill;glasgow;;;55.861155, -4.2501687;1
+48;middlesex, wood green;middlesex, wood green;amenity;yes;51.588798, -0.229632;0.63
+49;devon, tiverton;devon, tiverton;city;yes;50.9025623, -3.4875797;0.5
+0;wallingford;wallingford;51.5982905, -1.1252511;1;;
+1;per, perthshire and kinross-shire;per, perthshire and kinross-shire;56.206555, -3.43298;0;amenity;yes
+2;cork north-east;cork north-east;51.3805283, -2.3625140577251544;0.63;amenity;yes
+3;royton, lancashire;royton;53.5652485, -2.1236085;1;;
+4;westmeath north;westmeath north;53.741418, -0.368105;0;street;yes
+5;caerphilly, glamorganshire;caerphilly, glamorganshire;51.573583, -3.219295;0.5;city;yes
+6;kingswinford, staffordshire;kingswinford;52.4967692, -2.1661721;1;;
+7;somerset;somerset;51.161750850000004, -3.0753867062227487;1;county;yes
+8;manchester, clayton;manchester, clayton;53.471419, -2.244834;0.5;city;yes
+9;fermanagh north;fermanagh north;54.2533686, -7.558474921258922;0.567;amenity;yes
+10;gatehead;gatehead;55.5947682, -4.5534433;1;;
+11;wick;wick;58.4425516, -3.0915827;1;;
+12;bridgnorth;bridgnorth;52.5345626, -2.4194132;1;;
+13;liverpool;liverpool;53.3782584, -2.958688609021225;1;;
+14;newcastle-upon-tyne, cental;newcastle-upon-tyne, cental;54.989692, -1.627914;0.12502349999999998;city;yes
+15;macclesfield;macclesfield;53.2606635, -2.1255158;1;;
+16;elginshire and nairnshire;elginshire and nairnshire;;;;no
+17;glasgow, tradeston;glasgow, tradeston;55.8531105, -4.262678;0.5;suburb;yes
+18;marlborough;marlborough;51.4209962, -1.728952;1;;
+19;fermanagh and tyrone;fermanagh and tyrone;54.591775150000004, -7.271427147416087;0.9;amenity;yes
+20;newbury, berkshire;newbury;51.4020243, -1.3242212;1;;
+21;somerset, welington;somerset, welington;50.98375, -2.70785;0.567;city;yes
+22;stirlingshrie and clackmannanshir;stirlingshrie and clackmannanshir;;;;no
+23;petersfield, hampshire;petersfield;51.0024945, -0.9392027;1;;
+24;lewisham;lewisham;51.4624292, -0.0101787;1;postcode;yes
+25;newcastle-upon-lyme;newcastle-upon-lyme;54.98017505, -1.6146802127187847;0.63;amenity;yes
+26;cardigan;cardigan;52.0839973, -4.6604224;1;;
+27;carlisle;carlisle;54.8948478, -2.9362311;1;;
+28;hyde, cheshire;hyde;53.4508687, -2.0782603;1;;
+29;lonsdale, lancashire;lonsdale;54.2825758, -2.585502;1;;
+30;durham, jarrow;jarrow;54.98036, -1.48423;0.5;;
+31;bridgwater;bridgwater;51.1283378, -3.0037046;1;;
+32;shoreditch;shoreditch;51.5266694, -0.0798926;1;suburb;yes
+33;stirling;stirling;56.1181242, -3.9360012;1;;
+34;swindon, wiltshire;swindon;51.5613683, -1.7856853;1;;
+35;clitheroe;clitheroe;53.8717465, -2.3926783;1;;
+36;kent, dartford;kent;51.4443059, 0.21807;0.567;;
+37;middlesex, twickenham;twickenham;51.447054, -0.332907;0.5;;
+38;cork south-east;cork;53.1616459, -1.6373601;0.9;;
+39;dublin st. patrick's;dublin st. patrick's;55.955651, -3.1943402;0.63;amenity;yes
+40;staffordshire;staffordshire;52.824694199999996, -2.0074546723348115;1;county;yes
+41;dorchester;dorchester;50.7132064, -2.4371229;1;;
+42;enniskillen;enniskillen;54.3448538, -7.6389365;1;;
+43;tipperary north;tipperary north;51.514088099999995, -0.10761511148648525;0.63;amenity;yes
+44;petersfield;petersfield;51.0024945, -0.9392027;1;;
+45;huntingdon, huntingdonshire;huntingdon;52.3314292, -0.1847723;1;;
+46;middlesex, hendon;middlesex, hendon;51.472718, -0.323957;0.81;amenity;yes
+47;bristol;bristol;51.4538022, -2.5972985;1;;
+48;st pancras;st pancras;51.5259149, -0.1290973;1;;
+49;sutherland;sutherland;58.2500999, -4.5000946;1;;
+0;merionethshire;merionethshire;county;yes;52.79397995, -3.8749544943258853;1
+1;wigan;wigan;;;53.5457188, -2.6264624;1
+2;spalding, lincolnshire;spalding;;;52.787641, -0.1526475;1
+3;darlington;darlington;;;54.5242081, -1.5555812;1
+4;essex, colchester;essex;;;51.54450755, 0.5840084067307691;0.81
+5;sleaford, lincolnshire;sleaford;;;52.99965, -0.4095586;1
+6;chesterfield, derbyshire;chesterfield;;;53.2352134, -1.4264097;1
+7;eccles;eccles;;;55.6657728, -2.377732;1
+8;middlesex, tottenham;middlesex, tottenham;amenity;yes;51.472718, -0.323957;0.81
+9;carow;carow;;no;;
+10;woodstock, oxfordshire;woodstock;;;51.8942879, -4.8765902;1
+11;chester;chester;;;53.1908873, -2.8908955;1
+12;cork west;cork west;street;yes;52.002842, -0.758682;0
+13;birmingham, aston;birmingham, aston;postcode;yes;52.5006916, -1.8841916;0.5
+14;penryn and falmouth;penryn and falmouth;amenity;yes;50.170493, -5.10379;0.9
+15;westmeath county;westmeath county;street;yes;52.635295, -1.071462;0
+16;londonderry;londonderry;;;54.9978678, -7.3213056;1
+17;bothwell, lanarkshire;bothwell;;;55.8026551, -4.0676955;1
+18;bootle;bootle;;;53.4506931, -2.9948834;1
+19;kerry north;kerry north;city;yes;52.50156, -3.25862;0.9
+20;longford south;longford south;amenity;yes;51.5334523, -2.4283334;0.9
+21;ludlow;ludlow;;;52.3679896, -2.7193114;1
+22;newcastle-under-lyme;newcastle-under-lyme;;;53.0117627, -2.2273919;1
+23;stockport;stockport;;;53.407901, -2.160243;1
+24;middlesex, hornsey;middlesex, hornsey;amenity;yes;51.472718, -0.323957;0.81
+25;sandwich;sandwich;;;51.2752527, 1.3408309;1
+26;edingburghshire;edingburghshire;;no;;
+27;southampton;southampton;;;50.8953905, -1.3480964907954378;1
+28;durham, houghton-le-spring;durham, houghton-le-spring;city;yes;54.839602, -1.470191;0.7142857142857143
+29;cirencester, gloucestershire;cirencester;;;51.7171029, -1.9661616;1
+30;devizes, wiltshire;devizes;;;51.3525027, -1.9958302;1
+31;suffolk, eye;suffolk, eye;city;yes;52.3226292, 1.1463709;0.9
+32;forest-of-dean, gloucestershire;forest-of-dean, gloucestershire;city;yes;51.7996179, -2.5305841628747032;0.75
+33;middlesex, spelthorne;middlesex;;;51.5, -0.41667;1
+34;droitwich;droitwich;;;52.26851, -2.1486075;1
+35;tower hamlets, whitechapel;tower hamlets, whitechapel;amenity;yes;51.5095303, -0.075386;0.63
+36;rhondda, glomorganshire;rhondda, glomorganshire;street;yes;51.659049, -3.448866;0.9
+37;sligo north;sligo north;street;yes;54.29439, -7.756063;0
+38;wicklow east;wicklow east;street;yes;53.533699, -0.097123;0
+39;iverness;iverness;;;;
+40;tewkesbury;tewkesbury;;;51.9925394, -2.1560169592908442;1
+41;devon, totnes;devon, totnes;city;yes;50.4322816, -3.6871525;0.5
+42;tottenham;tottenham;suburb;yes;51.5976955, -0.0672892;1
+43;greenock;greenock;;;55.9473423, -4.7564721;1
+44;manchester, exchange;manchester, exchange;amenity;yes;53.4859757, -2.2475911;1
+45;worcestershire;worcestershire;county;yes;52.2109495, -2.156955513242221;1
+46;lambeth, brixton;lambeth, brixton;amenity;yes;51.494542949999996, -0.12287979425034345;0.9
+47;ennis;ennis;;;54.60784, -1.098233;1
+48;cumberland, eskdale;cumberland, eskdale;amenity;yes;54.386061, -3.3129036;0.5
+49;south shields;south shields;;;54.9987414, -1.4321848;1
+0;rushcliffe, nottinghamshire;rushcliffe, nottinghamshire;amenity;yes;52.97160435, -1.0808814330673715;0.5
+1;dublin county;dublin county;street;yes;55.9575, -3.194509;0
+2;essex, harwich;essex, harwich;city;yes;51.9445801, 1.2898522;0.5
+3;shropshire;shropshire;county;yes;52.65233935, -2.64356407027027;1
+4;wilton, wiltshire;wilton;;;51.0805315, -1.8607051;1
+5;inverness-shire;inverness-shire;;;57.083333, -4.666667;1
+6;ross, herefordshire;ross;;;55.6268811, -1.7912003;1
+7;buckingham, buckinghamshire;buckingham;;;51.9983175, -0.9786725;1
+8;batley and morley;batley and morley;amenity;yes;52.9780992, -0.0214482;0.567
+9;shoreham;shoreham;;;50.8322307, -0.2746717;1
+10;birminghman;birminghman;;no;;
+11;elgin;elgin;;;57.6487891, -3.3148459;1
+12;kilmarnock, ayrshire and bute;kilmarnock, ayrshire and bute;city;yes;55.607296, -4.501386;0.3969
+13;ashton-under-lyne;ashton-under-lyne;;;53.4865407, -2.098691;1
+14;athlone;athlone;;;51.3597335, -0.3469947;1
+15;dunbartonshire;dunbartonshire;county;yes;55.933333, -4.2;1
+16;glasgow, camlachie;camlachie;;;;
+17;armagh north;armagh north;amenity;yes;54.94685185, -1.8428574184753144;0.9
+18;caithness and sutherland;caithness and sutherland;amenity;yes;58.5147311, -3.4928939;0.567
+19;kin, perthshire and kinross-shire;kin, perthshire and kinross-shire;amenity;yes;56.206555, -3.43298;0
+20;edmonton;edmonton;;;51.6267968, -0.0769118;1
+21;meath county;meath county;amenity;yes;51.360673, -0.52801;0
+22;lichfield;lichfield;;;52.6843696, -1.8275286;1
+23;oxfordshire;oxfordshire;county;yes;51.833333, -1.25;1
+24;kerry south;kerry south;city;yes;52.50156, -3.25862;0.9
+25;rutlandshire;rutlandshire;;no;;
+26;winchester, hampshire;winchester;;;51.0612766, -1.3131692;1
+27;ogmore, glamoranshire;ogmore, glamoranshire;city;yes;51.6023, -3.54217;0.81
+28;horncastle, lincolnshire;horncastle;;;53.2087265, -0.1169525;1
+29;dublin county north;dublin county north;amenity;yes;53.4524866, -3.0186397;0.63
+30;woodstock;woodstock;;;51.8942879, -4.8765902;1
+31;middlesex, uxbridge;uxbridge;;;51.5449509, -0.4816672;0.5
+32;southwark;southwark;amenity;yes;51.503925, -0.1049663;1
+33;northumberland, berwick-upon-twee;northumberland, berwick-upon-twee;street;yes;55.775208, -2.006404;0.6480000000000001
+34;kirkcudbrightshire;kirkcudbrightshire;postcode;yes;55, -4;1
+35;dublin county south;dublin county south;amenity;yes;53.4524866, -3.0186397;0.63
+36;smethwick;smethwick;;;52.4968157, -1.9739174;1
+37;buckinghamshire;buckinghamshire;county;yes;51.840894, -0.8998073587480795;1
+38;flintshire;flintshire;county;yes;53.216509599999995, -3.1402189049730413;1
+39;essex;essex;county;yes;51.77046785, 0.46466977412300386;1
+40;louth north;louth north;amenity;yes;53.3579863, 0.0326153;0.9
+41;barnstable;barnstable;;;51.59011705, -2.524661201066831;1
+42;dumfriesshire;dumfriesshire;postcode;yes;55.166667, -3.5;1
+43;west ham, silvertown;west ham, silvertown;amenity;yes;51.536422349999995, 0.008701348886019065;0.81
+44;worcester;worcester;;;52.1911849, -2.2206585;1
+45;armagh city;armagh city;amenity;yes;54.3478587, -6.653925109650157;1
+46;abingdon;abingdon;;;51.6714842, -1.2779715;1
+47;cambridge;cambridge;;;52.2055314, 0.1186637;1
+48;carrickfergus;carrickfergus;;;54.7136165, -5.8073112;1
+49;newark, nottinghamshire;newark;;;53.0736266, -0.8005422346357507;1
+0;leicester;leicester;52.6362, -1.1331969;1;;
+1;sheffield, hillsborough;sheffield;53.3806626, -1.4702278;1;;
+2;warwick and leamington;warwick and leamington;52.3979366, -1.5165732;0.81;amenity;yes
+3;birmingham, ladywood;birmingham, ladywood;52.4731, -1.9183;0.567;amenity;yes
+4;southwark, rotherhithe;southwark, rotherhithe;51.49345065, -0.05787425648064475;0.81;amenity;yes
+5;glasgow;glasgow;55.861155, -4.2501687;1;;
+6;droitwich, worcestershire;droitwich;52.26851, -2.1486075;1;;
+7;gateshead;gateshead;54.9625789, -1.6019294;1;;
+8;crewe, cheshire;crewe;53.0996153, -2.4414627;1;;
+9;oldham;oldham;53.5415797, -2.1147831;1;;
+10;hackney;hackney;51.5489139, -0.049938432352439555;1;amenity;yes
+11;wellingborough, northamptonshire;wellingborough;52.30189, -0.6937309;1;;
+12;willesden;willesden;51.5466216, -0.2358661;1;postcode;yes
+13;deptford;deptford;51.4758453, -0.0215164;1;;
+14;leigh;leigh;53.4960455, -2.5171495;1;;
+15;dublinn county south;dublinn county south;54.011869, -2.783752;0;amenity;yes
+16;finsbury;finsbury;51.521798, -0.0914245;1;suburb;yes
+17;peeb, midlothian and peeblesshire;peeb, midlothian and peeblesshire;55.835504, -3.173787;0;amenity;yes
+18;sussex, rye;sussex, rye;50.9511871, 0.7327667;0.5;city;yes
+19;aberdeenshire and kincardineshire;aberdeenshire and kincardineshire;;;;no
+20;malmesbury;malmesbury;51.58447, -2.0982042;1;;
+21;orkney and shetland;orkney and shetland;58.9819908, -2.9596737;0.7290000000000001;amenity;yes
+22;bournemouth;bournemouth;50.720097, -1.8799272;1;;
+23;gloamorganshire;gloamorganshire;;;;no
+24;gorton, lancashire;gorton;53.4636116, -2.1750359;1;;
+25;birmingham;birmingham;52.4796992, -1.9026911;1;;
+26;mansfield, nottinghamshire;mansfield;53.1443785, -1.1964165;1;;
+27;bosworth, leicestershire;bosworth;52.62170505, -1.4149268252673441;0.9;;
+28;bandon;bandon;51.3647773, -0.13483259828506877;1;;
+29;renfrewshire;renfrewshire;55.833333, -4.5;1;county;yes
+30;beverley;beverley;53.8425488, -0.4315677;1;;
+31;essex, walthamstow;essex;51.54450755, 0.5840084067307691;0.81;;
+32;dewsbury;dewsbury;53.6909103, -1.6302142;1;;
+33;salford;salford;53.4877463, -2.2891921;1;;
+34;stourbridge, worcestershire;stourbridge;52.4577615, -2.1474345;1;;
+35;cumberland, cockermouth;cockermouth;54.6614392, -3.3590111;1;;
+36;dungarvan;dungarvan;51.5356046, -3.1392788;1;;
+37;rhondda;rhondda;50.19383355, -5.42349135;1;;
+38;nottingham;nottingham;52.9534193, -1.1496461;1;;
+39;belfast north;belfast north;54.603533, -5.928807;0.9;city;yes
+40;kensington;kensington;51.4989948, -0.1991229;1;postcode;yes
+41;merthyr tydfil, merthyr;merthyr tydfil;51.7455659, -3.3786082;1;;
+42;northumberland, wansbeck;northumberland, wansbeck;55.294055, -1.637742;0.63;amenity;yes
+43;westmorland, kendal;kendal;54.3322466, -2.7401448;0.81;;
+44;durham, sedgefield;durham;54.7770139, -1.5756205;1;;
+45;horsham;horsham;51.0630273, -0.3295028;1;;
+46;greenwich;greenwich;51.4820845, -0.0045417;1;;
+47;kidderminster, worcestershire;kidderminster;52.3880787, -2.2478582;1;;
+48;belfast west;belfast west;54.603533, -5.928807;0.9;city;yes
+49;cockermouth;cockermouth;54.6614392, -3.3590111;1;;
+0;bath;bath;51.3813864, -2.3596963;1;;
+1;falkirk;falkirk;56.00205085, -3.749622841384784;1;county;yes
+2;warwickshire;warwickshire;52.32130635, -1.5536905536661392;1;county;yes
+3;launceston;launceston;50.6365062, -4.3604432;1;;
+4;fife;fife;56.3333331, -3.0000001;1;county;yes
+5;abertillery, monmouthshire;abertillery;51.7299485, -3.1359867;1;;
+6;roxburghshire;roxburghshire;55.5, -2.5;1;;
+7;louth, lincolnshire;louth;53.3675163, -0.0022381;1;;
+8;christchurch;christchurch;50.734902, -1.7778853;1;;
+9;andover, hampshire;andover;51.2078275, -1.479355;1;;
+10;leicestershire;leicestershire;52.666667, -1;1;county;yes
+11;brighton;brighton;50.8214626, -0.1400561;1;;
+12;birmingham, moseley;birmingham, moseley;52.45323, -1.88759;0.81;amenity;yes
+13;lisburn;lisburn;54.5112913, -6.0466736;1;postcode;yes
+14;down;down;54.3518644, -5.961616475076931;1;county;yes
+15;st helens;st helens;53.4486075, -2.7359820790816323;1;;
+16;westminster, abbey;westminster, abbey;51.4981579, -0.1319441;0.81;amenity;yes
+17;blackpool, lancashire;blackpool;53.8179442, -3.0509812;1;;
+18;broxtowe, nottinghamshire;broxtowe, nottinghamshire;52.970202400000005, -1.261989725119972;0.5;city;yes
+19;bedwellty, monmouthshire;bedwellty;51.6970601, -3.2053606;1;;
+20;lymington;lymington;50.7583753, -1.5426885;1;;
+21;loughborough, leicestershire;loughborough;52.7723859, -1.2077985;1;;
+22;hampstead;hampstead;51.55653, -0.1783011;1;postcode;yes
+23;york;york;53.9590555, -1.0815361;1;;
+24;cumberland, whitehaven;whitehaven;54.5474199, -3.5885335;1;;
+25;hertford, hertfordshire;hertford;51.7957409, -0.078521;1;;
+26;clonmel;clonmel;51.4346494, -0.18495899924058473;1;;
+27;kildare south;kildare south;55.677763999999996, -3.7725983789806516;0;amenity;yes
+28;pembrokeshire;pembrokeshire;51.8339209, -4.916667;1;county;yes
+29;stoke-on-trent, burslem;stoke-on-trent, burslem;53.0446287, -2.1928235;1;postcode;yes
+30;sheffield, hallam;sheffield, hallam;51.4613945, -1.7180334;0.5;postcode;yes
+31;wicklow west;wicklow west;53.881079650000004, -1.7197847499999965;0.9;amenity;yes
+32;carmarthen;carmarthen;51.8591257, -4.3115907;1;;
+33;liverpool, exchange;liverpool, exchange;53.410374, -2.979375;0.5;city;yes
+34;cirencester and, gloucestershire;cirencester and;51.71708, -1.96825;0.5;;
+35;stoke newington;stoke newington;51.5578698, -0.0822482;1;suburb;yes
+36;swansea, town;swansea, town;51.62079, -3.94323;0.5;city;yes
+37;tynemouth and north shields;tynemouth and north shields;55.0330659, -1.4290327;0.63;amenity;yes
+38;newcastle upon tyne;newcastle upon tyne;54.989692, -1.627914;1;;
+39;birmingham, sparkbrook;birmingham, sparkbrook;52.4639671, -1.8758275;0.5;postcode;yes
+40;neath, glamorganshire;neath, glamorganshire;51.66079, -3.82644;0.567;amenity;yes
+41;new forest, hampshire;new forest;50.8575514, -1.5779645531133135;1;;
+42;hornsey;hornsey;51.5873645, -0.1209667;1;suburb;yes
+43;abingdon, berkshire;abingdon;51.6714842, -1.2779715;1;;
+44;fermanagh south;fermanagh south;54.252321949999995, -7.557459924531137;0.567;amenity;yes
+45;kinsington upon hull;kinsington upon hull;53.770694, -0.32798;0.63;;
+46;liverppol;liverppol;;;;no
+47;linlithgowshire;linlithgowshire;55.916667, -3.5;1;county;yes
+48;glasgow, govan;glasgow;55.861155, -4.2501687;1;;
+49;monaghan county;monaghan county;54.2117656, -6.7962973;0;amenity;yes
+0;southport;southport;53.6475988, -3.0041751;1;;
+1;chatham;chatham;51.3819167, 0.526559;1;;
+2;moray and mairnshire;moray and mairnshire;57.6158, -3.57125;0;amenity;yes
+3;kinsale;kinsale;50.43173135, -3.669584325442478;1;;
+4;thrisk;thrisk;;;;no
+5;clare county;clare county;54.3261911, -6.4466378;0.9;postcode;yes
+6;caernarvon;caernarvon;53.1394364, -4.2769751;1;;
+7;chelsea;chelsea;51.4875167, -0.1687007;1;;
+8;kildare county;kildare county;55.678105, -3.772963;0;amenity;yes
+9;ripon;ripon;54.1362169, -1.5238006;1;;
+10;cardiganshire;cardiganshire;52.2945764, -3.9527809990291427;1;county;yes
+11;thetford;thetford;52.4156001, 0.748712;1;;
+12;kent, faversham;faversham;51.3158434, 0.8911283;0.5;;
+13;fylde, lancashire;fylde, lancashire;53.79336215, -2.89426008005;0;district;yes
+14;liskeard;liskeard;50.4546303, -4.4644227;1;;
+15;louth;louth;53.3675163, -0.0022381;1;;
+16;forest and dean, gloucestershire;forest and dean;51.7764412, -2.516133;0.44099999999999995;;
+17;eccles, lancashire;eccles;55.6657728, -2.377732;1;;
+18;frome;frome;51.2309875, -2.3216982;1;;
+19;newark-on-trent;newark-on-trent;53.0761693, -0.8092339;1;;
+20;west ham, stratford;stratford;51.539058, -0.003909;1;;
+21;wigton;wigton;54.8246802, -3.1610942;1;;
+22;West Stirlingshire, Stirlingshire and Clackmannanshire;stirlingshire;56.150455, -3.848063;0;;
+23;tyrone north;tyrone north;54.8253501, -7.4635216;0.7290000000000001;amenity;yes
+24;reading;reading;51.456659, -0.9696512;1;;
+25;wakefield;wakefield;53.6829541, -1.4967286;1;;
+26;evesham;evesham;52.0940158, -1.9483083;1;;
+27;dublin college green;dublin college green;51.520064, -0.430928;0.63;amenity;yes
+28;hertford;hertford;51.7957409, -0.078521;1;;
+29;liverpool, wavertree;liverpool, wavertree;53.3964505, -2.9281452;0.5;amenity;yes
+30;tipperary county;tipperary county;51.514088099999995, -0.10761511148648525;0.63;amenity;yes
+31;waterford county;waterford county;51.81911, -0.0954;0.9;city;yes
+32;kent, medway;kent;51.2009397, 0.3058174;0;;
+33;sligo;sligo;54.3309051, -7.6322089;1;;
+34;wirral, cheshire;wirral;53.3409714, -3.0500916;1;;
+35;shoreditch, hoxton;shoreditch, hoxton;51.5295386, -0.0800864;0.9;amenity;yes
+36;cricklade, wiltshire;cricklade;51.6414188, -1.8579414;1;;
+37;breconshire and radnorshire;breconshire and radnorshire;;;;no
+38;melton, leicestershire;melton;52.8117106, -0.8592867292244459;1;;
+39;andover;andover;51.2078275, -1.479355;1;;
+40;stafford;stafford;52.8063157, -2.1163818;1;;
+41;tralee;tralee;56.4988957, -5.4187061;1;;
+42;great yarmouth;great yarmouth;52.6119213, 1.7206879;1;;
+43;belfast east;belfast east;54.605322, -5.930401460730592;1;suburb;yes
+44;carlow county;carlow county;52.20538725, 0.137539144622093;0.9;amenity;yes
+45;dungannon;dungannon;54.5039088, -6.7703622;1;;
+46;lambeth;lambeth;51.4952111, -0.1163354;1;suburb;yes
+47;berwickshire;berwickshire;55.75, -2.5;1;;
+48;darwen, lancashire;darwen;53.6960957, -2.4665093;1;;
+49;woolwich;woolwich;51.4826696, 0.0623335;1;;
+0;hereford;hereford;52.0553813, -2.7151735;1;;
+1;denbigshire;denbigshire;;;no;
+2;wigtownshire;wigtownshire;54.8975188, -5.0214808;1;yes;amenity
+3;sheffield, park;sheffield, park;54.865111, -7.0807098;1;yes;postcode
+4;stamford;stamford;52.6519973, -0.4804579;1;;
+5;chesterton, cambridgeshire;chesterton;52.5723806, -2.3181227;1;;
+6;durham, consett;consett;54.861762, -1.833626;0.9;;
+7;manchester, rusholme;manchester, rusholme;53.471419, -2.244834;0.5;yes;city
+8;brecon;brecon;51.9472048, -3.391696;1;;
+9;st albans, hertfordshire;st albans;51.753051, -0.3379675;1;;
+10;tavistock;tavistock;50.5496154, -4.1446358;1;;
+11;peeblesshire;peeblesshire;55.6454616, -3.1721946;1;yes;amenity
+12;antrim;antrim;54.715139, -6.2192038;1;yes;postcode
+13;basingstoke, hampshire;basingstoke;51.262826, -1.0861976;1;;
+14;bromley;bromley;51.36685695, 0.061709076090816765;1;yes;district
+15;rochester, gillingham;rochester, gillingham;51.39759395, 0.543477996084319;0.9;yes;amenity
+16;essex, maldon;maldon;51.721221, 0.675147;0.9;;
+17;arfon, caernarvonshire;arfon, caernarvonshire;53.192312, -4.063491;0.5103;yes;street
+18;exeter;exeter;50.7255794, -3.5269497;1;;
+19;suffolk, woodbridge;woodbridge;52.0941323, 1.3199383;1;;
+20;birmingham, duddeston;birmingham, duddeston;52.4884888, -1.8712807;0.5;yes;amenity
+21;coatbridge, lanarkshire;coatbridge;55.8622848, -4.0273166;1;;
+22;sheffield, ecclesall;sheffield, ecclesall;53.3568319, -1.513869903027171;1;yes;amenity
+23;knaresborough;knaresborough;54.0099825, -1.462186;1;;
+24;bodmin;bodmin;50.470725, -4.7243205;1;;
+25;motherwell, lanarkshire;motherwell, lanarkshire;55.7902072, -3.9920191;0.5;yes;postcode
+26;sussex;sussex;50.94451385000001, -0.062267328417847545;1;;
+27;donegal county;donegal county;52.205858, 0.136471;0.9;yes;amenity
+28;linconlnshire;linconlnshire;;;no;
+29;suffolk, sudbury;suffolk, sudbury;52.0401524, 0.7299495;0.5;yes;postcode
+30;colchester;colchester;51.8896903, 0.8994651;1;;
+31;hastings;hastings;50.8553888, 0.5824703;1;;
+32;fermanagh county;fermanagh county;54.3459403, -7.644566876404299;1;yes;amenity
+33;kendal;kendal;54.3289795, -2.747183;1;;
+34;rochester;rochester;51.3883811, 0.504925;1;;
+35;middlesex, enfield;enfield;51.6593928, -0.1332549585379136;0.6561000000000001;;
+36;cambridgeshire;cambridgeshire;52.333333, 0.083333;1;yes;county
+37;paisley;paisley;55.8455828, -4.4239646;1;;
+38;chorley, lancashire;chorley;53.6531915, -2.6294313;1;;
+39;clay cross, derbyshire;clay cross;53.1652765, -1.4132383;1;;
+40;prestwich, lancashire;prestwich;53.5304274, -2.2960186;1;;
+41;manchester;manchester;53.4794892, -2.2451148;1;;
+42;mayo north;mayo north;51.464656649999995, -2.770842059418463;0;yes;suburb
+43;belfast;belfast;54.596391, -5.9301829;1;yes;postcode
+44;tipperary east;tipperary east;51.514088099999995, -0.10761511148648525;0.63;yes;amenity
+45;bury;bury;53.5927543, -2.2972827;1;;
+46;plymouth, sutton;plymouth, sutton;50.393988, -4.113637;0.5;yes;city
+47;widnes, lancashire;widnes;53.3646888, -2.7283328;1;;
+48;manchester, hulme;manchester, hulme;53.47008, -2.23908;0.567;yes;amenity
+49;the wrekin, shropshire;wrekin;52.67988, -2.53685;1;;
+0;wiltshire;wiltshire;county;yes;51.25, -1.916667;1.0
+1;nort, midlothian and peeblesshire;nort, midlothian and peeblesshire;amenity;yes;55.835504, -3.173787;0.0
+2;durham, durham;durham;;;54.7770139, -1.5756205;1.0
+3;westmorland;westmorland;county;yes;54.440693249999995, -2.7167995744814992;1.0
+4;meath south;meath south;amenity;yes;51.176876, -0.1526875;0.567
+5;wandsworth, streatham;wandsworth, streatham;amenity;yes;51.4246803, -0.138774;0.81
+6;birmingham, handsworth;birmingham, handsworth;city;yes;52.478308, -1.893538;0.5
