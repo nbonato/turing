@@ -1,3 +1,5 @@
+Chart.register(ChartDataLabels);
+
 var infoBox = document.getElementById("info-box");
 var pressChartWrapper = document.createElement("div");
 var pressChart = document.createElement("canvas")
@@ -86,7 +88,7 @@ function updateView(county, year) {
         return
     };
     // Create the chart
-    chartCreator(electionChart, electionChartData);
+    chartCreator(electionChart, electionChartData, "bar");
 
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
@@ -101,7 +103,7 @@ function updateView(county, year) {
 
 // Function to create the chart
 
-function chartCreator(canvas, data) {
+function chartCreator(canvas, data, chart_type = "doughnut") {
     // Get the existing chart instance
     let existingChart = Chart.getChart(canvas);
 
@@ -115,8 +117,9 @@ function chartCreator(canvas, data) {
     var values = Object.values(data);
 
     new Chart(canvas.getContext('2d'), {
-        type: 'doughnut',
+        type: chart_type,
         data: {
+            label: "Chart",
             labels: labels,
             datasets: [{
                 data: values
@@ -127,7 +130,7 @@ function chartCreator(canvas, data) {
             maintainAspectRatio: true,
             plugins: {
                 legend: {
-                    position: 'right'
+                    display : false
                 }
             }
         }
