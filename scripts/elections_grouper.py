@@ -26,20 +26,20 @@ elections = elections_replaced
 
 
 # 1910 had two elections in the course of the year, each with its
-# own ID: 636, 637
-elections = elections[elections["yr"] != 1910]
+# # own ID: 636, 637
+elections = elections[elections["id"] != 637]
 
-# In 1900 there are some inconsistencies in the data, maybe errors
-elections = elections[elections["yr"] != 1900]
+# # In 1900 there are some inconsistencies in the data, maybe errors
+# elections = elections[elections["yr"] != 1900]
 
-# need to clarify
-elections = elections[elections["yr"] != 1922]
+# # need to clarify
+# elections = elections[elections["yr"] != 1922]
 
-# need to clarify
-elections = elections[elections["yr"] != 1885]
+# # need to clarify
+# elections = elections[elections["yr"] != 1885]
 
-# need to clarify
-elections = elections[elections["yr"] != 1874]
+# # need to clarify
+# elections = elections[elections["yr"] != 1874]
 
 
 
@@ -91,66 +91,85 @@ first = elections[elections["id"] == 622]
 # 2. Checking the number of seats up for election (variable mag)
 # 3. Checking if the election was uncontested (variable vot1 == -992)
 
-results_first = {}
-for constituency in first["cst_n"].unique():
-    results_first[constituency] = {}
-    constituency_df = first[first["cst_n"] == constituency]
-    seats = constituency_df["mag"].unique()
-    uncontested = constituency_df["vot1"].unique()
-#    for index, row in first[first["cst_n"] == constituency].iterrows():
-    # Check if those values are not unique, if they aren't, that's a problem
 
-    try:
-        seats = int(seats)
-    except:
-        print("ERROR")
+results = []
+for year in elections["yr"].unique():
+    first = elections[elections["yr"] == year]    
     
-    try:
-        uncontested = int(uncontested)
-    except:
-        print("ERROR")
+    results_election = {}
     
-    # should be pty
-    parties = constituency_df["pty_n"].unique()
-    parties_running = len(parties)
-
-    if seats == 1:
+    for constituency in first["cst_n"].unique():
+        results_election[constituency] = {}
+        constituency_df = first[first["cst_n"] == constituency]
+        seats = constituency_df["mag"].unique()
+        uncontested = constituency_df["vot1"].unique()
+    #    for index, row in first[first["cst_n"] == constituency].iterrows():
+        # Check if those values are not unique, if they aren't, that's a problem
+    
+        try:
+            seats = int(seats)
+        except:
+            print("ERROR, seats is not an integer", seats, constituency, year)
+        
+        try:
+            uncontested = int(uncontested)
+        except:
+            print("ERROR, uncontested is not an integer", uncontested, constituency, year)
+            continue
+        
+        # should be pty
+        parties = constituency_df["pty_n"].unique()
+        parties_running = len(parties)
+    
+    
+        if seats == 1:
+            if uncontested == -992:
+                # This means that the elections is uncontested with a single seat
+                if parties_running > 1:
+                    print("ERROR, there are multiple parties running for one seat")
+        
         if uncontested == -992:
-            # This means that the elections is uncontested with a single seat
-            if parties_running > 1:
-                print("error")
+            # This means that the elections is uncontested
+            if parties_running > seats:
+                # This would be an error, since it cannot be uncontested if there
+                # are more parties than seats, in principle
+                print("ERROR, there are more parties than seats in uncontested election", constituency, year)
+            
+            else:
+                # Mostly used for 3 or 4 seats constituencies where there might be fewer
+                # parties than seats and one party is gettint multiple seats
+                for party in constituency_df["pty_n"]: 
+                    
+                    if party in results_election[constituency].keys():
+                        results_election[constituency][party] += seats/len(constituency_df["pty_n"])
+                        #print(constituency, party, results_first[constituency])
     
-    if uncontested == -992:
-        # This means that the elections is uncontested
-        if parties_running > seats:
-            # This would be an error, since it cannot be uncontested if there
-            # are more parties than seats, in principle
-            print("ERROR")
+                    else:
+                        results_election[constituency][party] = seats/len(constituency_df["pty_n"])
+                #print(constituency, party, results_first[constituency])
         
         else:
-            # Mostly used for 3 or 4 seats constituencies where there might be fewer
-            # parties than seats and one party is gettint multiple seats
-            for party in constituency_df["pty_n"]: 
+            if parties_running == 1:
+                results_election[constituency][parties[0]] = seats
+            elif parties_running > 1:
+                sorted_constituency_df = constituency_df.sort_values("cvs1", ascending=False)
+                # Get the first three lines of the dataframe
+                df = sorted_constituency_df.iloc[0:3]
                 
-                if party in results_first[constituency].keys():
-                    results_first[constituency][party] += seats/len(constituency_df["pty_n"])
-                    #print(constituency, party, results_first[constituency])
-
-                else:
-                    results_first[constituency][party] = seats/len(constituency_df["pty_n"])
-            #print(constituency, party, results_first[constituency])
-    
-    else:
-        if parties_running == 1:
-            results_first[constituency][parties[0]] = seats
-        elif parties_running > 1:
-            constituency_df.sort_values("cvs1", inplace=True)
-
-            print(constituency_df)
-        else:
-            print("ERROR")
-            
-    #print(constituency, parties_running, seats)
+                # Group the dataframe by column pty
+                grouped_df = df.groupby("pty_n")
+                
+                # Get the frequency counts of each party
+                party_counts = grouped_df["pty_n"].size()
+                
+                # Create a dictionary with the party names and their frequency counts
+                party_dict = dict(zip(party_counts.index, party_counts))
+                results_election[constituency] = party_dict 
+            else:
+                print("ERROR, there are 0 or less parties running")
+                
+    results.append(results_election)
+        #print(constituency, parties_running, seats)
 
     
     
