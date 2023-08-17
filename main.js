@@ -237,9 +237,9 @@ var pressDirectories;
 
 // Main function to handle the process
 function initializeApp() {
-	const electionsData = checkLocalStorage("elections");
+    const electionsData = checkLocalStorage("elections");
 	const pressDirectoriesData = checkLocalStorage("pressDirectories");
-    electionYears = Object.keys(electionsData);
+
 	if (electionsData && pressDirectoriesData) {
 		// Data exists in local storage, use it directly
 		elections = electionsData;
@@ -261,6 +261,9 @@ function initializeApp() {
 				console.error("Error fetching and storing JSON data:", error);
 			});
 	}
+
+    electionYears = Object.keys(electionsData);
+
 }
 
 // Call the main function to initialize the app
