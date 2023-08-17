@@ -75,5 +75,5 @@ print(f"Execution time: {execution_time} seconds")
 frequency_dict = frequency.set_index("county_year")["results"].to_dict()
 # Save the dictionary as a JSON file
 with open("new_data.json", "w") as json_file:
-    json.dump(test_dict, json_file)
+    json.dump(test_dict, json_file, indent = 2)
 

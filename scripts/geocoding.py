@@ -55,7 +55,7 @@ circles = {
 maxAttempt = 20
 result = ""
 def getLocations(places):
-    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb&apiKey=" + apiKey
+    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb,ie&apiKey=" + apiKey
     response = requests.post(url, json = places)
     result = response.json()
 
@@ -235,5 +235,5 @@ while start <= len(data)-1:
 
 
     locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
-    locations_dataframe.to_csv("coordinates2.csv", mode="a", index=True, header=False, sep=";")
+    locations_dataframe.to_csv("coordinates3.csv", mode="a", index=True, header=False, sep=";")
 
