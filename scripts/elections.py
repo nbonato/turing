@@ -334,6 +334,21 @@ dubious_changes = {
     "rowburghshire" : "roxburghshire"
     }        
 
+
+
+
+
+elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_changes)   
+
+
+
+
+
+#sys.exit()
+
+
+'''
+
 dubious_regex = {
     r"\bnorthumberland\b.*": "northumberland",
     # This will require merging Kincardineshire with aberdeenshire from 1918
@@ -341,18 +356,7 @@ dubious_regex = {
 }
 
 
-
-
-
 elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_regex, regex=True)
-
-
-locations = elections_replaced[["cst_n", "sub"]]
-
-
-#sys.exit()
-
-'''
 
 # This part creates a dictionary matching with regex, which can be used to try
 # and match places like "aberdeen, north" to "aberdeen". After that, I run
@@ -387,7 +391,6 @@ for index, row in elections_replaced.iterrows():
 
 
 
-elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_changes)   
 
 
 shire_counties = elections_replaced[~elections_replaced['press_county'].str.endswith('shire')]
@@ -425,7 +428,7 @@ for index, row in elections_replaced.iterrows():
         if cst_n in replace.keys():
             elections_replaced.at[index, 'press_county'] = replace[cst_n]
 
-
+'''
 
 #counties_before_irish = elections_replaced["press_county"].unique()
 
@@ -461,6 +464,13 @@ irish_counties_county = [county + " county" for county in irish_counties]
 elections_replaced = elections_replaced[~elections_replaced['press_county'].isin(irish_counties_county)]
 
 
+# These two steps remove the university constituencies, which are not trackable to
+# a specific area. There are two steps to try and catch all cases
+elections_replaced = elections_replaced[~elections_replaced["cst_n"].str.contains("universit")]
+elections_replaced = elections_replaced[~elections_replaced["sub"].str.contains("universit")]
+
+
+locations = elections_replaced[["cst_n", "sub"]]
 
 
 #counties_after_irish = elections_replaced["press_county"].unique()
@@ -488,4 +498,4 @@ winsound.Beep(frequency, duration)
 # test = elections[elections["cst_n"].str.contains("elgin")]
 
 
-'''
+

@@ -41,8 +41,15 @@ elections = elections[elections["id"] != 637]
 # # need to clarify
 # elections = elections[elections["yr"] != 1874]
 
+# ISSUES ABOVE TO BE SCRUTINISED WITH CODE FOR GROUPED_DF
 
+# THIS PART BELOW UNEARTHS SOME ISSUES WITH THE ELECTION DATA
 
+# grousped_df = elections.groupby(
+#     ['yr', 'cst', 'pty']
+#     ).agg({'pev1': process_unique, 'pvs1': process_unique}
+#     ).reset_index()
+     
 
 def process_unique(x):
     unique_values = x.unique()
@@ -53,11 +60,6 @@ def process_unique(x):
 
 
 
-# grouped_df = elections.groupby(
-#     ['yr', 'cst', 'pty']
-#     ).agg({'pev1': process_unique, 'pvs1': process_unique}
-#     ).reset_index()
-     
 
 # Dictionary that stores the county corresponding to a specific county id per
 # each year
@@ -92,7 +94,7 @@ first = elections[elections["id"] == 622]
 # 3. Checking if the election was uncontested (variable vot1 == -992)
 
 
-results = []
+results = {}
 for year in elections["yr"].unique():
     first = elections[elections["yr"] == year]    
     
@@ -141,16 +143,16 @@ for year in elections["yr"].unique():
                 for party in constituency_df["pty_n"]: 
                     
                     if party in results_election[constituency].keys():
-                        results_election[constituency][party] += seats/len(constituency_df["pty_n"])
+                        results_election[constituency][party] += int(seats/len(constituency_df["pty_n"]))
                         #print(constituency, party, results_first[constituency])
     
                     else:
-                        results_election[constituency][party] = seats/len(constituency_df["pty_n"])
+                        results_election[constituency][party] = int(seats/len(constituency_df["pty_n"]))
                 #print(constituency, party, results_first[constituency])
         
         else:
             if parties_running == 1:
-                results_election[constituency][parties[0]] = seats
+                results_election[constituency][parties[0]] = int(seats)
             elif parties_running > 1:
                 sorted_constituency_df = constituency_df.sort_values("cvs1", ascending=False)
                 # Get the first three lines of the dataframe
@@ -168,7 +170,7 @@ for year in elections["yr"].unique():
             else:
                 print("ERROR, there are 0 or less parties running")
                 
-    results.append(results_election)
+    results[int(year)] = results_election
         #print(constituency, parties_running, seats)
 
     
@@ -177,22 +179,20 @@ for year in elections["yr"].unique():
     
     
     
-'''
-nested_dict = {}
+# nested_dict = {}
 
-for _, row in grouped_df.iterrows():
-    yr = int(row['yr'])
-    #cst = row['cst']
-    cst = counties_equivalence[yr][row['cst']]
-    pty = parties_equivalence[yr][row['pty']]
-    pvs1 = row['pvs1']
-    if pvs1 == -992:
-        pvs1 = "uncontested"
+# for _, row in grousped_df.iterrows():
+#     yr = int(row['yr'])
+#     #cst = row['cst']
+#     cst = counties_equivalence[yr][row['cst']]
+#     pty = parties_equivalence[yr][row['pty']]
+#     pvs1 = row['pvs1']
+#     if pvs1 == -992:
+#         pvs1 = "uncontested"
 
-    nested_dict.setdefault(yr, {})
-    nested_dict[yr].setdefault(cst, {})
-    nested_dict[yr][cst][pty] = pvs1
+#     nested_dict.setdefault(yr, {})
+#     nested_dict[yr].setdefault(cst, {})
+#     nested_dict[yr][cst][pty] = pvs1
     
 with open("elections.json", "w") as json_file:
-    json.dump(nested_dict, json_file, indent = 2)
-'''
+    json.dump(results, json_file, indent = 2)
