@@ -94,11 +94,14 @@ matching_elements = districts.intersection(electoral_check)
 district_county_dict = {}
 
 
+
+
+
+
+
 # Remove all districts that are not present in the elections dataset
 # It would be useless to keep them since they won't help in getting
 # from the constituency name to the relevant county
-
-
 
 districts = set(districts_counties["district"].to_list())
 keep = districts.intersection(electoral_check)
@@ -186,6 +189,53 @@ replace_typos = {
 
 
 elections_replaced["press_county"] = elections_replaced["cst_n"].replace(replace_typos)   
+
+
+
+
+# Remove Irish counties from the dataset
+#counties_before_irish = elections_replaced["press_county"].unique()
+
+# Removing these two counties temporarily is necessary to avoid matching UK counties 
+# such as king's lynn and queen's university of belfast
+elements_to_remove = ["king's", "queen's"]
+
+# List of regex patterns to match in 'press_county', excluding elements_to_remove
+counties_regex = [rf"\b{county}.*" for county in irish_counties if county not in elements_to_remove]
+
+# add the regex for king's and queen's county
+counties_regex += [r"\bking's county.*", r"\bqueen's county.*"]
+
+# Create the regex pattern by joining the list elements with '|'
+regex_pattern = '|'.join(counties_regex)
+
+# exclude matched counties using the regex
+elections_replaced = elections_replaced[~elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
+
+# # check if the match worked correctly
+# matched_regex_counties = elections_replaced[elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
+
+# matched_regex_counties = list(matched_regex_counties["press_county"].unique())
+
+
+# add back the two excluded counties
+irish_counties += elements_to_remove
+
+# add county to the end of each county's name
+irish_counties_county = [county + " county" for county in irish_counties]
+
+# remove the irish counties
+elections_replaced = elections_replaced[~elections_replaced['press_county'].isin(irish_counties_county)]
+
+
+
+
+# These two steps remove the university constituencies, which are not trackable to
+# a specific area. There are two steps to try and catch all cases
+elections_replaced = elections_replaced[~elections_replaced["cst_n"].str.contains("universit")]
+elections_replaced = elections_replaced[~elections_replaced["sub"].str.contains("universit")]
+
+
 
 
 
@@ -347,127 +397,7 @@ elections_replaced["press_county"] = elections_replaced["press_county"].replace(
 #sys.exit()
 
 
-'''
 
-dubious_regex = {
-    r"\bnorthumberland\b.*": "northumberland",
-    # This will require merging Kincardineshire with aberdeenshire from 1918
-    r"\bantrim.*" : "antrim county"
-}
-
-
-elections_replaced["press_county"] = elections_replaced["press_county"].replace(dubious_regex, regex=True)
-
-# This part creates a dictionary matching with regex, which can be used to try
-# and match places like "aberdeen, north" to "aberdeen". After that, I run
-# the district-county matching to try and improve the matching
-
-# # Does it make sense to tailor it to the year?
-composed_regex = {rf"\b{element}.*": element for element in districts}
-
-
-elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex, regex=True)
-
-
-press_counties = cleaned_press_directories["county"].unique()
-composed_regex_counties = {rf"\b{element}.*": element for element in press_counties}
-
-elections_replaced['press_county'] = elections_replaced['press_county'].replace(composed_regex_counties, regex=True)
-
-
-# I re-run this on the replaced districts, to match new ones
-
-for index, row in elections_replaced.iterrows():
-    yr = row['yr']
-    if yr in electoral_district_county.keys():
-        cst_n = row['press_county']
-        replace = electoral_district_county[yr]
-        if cst_n in replace.keys():
-            if "east" in cst_n:
-                print(f"replacing {cst_n}", end="")
-                print(f" with {replace[cst_n]}")
-            elections_replaced.at[index, 'press_county'] = replace[cst_n]
-
-
-
-
-
-
-shire_counties = elections_replaced[~elections_replaced['press_county'].str.endswith('shire')]
-
-grouped_election_counties = shire_counties.groupby('yr')['press_county'].unique().apply(list).to_dict()
-
-
-def find_next_election_year(year):
-    for year_value in years_list:
-        if year_value >= year:
-            return year_value
-    return None  # Return None if no election year found
-
-
-cleaned_press_directories['election_year'] = cleaned_press_directories['year'].apply(find_next_election_year)
-
-grouped_press_counties = cleaned_press_directories.groupby('election_year')['county'].unique().apply(list).to_dict()
-
-
-election_counties = {}
-for year, counties in grouped_election_counties.items():
-    election_counties[str(year)] = {}
-    for county in counties:
-        if county + "shire" in grouped_press_counties[year]:
-            election_counties[str(year)][county] = county + "shire"
-
-
-
-for index, row in elections_replaced.iterrows():
-    yr = row['yr']
-    if str(yr) in election_counties.keys():
-        cst_n = row['press_county']
-        replace = election_counties[str(yr)]
-
-        if cst_n in replace.keys():
-            elections_replaced.at[index, 'press_county'] = replace[cst_n]
-
-'''
-
-#counties_before_irish = elections_replaced["press_county"].unique()
-
-# Removing these two counties temporarily is necessary to avoid matching UK counties 
-# such as king's lynn and queen's university of belfast
-elements_to_remove = ["king's", "queen's"]
-
-# List of regex patterns to match in 'press_county', excluding elements_to_remove
-counties_regex = [rf"\b{county}.*" for county in irish_counties if county not in elements_to_remove]
-
-# add the regex for king's and queen's county
-counties_regex += [r"\bking's county.*", r"\bqueen's county.*"]
-
-# Create the regex pattern by joining the list elements with '|'
-regex_pattern = '|'.join(counties_regex)
-
-# exclude matched counties using the regex
-elections_replaced = elections_replaced[~elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
-
-# # check if the match worked correctly
-# matched_regex_counties = elections_replaced[elections_replaced['press_county'].str.contains(regex_pattern, case=False, regex=True)]
-
-# matched_regex_counties = list(matched_regex_counties["press_county"].unique())
-
-
-# add back the two excluded counties
-irish_counties += elements_to_remove
-
-# add county to the end of each county's name
-irish_counties_county = [county + " county" for county in irish_counties]
-
-# remove the irish counties
-elections_replaced = elections_replaced[~elections_replaced['press_county'].isin(irish_counties_county)]
-
-
-# These two steps remove the university constituencies, which are not trackable to
-# a specific area. There are two steps to try and catch all cases
-elections_replaced = elections_replaced[~elections_replaced["cst_n"].str.contains("universit")]
-elections_replaced = elections_replaced[~elections_replaced["sub"].str.contains("universit")]
 
 
 locations = elections_replaced[["cst_n", "sub"]]

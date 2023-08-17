@@ -12,11 +12,39 @@ concerned with that
 
 Particular situations are highlighted here: https://www.notion.so/nbonato/Errors-in-Elections-03b5a4b48a31441d84d3c640a3457970
 """
-import numpy as np
-import pickle
 import json
 
 from elections import elections_replaced
+from geocoding import changes
+from shapely.geometry import shape, Point
+import pandas as pd
+
+
+column_names = ["ignore", "place", "location", "confidence"]
+coordinates = pd.read_csv("coordinates3.csv", header = None, sep= ";", names = column_names)
+coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
+coordinates = coordinates.drop("ignore", axis=1)
+
+with open('C:/Users/Nico/github/turing/geodata/updated_map.json', 'r') as f:
+    js = json.load(f)
+
+
+
+for feature in js['features']:
+
+    polygon = shape(feature['geometry'])
+    
+    for index, row in coordinates.iterrows():
+        point = Point(row["longitude"], row["latitude"])
+        
+        if polygon.contains(point):
+            coordinates.at[index, "county"] = feature["properties"]["NAME"]
+            #print ('Found containing polygon:', feature["properties"]["NAME"])
+           
+            
+county_mapping = dict(zip(coordinates['place'], coordinates['county']))           
+
+
 
 # file = open("pickles/elections_cleaned.pkl", 'rb')
 
@@ -58,6 +86,11 @@ def process_unique(x):
     return unique_values.tolist() if len(unique_values) > 1 else unique_values[0]
 
 
+# Define a mapping function
+def map_county(cst_n):
+    return county_mapping[changes[cst_n]]
+
+#elections["geolocated_county"] = elections['cst_n'].apply(map_county)
 
 
 
@@ -85,6 +118,10 @@ for _, row in elections.iterrows():
     parties_equivalence[yr][pty] = pty_n
     
 
+
+
+
+
 first = elections[elections["id"] == 622]    
 
 # This part calculates the elected MP for each constituency and their party
@@ -95,6 +132,8 @@ first = elections[elections["id"] == 622]
 
 
 results = {}
+results_copy = {}
+
 for year in elections["yr"].unique():
     first = elections[elections["yr"] == year]    
     
@@ -122,7 +161,6 @@ for year in elections["yr"].unique():
         # should be pty
         parties = constituency_df["pty_n"].unique()
         parties_running = len(parties)
-    
     
         if seats == 1:
             if uncontested == -992:
@@ -171,11 +209,36 @@ for year in elections["yr"].unique():
                 print("ERROR, there are 0 or less parties running")
                 
     results[int(year)] = results_election
+    results_copy[int(year)] = results_election
         #print(constituency, parties_running, seats)
 
+
+
+
+for year_key, results_election in results.items():    
+    test_dictionary = {}
     
+    for ungrouped_constituency in results_election:
+        geoloc_county = map_county(ungrouped_constituency)
+        # if geoloc_county != "Aberdeenshire":
+        #     break
+        if geoloc_county in test_dictionary.keys():
+            # print(ungrouped_constituency, test_dictionary[geoloc_county])
+            for key, value in results_election[ungrouped_constituency].items():
+                
+                if key in test_dictionary[geoloc_county].keys():
     
+                    test_dictionary[geoloc_county][key] += value
+                else:
+                    #print(ungrouped_constituency, geoloc_county, key,  "not in keys")
     
+                    test_dictionary[geoloc_county][key] = value
+        else:
+            # print(ungrouped_constituency, results_election[ungrouped_constituency])
+    
+            test_dictionary[geoloc_county] = results_election[ungrouped_constituency]
+    results[year_key] = test_dictionary
+
     
     
     

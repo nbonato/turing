@@ -10,6 +10,7 @@ import time
 from combine import only_in_elections_cleaned
 from elections import locations
 import pandas as pd
+import sys
 
 
 locations["sub"] = locations["sub"].str.split("-", n=1).str[0]
@@ -122,15 +123,60 @@ logs["district of"] = []
 logs["parenthesis"] = []
 logs["yorkshire"] = []
 
+
+# This dictionary stores just the changes, to match back the final results
+# to the original dataset
+
+
+
+
+
+changes = {}
+
+
+typos = {
+    "berwickshre": "berwickshire",
+    "linconlnshire": "lincolnshire",
+    "nuneatton, warwickshire": "nuneaton, warwickshire",
+    "birminghman": "birmingham",
+    "thrisk": "thrisk",
+    "birminghman, edgbaston": "birmingham, edgbaston",
+    "susex, lewes": "sussex, lewes",
+    "krikcaldy": "kirkcaldy",
+    "iverness-shire": "inverness-shire",
+    "middlsex, spelthorne": "middlesex, spelthorne",
+    "leicesterhsire, haborough": "leicestershire, haborough",
+    "cirenchester": "cirenchester",
+    "gloamorganshire": "glamorganshire",
+    "durgavan": "dungarvan",
+    "greenwhich": "greenwich",
+    "prtsmouth": "portsmouth",
+    "rowburghshire": "roxburghshire",
+    "endinburghshire": "edinburghshire",
+    "scaraborough": "scarborough",
+    "surreey, kingston": "surrey, kingston",
+    "liverppol": "liverpool",
+    "sundersland": "sunderland",
+    "esex, walthamstow": "essex, walthamstow",
+    "clasgow, gorbals": "glasgow, gorbals",
+    "kesington": "kensington",
+    "kutsford, cheshire": "knutsford, cheshire",
+    "norfold": "norfolk",
+    "stafforshire": "staffordshire",
+    "wighan": "wigan",
+    "iverness": "inverness",
+}
+
+logs["typos"] = typos
+
 def clean(string):
     return string.rstrip().rstrip(",").lstrip()
 
 for index, row in locations.iterrows():
+    
 # The log dictionary stores each change made in this process, to make it easier
 # to check that there is no spillover of unwarranted changes
     place = clean(row['cst_n'])
-    
-    
     
 # Many different spellings of Yorkshire subdivisions are in the dataset,
 # making it difficult to intercept them with the other techniques without 
@@ -164,44 +210,18 @@ for index, row in locations.iterrows():
             place = clean(f"{comma_split[1]}, {comma_split[0]}")
     data.append(place)
     
-typos = {
-    "berwickshre": "berwickshire",
-    "linconlnshire": "lincolnshire",
-    "nuneatton, warwickshire": "nuneaton, warwickshire",
-    "birminghman": "birmingham",
-    "thrisk": "thrisk",
-    "birminghman, edgbaston": "birmingham, edgbaston",
-    "susex, lewes": "sussex, lewes",
-    "krikcaldy": "kirkcaldy",
-    "iverness-shire": "inverness-shire",
-    "middlsex, spelthorne": "middlesex, spelthorne",
-    "leicesterhsire, haborough": "leicestershire, haborough",
-    "cirenchester": "cirenchester",
-    "gloamorganshire": "glamorganshire",
-    "durgavan": "dungarvan",
-    "greenwhich": "greenwich",
-    "prtsmouth": "portsmouth",
-    "rowburghshire": "roxburghshire",
-    "endinburghshire": "edinburghshire",
-    "scaraborough": "scarborough",
-    "surreey, kingston": "surrey, kingston",
-    "liverppol": "liverpool",
-    "sundersland": "sunderland",
-    "esex, walthamstow": "essex, walthamstow",
-    "clasgow, gorbals": "glasgow, gorbals",
-    "kesington": "kensington",
-    "kutsford, cheshire": "knutsford, cheshire",
-    "norfold": "norfolk",
-    "stafforshire": "staffordshire",
-    "wighan": "wigan",
-    "iverness": "inverness",
-}
+    if place in typos.keys():
+        place = typos[place]
+    changes[row['cst_n']] = place
+
     
-replace_elements(data, typos)
+
+    
+#replace_elements(data, typos)
 data = list(set(data))
 
 
-
+'''
 start = 0
 
 while start <= len(data)-1:
@@ -236,4 +256,4 @@ while start <= len(data)-1:
 
     locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
     locations_dataframe.to_csv("coordinates3.csv", mode="a", index=True, header=False, sep=";")
-
+'''

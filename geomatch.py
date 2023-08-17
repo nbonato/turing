@@ -2,6 +2,7 @@ import json
 from shapely.geometry import shape, GeometryCollection, Point
 import pandas as pd
 
+
 column_names = ["ignore", "place", "location", "confidence"]
 coordinates = pd.read_csv("scripts/coordinates3.csv", header = None, sep= ";", names = column_names)
 coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
