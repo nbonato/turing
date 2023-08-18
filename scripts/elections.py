@@ -416,13 +416,12 @@ winsound.Beep(frequency, duration)
 
 
 
-# elections_cleaned = elections_replaced.copy()
+elections_cleaned = elections_replaced.copy()
 
-# pickle_file = os.path.join(current_dir, 'pickles', 'elections_cleaned.pkl')
 
-# with open(pickle_file, 'wb') as f:
-#     pickle.dump(elections_cleaned, f)
-#     f.close()
+with open("elections_cleaned.pkl", 'wb') as f:
+    pickle.dump(elections_cleaned, f)
+    f.close()
 
 
 # test = elections[elections["cst_n"].str.contains("elgin")]

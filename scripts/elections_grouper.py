@@ -13,13 +13,15 @@ concerned with that
 Particular situations are highlighted here: https://www.notion.so/nbonato/Errors-in-Elections-03b5a4b48a31441d84d3c640a3457970
 """
 import json
-
-from elections import elections_replaced
+import pickle
+#from elections import elections_replaced
 from geocoding import changes
 from shapely.geometry import shape, Point
 import pandas as pd
 
-
+with open("elections_cleaned.pkl", 'rb') as f:
+    elections_replaced = pickle.load(f)
+    
 column_names = ["ignore", "place", "location", "confidence"]
 coordinates = pd.read_csv("coordinates3.csv", header = None, sep= ";", names = column_names)
 coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
@@ -220,8 +222,9 @@ for year_key, results_election in results.items():
     
     for ungrouped_constituency in results_election:
         geoloc_county = map_county(ungrouped_constituency)
-        # if geoloc_county != "Aberdeenshire":
-        #     break
+        """ print(year, ungrouped_constituency, geoloc_county)
+        if geoloc_county != "Aberdeenshire":
+            break """
         if geoloc_county in test_dictionary.keys():
             # print(ungrouped_constituency, test_dictionary[geoloc_county])
             for key, value in results_election[ungrouped_constituency].items():
