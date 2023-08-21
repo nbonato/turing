@@ -14,7 +14,6 @@ Particular situations are highlighted here: https://www.notion.so/nbonato/Errors
 """
 import json
 import pickle
-#from elections import elections_replaced
 from geocoding import changes
 from shapely.geometry import shape, Point
 import pandas as pd
@@ -23,7 +22,7 @@ with open("elections_cleaned.pkl", 'rb') as f:
     elections_replaced = pickle.load(f)
     
 column_names = ["ignore", "place", "location", "confidence"]
-coordinates = pd.read_csv("coordinates3.csv", header = None, sep= ";", names = column_names)
+coordinates = pd.read_csv("coordinates2.csv", header = None, sep= ";", names = column_names)
 coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
 coordinates = coordinates.drop("ignore", axis=1)
 
@@ -92,7 +91,7 @@ def process_unique(x):
 def map_county(cst_n):
     return county_mapping[changes[cst_n]]
 
-#elections["geolocated_county"] = elections['cst_n'].apply(map_county)
+elections["geolocated_county"] = elections['cst_n'].apply(map_county)
 
 
 
@@ -122,7 +121,7 @@ for _, row in elections.iterrows():
 
 
 
-
+elections.to_csv("elections_geolocated.csv")
 
 first = elections[elections["id"] == 622]    
 
@@ -132,7 +131,7 @@ first = elections[elections["id"] == 622]
 # 2. Checking the number of seats up for election (variable mag)
 # 3. Checking if the election was uncontested (variable vot1 == -992)
 
-
+mps = {}
 results = {}
 results_copy = {}
 
@@ -163,7 +162,7 @@ for year in elections["yr"].unique():
         # should be pty
         parties = constituency_df["pty_n"].unique()
         parties_running = len(parties)
-    
+
         if seats == 1:
             if uncontested == -992:
                 # This means that the elections is uncontested with a single seat
@@ -209,7 +208,13 @@ for year in elections["yr"].unique():
                 results_election[constituency] = party_dict 
             else:
                 print("ERROR, there are 0 or less parties running")
-                
+        if seats < 0:
+            print(constituency)
+        else:     
+            if year in mps.keys():
+                mps[year] += seats
+            else:
+                mps[year] = seats
     results[int(year)] = results_election
     results_copy[int(year)] = results_election
         #print(constituency, parties_running, seats)
@@ -217,11 +222,53 @@ for year in elections["yr"].unique():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yorkshire_cities = {key: value for key, value in county_mapping.items() if value == "Yorkshire"}
+nan_values = {key: value for key, value in county_mapping.items() if type(value) == float}
+
 for year_key, results_election in results.items():    
     test_dictionary = {}
     
     for ungrouped_constituency in results_election:
         geoloc_county = map_county(ungrouped_constituency)
+        if type(geoloc_county) == str:
+            geoloc_county = geoloc_county.lower()
         """ print(year, ungrouped_constituency, geoloc_county)
         if geoloc_county != "Aberdeenshire":
             break """
@@ -242,7 +289,21 @@ for year_key, results_election in results.items():
             test_dictionary[geoloc_county] = results_election[ungrouped_constituency]
     results[year_key] = test_dictionary
 
-    
+
+
+# converted_data = {}
+# for year, counties in results.items():
+#     converted_data[year] = {}
+#     for county, parties in counties.items():
+#         converted_data[year][county] = {
+#             "labels": [county],
+#             "datasets": []
+#         }
+#         for party, value in parties.items():
+#             converted_data[year][county]["datasets"].append({
+#                 "label": party,
+#                 "data": [value]
+#             })
     
     
 # nested_dict = {}

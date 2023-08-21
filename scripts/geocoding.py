@@ -56,7 +56,7 @@ circles = {
 maxAttempt = 20
 result = ""
 def getLocations(places):
-    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb,ie&apiKey=" + apiKey
+    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb&apiKey=" + apiKey
     response = requests.post(url, json = places)
     result = response.json()
 
@@ -221,39 +221,39 @@ for index, row in locations.iterrows():
 data = list(set(data))
 
 
-'''
-start = 0
 
-while start <= len(data)-1:
-    coordinates = getLocations(data[start:start+50])
-    start += 50
-    locations_dict_list = []
+# start = 0
 
-    for element in coordinates:
-        locations_dictionary  = {}
+# while start <= len(data)-1:
+#     coordinates = getLocations(data[start:start+50])
+#     start += 50
+#     locations_dict_list = []
 
-        locations_dictionary["query"] = element["query"]["text"]
-        # try:
-        #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
-        # except:
-        #     print(locations_dictionary["query"], " not a city")
-        #     locations_dictionary["searched"] = element["query"]["text"]
-        #     try:
-        #         locations_dictionary["searched_type"] = element["result_type"]
-        #         locations_dictionary["found"] = "yes"
-        #     except:
-        #         locations_dictionary["found"] = "no"
-        try:
-            locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
-        except:
-            locations_dictionary["coordinates"] = ""
-        try:
-            locations_dictionary["confidence"] = element["rank"]["confidence"]
-        except:
-            locations_dictionary["confidence"] = ""
-        locations_dict_list.append(locations_dictionary)
+#     for element in coordinates:
+#         locations_dictionary  = {}
+
+#         locations_dictionary["query"] = element["query"]["text"]
+#         # try:
+#         #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
+#         # except:
+#         #     print(locations_dictionary["query"], " not a city")
+#         #     locations_dictionary["searched"] = element["query"]["text"]
+#         #     try:
+#         #         locations_dictionary["searched_type"] = element["result_type"]
+#         #         locations_dictionary["found"] = "yes"
+#         #     except:
+#         #         locations_dictionary["found"] = "no"
+#         try:
+#             locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
+#         except:
+#             locations_dictionary["coordinates"] = ""
+#         try:
+#             locations_dictionary["confidence"] = element["rank"]["confidence"]
+#         except:
+#             locations_dictionary["confidence"] = ""
+#         locations_dict_list.append(locations_dictionary)
 
 
-    locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
-    locations_dataframe.to_csv("coordinates3.csv", mode="a", index=True, header=False, sep=";")
-'''
+#     locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
+#     locations_dataframe.to_csv("coordinates4.csv", mode="a", index=True, header=False, sep=";")
+

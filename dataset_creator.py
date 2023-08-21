@@ -64,11 +64,44 @@ test_dict = frequency.groupby('year')[['county','results']].apply(lambda x: x.se
 frequency["county_year"] = frequency["county"] + "_" + frequency["year"].astype(str)
 
 
+positions = []
+for year in test_dict:
+    for county in test_dict[year]:
+        for political_leaning in test_dict[year][county]:
+            positions.append(political_leaning)
+
+positions_unique= set(positions)
+
+
+def calculate_relative_frequency(data_list):
+    total_items = len(data_list)
+    unique_items = set(data_list)
+    frequency_dict = {}
+
+    for item in unique_items:
+        frequency = data_list.count(item)
+        frequency_dict[item] = frequency
+
+    return frequency_dict
+
+# Example list
+data_list = positions
+
+relative_frequencies = calculate_relative_frequency(data_list)
+
+
+
+results = {}
+
+
+
 # End the timer
 end_time = time.time()
 
 # Calculate the execution time
 execution_time = end_time - start_time
+
+
 
 # Print the execution time
 print(f"Execution time: {execution_time} seconds")

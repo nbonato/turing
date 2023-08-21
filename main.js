@@ -104,37 +104,80 @@ function updateView(county, year) {
 // Function to create the chart
 
 function chartCreator(canvas, data, chart_type = "doughnut") {
-    // Get the existing chart instance
-    let existingChart = Chart.getChart(canvas);
 
-    // Destroy the existing chart if it exists
-    if (existingChart) {
-        existingChart.destroy();
-    }
 
-    // Extract labels and values from the data
-    var labels = Object.keys(data);
-    var values = Object.values(data);
+    if (chart_type == "bar") {
+        // Get the existing chart instance
+        let existingChart = Chart.getChart(canvas);
 
-    new Chart(canvas.getContext('2d'), {
-        type: chart_type,
-        data: {
-            label: "Chart",
-            labels: labels,
-            datasets: [{
-                data: values
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: true,
-            plugins: {
-                legend: {
-                    display : false
+        // Destroy the existing chart if it exists
+        if (existingChart) {
+            existingChart.destroy();
+        }
+
+        // Extract labels and values from the data
+        var labels = Object.keys(data);
+        var values = Object.values(data);
+        console.log(values);
+
+        new Chart(canvas.getContext('2d'), {
+            type: chart_type,
+            data: {
+                labels: [county],
+                datasets: [{
+                    label: "Liberal Party (Original)",
+                    data: [1],
+                 },{
+                    label: "Conservative",
+                    data: [1],
+                 }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                title: { display: true, text: `Electoral results in ${closestElection}`},
+                plugins: {
+                    legend: {
+                        position: "top"
+                    }
                 }
             }
+        });
+
+    } else {
+        // Get the existing chart instance
+        let existingChart = Chart.getChart(canvas);
+
+        // Destroy the existing chart if it exists
+        if (existingChart) {
+            existingChart.destroy();
         }
-    });
+
+        // Extract labels and values from the data
+        var labels = Object.keys(data);
+        var values = Object.values(data);
+        new Chart(canvas.getContext('2d'), {
+            type: chart_type,
+            data: {
+                label: "Chart",
+                labels: labels,
+                datasets: [{
+                    data: values
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: "right"
+                    }
+                }
+            }
+        });
+    }
+
+   
 }
 
 
