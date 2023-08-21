@@ -19,9 +19,7 @@ let geojsonLayer;
 // Get the value display element
 var yearSelectValue = document.getElementById("year-select-value");
 
-const yearSelect = document.getElementById('year-select');
-// Display the initial value
-yearSelectValue.innerText = yearSelect.value;
+
 
 // Define a variable to store the clicked layer
 var clickedLayer = null;
@@ -41,10 +39,41 @@ document.getElementById("reset-button").onclick = function() {
 };
 // Find the first election year that is equal or greater than the target year.
 var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
-var year = parseInt(yearSelect.value); // Initial value of the year variable
+
+var pressYears = [1846]
+var year = pressYears; // Initial value of the year variable
 var closestElection = electionYear(year); // First available election
 
 var county = "";
+
+
+
+// Test range
+const range = document.querySelector(".range");
+const bubble = document.querySelector(".bubble");
+
+
+
+// Create a function to snap the slider to the nearest year in the list
+function snapToYear(value) {
+  const closestYear = pressYears.reduce((closestYear, year) => {
+    const distance = Math.abs(year - value);
+    return distance < Math.abs(closestYear - value) ? year : closestYear;
+  }, pressYears[0]);
+  return closestYear;
+}
+
+function setBubble(range, bubble) {
+  const val = range.value;
+  const min = range.min ? range.min : 0;
+  const max = range.max ? range.max : 100;
+  const newVal = Number(((val - min) * 100) / (max - min));
+  bubble.innerHTML = val;
+
+  // Numbers based on size of the native UI indicator
+  bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
+}
+
 
 
 // Function to calculate the next closest election year
@@ -122,6 +151,7 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
 
         new Chart(canvas.getContext('2d'), {
             type: chart_type,
+            
             data: {
                 labels: [county],
                 datasets: [{
@@ -133,6 +163,7 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
                  }]
             },
             options: {
+                animation: false,
                 responsive: true,
                 maintainAspectRatio: true,
                 title: { display: true, text: `Electoral results in ${closestElection}`},
@@ -166,6 +197,7 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
                 }]
             },
             options: {
+                animation: false,
                 responsive: true,
                 maintainAspectRatio: true,
                 plugins: {
@@ -201,37 +233,47 @@ function checkLocalStorage(key) {
 function initializeWebApp(elections, pressDirectories) {
     
 
-    Object.keys(pressDirectories).forEach(option => {
-        const optionElement = document.createElement('option');
-        optionElement.textContent = option;
-        optionElement.value = option; // Set the value if needed
-        yearSelect.appendChild(optionElement);
-    });
+    pressYears = Object.keys(pressDirectories)
+    // Set the minimum and maximum values of the slider
+    range.min = pressYears[0];
+    range.max = pressYears[pressYears.length - 1];
 
+
+    setBubble(range, bubble);
+    // Store the old value to fire the script in the event listener
+    // only when the range has actually changed
+    let oldRange = range.value;
     // Update the map when the select value changes
-    yearSelect.addEventListener('change', function () {
-        year = parseInt(this.value);
-        closestElection = electionYear(year);
-        yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+    range.addEventListener("input", () => {
+        range.value = snapToYear(range.value);
+        if (range.value != oldRange) {
+            year = parseInt(snapToYear(range.value));
+            setBubble(range, bubble);
+            closestElection = electionYear(year);
+            yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
+            // Create a list of available counties for the year
+            let relevantPressCounties = Object.keys(pressDirectories[year]);
+            console.log("test")
+            //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
+            let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
+            geojsonLayer.resetStyle();
+            // Loop through the GeoJSON features and update fillColor based on selectedYear
+            geojsonLayer.eachLayer(function (layer) {
+                if (availableCounties.includes(layer.feature.properties.press_county.toLowerCase())) {
+                    layer.setStyle({
+                        fillColor: "green"
+                    });
+                }
+                //console.log(layer.feature.properties.press_county);
+                
+            });
+    
+            updateView(county, year);
+            oldRange = range.value;
+        }
 
-        // Create a list of available counties for the year
-        let relevantPressCounties = Object.keys(pressDirectories[year]);
-
-        let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
-
-        // Loop through the GeoJSON features and update fillColor based on selectedYear
-        geojsonLayer.eachLayer(function (layer) {
-            if (availableCounties.includes(layer.feature.properties.NAME.toLowerCase())) {
-                layer.setStyle({
-                    fillColor: "green"
-                });
-            }
-            //console.log(layer.feature.properties.NAME);
-            
-        });
-
-        updateView(county, year);
     });
+    
     // Removes the attribution watermark
     map.attributionControl.setPrefix(''); 
     // Load and add the GeoJSON data layer
@@ -251,7 +293,7 @@ function initializeWebApp(elections, pressDirectories) {
                 },
                 onEachFeature: function (feature, layer) {
                     layer.on('click', function () {
-                        county = feature.properties.NAME;
+                        county = feature.properties.press_county;
                         updateView(county, year);
                         // Change the style of the clicked feature
                         layer.setStyle({
