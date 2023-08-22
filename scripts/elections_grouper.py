@@ -22,7 +22,10 @@ with open("elections_cleaned.pkl", 'rb') as f:
     elections_replaced = pickle.load(f)
     
 column_names = ["ignore", "place", "location", "confidence"]
-coordinates = pd.read_csv("coordinates2.csv", header = None, sep= ";", names = column_names)
+
+
+coordinates = pd.read_csv("coordinat.csv", header = None, sep= ";", names = column_names)
+
 coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
 coordinates = coordinates.drop("ignore", axis=1)
 
@@ -43,7 +46,37 @@ for feature in js['features']:
             #print ('Found containing polygon:', feature["properties"]["NAME"])
            
             
-county_mapping = dict(zip(coordinates['place'], coordinates['county']))           
+county_mapping = dict(zip(coordinates['place'], coordinates['county'])) 
+          
+manual_correspondences = {
+    "krikcaldy" : "Fife",
+    "carow": "Eire",
+    "cirenchester": "Gloucestershire",
+    "cornwall, st austell": "Cornwall",
+    "cornwall, st ives": "Cornwall",
+    "denbigshire": "Denbighshire",
+    "drogheda": "Eire",
+    "edinburghshire": "Midlothian",
+    "essex, harwich": "Essex",
+    "glasgow, backfriars and hutcheson": "Lanarkshire",
+    "glasgow, camlachie": "Lanarkshire",
+    "haddingtonshire": "East Lothian",
+    "harwich": "Essex",
+    "kilkenny city": "Eire",
+    "liverpool, scotland": "Lancashire",
+    "monaghan county": "Eire",
+    "montrose": "Angus",
+    "rutlandshire": "Rutland",
+    "st andrews": "Fife",
+    "st. andrews": "Fife",
+    "st. ives": "Cornwall",
+    "the hartlepools": "Durham"
+}
+  
+
+
+for key, value in manual_correspondences.items():
+    county_mapping[key] = value
 
 
 
@@ -89,7 +122,10 @@ def process_unique(x):
 
 # Define a mapping function
 def map_county(cst_n):
-    return county_mapping[changes[cst_n]]
+    try:
+        return county_mapping[changes[cst_n]]
+    except:
+        print(cst_n)
 
 elections["geolocated_county"] = elections['cst_n'].apply(map_county)
 
@@ -221,44 +257,6 @@ for year in elections["yr"].unique():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 yorkshire_cities = {key: value for key, value in county_mapping.items() if value == "Yorkshire"}
 nan_values = {key: value for key, value in county_mapping.items() if type(value) == float}
 
@@ -266,6 +264,7 @@ for year_key, results_election in results.items():
     test_dictionary = {}
     
     for ungrouped_constituency in results_election:
+
         geoloc_county = map_county(ungrouped_constituency)
         if type(geoloc_county) == str:
             geoloc_county = geoloc_county.lower()
@@ -287,6 +286,8 @@ for year_key, results_election in results.items():
             # print(ungrouped_constituency, results_election[ungrouped_constituency])
     
             test_dictionary[geoloc_county] = results_election[ungrouped_constituency]
+
+        
     results[year_key] = test_dictionary
 
 

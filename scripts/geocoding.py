@@ -30,7 +30,6 @@ locations["sub"] = locations["sub"].replace(nation_replacements)
 keep = ["scotland", "england", "wales",  "ireland", "northern ireland"]
 locations = locations[locations["sub"].isin(keep)]
 
-locations = locations[~locations["cst_n"].str.contains("university")]
 nations = locations["sub"].unique()
 
 apiKey = ""
@@ -114,7 +113,7 @@ data = []
 
 
 cardinal_points = ["north", "south", "centr", "east", "west", "mid"]
-locations.sort_values("cst_n", inplace=True)
+locations.sort_values("press_county", inplace=True)
 
 logs = {}
 logs["cardinal location"] = []
@@ -176,7 +175,7 @@ for index, row in locations.iterrows():
     
 # The log dictionary stores each change made in this process, to make it easier
 # to check that there is no spillover of unwarranted changes
-    place = clean(row['cst_n'])
+    place = clean(row['press_county'])
     
 # Many different spellings of Yorkshire subdivisions are in the dataset,
 # making it difficult to intercept them with the other techniques without 
@@ -212,7 +211,7 @@ for index, row in locations.iterrows():
     
     if place in typos.keys():
         place = typos[place]
-    changes[row['cst_n']] = place
+    changes[row['press_county']] = place
 
     
 
@@ -222,38 +221,38 @@ data = list(set(data))
 
 
 
-# start = 0
+start = 0
+locations_dict_list = []
+while start <= len(data)-1:
+    coordinates = getLocations(data[start:start+50])
+    start += 50
+    
 
-# while start <= len(data)-1:
-#     coordinates = getLocations(data[start:start+50])
-#     start += 50
-#     locations_dict_list = []
+    for element in coordinates:
+        locations_dictionary  = {}
 
-#     for element in coordinates:
-#         locations_dictionary  = {}
-
-#         locations_dictionary["query"] = element["query"]["text"]
-#         # try:
-#         #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
-#         # except:
-#         #     print(locations_dictionary["query"], " not a city")
-#         #     locations_dictionary["searched"] = element["query"]["text"]
-#         #     try:
-#         #         locations_dictionary["searched_type"] = element["result_type"]
-#         #         locations_dictionary["found"] = "yes"
-#         #     except:
-#         #         locations_dictionary["found"] = "no"
-#         try:
-#             locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
-#         except:
-#             locations_dictionary["coordinates"] = ""
-#         try:
-#             locations_dictionary["confidence"] = element["rank"]["confidence"]
-#         except:
-#             locations_dictionary["confidence"] = ""
-#         locations_dict_list.append(locations_dictionary)
+        locations_dictionary["query"] = element["query"]["text"]
+        # try:
+        #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
+        # except:
+        #     print(locations_dictionary["query"], " not a city")
+        #     locations_dictionary["searched"] = element["query"]["text"]
+        #     try:
+        #         locations_dictionary["searched_type"] = element["result_type"]
+        #         locations_dictionary["found"] = "yes"
+        #     except:
+        #         locations_dictionary["found"] = "no"
+        try:
+            locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
+        except:
+            locations_dictionary["coordinates"] = ""
+        try:
+            locations_dictionary["confidence"] = element["rank"]["confidence"]
+        except:
+            locations_dictionary["confidence"] = ""
+        locations_dict_list.append(locations_dictionary)
 
 
-#     locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
-#     locations_dataframe.to_csv("coordinates4.csv", mode="a", index=True, header=False, sep=";")
+locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
+locations_dataframe.to_csv("coordinat.csv", mode="a", index=True, header=False, sep=";")
 

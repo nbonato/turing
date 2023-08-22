@@ -182,7 +182,13 @@ for outer_key, outer_value  in district_county_dict.items():
 
 replace_typos = {
     "rowburghshire" : "roxburghshire",
-    "bershire, wokingham" : "berkshire, wokingham"
+    "bershire, wokingham" : "berkshire, wokingham",
+    "durgavan" : "dungarvan",
+    "londonberry" : "londonderry",
+    "londonberry city" : "londonderry",
+    "londonberry county" : "londonderry",
+    "londonberry north" : "londonderry",
+    "londonberry south" : "londonderry"
     }
 
 
@@ -232,49 +238,49 @@ elections_replaced = elections_replaced[~elections_replaced['press_county'].isin
 
 # These two steps remove the university constituencies, which are not trackable to
 # a specific area. There are two steps to try and catch all cases
-elections_replaced = elections_replaced[~elections_replaced["cst_n"].str.contains("universit")]
+elections_replaced = elections_replaced[~elections_replaced["press_county"].str.contains("universit")]
 elections_replaced = elections_replaced[~elections_replaced["sub"].str.contains("universit")]
 
 
 
 
 
-constituency_grouper = {
-    "denbighshire" : ["denbigh district of boroughs", "denbigshire"],
-    "carnarvonshire": ["caernarvonshire", "caernarvon district of boroughs"],
-    "cheshire": ["cheshire, northern", "cheshire, southern"],
-    "cornwall": ["cornwall, eastern", "cornwall, western"],
-    "cumberland": ["cumberland, eastern", "cumberland, western"],
-    "derbyshire": ["derbyshire, northern", "derbyshire, southern"],
-    "devonshire": ["devon, northern", "devon, southern"],
-    # Elginshire and nairnshire have a difficult situation where 
-    # the election datasets contains data for distric of burghs and
-    # elginshire and nairnshire, while press contains separate records
-    # for elgin and nairn county. The only possibility might be to join them
-    # "elgin": ["elgin district of burghs", "elginshire and nairnshire"],
-    "essex": ["essex, northern", "essex, southern"],
-    "gloucestershire": ["gloucestershire, eastern", "gloucestershire, western"],
-    "gloucester": ["gloucester"],
-    "hempshire": ["hempshire, northern", "hempshire, southern"],
-    "kent": ["kent, eastern", "kent, western"],
-    "lincolnshire": ["lincolnshire, parts of kesteven a", "lincolnshire, parts of lindsey"],
-    #"inverness-shire" : ["iverness-shire","iverness district of burghs"]
+# constituency_grouper = {
+#     "denbighshire" : ["denbigh district of boroughs", "denbigshire"],
+#     "carnarvonshire": ["caernarvonshire", "caernarvon district of boroughs"],
+#     "cheshire": ["cheshire, northern", "cheshire, southern"],
+#     "cornwall": ["cornwall, eastern", "cornwall, western"],
+#     "cumberland": ["cumberland, eastern", "cumberland, western"],
+#     "derbyshire": ["derbyshire, northern", "derbyshire, southern"],
+#     "devonshire": ["devon, northern", "devon, southern"],
+#     # Elginshire and nairnshire have a difficult situation where 
+#     # the election datasets contains data for distric of burghs and
+#     # elginshire and nairnshire, while press contains separate records
+#     # for elgin and nairn county. The only possibility might be to join them
+#     # "elgin": ["elgin district of burghs", "elginshire and nairnshire"],
+#     "essex": ["essex, northern", "essex, southern"],
+#     "gloucestershire": ["gloucestershire, eastern", "gloucestershire, western"],
+#     "gloucester": ["gloucester"],
+#     "hempshire": ["hempshire, northern", "hempshire, southern"],
+#     "kent": ["kent, eastern", "kent, western"],
+#     "lincolnshire": ["lincolnshire, parts of kesteven a", "lincolnshire, parts of lindsey"],
+#     #"inverness-shire" : ["iverness-shire","iverness district of burghs"]
     
-}
+# }
 
 
 
 
 
 
-# Assign values in the press_county based on the replacemnt in the 'cst_n' column
-# using the dictionary
-for index, row in elections_replaced.iterrows():
-    cst_n = row['cst_n']
-    for key, values in constituency_grouper.items():
-        if cst_n in values:
-            elections_replaced.at[index, 'press_county'] = key
-            #print(f"replacing {cst_n} with {key} at index {index}")
+# # Assign values in the press_county based on the replacemnt in the 'cst_n' column
+# # using the dictionary
+# for index, row in elections_replaced.iterrows():
+#     cst_n = row['cst_n']
+#     for key, values in constituency_grouper.items():
+#         if cst_n in values:
+#             elections_replaced.at[index, 'press_county'] = key
+#             #print(f"replacing {cst_n} with {key} at index {index}")
 
 
 
@@ -381,7 +387,6 @@ dubious_changes = {
     "anglesey" : "isle of anglesey",
     "bute" : "isle of bute",
     "argyll" : "argyllshire",
-    "rowburghshire" : "roxburghshire"
     }        
 
 
@@ -400,10 +405,9 @@ elections_replaced["press_county"] = elections_replaced["press_county"].replace(
 
 
 
-locations = elections_replaced[["cst_n", "sub"]]
+locations = elections_replaced[["press_county", "sub"]]
 
 
-#counties_after_irish = elections_replaced["press_county"].unique()
 
 
 
