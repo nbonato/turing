@@ -7,8 +7,22 @@ from map_creator import counties_map
 
 
 
+with open('geodata/updated_map.json', 'r') as f:
+    js = json.load(f)
+
+
+
+
+
+a = 0
+
+
+
 # Start the timer
 start_time = time.time()
+
+cleaned_press_directories = cleaned_press_directories.sort_values("county")
+counties = cleaned_press_directories["county"].unique()
 
 
 # Only keep counties that are in the map
@@ -28,7 +42,7 @@ df["S-POL"] = df["S-POL"].fillna("undefined")
 def calculate_frequency(x):
     frequency_dict = {}
     total_count = len(x)
-    threshold = 2  # 2% threshold
+    threshold = 5  # percentage threshold
     
     for pol in x["S-POL"].unique():
         count = x[x["S-POL"] == pol]["S-TITLE"].nunique()
@@ -44,7 +58,17 @@ def calculate_frequency(x):
             frequency_dict[pol] = round(frequency, 2)
     # Sort the dictionary based on values in descending order
     frequency_dict = dict(sorted(frequency_dict.items(), key=lambda item: item[1], reverse=True))
-    return frequency_dict
+    max_value = max(frequency_dict.values())
+    max_keys = [key for key, value in frequency_dict.items() if value == max_value]
+    if len(max_keys) > 1 :
+        majority = "multiple majority"
+    else:
+        majority = max_keys[0]
+    county_dict = {
+        "press_data": frequency_dict,
+        "majority": majority
+        }
+    return county_dict
 
 
 
@@ -56,7 +80,7 @@ frequency = (
 
 
 
-test_dict = frequency.groupby('year')[['county','results']].apply(lambda x: x.set_index('county')["results"].to_dict()).to_dict()
+final_dict = frequency.groupby('year')[['county','results']].apply(lambda x: x.set_index('county')["results"].to_dict()).to_dict()
 
 
 
@@ -65,10 +89,10 @@ frequency["county_year"] = frequency["county"] + "_" + frequency["year"].astype(
 
 
 positions = []
-for year in test_dict:
-    for county in test_dict[year]:
-        for political_leaning in test_dict[year][county]:
-            positions.append(political_leaning)
+for year in final_dict:
+    for county in final_dict[year]:
+
+        positions.append(final_dict[year][county]["majority"])
 
 positions_unique= set(positions)
 
@@ -90,8 +114,30 @@ data_list = positions
 relative_frequencies = calculate_relative_frequency(data_list)
 
 
+map_counties = []
+for feature in js['features']:
+    map_counties.append(feature["properties"]["press_county"])
+    
 
-results = {}
+
+
+
+for county in map_counties:
+    if county not in counties:
+        print(county)
+        
+        
+map_matches = {}
+
+for year in final_dict.keys():
+    map_matches[year] = []
+    for county in final_dict[year].keys():
+        if county not in map_counties:
+            map_matches[year].append(county)
+        
+        
+
+
 
 
 
@@ -108,5 +154,5 @@ print(f"Execution time: {execution_time} seconds")
 frequency_dict = frequency.set_index("county_year")["results"].to_dict()
 # Save the dictionary as a JSON file
 with open("new_data.json", "w") as json_file:
-    json.dump(test_dict, json_file, indent = 2)
+    json.dump(final_dict, json_file, indent = 2)
 

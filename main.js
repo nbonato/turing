@@ -111,7 +111,7 @@ function updateView(county, year) {
         return
     };
     // Create the chart
-    chartCreator(pressChart, pressChartData);
+    chartCreator(pressChart, pressChartData["press_data"]);
 
     // Retrieve the data for the specific key
     var electionChartData = elections[closestElection.toString()][county.toLowerCase()];
