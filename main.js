@@ -54,6 +54,10 @@ const bubble = document.querySelector(".bubble");
 
 
 
+function titleCase(string){
+    return string[0].toUpperCase() + string.slice(1).toLowerCase();
+}
+
 // Create a function to snap the slider to the nearest year in the list
 function snapToYear(value) {
   const closestYear = pressYears.reduce((closestYear, year) => {
@@ -122,7 +126,7 @@ function updateView(county, year) {
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
     var infoBoxTitle = document.createElement("h2");
-    infoBoxTitle.textContent = `${county} ${year}`;
+    infoBoxTitle.textContent = `${titleCase(county)} ${year}`;
     infoBoxContent.className = "chart-container"
     infoBoxContent.appendChild(infoBoxTitle);
     infoBoxContent.appendChild(pressChartWrapper);
