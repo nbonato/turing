@@ -12,11 +12,73 @@ concerned with that
 
 Particular situations are highlighted here: https://www.notion.so/nbonato/Errors-in-Elections-03b5a4b48a31441d84d3c640a3457970
 """
-import numpy as np
-import pickle
 import json
+import pickle
+from geocoding import changes
+from shapely.geometry import shape, Point
+import pandas as pd
 
-from elections import elections_replaced
+with open("elections_cleaned.pkl", 'rb') as f:
+    elections_replaced = pickle.load(f)
+    
+column_names = ["ignore", "place", "location", "confidence"]
+
+
+coordinates = pd.read_csv("coordinat.csv", header = None, sep= ";", names = column_names)
+
+coordinates[['latitude', 'longitude']] = coordinates['location'].str.split(',', expand=True).astype(float)
+coordinates = coordinates.drop("ignore", axis=1)
+
+with open('C:/Users/Nico/github/turing/geodata/updated_map.json', 'r') as f:
+    js = json.load(f)
+
+
+
+for feature in js['features']:
+
+    polygon = shape(feature['geometry'])
+    
+    for index, row in coordinates.iterrows():
+        point = Point(row["longitude"], row["latitude"])
+        
+        if polygon.contains(point):
+            coordinates.at[index, "county"] = feature["properties"]["NAME"]
+            #print ('Found containing polygon:', feature["properties"]["NAME"])
+           
+            
+county_mapping = dict(zip(coordinates['place'], coordinates['county'])) 
+          
+manual_correspondences = {
+    "krikcaldy" : "Fife",
+    "carow": "Eire",
+    "cirenchester": "Gloucestershire",
+    "cornwall, st austell": "Cornwall",
+    "cornwall, st ives": "Cornwall",
+    "denbigshire": "Denbighshire",
+    "drogheda": "Eire",
+    "edinburghshire": "Midlothian",
+    "essex, harwich": "Essex",
+    "glasgow, backfriars and hutcheson": "Lanarkshire",
+    "glasgow, camlachie": "Lanarkshire",
+    "haddingtonshire": "East Lothian",
+    "harwich": "Essex",
+    "kilkenny city": "Eire",
+    "liverpool, scotland": "Lancashire",
+    "monaghan county": "Eire",
+    "montrose": "Angus",
+    "rutlandshire": "Rutland",
+    "st andrews": "Fife",
+    "st. andrews": "Fife",
+    "st. ives": "Cornwall",
+    "the hartlepools": "Durham"
+}
+  
+
+
+for key, value in manual_correspondences.items():
+    county_mapping[key] = value
+
+
 
 # file = open("pickles/elections_cleaned.pkl", 'rb')
 
@@ -58,6 +120,14 @@ def process_unique(x):
     return unique_values.tolist() if len(unique_values) > 1 else unique_values[0]
 
 
+# Define a mapping function
+def map_county(cst_n):
+    try:
+        return county_mapping[changes[cst_n]]
+    except:
+        print(cst_n)
+
+elections["geolocated_county"] = elections['cst_n'].apply(map_county)
 
 
 
@@ -85,6 +155,10 @@ for _, row in elections.iterrows():
     parties_equivalence[yr][pty] = pty_n
     
 
+
+
+elections.to_csv("elections_geolocated.csv")
+
 first = elections[elections["id"] == 622]    
 
 # This part calculates the elected MP for each constituency and their party
@@ -93,8 +167,10 @@ first = elections[elections["id"] == 622]
 # 2. Checking the number of seats up for election (variable mag)
 # 3. Checking if the election was uncontested (variable vot1 == -992)
 
-
+mps = {}
 results = {}
+results_copy = {}
+
 for year in elections["yr"].unique():
     first = elections[elections["yr"] == year]    
     
@@ -122,8 +198,7 @@ for year in elections["yr"].unique():
         # should be pty
         parties = constituency_df["pty_n"].unique()
         parties_running = len(parties)
-    
-    
+
         if seats == 1:
             if uncontested == -992:
                 # This means that the elections is uncontested with a single seat
@@ -169,14 +244,67 @@ for year in elections["yr"].unique():
                 results_election[constituency] = party_dict 
             else:
                 print("ERROR, there are 0 or less parties running")
-                
+        if seats < 0:
+            print(constituency)
+        else:     
+            if year in mps.keys():
+                mps[year] += seats
+            else:
+                mps[year] = seats
     results[int(year)] = results_election
+    results_copy[int(year)] = results_election
         #print(constituency, parties_running, seats)
 
+
+
+yorkshire_cities = {key: value for key, value in county_mapping.items() if value == "Yorkshire"}
+nan_values = {key: value for key, value in county_mapping.items() if type(value) == float}
+
+for year_key, results_election in results.items():    
+    test_dictionary = {}
     
+    for ungrouped_constituency in results_election:
+
+        geoloc_county = map_county(ungrouped_constituency)
+        if type(geoloc_county) == str:
+            geoloc_county = geoloc_county.lower()
+        """ print(year, ungrouped_constituency, geoloc_county)
+        if geoloc_county != "Aberdeenshire":
+            break """
+        if geoloc_county in test_dictionary.keys():
+            # print(ungrouped_constituency, test_dictionary[geoloc_county])
+            for key, value in results_election[ungrouped_constituency].items():
+                
+                if key in test_dictionary[geoloc_county].keys():
     
+                    test_dictionary[geoloc_county][key] += value
+                else:
+                    #print(ungrouped_constituency, geoloc_county, key,  "not in keys")
     
+                    test_dictionary[geoloc_county][key] = value
+        else:
+            # print(ungrouped_constituency, results_election[ungrouped_constituency])
     
+            test_dictionary[geoloc_county] = results_election[ungrouped_constituency]
+
+        
+    results[year_key] = test_dictionary
+
+
+
+# converted_data = {}
+# for year, counties in results.items():
+#     converted_data[year] = {}
+#     for county, parties in counties.items():
+#         converted_data[year][county] = {
+#             "labels": [county],
+#             "datasets": []
+#         }
+#         for party, value in parties.items():
+#             converted_data[year][county]["datasets"].append({
+#                 "label": party,
+#                 "data": [value]
+#             })
     
     
 # nested_dict = {}

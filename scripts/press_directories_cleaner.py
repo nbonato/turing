@@ -134,15 +134,22 @@ df["county"] = df["county"].replace(escaped_replacements)
 # piecing together manually what they correspond to. They might be wrong
 # and should be re-inspected
 
+
+
+# The commented out ones conflict with the map names
+
+
+
+
 manual_replacements =  {
     "brecknockshire" : "breconshire",
     "caithness-shire" : "caithness",
     "dorsetshire": "dorset",
     "fifeshire" : "fife",
     "nainshire" : "nairnshire",
-    "dumbartonshire" : "dunbartonshire",
-    "orkney": "orkney and shetland",
-    "shetland isles" : "orkney and shetland"
+    # "dumbartonshire" : "dunbartonshire",
+    # "orkney": "orkney and shetland",
+    # "shetland isles" : "orkney and shetland"
     
 }
 

@@ -10,6 +10,7 @@ import time
 from combine import only_in_elections_cleaned
 from elections import locations
 import pandas as pd
+import sys
 
 
 locations["sub"] = locations["sub"].str.split("-", n=1).str[0]
@@ -29,7 +30,6 @@ locations["sub"] = locations["sub"].replace(nation_replacements)
 keep = ["scotland", "england", "wales",  "ireland", "northern ireland"]
 locations = locations[locations["sub"].isin(keep)]
 
-locations = locations[~locations["cst_n"].str.contains("university")]
 nations = locations["sub"].unique()
 
 apiKey = ""
@@ -55,7 +55,7 @@ circles = {
 maxAttempt = 20
 result = ""
 def getLocations(places):
-    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb,ie&apiKey=" + apiKey
+    url = "https://api.geoapify.com/v1/batch/geocode/search?filter=countrycode:gb&apiKey=" + apiKey
     response = requests.post(url, json = places)
     result = response.json()
 
@@ -113,7 +113,7 @@ data = []
 
 
 cardinal_points = ["north", "south", "centr", "east", "west", "mid"]
-locations.sort_values("cst_n", inplace=True)
+locations.sort_values("press_county", inplace=True)
 
 logs = {}
 logs["cardinal location"] = []
@@ -122,15 +122,60 @@ logs["district of"] = []
 logs["parenthesis"] = []
 logs["yorkshire"] = []
 
+
+# This dictionary stores just the changes, to match back the final results
+# to the original dataset
+
+
+
+
+
+changes = {}
+
+
+typos = {
+    "berwickshre": "berwickshire",
+    "linconlnshire": "lincolnshire",
+    "nuneatton, warwickshire": "nuneaton, warwickshire",
+    "birminghman": "birmingham",
+    "thrisk": "thrisk",
+    "birminghman, edgbaston": "birmingham, edgbaston",
+    "susex, lewes": "sussex, lewes",
+    "krikcaldy": "kirkcaldy",
+    "iverness-shire": "inverness-shire",
+    "middlsex, spelthorne": "middlesex, spelthorne",
+    "leicesterhsire, haborough": "leicestershire, haborough",
+    "cirenchester": "cirenchester",
+    "gloamorganshire": "glamorganshire",
+    "durgavan": "dungarvan",
+    "greenwhich": "greenwich",
+    "prtsmouth": "portsmouth",
+    "rowburghshire": "roxburghshire",
+    "endinburghshire": "edinburghshire",
+    "scaraborough": "scarborough",
+    "surreey, kingston": "surrey, kingston",
+    "liverppol": "liverpool",
+    "sundersland": "sunderland",
+    "esex, walthamstow": "essex, walthamstow",
+    "clasgow, gorbals": "glasgow, gorbals",
+    "kesington": "kensington",
+    "kutsford, cheshire": "knutsford, cheshire",
+    "norfold": "norfolk",
+    "stafforshire": "staffordshire",
+    "wighan": "wigan",
+    "iverness": "inverness",
+}
+
+logs["typos"] = typos
+
 def clean(string):
     return string.rstrip().rstrip(",").lstrip()
 
 for index, row in locations.iterrows():
+    
 # The log dictionary stores each change made in this process, to make it easier
 # to check that there is no spillover of unwarranted changes
-    place = clean(row['cst_n'])
-    
-    
+    place = clean(row['press_county'])
     
 # Many different spellings of Yorkshire subdivisions are in the dataset,
 # making it difficult to intercept them with the other techniques without 
@@ -164,50 +209,24 @@ for index, row in locations.iterrows():
             place = clean(f"{comma_split[1]}, {comma_split[0]}")
     data.append(place)
     
-typos = {
-    "berwickshre": "berwickshire",
-    "linconlnshire": "lincolnshire",
-    "nuneatton, warwickshire": "nuneaton, warwickshire",
-    "birminghman": "birmingham",
-    "thrisk": "thrisk",
-    "birminghman, edgbaston": "birmingham, edgbaston",
-    "susex, lewes": "sussex, lewes",
-    "krikcaldy": "kirkcaldy",
-    "iverness-shire": "inverness-shire",
-    "middlsex, spelthorne": "middlesex, spelthorne",
-    "leicesterhsire, haborough": "leicestershire, haborough",
-    "cirenchester": "cirenchester",
-    "gloamorganshire": "glamorganshire",
-    "durgavan": "dungarvan",
-    "greenwhich": "greenwich",
-    "prtsmouth": "portsmouth",
-    "rowburghshire": "roxburghshire",
-    "endinburghshire": "edinburghshire",
-    "scaraborough": "scarborough",
-    "surreey, kingston": "surrey, kingston",
-    "liverppol": "liverpool",
-    "sundersland": "sunderland",
-    "esex, walthamstow": "essex, walthamstow",
-    "clasgow, gorbals": "glasgow, gorbals",
-    "kesington": "kensington",
-    "kutsford, cheshire": "knutsford, cheshire",
-    "norfold": "norfolk",
-    "stafforshire": "staffordshire",
-    "wighan": "wigan",
-    "iverness": "inverness",
-}
+    if place in typos.keys():
+        place = typos[place]
+    changes[row['press_county']] = place
+
     
-replace_elements(data, typos)
+
+    
+#replace_elements(data, typos)
 data = list(set(data))
 
 
 
 start = 0
-
+locations_dict_list = []
 while start <= len(data)-1:
     coordinates = getLocations(data[start:start+50])
     start += 50
-    locations_dict_list = []
+    
 
     for element in coordinates:
         locations_dictionary  = {}
@@ -234,6 +253,6 @@ while start <= len(data)-1:
         locations_dict_list.append(locations_dictionary)
 
 
-    locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
-    locations_dataframe.to_csv("coordinates3.csv", mode="a", index=True, header=False, sep=";")
+locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
+locations_dataframe.to_csv("coordinat.csv", mode="a", index=True, header=False, sep=";")
 

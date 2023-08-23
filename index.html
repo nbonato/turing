@@ -21,18 +21,30 @@
 </head>
 <body>
     <h1>Press and politics in the UK</h1>
-    <div id="year-selector">
-        <h3>Year:</h3>
-        <select id="year-select"></select>
+    <div class="year-selection">
+        <div class="range-wrap">
+            <input type="range" class="range">
+            <output class="bubble"></output>
+        </div>
+        <div id="year-select-value">
+            Slide the indicator on the left to see the map change
+        </div>
     </div>
-    <div id="year-select-value"></div>
+
+
     <div class="container">
         <div id="info-box">
-            Click on any available county to see the data. If a county is not available, it means that there are no press information on it for that year, so try moving around the slider above.
+            Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.
         </div>
+       
+        <div class="colour-scheme-legend" id="legendDiv">
+            <h3>Most common press leanings</h3>
+        </div>
+
         <div id="map">
-            <button id="reset-button">Reset</button>
-        </div>        
+            <button id="reset-button">Reset zoom</button>
+        </div>
+        
     </div>
 
 </body>

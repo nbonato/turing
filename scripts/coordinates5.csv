@@ -1,0 +1,1712 @@
+0;krikcaldy;;
+1;dunfermline;56.0713724, -3.4616183;1
+2;taunton;51.0147895, -3.1029086;1
+3;wareham;50.6868972, -2.1098377;1
+4;leominster, hereforedshire;52.223206, -2.738751;0.81
+5;clitheroe;53.8717465, -2.3926783;1
+6;wakefield;53.6829541, -1.4967286;1
+7;orkney and shetland;58.9819908, -2.9596737;0.7290000000000001
+8;tower hamlets,bow and bromley;52.49162, -2.138843;0
+9;glasgow, bridgeton;55.861155, -4.2501687;1
+10;downpatrick;54.3279335, -5.71649;1
+11;aylesbury;51.8161412, -0.8130383;1
+12;iverness;;
+13;kin, perthshire and kinross-shire;56.206555, -3.43298;0
+14;cumberland, eskdale;54.386061, -3.3129036;0.5
+15;evesham, worcestershire;52.0940158, -1.9483083;1
+16;poplar;51.5110713, -0.0144629;1
+17;lambeth, norwood;51.42213455, -0.10798745695267944;0.9
+18;surreey, kingston;;
+19;fermanagh and tyrone;54.591775150000004, -7.271427147416087;0.9
+20;blackpool, lancashire;53.8179442, -3.0509812;1
+21;glamorganshire;51.7352168, -3.3761498;1
+22;llandaff and barr, glamorganshire;52.545319, -1.901123;0
+23;devon, barnstaple;51.0804057, -4.0600467;0.5
+24;breconshire;52.9877138, -1.1775355;1
+25;bridgwater;51.1283378, -3.0037046;1
+26;durham, sedgefield;54.7770139, -1.5756205;1
+27;frome;51.2309875, -2.3216982;1
+28;iverness-shire;;
+29;manchester, gorton;53.4646143, -2.176838216999516;0.7290000000000001
+30;peeplesshire and selkirkshire;;
+31;montrose;56.7114295, -2.4681544;1
+32;armagh;54.3481977, -6.6540432;1
+33;walsall;52.5847949, -1.9822687;1
+34;glasgow, st rollox;55.8721146, -4.2336294;0.6666666666666667
+35;londonberry south;50.4, -3.83333;0.63
+36;kent, canterbury;51.2800275, 1.0802533;0
+37;lisburn;54.5112913, -6.0466736;1
+38;stourbridge, worcestershire;52.4577615, -2.1474345;1
+39;rutland and stamfor, lincolnshire;52.655389, -0.468268;0
+40;andover, hampshire;51.2078275, -1.479355;1
+41;peeblesshire;55.6454616, -3.1721946;1
+42;great marlow;51.586075949999994, -0.8013756797940633;1
+43;helston;50.1016731, -5.273032;1
+44;huntingdonshire;52.37104395, -0.22357789271655937;1
+45;southampton;50.89556045, -1.3471152423561408;1
+46;partick, lanarkshire;55.8685425, -4.308412;0
+47;rutlandshire;;
+48;swansea, district;51.6576223, -3.8715324;1
+49;esex, walthamstow;;
+0;lewes;50.8746139, 0.005115324110936268;1
+1;kidderminster, worcestershire;52.3880787, -2.2478582;1
+2;sussex, rye;50.9511871, 0.7327667;0.5
+3;leyton;51.5568183, -0.0051322;1
+4;radnor;51.36456775, -0.1711469014878434;1
+5;stirlingshire and clackmannanshir;;
+6;kent, turnbridge;51.302492, 0.585529;0
+7;northamptonshire;52.3106138, -0.8659129831915817;1
+8;essex;51.77046785, 0.46466977412300386;1
+9;monmouthshire;51.7501058, -2.8333331;1
+10;dundee;56.4605938, -2.97019;1
+11;anglesey;53.2782273, -4.33133929345189;1
+12;preston;53.7593363, -2.6992717;1
+13;stoke-on-trent, stoke;53.0162014, -2.1812607;1
+14;motherwell, lanarkshire;55.7902072, -3.9920191;0.5
+15;kirkcudbrightshire;55, -4;1
+16;tower hamlets, whitechapel;51.5095303, -0.075386;0.63
+17;ayr;55.4628044, -4.6302502;1
+18;carlisle;54.8948478, -2.9362311;1
+19;eifion, caernarvonshire;53.106597, -4.27376;0.5103
+20;surrey, reigate;51.33585, -0.66199;0.9
+21;cricklade;51.6414188, -1.8579414;1
+22;st pancras;51.5259149, -0.1290973;1
+23;bedford, bedfordshire;52.1363806, -0.4675041;1
+24;wigtownshire;54.8975188, -5.0214808;1
+25;belfast north;54.603533, -5.928807;0.9
+26;colchester;51.8896903, 0.8994651;1
+27;kincardineshire;56.925681, -2.458549;1
+28;dorchester;50.7132064, -2.4371229;1
+29;hereford;52.0553813, -2.7151735;1
+30;fylde, lancashire;53.79336215, -2.89426008005;0
+31;darwen, lancashire;53.6960957, -2.4665093;1
+32;wimbledon;51.4214787, -0.2064027;1
+33;rowburghshire;;
+34;nelson and colne;53.84462805, -2.2216431082180117;0.9
+35;newcasle-upon-tyne;54.989692, -1.627914;1
+36;gloamorganshire;;
+37;windsor, berkshire;51.4800285, -0.6125716;1
+38;surrey, epsom;51.3347075, -0.268833;0.567
+39;stretford, lancashire;53.445428, -2.3223051;1
+40;halifax;53.7229229, -1.8604874;1
+41;dewsbury;53.6909103, -1.6302142;1
+42;kensington;51.4989948, -0.1991229;1
+43;abingdon;51.6714842, -1.2779715;1
+44;mossley, lancashire;53.51638545, -2.0235190148351148;1
+45;ince, lancashire;53.2828816, -2.8250708;1
+46;kent, dartford;51.4443059, 0.21807;0.567
+47;cornwall, camborne;50.2138828, -5.2990347;0
+48;huddersfield;53.6466645, -1.7822482;1
+49;devizes;51.3525027, -1.9958302;1
+0;cumberland, workington;54.6415716, -3.5459287;1
+1;oldham;53.5415797, -2.1147831;1
+2;stoke newington;51.5578698, -0.0822482;1
+3;pembrokeshire;51.8339209, -4.916667;1
+4;essex, saffron walden;52.021569, 0.2411256;0.6666666666666667
+5;westminster, abbey;51.4981579, -0.1319441;0.81
+6;cambridge;52.2055314, 0.1186637;1
+7;stafforshire;;
+8;devon, torquay;50.75632, -3.23487;0.567
+9;aylesbury, buckinghamshire;51.8161412, -0.8130383;1
+10;cricklade, wiltshire;51.6414188, -1.8579414;1
+11;tyrone county;54.6008742, -7.283036973903879;1
+12;kent;51.2474823, 0.7105077;1
+13;honiton;50.7981119, -3.1924599;1
+14;wiltshire;51.25, -1.916667;1
+15;stirling;56.1181242, -3.9360012;1
+16;caithness;58.404267000000004, -3.4340269886950203;1
+17;carmarthenshire;51.893669849999995, -4.217282721429928;1
+18;durham, houghton-le-spring;54.839602, -1.470191;0.7142857142857143
+19;cumberland;54.67842505, -3.304001955591123;1
+20;kent, isle of thanet;51.3243438, 1.3314426;0.75
+21;rochester, chatham;51.376518, 0.519561;0.9
+22;westminster;51.4973206, -0.137149;1
+23;per, perthshire and kinross-shire;56.206555, -3.43298;0
+24;durham, chester-le-street;54.851235, -1.573085;0.9
+25;falkirk;56.00205085, -3.749622841384784;1
+26;launceston;50.6365062, -4.3604432;1
+27;lichfield, staffordshire;52.6843696, -1.8275286;1
+28;bermondsey;51.4970125, -0.063268;1
+29;cornwall, stives;50.443348900000004, -4.62465658489158;0.5
+30;huntingdon;52.3314292, -0.1847723;1
+31;Western Isles, Inverness-shire and Ross and Cromarty;;
+32;cumberland, egremont;54.4838316, -3.5327921;0.5
+33;linlithgowshire;55.916667, -3.5;1
+34;newington, walworth;51.488681, -0.090476;0
+35;cornwall, penryn and falmouth;50.138951, -5.090249;0
+36;merionethshire;52.79397995, -3.8749544943258853;1
+37;devon, totnes;50.4322816, -3.6871525;0.5
+38;great grimsby;53.5671407, -0.0788045;1
+39;lambeth;51.4952111, -0.1163354;1
+40;manchester, platting;53.483872149999996, -2.20408596139014;0.567
+41;newcastle-under-lyme;53.0117627, -2.2273919;1
+42;suffolk, eye;52.3226292, 1.1463709;0.9
+43;stratford-on-avon, warwickshire;52.1927803, -1.70634;1
+44;westmorland, kendal;54.3322466, -2.7401448;0.81
+45;enniskillen;54.3448538, -7.6389365;1
+46;cockermouth;54.6614392, -3.3590111;1
+47;new ross;51.72051, -3.2413;0.567
+48;windsor;51.4800285, -0.6125716;1
+49;kidderminster;52.3880787, -2.2478582;1
+0;loughborough, leicestershire;52.7723859, -1.2077985;1
+1;somerset, yeovil;50.944553049999996, -2.6095621787951884;0.567
+2;bournemouth;50.720097, -1.8799272;1
+3;linconlnshire;;
+4;bridgnorth;52.5345626, -2.4194132;1
+5;buckingham;51.9983175, -0.9786725;1
+6;bristol;51.4538022, -2.5972985;1
+7;manchester, moss side;53.365183, -2.2720385;0.63
+8;kingston upon hull;53.7435722, -0.3394758;1
+9;surrey, farnham;51.2109359, -0.7937917;0.567
+10;finsbury, holborn;51.526403, -0.105606;0
+11;peterborough;52.5725769, -0.2427336;1
+12;birmingham, yardley;52.493265, -1.937593;0.63
+13;dartmouth;50.3514839, -3.583844;1
+14;barnstable;51.59011705, -2.524661201066831;1
+15;somerset;51.161750850000004, -3.0753867062227487;1
+16;coleraine;55.1315912, -6.671861;1
+17;glasgow, partick;55.8699211, -4.3094365;0.5714285714285714
+18;northampton;52.2378853, -0.8963639;1
+19;york;53.9590555, -1.0815361;1
+20;hitchin, hertfordshire;51.9464129, -0.2791646;1
+21;durham, durham;54.7770139, -1.5756205;1
+22;southwark;51.503925, -0.1049663;1
+23;malton;54.1349419, -0.7965915;1
+24;liverpool, everton;53.424389, -2.966944;0.567
+25;down;54.3518644, -5.961616475076931;1
+26;cornwall, truro;50.2633173, -5.0518107;0.5
+27;gateshead;54.9625789, -1.6019294;1
+28;middlesex, harrow;51.58462, -0.329158;0.9
+29;cheltenham;51.8995685, -2.0711559;1
+30;city of chester, cheshire;53.1888838, -2.8907471527256074;1
+31;gatehead;55.5947682, -4.5534433;1
+32;newcastle upon tyne;54.989692, -1.627914;1
+33;stirlingshire;56.0701208, -3.9087351;1
+34;bothwell, lanarkshire;55.8026551, -4.0676955;1
+35;sussex, chichester;50.8307252, -0.7902974671537156;1
+36;cashel;56.1117781, -4.5742788;1
+37;high peak, derbyshire;53.3675462, -1.8528746491564894;1
+38;hanley;53.0259916, -2.1753695;1
+39;droitwich;52.26851, -2.1486075;1
+40;stoke-on-trent, burslem;53.0446287, -2.1928235;1
+41;essex, chelmsford;51.54450755, 0.5840084067307691;0.81
+42;truro;50.2633173, -5.0518107;1
+43;fife;56.3333331, -3.0000001;1
+44;edmonton;51.6267968, -0.0769118;1
+45;ross, herefordshire;55.6268811, -1.7912003;1
+46;birmingham, moseley;52.45323, -1.88759;0.81
+47;aston manor;52.5158144, -1.872822890890502;1
+48;essex, harwich;51.9445801, 1.2898522;0.5
+49;denbigh, denbighshire;53.1853776, -3.4178289;1
+0;arundel;50.85453835, -0.5648162995576137;1
+1;sheffield, brightside;53.404212, -1.431107;0.81
+2;whitehaven;54.5474199, -3.5885335;1
+3;droitwich, worcestershire;52.26851, -2.1486075;1
+4;down north;51.46056, -2.82694;0.27782999999999997
+5;eddisbury, cheshire;53.2198327, -2.6710783;0.9
+6;londonberry north;51.95642, -0.1644;0.3969
+7;midhurst;50.9841854, -0.74043;1
+8;shoreditch, hoxton;51.5295386, -0.0800864;0.9
+9;ramsey, huntingdonshire;51.9279381, 1.2206721;1
+10;galloway;51.8291275, -0.8356277;1
+11;lincoln;53.2293545, -0.5404819;1
+12;down county;54.33333, -5.75;0
+13;newark, nottinghamshire;53.0736266, -0.8005422346357507;1
+14;south shields;54.9987414, -1.4321848;1
+15;sunderland;55.7955457, -6.3958349;1
+16;rossendale;53.6848806, -2.261439758907419;1
+17;horsham;51.0630273, -0.3295028;1
+18;tottenham;51.5976955, -0.0672892;1
+19;strand;51.817725, -2.4107343;1
+20;kinsale;50.43173135, -3.669584325442478;1
+21;warwick and leaming, warwickshire;52.282749, -1.589157;0.25004699999999996
+22;st. andrews;56.3403902, -2.7955844;1
+23;chichester;50.8364862, -0.7791721;1
+24;woodstock;51.8942879, -4.8765902;1
+25;norwich;52.6285576, 1.2923954;1
+26;monmouth, monmouthshire;51.8098882, -2.7160441;1
+27;poplar, bow and bromley;51.5246287, -0.0123189;0
+28;leeds;53.7974185, -1.5437941;1
+29;surrey, guildford;51.246905, -0.589047;0.9
+30;surrey, mitcham;51.3532894, -0.7189572;0.9
+31;berwickshire and haddingtonshire;;
+32;southwark, rotherhithe;51.49345065, -0.05787425648064475;0.81
+33;evesham;52.0940158, -1.9483083;1
+34;cumberland, cockermouth;54.6614392, -3.3590111;1
+35;West Stirlingshire, Stirlingshire and Clackmannanshire;56.164728, -3.6715;0
+36;berwickshre;;
+37;dumfries;55.069836, -3.6092292;1
+38;kent, dover;51.1251275, 1.3134228;0.567
+39;malmesbury;51.58447, -2.0982042;1
+40;belfast west;54.603533, -5.928807;0.9
+41;tiverton;53.1393479, -2.6716283;1
+42;cornwall, st austell;;
+43;cardiff;51.4816546, -3.1791934;1
+44;durham;54.666667, -1.75;1
+45;montgomery;52.562033, -3.1474836;1
+46;nottingham;52.9534193, -1.1496461;1
+47;kesington;;
+48;lichfield;52.6843696, -1.8275286;1
+49;norfolk, kind's lynn;50.810381, -1.070695;0
+0;perth;56.3958186, -3.4286805;1
+1;tower hamlets;51.1288633, 1.2986686;1
+2;tyrone mid;54.509791, -6.769187;0
+3;devonport;50.3713958, -4.1734878;1
+4;wigan;53.5457188, -2.6264624;1
+5;bewdley, worcesternshire;52.375726, -2.317408;0.5
+6;chester;53.1908873, -2.8908955;1
+7;fermanagh south;54.252321949999995, -7.557459924531137;0.567
+8;neath, glamorganshire;51.66079, -3.82644;0.567
+9;birmingham, erdington;52.5284461, -1.8425676;1
+10;grantham;52.913192, -0.6438974;1
+11;kent, medway;51.2009397, 0.3058174;0
+12;kent, st augustine's;51.295329, 1.065338;0.405
+13;newport;51.5882332, -2.9974967;1
+14;st. albans;51.753051, -0.3379675;1
+15;kingston upon thames;51.38177625, -0.27699333824284805;1
+16;middlesex, hendon;51.472718, -0.323957;0.81
+17;middlesex, hornsey;51.472718, -0.323957;0.81
+18;wallasey;53.4241208, -3.0394101;1
+19;chorley, lancashire;53.6531915, -2.6294313;1
+20;tyrone east;51.88309315, 1.0384498;0.9
+21;woolwich;51.4826696, 0.0623335;1
+22;cornwall, st ives;50.2149064, -5.4795083;0.6666666666666667
+23;tower hamlets, mile end;51.5253378, -0.033435;0.5
+24;stroud, gloucestershire;51.745424, -2.2198605;1
+25;durham, spennymoor;54.71006545, -1.5708645164149715;0.81
+26;huntingdon, huntingdonshire;52.3314292, -0.1847723;1
+27;marlborough;51.4209962, -1.728952;1
+28;broxtowe, nottinghamshire;52.970202400000005, -1.261989725119972;0.5
+29;somerset, welington;50.98375, -2.70785;0.567
+30;eye;52.6088657, -0.1890209;1
+31;shropshire;52.65233935, -2.64356407027027;1
+32;durgavan;;
+33;kettering, northamptonshire;52.3994233, -0.728004;1
+34;lincolnshire;53.1823034, -0.2031208542548153;1
+35;new forest and christc, hampshire;54.683331, -2.268323;0.25
+36;bodmin;50.470725, -4.7243205;1
+37;gorton, lancashire;53.4636116, -2.1750359;1
+38;shrewsbury;52.707755, -2.7540658;1
+39;battersea and clapham ii;52.6235358, 1.2944737751526694;0.63
+40;wandsworth, clapham;51.4702083, -0.139762;0.81
+41;west ham, upton;53.620327, -1.282117;1
+42;newton, lancashire;51.4854638, -3.6763391;1
+43;down mid;50.8251727, -3.7845004;0.44099999999999995
+44;calne;51.437977, -2.0050911;1
+45;tyrone north-east;54.58333, -7;0
+46;stepney, limehouse;51.5174023, -0.0462189;0.3969
+47;banbury;52.0601807, -1.3402795;1
+48;bolton;53.5782863, -2.4300367;1
+49;kirkcaldy;56.1110218, -3.1582296;1
+0;ealing;51.5250846, -0.3142935008138148;1
+1;tower hamlets, st george;51.51667, -0.05;0.81
+2;merthyr tydfil, merthyr;51.7455659, -3.3786082;1
+3;walthamstow;51.5844701, -0.0188186;1
+4;forfarshire;56.715141349999996, -2.890562836754113;1
+5;ross and cromarty;57.593, -5.253873;1
+6;bewdley, worcestershire;52.3754763, -2.3162408;1
+7;pontefract;53.6917422, -1.3105722;1
+8;newcastle under lyme;53.0117627, -2.2273919;1
+9;the hartlepools;54.6966814, -1.1758925;1
+10;forest-of-dean, gloucestershire;51.7996179, -2.5305841628747032;0.75
+11;luton, bedfordshire;51.8784385, -0.4152837;1
+12;kent, ashford;51.148555, 0.8722566;0.567
+13;whitby;54.4874141, -0.6155111;1
+14;cheshire;53.2141028, -2.471770086071205;1
+15;rugby, warwickshire;52.3726682, -1.2620038;1
+16;chippenham;51.4587621, -2.1159032;1
+17;birmingham, edgbaston;52.47100415, -1.921455396432302;0.81
+18;oxfordshire;51.833333, -1.25;1
+19;stirlingshrie and clackmannanshir;;
+20;blackpool;53.8179442, -3.0509812;1
+21;petersfield, hampshire;51.0024945, -0.9392027;1
+22;clasgow, gorbals;;
+23;eccles, lancashire;55.6657728, -2.377732;1
+24;beverley;53.8425488, -0.4315677;1
+25;armagh mid;54.35, -6.66667;0.9
+26;bedwellty, monmouthshire;51.6970601, -3.2053606;1
+27;liverppol;;
+28;portarlington;50.7186254, -1.8966518;1
+29;hyde, cheshire;53.4508687, -2.0782603;1
+30;wolverhampton;52.5847651, -2.127567;1
+31;scaraborough;;
+32;bandon;51.3647773, -0.13483259828506877;1
+33;southwark, bermondsey;51.4978011, -0.0816432;0.9
+34;buckingham, buckinghamshire;51.9983175, -0.9786725;1
+35;bromley;51.36685695, 0.061709076090816765;1
+36;manchester, ardwick;53.4711176, -2.2130325;0.5
+37;macclesfield;53.2606635, -2.1255158;1
+38;ludlow;52.3679896, -2.7193114;1
+39;west ham, silvertown;51.536422349999995, 0.008701348886019065;0.81
+40;glasgow, shettleston;55.861155, -4.2501687;1
+41;durham, seaham;54.7770139, -1.5756205;1
+42;harborough, leicestershire;52.538568850000004, -0.9200444888910031;1
+43;battersea;51.4707933, -0.172214;1
+44;glasgow, camlachie;;
+45;essex, epping;51.6982689, 0.1102918;0.5
+46;camberwell;51.4745706, -0.0925416;1
+47;birminghman, edgbaston;;
+48;sheffield;53.3806626, -1.4702278;1
+49;glasgow, pollok;55.861155, -4.2501687;1
+0;essex, romford;51.5407328, -0.0961859;0.9
+1;middlesex, enfield;51.6593928, -0.1332549585379136;0.6561000000000001
+2;tyrone south;54.5101423, -6.769401629332267;0.9
+3;battersea and clapham i;52.6235358, 1.2944737751526694;0.63
+4;denbigshire;;
+5;londonberry county;55, -6.16667;0
+6;aberdeenshire;57.166667, -2.666667;1
+7;hastings;50.8553888, 0.5824703;1
+8;brecon;51.9472048, -3.391696;1
+9;llanelly, carmarthenshire;51.7300218, -4.3169784;0.7290000000000001
+10;nort, midlothian and peeblesshire;55.835504, -3.173787;0
+11;newington;55.9328287, -3.1732062;1
+12;plymouth;50.3712659, -4.1425658;1
+13;bosworth, leicestershire;52.62170505, -1.4149268252673441;0.9
+14;mallow;51.5062423, -0.0903798;1
+15;suffolk, sudbury;52.0401524, 0.7299495;0.5
+16;birmingham;52.4796992, -1.9026911;1
+17;wandsworth, putney;51.457052, -0.200794;0.81
+18;shoreditch;51.5266694, -0.0798926;1
+19;cardiganshire;52.2945764, -3.9527809990291427;1
+20;durham, barnard castle;54.5433311, -1.9269265885034277;0.6666666666666667
+21;sheffield, park;54.865111, -7.0807098;1
+22;herefordshire;52.083333, -2.75;1
+23;denbigh;53.1853776, -3.4178289;1
+24;glasgow;55.861155, -4.2501687;1
+25;clackmannanshire and kinross-shir;;
+26;st. ives;50.2149064, -5.4795083;1
+27;liverpool, fairfield;53.4181381, -2.934096126818182;1
+28;wenlock;52.5955951, -2.5578451;1
+29;bermondsey, rotherhithe;51.498036, -0.0634795;0.9
+30;lancashire;53.8611703, -2.5650887919475496;1
+31;essex, colchester;51.54450755, 0.5840084067307691;0.81
+32;thrisk;;
+33;roxburghshire;55.5, -2.5;1
+34;nuneaton, warwickshire;52.5246182, -1.4684488;1
+35;bassetlaw, nottinghamshire;53.34945205, -0.9616604011939824;0.5
+36;rye;50.9511871, 0.7327667;1
+37;bury;53.5927543, -2.2972827;1
+38;sussex;50.94451385000001, -0.062267328417847545;1
+39;ormskirk, lancashire;53.5673603, -2.8859603;1
+40;christchurch;50.734902, -1.7778853;1
+41;surrey;51.2715316, -0.3414523511290909;1
+42;surrey, wimbledon;51.404853, -0.304818;0.567
+43;middlesex, finchley;51.472718, -0.323957;0.81
+44;middlesex, brentford;51.489129, -0.307382;0.5
+45;liverpool, walton;53.4516732, -2.9578365465357654;1
+46;lyme regis;50.7252897, -2.934559;1
+47;wolverhampton, bilston;52.5700229, -2.0822333;1
+48;bootle, lancashire;53.4506931, -2.9948834;1
+49;antrim south;52.59802155, 1.169656842200752;0.9
+0;derby;52.9212617, -1.4761491;1
+1;wigton;54.8246802, -3.1610942;1
+2;cardigan;52.0839973, -4.6604224;1
+3;waterloo, lancashire;51.5868946, -3.1625022;1
+4;shrewsbury, shropshire;52.707755, -2.7540658;1
+5;sundersland;;
+6;glasgow, springburn;55.861155, -4.2501687;1
+7;royton, lancashire;53.5652485, -2.1236085;1
+8;sheffield, hallam;51.4613945, -1.7180334;0.5
+9;haddington;55.9556144, -2.779317;1
+10;birmingham, king's norton;52.4508239, -1.7253357;0.63
+11;perthshire;56.76615485, -3.3391095;1
+12;yorkshire;53.9825271, -1.3852499932684972;1
+13;crewe, cheshire;53.0996153, -2.4414627;1
+14;lancaster, lancashire;54.0484068, -2.7990345;1
+15;dover;51.1251275, 1.3134228;1
+16;clonmel;51.4346494, -0.18495899924058473;1
+17;bute;55.824188899999996, -5.08148580774648;1
+18;staffordhsire, lichfield;52.681, -1.829439;0.5
+19;manchester, withington;53.47741975, -2.230833394921874;0.567
+20;gower, glamorganshire;51.584092, -4.103997;0.567
+21;stockton-on-tees;54.564094, -1.3129164;1
+22;sheffield, attercliffe;53.3825, -1.433688;0.9
+23;farnworth, lancashire;53.5485989, -2.3969984;1
+24;wandsworth;51.4570271, -0.1932607;1
+25;morpeth;55.1675437, -1.6907444;1
+26;lewisham;51.4624292, -0.0101787;1
+27;leigh, lancashire;53.4960455, -2.5171495;1
+28;wighan;;
+29;westmorland;54.440693249999995, -2.7167995744814992;1
+30;devon, honiton;50.7981119, -3.1924599;0.5
+31;leominster;52.2273558, -2.7375333;1
+32;ogmore, glamoranshire;51.6023, -3.54217;0.81
+33;ashburton;50.526735200000005, -3.755984991182407;1
+34;knutsford, cheshire;53.3025402, -2.3716001;1
+35;east ham;51.5394005, 0.0526042;1
+36;bury st. edmunds;52.2460367, 0.7125173;1
+37;bedfordshire;52.064003400000004, -0.41111375560310925;1
+38;carow;;
+39;glasgow, college;55.860766, -4.268234;0.5
+40;kent, chislehurst;51.413146, 0.065479;0.5
+41;tynemouth and north shields;55.0330659, -1.4290327;0.63
+42;king's lynn;52.7538673, 0.3954774;1
+43;hamilton, lanarkshire;55.7759095, -4.033442;0.504
+44;hornsey;51.5873645, -0.1209667;1
+45;sussex, horsahm;50.864503, -0.08715;0.9
+46;horncastle, lincolnshire;53.2087265, -0.1169525;1
+47;liverpool, exchange;53.410374, -2.979375;0.5
+48;devon, ashburton;50.5175973, -3.7560726;0.5
+49;clitheroe, lancashire;53.8717465, -2.3926783;1
+0;stalybridge and hyde, cheshire;53.48414, -2.05908;0.33333333333333337
+1;westmorland, appleby;53.620235, -0.566291;0.5
+2;denbighshire;53.1097895, -3.367128402684635;1
+3;maldon;51.731198, 0.6791849;1
+4;northumberland, wansbeck;55.294055, -1.637742;0.63
+5;tamworth, warwickshire;52.6345819, -1.6948438;1
+6;canterbury;51.2800275, 1.0802533;1
+7;worcestershire;52.2109495, -2.156955513242221;1
+8;newcastle-upon-tyne, cental;54.989692, -1.627914;0.12502349999999998
+9;berwickshire;55.75, -2.5;1
+10;monmouth;51.8098882, -2.7160441;1
+11;willesden;51.5466216, -0.2358661;1
+12;manchester, clayton;53.471419, -2.244834;0.5
+13;worcester;52.1911849, -2.2206585;1
+14;banbury, oxfordshire;52.0601807, -1.3402795;1
+15;dunbartonshire;55.933333, -4.2;1
+16;liverpool, abercromby;53.410374, -2.979375;0.5
+17;petersfield;51.0024945, -0.9392027;1
+18;manchester, rusholme;53.471419, -2.244834;0.5
+19;moray and mairnshire;57.6158, -3.57125;0
+20;susex, lewes;;
+21;hereford, herefordshire;52.0553813, -2.7151735;1
+22;londonberry city;51.80174, -0.20691;0.567
+23;manchester, blackley;53.5242138, -2.2281266;0
+24;down south;51.58412, -2.55473;0.63
+25;down east;51.1311372, 0.2636186;0.9
+26;tynemouth;55.0177847, -1.4256042;1
+27;shoreham;50.8322307, -0.2746717;1
+28;cumberland, whitehaven;54.5474199, -3.5885335;1
+29;stepney, whitechapel and st georg;51.5175, -0.04292;0.19999999999999996
+30;totnes;50.4322816, -3.6871525;1
+31;newry;54.1775283, -6.337506;1
+32;stepney, mile end;51.5174023, -0.0462189;0.15752961
+33;st marylebone;51.52427, -0.1634083;0.9
+34;bewdley;52.3754763, -2.3162408;1
+35;edingburghshire;;
+36;camberwell, peckham;51.47402, -0.0914172;0.7290000000000001
+37;richmond;51.4613531, -0.3032767;1
+38;abingdon, berkshire;51.6714842, -1.2779715;1
+39;bedford;52.1363806, -0.4675041;1
+40;stafford, staffordshire;52.8063157, -2.1163818;1
+41;surrey, chertsey;51.392296, -0.5038294;0.5
+42;westminster, st george's;53.381885, -1.477006;0.5
+43;northumberland, hexham;54.971478, -2.1017927;0.5
+44;armagh city;54.3478587, -6.653925109650157;1
+45;winchester, hampshire;51.0612766, -1.3131692;1
+46;peeb, midlothian and peeblesshire;55.835504, -3.173787;0
+47;middlesbrough;54.5760419, -1.2344047;1
+48;abertillery, monmouthshire;51.7299485, -3.1359867;1
+49;kutsford, cheshire;;
+0;wednesbury;52.5521806, -2.0224441;1
+1;prestwich, lancashire;53.5304274, -2.2960186;1
+2;parts of kesteven a, lincolnshire;52.95, -0.5;0
+3;tyrone north-west;54.58333, -7;0
+4;devon, tiverton;50.9025623, -3.4875797;0.5
+5;kinsington upon hull;53.770694, -0.32798;0.63
+6;wallsend;54.9911912, -1.5342042;1
+7;northallerton;54.3404812, -1.4344936;1
+8;swindon, wiltshire;51.5613683, -1.7856853;1
+9;west ham;51.5280966, 0.0045685;1
+10;barnsley;53.5527719, -1.4827755;1
+11;chesterfield, derbyshire;53.2352134, -1.4264097;1
+12;warwickshire;52.32130635, -1.5536905536661392;1
+13;glasgow, govan;55.861155, -4.2501687;1
+14;hackney;51.5489139, -0.049938432352439555;1
+15;hampstead;51.55653, -0.1783011;1
+16;smethwick;52.4968157, -1.9739174;1
+17;somerset, wells;51.2094511, -2.6451203;0.5
+18;middlesex, acton;51.531318850000005, -0.2677642601310697;0.81
+19;cornwall, bodmin;50.443348900000004, -4.62465658489158;0.5
+20;bradford;53.7944229, -1.7519186;1
+21;berkshire;51.453488899999996, -1.0318729593399247;1
+22;birmingham, ladywood;52.4731, -1.9183;0.567
+23;manchester, hulme;53.47008, -2.23908;0.567
+24;merthyr tydfil, aberdare;51.7455659, -3.3786082;1
+25;warwick and leamington;52.3979366, -1.5165732;0.81
+26;suffolk, stowmarket;52.1878147, 0.9973428;0.5
+27;roxburghshire and selkirkshire;;
+28;brigg, lincolnshire;53.5525329, -0.4896411;1
+29;sandwich;51.2752527, 1.3408309;1
+30;bury st edmunds;52.2460367, 0.7125173;1
+31;drogheda;;
+32;kent, sevenoaks;51.27452185, 0.1961165562194977;0
+33;essex, maldon;51.721221, 0.675147;0.9
+34;antrim north;54.60167345, -5.92912240354873;0.81
+35;belfast;54.596391, -5.9301829;1
+36;glasgow, kelvingrove;55.8591108, -4.2872817;0.6561000000000001
+37;fermanagh north;54.2533686, -7.558474921258922;0.567
+38;thornbury, gloucestershire;51.6078094, -2.5254942;1
+39;stamford, lincolnshire;52.6519973, -0.4804579;1
+40;newcastle-upon-tyne;54.989692, -1.627914;1
+41;ebbw vale, monmouthshire;51.7812925, -3.2084383;1
+42;renfrewshire;55.833333, -4.5;1
+43;st albans, hertfordshire;51.753051, -0.3379675;1
+44;selkirkshire;55.5, -3;1
+45;greenwhich;;
+46;ludlow, shropshire;52.3679896, -2.7193114;1
+47;eccles;55.6657728, -2.377732;1
+48;tavistock;50.5496154, -4.1446358;1
+49;gainsborough, lincolnshire;53.3995376, -0.7758801;1
+0;guildford;51.2356068, -0.5732063;1
+1;west bromwich;52.5186579, -1.9923114;1
+2;isle of wight;50.67108245, -1.3328042802764226;1
+3;glasgow, cathcart;55.861155, -4.2501687;1
+4;liverpool, scotland;53.4249378, -2.9819971;0
+5;rushcliffe, nottinghamshire;52.97160435, -1.0808814330673715;0.5
+6;andover;51.2078275, -1.479355;1
+7;paddington;51.5154795, -0.175365;1
+8;newbury, berkshire;51.4020243, -1.3242212;1
+9;wandsworth, streatham;51.4246803, -0.138774;0.81
+10;haverfordwest;51.8023297, -4.9651074;1
+11;tralee;56.4988957, -5.4187061;1
+12;portsmouth;50.800031, -1.0906023;1
+13;rhondda, glomorganshire;51.622993, -3.952891;0.9
+14;suffolk, woodbridge;52.0941323, 1.3199383;1
+15;carmarthen, carmarthenshire;51.8591257, -4.3115907;1
+16;wycombe;51.66356185, -0.818083680966309;1
+17;chesterton, cambridgeshire;52.5723806, -2.3181227;1
+18;finsbury;51.521798, -0.0914245;1
+19;chelsea;51.4875167, -0.1687007;1
+20;wellingborough, northamptonshire;52.30189, -0.6937309;1
+21;wick;58.4425516, -3.0915827;1
+22;plymouth, sutton;50.393988, -4.113637;0.5
+23;swansea, town;51.62079, -3.94323;0.5
+24;berwick-upon-tweed;55.7692442, -2.0026472;1
+25;accrington, lancashire;53.7541156, -2.3655434;1
+26;peterborough, northamptonshire;52.5725769, -0.2427336;1
+27;poole;50.7179472, -1.981521;1
+28;nuneatton, warwickshire;;
+29;lambeth, kennington;51.4884523, -0.1092504;1
+30;birmingham, handsworth;52.478308, -1.893538;0.5
+31;fulham;51.4744221, -0.2060772;1
+32;somerset, frome;51.2274459, -2.3099995;0.5
+33;kingswinford, staffordshire;52.4967692, -2.1661721;1
+34;londonderry;54.9978678, -7.3213056;1
+35;pembroke and haverfordwest distri;51.8033774, -4.9685562;0
+36;wilton;51.0805315, -1.8607051;1
+37;dorset;50.79683685, -2.34473226124306;1
+38;tyrone north;54.8253501, -7.4635216;0.7290000000000001
+39;gravesend;51.4424747, 0.3694468;1
+40;stamford;52.6519973, -0.4804579;1
+41;middlesex, uxbridge;51.5449509, -0.4816672;0.5
+42;kilmarnock, ayrshire and bute;55.607296, -4.501386;0.3969
+43;armagh north;54.94685185, -1.8428574184753144;0.9
+44;rutherglen, lanarkshire;55.8283888, -4.2116533;0.5
+45;cirenchester;;
+46;flint;53.2492828, -3.1345262;1
+47;carmarthen;51.8591257, -4.3115907;1
+48;parts of lindsey, lincolnshire;52.95, -0.5;0
+49;fareham, hampshire;50.8526637, -1.1783134;1
+0;st george, hanover square;53.744634, -0.334045;0
+1;sheffield, hillsborough;53.3806626, -1.4702278;1
+2;heywood and radcliffe, lancashire;53.592634, -2.21966;0.33333333333333337
+3;govan, lanarkshire;55.860048, -4.310645;0
+4;plymouth, devonport;50.3785212, -4.1701007;0.5
+5;brighton;50.8214626, -0.1400561;1
+6;southport;53.6475988, -3.0041751;1
+7;edinburgh;55.9533456, -3.1883749;1
+8;montgomeryshire;52.697605, -2.7453006;1
+9;ashton-under-lyne;53.4865407, -2.098691;1
+10;hawick;55.422564, -2.7866951;1
+11;aberavon, glamorganshire;51.593815, -3.801832;0.5
+12;oxford;51.7520131, -1.2578499;1
+13;birmingham, sparkbrook;52.4639671, -1.8758275;0.5
+14;aberdeenshire and kincardineshire;;
+15;st andrews;56.3403902, -2.7955844;1
+16;armagh south;54.3477776, -6.663106641607193;1
+17;leigh;53.4960455, -2.5171495;1
+18;hammersmith;51.4920377, -0.2236401;1
+19;sutherland;58.2500999, -4.5000946;1
+20;prtsmouth;;
+21;somerset, taunton;51.018223, -3.100356;1
+22;kent, faversham;51.3158434, 0.8911283;0.5
+23;altrincham, cheshire;53.3839662, -2.3525463;1
+24;somerset, bridgwater;51.13115255, -2.9829004220178925;0.9
+25;shoreditch, haggerston;51.5390915, -0.0703107;0.9
+26;thetford;52.4156001, 0.748712;1
+27;ayrshire;55.5, -4.5;1
+28;deptford;51.4758453, -0.0215164;1
+29;hertford;51.7957409, -0.078521;1
+30;rhondda;50.19383355, -5.42349135;1
+31;wallingford;51.5982905, -1.1252511;1
+32;breconshire and radnorshire;;
+33;staffordshire;52.824694199999996, -2.0074546723348115;1
+34;pontypridd, glamoranshire;51.6054091, -3.339708139981046;0.81
+35;devon, tavistock;50.5496154, -4.1446358;0.5
+36;down west;51.46488145, -2.6260755054180525;0
+37;pontypool, monmouthshire;51.7016878, -3.0405374;1
+38;st helens;53.4486075, -2.7359820790816323;1
+39;sheffield, ecclesall;53.3568319, -1.513869903027171;1
+40;burnley;53.793527, -2.245586;1
+41;ennis;53.338122, -2.80005;1
+42;kilmarnock;55.6100589, -4.4964652;1
+43;beaumaris;53.2648344, -4.089759711165446;1
+44;basingstoke, hampshire;51.262826, -1.0861976;1
+45;lonsdale, lancashire;54.2825758, -2.585502;1
+46;new forest, hampshire;50.8575514, -1.5779645531133135;1
+47;merthyr tydfil;51.7455659, -3.3786082;1
+48;cannock, staffordshire;52.688227, -2.0324197;1
+49;stalybridge;53.4840214, -2.0562536;1
+0;tamworth;52.6345819, -1.6948438;1
+1;isle of ely;52.4101888, 0.2506969;1
+2;croydon;51.3550556, -0.0643103753173489;1
+3;norfold;;
+4;leicester;52.6362, -1.1331969;1
+5;ilkeston, derbyshire;52.9710869, -1.307171;1
+6;elginshire and nairnshire;;
+7;liverpool, wavertree;53.3964505, -2.9281452;0.5
+8;lymington;50.7583753, -1.5426885;1
+9;swansea;51.6195955, -3.9459248;1
+10;cirencester and, gloucestershire;51.71708, -1.96825;0.5
+11;hythe;51.0691421, 1.0841634;1
+12;elgin;57.6487891, -3.3148459;1
+13;marylebone;51.5232789, -0.155596;1
+14;ayrshire and bute;55.4585713, -4.6292662;0.567
+15;mansfield, nottinghamshire;53.1443785, -1.1964165;1
+16;kent, tornbridge;51.302492, 0.585529;0
+17;accrington;53.7541156, -2.3655434;1
+18;leek, staffordshire;53.1057636, -2.0242837;1
+19;derbyshire;53.1185033, -1.5566179305872214;1
+20;salisbury, wiltshire;51.0690613, -1.7954134;1
+21;cumberland, penrith;54.6607482, -2.740025;1
+22;caerphilly, glamorganshire;51.573583, -3.219295;0.5
+23;widnes, lancashire;53.3646888, -2.7283328;1
+24;wilton, wiltshire;51.0805315, -1.8607051;1
+25;lanark, lanarkshire;55.6736271, -3.7780361;0.5
+26;middlesex;51.546055800000005, -0.2537791389340719;1
+27;rochester, gillingham;51.39759395, 0.543477996084319;0.9
+28;northumberland, berwick-upon-twee;55.775208, -2.006404;0.6480000000000001
+29;cornwall, lauceston;50.443348900000004, -4.62465658489158;0.5
+30;stockport;53.407901, -2.160243;1
+31;banffshire;57.5, -3.083333;1
+32;devon;50.724140500000004, -3.6607788161410735;1
+33;leith;55.9725499, -3.1709492;1
+34;birminghman;;
+35;blackburn;53.749326, -2.4840566;1
+36;bethnal green;51.5272449, -0.054752;1
+37;durham, consett;54.861762, -1.833626;0.9
+38;heywood, lancashire;53.5967685, -2.2239715;1
+39;forest and dean, gloucestershire;51.7764412, -2.516133;0.44099999999999995
+40;harwich;51.9445801, 1.2898522;1
+41;henley, oxfordshire;51.3297576, -1.5311185;1
+42;hertfordshire;51.840052299999996, -0.09785519224523963;1
+43;burton, staffordshire;53.1104634, -2.9615762;1
+44;antrim east;54.719697, -6.216839;0.9
+45;ripon;54.1362169, -1.5238006;1
+46;stoke-on-trent, hanley;53.0259916, -2.1753695;0.75
+47;suffolk;52.241001350000005, 1.0466830312565236;1
+48;biggleswade, bedfordshire;52.0882012, -0.2589013;1
+49;manchester;53.4794892, -2.2451148;1
+0;caernarvon;53.1394364, -4.2769751;1
+1;the wrekin, shropshire;52.67988, -2.53685;1
+2;coatbridge, lanarkshire;55.8622848, -4.0273166;1
+3;leominster, herefordshire;52.2273558, -2.7375333;1
+4;armagh county;54.3481977, -6.6540432;0.9
+5;wells;51.2094511, -2.6451203;1
+6;hampshire;51.04483545, -1.2434093597173146;1
+7;greenwich;51.4820845, -0.0045417;1
+8;lanarkshire;55.5752966, -3.833333;1
+9;cornwall;50.416667, -4.75;1
+10;tower hamlets, limehouse;51.5112411, -0.031176655894780386;0.567
+11;east retford;53.3233189, -0.9426596;1
+12;newport, shropshire;51.5882332, -2.9974967;1
+13;birmingham, deritend;52.4735217, -1.8826851;0.5
+14;westbury;51.261079, -2.1836535;1
+15;sheffiled, attercliffe;53.3944795, -1.4315196;0.5
+16;stoke-on-trent;53.0162014, -2.1812607;1
+17;dungannon;54.5039088, -6.7703622;1
+18;lambeth, brixton;51.494542949999996, -0.12287979425034345;0.9
+19;plymouth, drake;50.393988, -4.113637;0.5
+20;cumberland, penrith and cockermou;54.609603, -3.149913;0
+21;melton, leicestershire;52.8117106, -0.8592867292244459;1
+22;newark-on-trent;53.0761693, -0.8092339;1
+23;hertford, hertfordshire;51.7957409, -0.078521;1
+24;birmingham, duddeston;52.4884888, -1.8712807;0.5
+25;shaftesbury;51.0056195, -2.1955975;1
+26;leicestershire;52.666667, -1;1
+27;exeter;50.7255794, -3.5269497;1
+28;wirral, cheshire;53.3409714, -3.0500916;1
+29;glasgow, maryhill;55.861155, -4.2501687;1
+30;reigate;51.2376557, -0.2057067;1
+31;caithness and sutherland;58.5147311, -3.4928939;0.567
+32;radcliffe-cum-farnwor, lancashire;53.888754, -2.672673;0
+33;warrington;53.3899497, -2.5943178;1
+34;dumfriesshire;55.166667, -3.5;1
+35;rochdale;53.6153659, -2.1557561;1
+36;arfon, caernarvonshire;53.192284, -4.063781;0.5103
+37;belper, derbyshire;53.0229029, -1.4817414;1
+38;liverpool;53.3782584, -2.958688609021225;1
+39;dundalk;52.658799, -2.032561;1
+40;leicesterhsire, haborough;;
+41;endinburghshire;;
+42;durham, blaydon;54.9557596, -1.7431158;0.9
+43;knaresborough;54.0099825, -1.462186;1
+44;norfolk;52.666667, 1;1
+45;penryn and falmouth;50.170493, -5.10379;0.9
+46;bath;51.3813864, -2.3596963;1
+47;durham, jarrow;54.98036, -1.48423;0.5
+48;belfast south;54.603533, -5.928807;0.9
+49;hemel hempstead, hertfordshire;51.7511784, -0.472528;1
+0;liverpool, kirkdale;53.44047405, -2.987070459687921;1
+1;radnorshire;52.4627049, -3.2561628;1
+2;manchester, exchange;53.4859757, -2.2475911;1
+3;belfast east;54.605322, -5.930401460730592;1
+4;southend-on-sea;51.5388241, 0.7128137;1
+5;chatham;51.3819167, 0.526559;1
+6;bridport;50.733785, -2.7589005;1
+7;dumbarton;55.9432443, -4.5708479;1
+8;holborn;51.5171149, -0.1200657;1
+9;handsworth, staffordshire;53.3723004, -1.3830121;1
+10;tewkesbury;51.9925394, -2.1560169592908442;1
+11;watford, hertfordshire;51.6553875, -0.3957425;1
+12;athlone;51.3597335, -0.3469947;1
+13;youghal;51.5370644, -3.1396811;1
+14;kent, gravesend;51.443331, 0.33218;0.81
+15;wellington, shropshire;50.978376, -3.2275504;1
+16;stafford;52.8063157, -2.1163818;1
+17;haddingtonshire;;
+18;kendal;54.3289795, -2.747183;1
+19;wandsworthm, balham and tooting;51.44621, -0.154467;0
+20;wokingham, bershire;51.376879, -0.856097;0.5
+21;birmingham, aston;52.5006916, -1.8841916;0.5
+22;antrim;54.715139, -6.2192038;1
+23;glasgow, tradeston;55.8531105, -4.262678;0.5
+24;ipswich;52.0579324, 1.1528095;1
+25;reading;51.456659, -0.9696512;1
+26;tewkesbury, gloucestershire;51.9937857, -2.1549574;1
+27;chippenham, wiltshire;51.4587621, -2.1159032;1
+28;camberwell, dulwich;51.4418786, -0.0843244;1
+29;rochester;51.3883811, 0.504925;1
+30;middlsex, spelthorne;;
+31;city of london;51.5156177, -0.0919983;1
+32;antrim mid;54.863793, -6.27671;0.9
+33;stroud;51.745424, -2.2198605;1
+34;wrexham, denbighshire;53.0465084, -2.9937869;1
+35;bootle;53.4506931, -2.9948834;1
+36;birmingham, bordesley;52.4722127, -1.877661;0.5
+37;cirencester, gloucestershire;51.7171029, -1.9661616;1
+38;middlesex, ealing;51.51282, -0.3023;1
+39;pembroke;51.6754422, -4.9144858;1
+40;northumberland, tyneside;55.02979945, -1.5082559996141889;0.9
+41;lancaster;54.0484068, -2.7990345;1
+42;rotherham;53.4310417, -1.355187;1
+43;liverpool, edge hill;53.4024926, -2.9466548;0.6666666666666667
+44;middlesex, twickenham;51.447054, -0.332907;0.5
+45;flintshire;53.216509599999995, -3.1402189049730413;1
+46;great yarmouth;52.6119213, 1.7206879;1
+47;middlesex, brentford and chiswick;51.49277, -0.270257;0
+48;weymouth and melcombe regis;50.62057, -2.45136;0
+49;woodstock, oxfordshire;51.8942879, -4.8765902;1
+0;islington;51.5384287, -0.0999051;1
+1;gloucestershire;51.8333313, -2.1666674;1
+2;salisbury;51.0690613, -1.7954134;1
+3;newmarket, cambridgeshire;58.2367073, -6.3932062;1
+4;tower hamlets, stepney;51.513574, -0.042373;0.567
+5;west ham, plaistow;51.5280966, 0.0045685;0.6666666666666667
+6;caernarvonshire;53.0296552, -4.2897999;1
+7;newcastle-upon-lyme;54.98017505, -1.6146802127187847;0.63
+8;iverness-shire and ross and croma;53.180191, -2.549774;0
+9;clay cross, derbyshire;53.1652765, -1.4132383;1
+10;stirling and falkirk;56.291291, -4.452616;1
+11;wycombe, buckinghamshire;51.627422, -0.7484153;0.9
+12;cambridgeshire;52.333333, 0.083333;1
+13;fermanagh county;54.3459403, -7.644566876404299;1
+14;birkenhead;53.3895177, -3.0248007;1
+15;boston;52.9776561, -0.0237985;1
+16;hasting;54.883288, -1.4521818;1
+17;coventry;52.4081812, -1.510477;1
+18;middlesex, wood green;51.588798, -0.229632;0.63
+19;stone, straffordshire;57.332026, -2.81547;0.81
+20;maidstone;51.2748258, 0.5231646;1
+21;buckinghamshire;51.840894, -0.8998073587480795;1
+22;macclesfield, cheshire;53.2606635, -2.1255158;1
+23;grimsby;53.5671407, -0.0788045;1
+24;darlington;54.5242081, -1.5555812;1
+25;salford;53.4877463, -2.2891921;1
+26;rossendale, lancashire;53.6848806, -2.261439758907419;1
+27;winchester;51.0672545, -1.3200089;1
+28;greenock;55.9473423, -4.7564721;1
+29;carrickfergus;54.7136165, -5.8073112;1
+30;warwick;52.2814519, -1.5815742;1
+31;argyll;57.8967251, -5.15604;1
+32;northumberland;55.25, -2.000559;1
+33;dudley;52.5110832, -2.0816813;1
+34;hitchin, herfortshire;51.953184, -0.274664;0.5
+35;ilford;51.5582734, 0.0711669;1
+36;west ham, stratford;51.539058, -0.003909;1
+37;aberdeen;57.1482429, -2.0928095;1
+38;barrow-in-furness;54.1113351, -3.2289494;1
+39;glasgow, backfriars and hutcheson;;
+40;gloucester;51.8653705, -2.2458192;1
+41;batley and morley;52.9780992, -0.0214482;0.567
+42;glasgow, hillhead;55.879505, -4.290972;0.567
+43;antrim county;54.715139, -6.2192038;0.9
+44;kent, maidstone;51.2748258, 0.5231646;0.567
+45;sleaford, lincolnshire;52.99965, -0.4095586;1
+46;paisley;55.8455828, -4.4239646;1
+47;aldershot, hampshire;51.2494169, -0.7630148;1
+48;peeblesshire and selkirkshire;;
+49;devizes, wiltshire;51.3525027, -1.9958302;1
+0;liskeard;50.4546303, -4.4644227;1.0
+1;durham, bishop auckland;54.66119, -1.678765;0.9
+2;middlesex, tottenham;51.472718, -0.323957;0.81
+3;spalding, lincolnshire;52.787641, -0.1526475;1.0
+4;tower hamlets, poplar;51.51667, -0.05;0.6666666666666667
+5;wisbech, cabridgeshire;52.650605, 0.158108;0.567
+0;krikcaldy;;
+1;dunfermline;56.0713724, -3.4616183;1
+2;taunton;51.0147895, -3.1029086;1
+3;wareham;50.6868972, -2.1098377;1
+4;leominster, hereforedshire;52.223206, -2.738751;0.81
+5;clitheroe;53.8717465, -2.3926783;1
+6;wakefield;53.6829541, -1.4967286;1
+7;orkney and shetland;58.9819908, -2.9596737;0.7290000000000001
+8;tower hamlets,bow and bromley;52.49162, -2.138843;0
+9;glasgow, bridgeton;55.861155, -4.2501687;1
+10;downpatrick;54.3279335, -5.71649;1
+11;aylesbury;51.8161412, -0.8130383;1
+12;iverness;;
+13;kin, perthshire and kinross-shire;56.206555, -3.43298;0
+14;cumberland, eskdale;54.386061, -3.3129036;0.5
+15;evesham, worcestershire;52.0940158, -1.9483083;1
+16;poplar;51.5110713, -0.0144629;1
+17;lambeth, norwood;51.42213455, -0.10798745695267944;0.9
+18;surreey, kingston;;
+19;fermanagh and tyrone;54.591775150000004, -7.271427147416087;0.9
+20;blackpool, lancashire;53.8179442, -3.0509812;1
+21;glamorganshire;51.7352168, -3.3761498;1
+22;llandaff and barr, glamorganshire;52.545319, -1.901123;0
+23;devon, barnstaple;51.0804057, -4.0600467;0.5
+24;breconshire;52.9877138, -1.1775355;1
+25;bridgwater;51.1283378, -3.0037046;1
+26;durham, sedgefield;54.7770139, -1.5756205;1
+27;frome;51.2309875, -2.3216982;1
+28;iverness-shire;;
+29;manchester, gorton;53.4646143, -2.176838216999516;0.7290000000000001
+30;peeplesshire and selkirkshire;;
+31;montrose;56.7114295, -2.4681544;1
+32;armagh;54.3481977, -6.6540432;1
+33;walsall;52.5847949, -1.9822687;1
+34;glasgow, st rollox;55.8721146, -4.2336294;0.6666666666666667
+35;londonberry south;50.4, -3.83333;0.63
+36;kent, canterbury;51.2800275, 1.0802533;0
+37;lisburn;54.5112913, -6.0466736;1
+38;stourbridge, worcestershire;52.4577615, -2.1474345;1
+39;rutland and stamfor, lincolnshire;52.655389, -0.468268;0
+40;andover, hampshire;51.2078275, -1.479355;1
+41;peeblesshire;55.6454616, -3.1721946;1
+42;great marlow;51.586075949999994, -0.8013756797940633;1
+43;helston;50.1016731, -5.273032;1
+44;huntingdonshire;52.37104395, -0.22357789271655937;1
+45;southampton;50.89556045, -1.3471152423561408;1
+46;partick, lanarkshire;55.8685425, -4.308412;0
+47;rutlandshire;;
+48;swansea, district;51.6576223, -3.8715324;1
+49;esex, walthamstow;;
+0;lewes;50.8746139, 0.005115324110936268;1
+1;kidderminster, worcestershire;52.3880787, -2.2478582;1
+2;sussex, rye;50.9511871, 0.7327667;0.5
+3;leyton;51.5568183, -0.0051322;1
+4;radnor;51.36456775, -0.1711469014878434;1
+5;stirlingshire and clackmannanshir;;
+6;kent, turnbridge;51.302492, 0.585529;0
+7;northamptonshire;52.3106138, -0.8659129831915817;1
+8;essex;51.77046785, 0.46466977412300386;1
+9;monmouthshire;51.7501058, -2.8333331;1
+10;dundee;56.4605938, -2.97019;1
+11;anglesey;53.2782273, -4.33133929345189;1
+12;preston;53.7593363, -2.6992717;1
+13;stoke-on-trent, stoke;53.0162014, -2.1812607;1
+14;motherwell, lanarkshire;55.7902072, -3.9920191;0.5
+15;kirkcudbrightshire;55, -4;1
+16;tower hamlets, whitechapel;51.5095303, -0.075386;0.63
+17;ayr;55.4628044, -4.6302502;1
+18;carlisle;54.8948478, -2.9362311;1
+19;eifion, caernarvonshire;53.106597, -4.27376;0.5103
+20;surrey, reigate;51.33585, -0.66199;0.9
+21;cricklade;51.6414188, -1.8579414;1
+22;st pancras;51.5259149, -0.1290973;1
+23;bedford, bedfordshire;52.1363806, -0.4675041;1
+24;wigtownshire;54.8975188, -5.0214808;1
+25;belfast north;54.617670000000004, -5.905466922187719;1
+26;colchester;51.8896903, 0.8994651;1
+27;kincardineshire;56.925681, -2.458549;1
+28;dorchester;50.7132064, -2.4371229;1
+29;hereford;52.0553813, -2.7151735;1
+30;fylde, lancashire;53.79336215, -2.89426008005;0
+31;darwen, lancashire;53.6960957, -2.4665093;1
+32;wimbledon;51.4214787, -0.2064027;1
+33;rowburghshire;;
+34;nelson and colne;53.84462805, -2.2216431082180117;0.9
+35;newcasle-upon-tyne;54.989692, -1.627914;1
+36;gloamorganshire;;
+37;windsor, berkshire;51.4800285, -0.6125716;1
+38;surrey, epsom;51.3347075, -0.268833;0.567
+39;stretford, lancashire;53.445428, -2.3223051;1
+40;halifax;53.7229229, -1.8604874;1
+41;dewsbury;53.6909103, -1.6302142;1
+42;kensington;51.4989948, -0.1991229;1
+43;abingdon;51.6714842, -1.2779715;1
+44;mossley, lancashire;53.51638545, -2.0235190148351148;1
+45;ince, lancashire;53.2828816, -2.8250708;1
+46;kent, dartford;51.4443059, 0.21807;0.567
+47;cornwall, camborne;50.2138828, -5.2990347;0
+48;huddersfield;53.6466645, -1.7822482;1
+49;devizes;51.3525027, -1.9958302;1
+0;cumberland, workington;54.6415716, -3.5459287;1
+1;oldham;53.5415797, -2.1147831;1
+2;stoke newington;51.5578698, -0.0822482;1
+3;pembrokeshire;51.8339209, -4.916667;1
+4;essex, saffron walden;52.021569, 0.2411256;0.6666666666666667
+5;westminster, abbey;51.4981579, -0.1319441;0.81
+6;cambridge;52.2055314, 0.1186637;1
+7;stafforshire;;
+8;devon, torquay;50.75632, -3.23487;0.567
+9;aylesbury, buckinghamshire;51.8161412, -0.8130383;1
+10;cricklade, wiltshire;51.6414188, -1.8579414;1
+11;tyrone county;54.6008742, -7.283036973903879;1
+12;kent;51.2474823, 0.7105077;1
+13;honiton;50.7981119, -3.1924599;1
+14;wiltshire;51.25, -1.916667;1
+15;stirling;56.1181242, -3.9360012;1
+16;caithness;58.404267000000004, -3.4340269886950203;1
+17;carmarthenshire;51.893669849999995, -4.217282721429928;1
+18;durham, houghton-le-spring;54.839602, -1.470191;0.7142857142857143
+19;cumberland;54.67842505, -3.304001955591123;1
+20;kent, isle of thanet;51.3243438, 1.3314426;0.75
+21;rochester, chatham;51.376518, 0.519561;0.9
+22;westminster;51.4973206, -0.137149;1
+23;per, perthshire and kinross-shire;56.206555, -3.43298;0
+24;durham, chester-le-street;54.851235, -1.573085;0.9
+25;falkirk;56.00205085, -3.749622841384784;1
+26;launceston;50.6365062, -4.3604432;1
+27;lichfield, staffordshire;52.6843696, -1.8275286;1
+28;bermondsey;51.4970125, -0.063268;1
+29;cornwall, stives;50.443348900000004, -4.62465658489158;0.5
+30;huntingdon;52.3314292, -0.1847723;1
+31;Western Isles, Inverness-shire and Ross and Cromarty;;
+32;cumberland, egremont;54.4838316, -3.5327921;0.5
+33;linlithgowshire;55.916667, -3.5;1
+34;newington, walworth;51.488681, -0.090476;0
+35;cornwall, penryn and falmouth;50.138951, -5.090249;0
+36;merionethshire;52.79397995, -3.8749544943258853;1
+37;devon, totnes;50.4322816, -3.6871525;0.5
+38;great grimsby;53.5671407, -0.0788045;1
+39;lambeth;51.4952111, -0.1163354;1
+40;manchester, platting;53.483872149999996, -2.20408596139014;0.567
+41;newcastle-under-lyme;53.0117627, -2.2273919;1
+42;suffolk, eye;52.3226292, 1.1463709;0.9
+43;stratford-on-avon, warwickshire;52.1927803, -1.70634;1
+44;westmorland, kendal;54.3322466, -2.7401448;0.81
+45;enniskillen;54.3448538, -7.6389365;1
+46;cockermouth;54.6614392, -3.3590111;1
+47;new ross;51.72051, -3.2413;0.567
+48;windsor;51.4800285, -0.6125716;1
+49;kidderminster;52.3880787, -2.2478582;1
+0;loughborough, leicestershire;52.7723859, -1.2077985;1
+1;somerset, yeovil;50.944553049999996, -2.6095621787951884;0.567
+2;bournemouth;50.720097, -1.8799272;1
+3;linconlnshire;;
+4;bridgnorth;52.5345626, -2.4194132;1
+5;buckingham;51.9983175, -0.9786725;1
+6;bristol;51.4538022, -2.5972985;1
+7;manchester, moss side;53.365183, -2.2720385;0.63
+8;kingston upon hull;53.7435722, -0.3394758;1
+9;surrey, farnham;51.2109359, -0.7937917;0.567
+10;finsbury, holborn;51.526403, -0.105606;0
+11;peterborough;52.5725769, -0.2427336;1
+12;birmingham, yardley;52.493265, -1.937593;0.63
+13;dartmouth;50.3514839, -3.583844;1
+14;barnstable;51.59011705, -2.524661201066831;1
+15;somerset;51.161750850000004, -3.0753867062227487;1
+16;coleraine;55.1315912, -6.671861;1
+17;glasgow, partick;55.8699211, -4.3094365;0.5714285714285714
+18;northampton;52.2378853, -0.8963639;1
+19;york;53.9590555, -1.0815361;1
+20;hitchin, hertfordshire;51.9464129, -0.2791646;1
+21;durham, durham;54.7770139, -1.5756205;1
+22;southwark;51.503925, -0.1049663;1
+23;malton;54.1349419, -0.7965915;1
+24;liverpool, everton;53.424389, -2.966944;0.567
+25;down;54.3518644, -5.961616475076931;1
+26;cornwall, truro;50.2633173, -5.0518107;0.5
+27;gateshead;54.9625789, -1.6019294;1
+28;middlesex, harrow;51.58462, -0.329158;0.9
+29;cheltenham;51.8995685, -2.0711559;1
+30;city of chester, cheshire;53.1888838, -2.8907471527256074;1
+31;gatehead;55.5947682, -4.5534433;1
+32;newcastle upon tyne;54.989692, -1.627914;1
+33;stirlingshire;56.0701208, -3.9087351;1
+34;bothwell, lanarkshire;55.8026551, -4.0676955;1
+35;sussex, chichester;50.8307252, -0.7902974671537156;1
+36;cashel;56.1117781, -4.5742788;1
+37;high peak, derbyshire;53.3675462, -1.8528746491564894;1
+38;hanley;53.0259916, -2.1753695;1
+39;droitwich;52.26851, -2.1486075;1
+40;stoke-on-trent, burslem;53.0446287, -2.1928235;1
+41;essex, chelmsford;51.54450755, 0.5840084067307691;0.81
+42;truro;50.2633173, -5.0518107;1
+43;fife;56.3333331, -3.0000001;1
+44;edmonton;51.6267968, -0.0769118;1
+45;ross, herefordshire;55.6268811, -1.7912003;1
+46;birmingham, moseley;52.45323, -1.88759;0.81
+47;aston manor;52.5158144, -1.872822890890502;1
+48;essex, harwich;51.9445801, 1.2898522;0.5
+49;denbigh, denbighshire;53.1853776, -3.4178289;1
+0;arundel;50.85453835, -0.5648162995576137;1
+1;sheffield, brightside;53.404212, -1.431107;0.81
+2;whitehaven;54.5474199, -3.5885335;1
+3;droitwich, worcestershire;52.26851, -2.1486075;1
+4;down north;51.46056, -2.82694;0.27782999999999997
+5;eddisbury, cheshire;53.2198327, -2.6710783;0.9
+6;londonberry north;51.95642, -0.1644;0.3969
+7;midhurst;50.9841854, -0.74043;1
+8;shoreditch, hoxton;51.5295386, -0.0800864;0.9
+9;ramsey, huntingdonshire;51.9279381, 1.2206721;1
+10;galloway;51.8291275, -0.8356277;1
+11;lincoln;53.2293545, -0.5404819;1
+12;down county;54.33333, -5.75;0
+13;newark, nottinghamshire;53.0736266, -0.8005422346357507;1
+14;south shields;54.9987414, -1.4321848;1
+15;sunderland;55.7955457, -6.3958349;1
+16;rossendale;53.6848806, -2.261439758907419;1
+17;horsham;51.0630273, -0.3295028;1
+18;tottenham;51.5976955, -0.0672892;1
+19;strand;51.817725, -2.4107343;1
+20;kinsale;50.43173135, -3.669584325442478;1
+21;warwick and leaming, warwickshire;52.282749, -1.589157;0.25004699999999996
+22;st. andrews;56.3403902, -2.7955844;1
+23;chichester;50.8364862, -0.7791721;1
+24;woodstock;51.8942879, -4.8765902;1
+25;norwich;52.6285576, 1.2923954;1
+26;monmouth, monmouthshire;51.8098882, -2.7160441;1
+27;poplar, bow and bromley;51.5246287, -0.0123189;0
+28;leeds;53.7974185, -1.5437941;1
+29;surrey, guildford;51.246905, -0.589047;0.9
+30;surrey, mitcham;51.3532894, -0.7189572;0.9
+31;berwickshire and haddingtonshire;;
+32;southwark, rotherhithe;51.49345065, -0.05787425648064475;0.81
+33;evesham;52.0940158, -1.9483083;1
+34;cumberland, cockermouth;54.6614392, -3.3590111;1
+35;West Stirlingshire, Stirlingshire and Clackmannanshire;56.150455, -3.848063;0
+36;berwickshre;;
+37;dumfries;55.069836, -3.6092292;1
+38;kent, dover;51.1251275, 1.3134228;0.567
+39;malmesbury;51.58447, -2.0982042;1
+40;belfast west;54.603533, -5.928807;0.9
+41;tiverton;53.1393479, -2.6716283;1
+42;cornwall, st austell;;
+43;cardiff;51.4816546, -3.1791934;1
+44;durham;54.666667, -1.75;1
+45;montgomery;52.562033, -3.1474836;1
+46;nottingham;52.9534193, -1.1496461;1
+47;kesington;;
+48;lichfield;52.6843696, -1.8275286;1
+49;norfolk, kind's lynn;50.810381, -1.070695;0
+0;perth;56.3958186, -3.4286805;1
+1;tower hamlets;51.1288633, 1.2986686;1
+2;tyrone mid;54.509791, -6.769187;0
+3;devonport;50.3713958, -4.1734878;1
+4;wigan;53.5457188, -2.6264624;1
+5;bewdley, worcesternshire;52.375726, -2.317408;0.5
+6;chester;53.1908873, -2.8908955;1
+7;fermanagh south;54.23167575, -7.536063371236445;0.567
+8;neath, glamorganshire;51.66079, -3.82644;0.567
+9;birmingham, erdington;52.5284461, -1.8425676;1
+10;grantham;52.913192, -0.6438974;1
+11;kent, medway;51.2009397, 0.3058174;0
+12;kent, st augustine's;51.295329, 1.065338;0.405
+13;newport;51.5882332, -2.9974967;1
+14;st. albans;51.753051, -0.3379675;1
+15;kingston upon thames;51.38177625, -0.27699333824284805;1
+16;middlesex, hendon;51.472718, -0.323957;0.81
+17;middlesex, hornsey;51.472718, -0.323957;0.81
+18;wallasey;53.4241208, -3.0394101;1
+19;chorley, lancashire;53.6531915, -2.6294313;1
+20;tyrone east;51.88309315, 1.0384498;0.9
+21;woolwich;51.4826696, 0.0623335;1
+22;cornwall, st ives;50.2149064, -5.4795083;0.6666666666666667
+23;tower hamlets, mile end;51.5253378, -0.033435;0.5
+24;stroud, gloucestershire;51.745424, -2.2198605;1
+25;durham, spennymoor;54.71006545, -1.5708645164149715;0.81
+26;huntingdon, huntingdonshire;52.3314292, -0.1847723;1
+27;marlborough;51.4209962, -1.728952;1
+28;broxtowe, nottinghamshire;52.970202400000005, -1.261989725119972;0.5
+29;somerset, welington;50.98375, -2.70785;0.567
+30;eye;52.6088657, -0.1890209;1
+31;shropshire;52.65233935, -2.64356407027027;1
+32;durgavan;;
+33;kettering, northamptonshire;52.3994233, -0.728004;1
+34;lincolnshire;53.1823034, -0.2031208542548153;1
+35;new forest and christc, hampshire;54.683331, -2.268323;0.25
+36;bodmin;50.470725, -4.7243205;1
+37;gorton, lancashire;53.4636116, -2.1750359;1
+38;shrewsbury;52.707755, -2.7540658;1
+39;battersea and clapham ii;52.6235358, 1.2944737751526694;0.63
+40;wandsworth, clapham;51.4702083, -0.139762;0.81
+41;west ham, upton;53.620327, -1.282117;1
+42;newton, lancashire;51.4854638, -3.6763391;1
+43;down mid;50.8251727, -3.7845004;0.44099999999999995
+44;calne;51.437977, -2.0050911;1
+45;tyrone north-east;54.58333, -7;0
+46;stepney, limehouse;51.5174023, -0.0462189;0.3969
+47;banbury;52.0601807, -1.3402795;1
+48;bolton;53.5782863, -2.4300367;1
+49;kirkcaldy;56.1110218, -3.1582296;1
+0;ealing;51.5250846, -0.3142935008138148;1
+1;tower hamlets, st george;51.51667, -0.05;0.81
+2;merthyr tydfil, merthyr;51.7455659, -3.3786082;1
+3;walthamstow;51.5844701, -0.0188186;1
+4;forfarshire;56.715141349999996, -2.890562836754113;1
+5;ross and cromarty;57.593, -5.253873;1
+6;bewdley, worcestershire;52.3754763, -2.3162408;1
+7;pontefract;53.6917422, -1.3105722;1
+8;newcastle under lyme;53.0117627, -2.2273919;1
+9;the hartlepools;54.6966814, -1.1758925;1
+10;forest-of-dean, gloucestershire;51.7996179, -2.5305841628747032;0.75
+11;luton, bedfordshire;51.8784385, -0.4152837;1
+12;kent, ashford;51.148555, 0.8722566;0.567
+13;whitby;54.4874141, -0.6155111;1
+14;cheshire;53.2141028, -2.471770086071205;1
+15;rugby, warwickshire;52.3726682, -1.2620038;1
+16;chippenham;51.4587621, -2.1159032;1
+17;birmingham, edgbaston;52.47100415, -1.921455396432302;0.81
+18;oxfordshire;51.833333, -1.25;1
+19;stirlingshrie and clackmannanshir;;
+20;blackpool;53.8179442, -3.0509812;1
+21;petersfield, hampshire;51.0024945, -0.9392027;1
+22;clasgow, gorbals;;
+23;eccles, lancashire;55.6657728, -2.377732;1
+24;beverley;53.8425488, -0.4315677;1
+25;armagh mid;54.35, -6.66667;0.9
+26;bedwellty, monmouthshire;51.6970601, -3.2053606;1
+27;liverppol;;
+28;portarlington;50.7186254, -1.8966518;1
+29;hyde, cheshire;53.4508687, -2.0782603;1
+30;wolverhampton;52.5847651, -2.127567;1
+31;scaraborough;;
+32;bandon;51.3647773, -0.13483259828506877;1
+33;southwark, bermondsey;51.4978011, -0.0816432;0.9
+34;buckingham, buckinghamshire;51.9983175, -0.9786725;1
+35;bromley;51.36685695, 0.061709076090816765;1
+36;manchester, ardwick;53.4711176, -2.2130325;0.5
+37;macclesfield;53.2606635, -2.1255158;1
+38;ludlow;52.3679896, -2.7193114;1
+39;west ham, silvertown;51.536422349999995, 0.008701348886019065;0.81
+40;glasgow, shettleston;55.861155, -4.2501687;1
+41;durham, seaham;54.7770139, -1.5756205;1
+42;harborough, leicestershire;52.538568850000004, -0.9200444888910031;1
+43;battersea;51.4707933, -0.172214;1
+44;glasgow, camlachie;;
+45;essex, epping;51.6982689, 0.1102918;0.5
+46;camberwell;51.4745706, -0.0925416;1
+47;birminghman, edgbaston;;
+48;sheffield;53.3806626, -1.4702278;1
+49;glasgow, pollok;55.861155, -4.2501687;1
+0;essex, romford;51.5407328, -0.0961859;0.9
+1;middlesex, enfield;51.6593928, -0.1332549585379136;0.6561000000000001
+2;tyrone south;54.5101423, -6.769401629332267;0.9
+3;battersea and clapham i;52.6235358, 1.2944737751526694;0.63
+4;denbigshire;;
+5;londonberry county;55, -6.16667;0
+6;aberdeenshire;57.166667, -2.666667;1
+7;hastings;50.8553888, 0.5824703;1
+8;brecon;51.9472048, -3.391696;1
+9;llanelly, carmarthenshire;51.7300218, -4.3169784;0.7290000000000001
+10;nort, midlothian and peeblesshire;55.835504, -3.173787;0
+11;newington;55.9328287, -3.1732062;1
+12;plymouth;50.3712659, -4.1425658;1
+13;bosworth, leicestershire;52.62170505, -1.4149268252673441;0.9
+14;mallow;51.5062423, -0.0903798;1
+15;suffolk, sudbury;52.0401524, 0.7299495;0.5
+16;birmingham;52.4796992, -1.9026911;1
+17;wandsworth, putney;51.457052, -0.200794;0.81
+18;shoreditch;51.5266694, -0.0798926;1
+19;cardiganshire;52.2945764, -3.9527809990291427;1
+20;durham, barnard castle;54.5433311, -1.9269265885034277;0.6666666666666667
+21;sheffield, park;54.865111, -7.0807098;1
+22;herefordshire;52.083333, -2.75;1
+23;denbigh;53.1853776, -3.4178289;1
+24;glasgow;55.861155, -4.2501687;1
+25;clackmannanshire and kinross-shir;;
+26;st. ives;50.2149064, -5.4795083;1
+27;liverpool, fairfield;53.4181381, -2.934096126818182;1
+28;wenlock;52.5955951, -2.5578451;1
+29;bermondsey, rotherhithe;51.498036, -0.0634795;0.9
+30;lancashire;53.8611703, -2.5650887919475496;1
+31;essex, colchester;51.54450755, 0.5840084067307691;0.81
+32;thrisk;;
+33;roxburghshire;55.5, -2.5;1
+34;nuneaton, warwickshire;52.5246182, -1.4684488;1
+35;bassetlaw, nottinghamshire;53.34945205, -0.9616604011939824;0.5
+36;rye;50.9511871, 0.7327667;1
+37;bury;53.5927543, -2.2972827;1
+38;sussex;50.94451385000001, -0.062267328417847545;1
+39;ormskirk, lancashire;53.5673603, -2.8859603;1
+40;christchurch;50.734902, -1.7778853;1
+41;surrey;51.2715316, -0.3414523511290909;1
+42;surrey, wimbledon;51.404853, -0.304818;0.567
+43;middlesex, finchley;51.472718, -0.323957;0.81
+44;middlesex, brentford;51.489129, -0.307382;0.5
+45;liverpool, walton;53.4516732, -2.9578365465357654;1
+46;lyme regis;50.7252897, -2.934559;1
+47;wolverhampton, bilston;52.5700229, -2.0822333;1
+48;bootle, lancashire;53.4506931, -2.9948834;1
+49;antrim south;52.59802155, 1.169656842200752;0.9
+0;derby;52.9212617, -1.4761491;1
+1;wigton;54.8246802, -3.1610942;1
+2;cardigan;52.0839973, -4.6604224;1
+3;waterloo, lancashire;51.5868946, -3.1625022;1
+4;shrewsbury, shropshire;52.707755, -2.7540658;1
+5;sundersland;;
+6;glasgow, springburn;55.861155, -4.2501687;1
+7;royton, lancashire;53.5652485, -2.1236085;1
+8;sheffield, hallam;51.4613945, -1.7180334;0.5
+9;haddington;55.9556144, -2.779317;1
+10;birmingham, king's norton;52.4508239, -1.7253357;0.63
+11;perthshire;56.76615485, -3.3391095;1
+12;yorkshire;53.9825271, -1.3852499932684972;1
+13;crewe, cheshire;53.0996153, -2.4414627;1
+14;lancaster, lancashire;54.0484068, -2.7990345;1
+15;dover;51.1251275, 1.3134228;1
+16;clonmel;51.4346494, -0.18495899924058473;1
+17;bute;55.824188899999996, -5.08148580774648;1
+18;staffordhsire, lichfield;52.681, -1.829439;0.5
+19;manchester, withington;53.47741975, -2.230833394921874;0.567
+20;gower, glamorganshire;51.584092, -4.103997;0.567
+21;stockton-on-tees;54.564094, -1.3129164;1
+22;sheffield, attercliffe;53.3825, -1.433688;0.9
+23;farnworth, lancashire;53.5485989, -2.3969984;1
+24;wandsworth;51.4570271, -0.1932607;1
+25;morpeth;55.1675437, -1.6907444;1
+26;lewisham;51.4624292, -0.0101787;1
+27;leigh, lancashire;53.4960455, -2.5171495;1
+28;wighan;;
+29;westmorland;54.440693249999995, -2.7167995744814992;1
+30;devon, honiton;50.7981119, -3.1924599;0.5
+31;leominster;52.2273558, -2.7375333;1
+32;ogmore, glamoranshire;51.6023, -3.54217;0.81
+33;ashburton;50.526735200000005, -3.755984991182407;1
+34;knutsford, cheshire;53.3025402, -2.3716001;1
+35;east ham;51.5394005, 0.0526042;1
+36;bury st. edmunds;52.2460367, 0.7125173;1
+37;bedfordshire;52.064003400000004, -0.41111375560310925;1
+38;carow;;
+39;glasgow, college;55.860766, -4.268234;0.5
+40;kent, chislehurst;51.413146, 0.065479;0.5
+41;tynemouth and north shields;55.0330659, -1.4290327;0.63
+42;king's lynn;52.7538673, 0.3954774;1
+43;hamilton, lanarkshire;55.7759095, -4.033442;0.504
+44;hornsey;51.5873645, -0.1209667;1
+45;sussex, horsahm;50.864503, -0.08715;0.9
+46;horncastle, lincolnshire;53.2087265, -0.1169525;1
+47;liverpool, exchange;53.410374, -2.979375;0.5
+48;devon, ashburton;50.5175973, -3.7560726;0.5
+49;clitheroe, lancashire;53.8717465, -2.3926783;1
+0;stalybridge and hyde, cheshire;53.48414, -2.05908;0.33333333333333337
+1;westmorland, appleby;53.620235, -0.566291;0.5
+2;denbighshire;53.1097895, -3.367128402684635;1
+3;maldon;51.731198, 0.6791849;1
+4;northumberland, wansbeck;55.294055, -1.637742;0.63
+5;tamworth, warwickshire;52.6345819, -1.6948438;1
+6;canterbury;51.2800275, 1.0802533;1
+7;worcestershire;52.2109495, -2.156955513242221;1
+8;newcastle-upon-tyne, cental;54.989692, -1.627914;0.12502349999999998
+9;berwickshire;55.75, -2.5;1
+10;monmouth;51.8098882, -2.7160441;1
+11;willesden;51.5466216, -0.2358661;1
+12;manchester, clayton;53.471419, -2.244834;0.5
+13;worcester;52.1911849, -2.2206585;1
+14;banbury, oxfordshire;52.0601807, -1.3402795;1
+15;dunbartonshire;55.933333, -4.2;1
+16;liverpool, abercromby;53.410374, -2.979375;0.5
+17;petersfield;51.0024945, -0.9392027;1
+18;manchester, rusholme;53.471419, -2.244834;0.5
+19;moray and mairnshire;57.6158, -3.57125;0
+20;susex, lewes;;
+21;hereford, herefordshire;52.0553813, -2.7151735;1
+22;londonberry city;51.80174, -0.20691;0.567
+23;manchester, blackley;53.5242138, -2.2281266;0
+24;down south;51.58412, -2.55473;0.63
+25;down east;51.1311372, 0.2636186;0.9
+26;tynemouth;55.0177847, -1.4256042;1
+27;shoreham;50.8322307, -0.2746717;1
+28;cumberland, whitehaven;54.5474199, -3.5885335;1
+29;stepney, whitechapel and st georg;51.5175, -0.04292;0.19999999999999996
+30;totnes;50.4322816, -3.6871525;1
+31;newry;54.1775283, -6.337506;1
+32;stepney, mile end;51.5174023, -0.0462189;0.15752961
+33;st marylebone;51.52427, -0.1634083;0.9
+34;bewdley;52.3754763, -2.3162408;1
+35;edingburghshire;;
+36;camberwell, peckham;51.47402, -0.0914172;0.7290000000000001
+37;richmond;51.4613531, -0.3032767;1
+38;abingdon, berkshire;51.6714842, -1.2779715;1
+39;bedford;52.1363806, -0.4675041;1
+40;stafford, staffordshire;52.8063157, -2.1163818;1
+41;surrey, chertsey;51.392296, -0.5038294;0.5
+42;westminster, st george's;53.381885, -1.477006;0.5
+43;northumberland, hexham;54.971478, -2.1017927;0.5
+44;armagh city;54.3478587, -6.653925109650157;1
+45;winchester, hampshire;51.0612766, -1.3131692;1
+46;peeb, midlothian and peeblesshire;55.835504, -3.173787;0
+47;middlesbrough;54.5760419, -1.2344047;1
+48;abertillery, monmouthshire;51.7299485, -3.1359867;1
+49;kutsford, cheshire;;
+0;wednesbury;52.5521806, -2.0224441;1
+1;prestwich, lancashire;53.5304274, -2.2960186;1
+2;parts of kesteven a, lincolnshire;52.95, -0.5;0
+3;tyrone north-west;54.58333, -7;0
+4;devon, tiverton;50.9025623, -3.4875797;0.5
+5;kinsington upon hull;53.770694, -0.32798;0.63
+6;wallsend;54.9911912, -1.5342042;1
+7;northallerton;54.3404812, -1.4344936;1
+8;swindon, wiltshire;51.5613683, -1.7856853;1
+9;west ham;51.5280966, 0.0045685;1
+10;barnsley;53.5527719, -1.4827755;1
+11;chesterfield, derbyshire;53.2352134, -1.4264097;1
+12;warwickshire;52.32130635, -1.5536905536661392;1
+13;glasgow, govan;55.861155, -4.2501687;1
+14;hackney;51.5489139, -0.049938432352439555;1
+15;hampstead;51.55653, -0.1783011;1
+16;smethwick;52.4968157, -1.9739174;1
+17;somerset, wells;51.2094511, -2.6451203;0.5
+18;middlesex, acton;51.531318850000005, -0.2677642601310697;0.81
+19;cornwall, bodmin;50.470725, -4.7243205;0.5
+20;bradford;53.7944229, -1.7519186;1
+21;berkshire;51.453488899999996, -1.0318729593399247;1
+22;birmingham, ladywood;52.4731, -1.9183;0.567
+23;manchester, hulme;53.47008, -2.23908;0.567
+24;merthyr tydfil, aberdare;51.7455659, -3.3786082;1
+25;warwick and leamington;52.3979366, -1.5165732;0.81
+26;suffolk, stowmarket;52.1878147, 0.9973428;0.5
+27;roxburghshire and selkirkshire;;
+28;brigg, lincolnshire;53.5525329, -0.4896411;1
+29;sandwich;51.2752527, 1.3408309;1
+30;bury st edmunds;52.2460367, 0.7125173;1
+31;drogheda;;
+32;kent, sevenoaks;51.27452185, 0.1961165562194977;0
+33;essex, maldon;51.721374, 0.675301;0.9
+34;antrim north;54.60167345, -5.92912240354873;0.81
+35;belfast;54.596391, -5.9301829;1
+36;glasgow, kelvingrove;55.8591108, -4.2872817;0.6561000000000001
+37;fermanagh north;54.2533686, -7.558474921258922;0.567
+38;thornbury, gloucestershire;51.6078094, -2.5254942;1
+39;stamford, lincolnshire;52.6519973, -0.4804579;1
+40;newcastle-upon-tyne;54.989692, -1.627914;1
+41;ebbw vale, monmouthshire;51.7812925, -3.2084383;1
+42;renfrewshire;55.833333, -4.5;1
+43;st albans, hertfordshire;51.753051, -0.3379675;1
+44;selkirkshire;55.5, -3;1
+45;greenwhich;;
+46;ludlow, shropshire;52.3679896, -2.7193114;1
+47;eccles;55.6657728, -2.377732;1
+48;tavistock;50.5496154, -4.1446358;1
+49;gainsborough, lincolnshire;53.3995376, -0.7758801;1
+0;guildford;51.2356068, -0.5732063;1
+1;west bromwich;52.5186579, -1.9923114;1
+2;isle of wight;50.67108245, -1.3328042802764226;1
+3;glasgow, cathcart;55.861155, -4.2501687;1
+4;liverpool, scotland;53.4249378, -2.9819971;0
+5;rushcliffe, nottinghamshire;52.97160435, -1.0808814330673715;0.5
+6;andover;51.2078275, -1.479355;1
+7;paddington;51.5154795, -0.175365;1
+8;newbury, berkshire;51.4020243, -1.3242212;1
+9;wandsworth, streatham;51.4246803, -0.138774;0.81
+10;haverfordwest;51.8023297, -4.9651074;1
+11;tralee;56.4988957, -5.4187061;1
+12;portsmouth;50.800031, -1.0906023;1
+13;rhondda, glomorganshire;51.622993, -3.952891;0.9
+14;suffolk, woodbridge;52.0941323, 1.3199383;1
+15;carmarthen, carmarthenshire;51.8591257, -4.3115907;1
+16;wycombe;51.66356185, -0.818083680966309;1
+17;chesterton, cambridgeshire;52.5723806, -2.3181227;1
+18;finsbury;51.521798, -0.0914245;1
+19;chelsea;51.4875167, -0.1687007;1
+20;wellingborough, northamptonshire;52.30189, -0.6937309;1
+21;wick;58.4425516, -3.0915827;1
+22;plymouth, sutton;50.393988, -4.113637;0.5
+23;swansea, town;51.62079, -3.94323;0.5
+24;berwick-upon-tweed;55.7692442, -2.0026472;1
+25;accrington, lancashire;53.7541156, -2.3655434;1
+26;peterborough, northamptonshire;52.5725769, -0.2427336;1
+27;poole;50.7179472, -1.981521;1
+28;nuneatton, warwickshire;;
+29;lambeth, kennington;51.4884523, -0.1092504;1
+30;birmingham, handsworth;52.478308, -1.893538;0.5
+31;fulham;51.4744221, -0.2060772;1
+32;somerset, frome;51.2274459, -2.3099995;0.5
+33;kingswinford, staffordshire;52.4967692, -2.1661721;1
+34;londonderry;54.9978678, -7.3213056;1
+35;pembroke and haverfordwest distri;51.8033774, -4.9685562;0
+36;wilton;51.0805315, -1.8607051;1
+37;dorset;50.79683685, -2.34473226124306;1
+38;tyrone north;54.8253501, -7.4635216;0.7290000000000001
+39;gravesend;51.4424747, 0.3694468;1
+40;stamford;52.6519973, -0.4804579;1
+41;middlesex, uxbridge;51.5449509, -0.4816672;0.5
+42;kilmarnock, ayrshire and bute;55.607296, -4.501386;0.3969
+43;armagh north;54.94685185, -1.8428574184753144;0.9
+44;rutherglen, lanarkshire;55.8283888, -4.2116533;0.5
+45;cirenchester;;
+46;flint;53.2492828, -3.1345262;1
+47;carmarthen;51.8591257, -4.3115907;1
+48;parts of lindsey, lincolnshire;52.95, -0.5;0
+49;fareham, hampshire;50.8526637, -1.1783134;1
+0;st george, hanover square;53.744634, -0.334045;0
+1;sheffield, hillsborough;53.3806626, -1.4702278;1
+2;heywood and radcliffe, lancashire;53.592634, -2.21966;0.33333333333333337
+3;govan, lanarkshire;55.860048, -4.310645;0
+4;plymouth, devonport;50.3785212, -4.1701007;0.5
+5;brighton;50.8214626, -0.1400561;1
+6;southport;53.6475988, -3.0041751;1
+7;edinburgh;55.9533456, -3.1883749;1
+8;montgomeryshire;52.697605, -2.7453006;1
+9;ashton-under-lyne;53.4865407, -2.098691;1
+10;hawick;55.422564, -2.7866951;1
+11;aberavon, glamorganshire;51.593815, -3.801832;0.5
+12;oxford;51.7520131, -1.2578499;1
+13;birmingham, sparkbrook;52.4639671, -1.8758275;0.5
+14;aberdeenshire and kincardineshire;;
+15;st andrews;56.3403902, -2.7955844;1
+16;armagh south;54.3477776, -6.663106641607193;1
+17;leigh;53.4960455, -2.5171495;1
+18;hammersmith;51.4920377, -0.2236401;1
+19;sutherland;58.2500999, -4.5000946;1
+20;prtsmouth;;
+21;somerset, taunton;51.018223, -3.100356;1
+22;kent, faversham;51.3158434, 0.8911283;0.5
+23;altrincham, cheshire;53.3839662, -2.3525463;1
+24;somerset, bridgwater;51.13115255, -2.9829004220178925;0.9
+25;shoreditch, haggerston;51.5390915, -0.0703107;0.9
+26;thetford;52.4156001, 0.748712;1
+27;ayrshire;55.5, -4.5;1
+28;deptford;51.4758453, -0.0215164;1
+29;hertford;51.7957409, -0.078521;1
+30;rhondda;50.19383355, -5.42349135;1
+31;wallingford;51.5982905, -1.1252511;1
+32;breconshire and radnorshire;;
+33;staffordshire;52.824694199999996, -2.0074546723348115;1
+34;pontypridd, glamoranshire;51.6054091, -3.339708139981046;0.81
+35;devon, tavistock;50.5496154, -4.1446358;0.5
+36;down west;51.46488145, -2.6260755054180525;0
+37;pontypool, monmouthshire;51.7016878, -3.0405374;1
+38;st helens;53.4486075, -2.7359820790816323;1
+39;sheffield, ecclesall;53.3568319, -1.513869903027171;1
+40;burnley;53.793527, -2.245586;1
+41;ennis;53.338122, -2.80005;1
+42;kilmarnock;55.6100589, -4.4964652;1
+43;beaumaris;53.2648344, -4.089759711165446;1
+44;basingstoke, hampshire;51.262826, -1.0861976;1
+45;lonsdale, lancashire;54.2825758, -2.585502;1
+46;new forest, hampshire;50.8575514, -1.5779645531133135;1
+47;merthyr tydfil;51.7455659, -3.3786082;1
+48;cannock, staffordshire;52.688227, -2.0324197;1
+49;stalybridge;53.4840214, -2.0562536;1
+0;tamworth;52.6345819, -1.6948438;1
+1;isle of ely;52.4101888, 0.2506969;1
+2;croydon;51.3550556, -0.0643103753173489;1
+3;norfold;;
+4;leicester;52.6362, -1.1331969;1
+5;ilkeston, derbyshire;52.9710869, -1.307171;1
+6;elginshire and nairnshire;;
+7;liverpool, wavertree;53.3964505, -2.9281452;0.5
+8;lymington;50.7583753, -1.5426885;1
+9;swansea;51.6195955, -3.9459248;1
+10;cirencester and, gloucestershire;51.71708, -1.96825;0.5
+11;hythe;51.0691421, 1.0841634;1
+12;elgin;57.6487891, -3.3148459;1
+13;marylebone;51.5232789, -0.155596;1
+14;ayrshire and bute;55.4585713, -4.6292662;0.567
+15;mansfield, nottinghamshire;53.1443785, -1.1964165;1
+16;kent, tornbridge;51.302492, 0.585529;0
+17;accrington;53.7541156, -2.3655434;1
+18;leek, staffordshire;53.1057636, -2.0242837;1
+19;derbyshire;53.1185033, -1.5566179305872214;1
+20;salisbury, wiltshire;51.0690613, -1.7954134;1
+21;cumberland, penrith;54.6607482, -2.740025;1
+22;caerphilly, glamorganshire;51.573583, -3.219295;0.5
+23;widnes, lancashire;53.3646888, -2.7283328;1
+24;wilton, wiltshire;51.0805315, -1.8607051;1
+25;lanark, lanarkshire;55.6736271, -3.7780361;0.5
+26;middlesex;51.546055800000005, -0.2537791389340719;1
+27;rochester, gillingham;51.39759395, 0.543477996084319;0.9
+28;northumberland, berwick-upon-twee;55.756146, -2.007553;0.6480000000000001
+29;cornwall, lauceston;50.443348900000004, -4.62465658489158;0.5
+30;stockport;53.407901, -2.160243;1
+31;banffshire;57.5, -3.083333;1
+32;devon;50.724140500000004, -3.6607788161410735;1
+33;leith;55.9725499, -3.1709492;1
+34;birminghman;;
+35;blackburn;53.749326, -2.4840566;1
+36;bethnal green;51.5272449, -0.054752;1
+37;durham, consett;54.861762, -1.833626;0.9
+38;heywood, lancashire;53.5967685, -2.2239715;1
+39;forest and dean, gloucestershire;51.7764412, -2.516133;0.44099999999999995
+40;harwich;51.9445801, 1.2898522;1
+41;henley, oxfordshire;51.3297576, -1.5311185;1
+42;hertfordshire;51.840052299999996, -0.09785519224523963;1
+43;burton, staffordshire;53.1104634, -2.9615762;1
+44;antrim east;54.719697, -6.216839;0.9
+45;ripon;54.1362169, -1.5238006;1
+46;stoke-on-trent, hanley;53.0259916, -2.1753695;0.75
+47;suffolk;52.241001350000005, 1.0466830312565236;1
+48;biggleswade, bedfordshire;52.0882012, -0.2589013;1
+49;manchester;53.4794892, -2.2451148;1
+0;caernarvon;53.1394364, -4.2769751;1
+1;the wrekin, shropshire;52.67988, -2.53685;1
+2;coatbridge, lanarkshire;55.8622848, -4.0273166;1
+3;leominster, herefordshire;52.2273558, -2.7375333;1
+4;armagh county;54.3481977, -6.6540432;0.9
+5;wells;51.2094511, -2.6451203;1
+6;hampshire;51.04483545, -1.2434093597173146;1
+7;greenwich;51.4820845, -0.0045417;1
+8;lanarkshire;55.5752966, -3.833333;1
+9;cornwall;50.416667, -4.75;1
+10;tower hamlets, limehouse;51.5112411, -0.031176655894780386;0.567
+11;east retford;53.3233189, -0.9426596;1
+12;newport, shropshire;51.5882332, -2.9974967;1
+13;birmingham, deritend;52.4735217, -1.8826851;0.5
+14;westbury;51.261079, -2.1836535;1
+15;sheffiled, attercliffe;53.3944795, -1.4315196;0.5
+16;stoke-on-trent;53.0162014, -2.1812607;1
+17;dungannon;54.5039088, -6.7703622;1
+18;lambeth, brixton;51.494542949999996, -0.12287979425034345;0.9
+19;plymouth, drake;50.393988, -4.113637;0.5
+20;cumberland, penrith and cockermou;54.609603, -3.149913;0
+21;melton, leicestershire;52.8117106, -0.8592867292244459;1
+22;newark-on-trent;53.0761693, -0.8092339;1
+23;hertford, hertfordshire;51.7957409, -0.078521;1
+24;birmingham, duddeston;52.4884888, -1.8712807;0.5
+25;shaftesbury;51.0056195, -2.1955975;1
+26;leicestershire;52.666667, -1;1
+27;exeter;50.7255794, -3.5269497;1
+28;wirral, cheshire;53.3409714, -3.0500916;1
+29;glasgow, maryhill;55.861155, -4.2501687;1
+30;reigate;51.2376557, -0.2057067;1
+31;caithness and sutherland;58.5147311, -3.4928939;0.567
+32;radcliffe-cum-farnwor, lancashire;53.888754, -2.672673;0
+33;warrington;53.3899497, -2.5943178;1
+34;dumfriesshire;55.166667, -3.5;1
+35;rochdale;53.6153659, -2.1557561;1
+36;arfon, caernarvonshire;53.192284, -4.063781;0.5103
+37;belper, derbyshire;53.0229029, -1.4817414;1
+38;liverpool;53.3782584, -2.958688609021225;1
+39;dundalk;52.658799, -2.032561;1
+40;leicesterhsire, haborough;;
+41;endinburghshire;;
+42;durham, blaydon;54.9557596, -1.7431158;0.9
+43;knaresborough;54.0099825, -1.462186;1
+44;norfolk;52.666667, 1;1
+45;penryn and falmouth;50.170493, -5.10379;0.9
+46;bath;51.3813864, -2.3596963;1
+47;durham, jarrow;54.98036, -1.48423;0.5
+48;belfast south;54.603533, -5.928807;0.9
+49;hemel hempstead, hertfordshire;51.7511784, -0.472528;1
+0;liverpool, kirkdale;53.44047405, -2.987070459687921;1
+1;radnorshire;52.4627049, -3.2561628;1
+2;manchester, exchange;53.4859757, -2.2475911;1
+3;belfast east;54.605322, -5.930401460730592;1
+4;southend-on-sea;51.5388241, 0.7128137;1
+5;chatham;51.3819167, 0.526559;1
+6;bridport;50.733785, -2.7589005;1
+7;dumbarton;55.9432443, -4.5708479;1
+8;holborn;51.5171149, -0.1200657;1
+9;handsworth, staffordshire;53.3723004, -1.3830121;1
+10;tewkesbury;51.9925394, -2.1560169592908442;1
+11;watford, hertfordshire;51.6553875, -0.3957425;1
+12;athlone;51.3597335, -0.3469947;1
+13;youghal;51.5370644, -3.1396811;1
+14;kent, gravesend;51.443331, 0.33218;0.81
+15;wellington, shropshire;50.978376, -3.2275504;1
+16;stafford;52.8063157, -2.1163818;1
+17;haddingtonshire;;
+18;kendal;54.3289795, -2.747183;1
+19;wandsworthm, balham and tooting;51.44621, -0.154467;0
+20;wokingham, bershire;51.376879, -0.856097;0.5
+21;birmingham, aston;52.5006916, -1.8841916;0.5
+22;antrim;54.715139, -6.2192038;1
+23;glasgow, tradeston;55.8531105, -4.262678;0.5
+24;ipswich;52.0579324, 1.1528095;1
+25;reading;51.456659, -0.9696512;1
+26;tewkesbury, gloucestershire;51.9937857, -2.1549574;1
+27;chippenham, wiltshire;51.4587621, -2.1159032;1
+28;camberwell, dulwich;51.4418786, -0.0843244;1
+29;rochester;51.3883811, 0.504925;1
+30;middlsex, spelthorne;;
+31;city of london;51.5156177, -0.0919983;1
+32;antrim mid;54.863793, -6.27671;0.9
+33;stroud;51.745424, -2.2198605;1
+34;wrexham, denbighshire;53.0465084, -2.9937869;1
+35;bootle;53.4506931, -2.9948834;1
+36;birmingham, bordesley;52.4722127, -1.877661;0.5
+37;cirencester, gloucestershire;51.7171029, -1.9661616;1
+38;middlesex, ealing;51.51282, -0.3023;1
+39;pembroke;51.6754422, -4.9144858;1
+40;northumberland, tyneside;55.02979945, -1.5082559996141889;0.9
+41;lancaster;54.0484068, -2.7990345;1
+42;rotherham;53.4310417, -1.355187;1
+43;liverpool, edge hill;53.4024926, -2.9466548;0.6666666666666667
+44;middlesex, twickenham;51.447054, -0.332907;0.5
+45;flintshire;53.216509599999995, -3.1402189049730413;1
+46;great yarmouth;52.6119213, 1.7206879;1
+47;middlesex, brentford and chiswick;51.49277, -0.270257;0
+48;weymouth and melcombe regis;50.62057, -2.45136;0
+49;woodstock, oxfordshire;51.8942879, -4.8765902;1
+0;islington;51.5384287, -0.0999051;1
+1;gloucestershire;51.8333313, -2.1666674;1
+2;salisbury;51.0690613, -1.7954134;1
+3;newmarket, cambridgeshire;58.2367073, -6.3932062;1
+4;tower hamlets, stepney;51.513574, -0.042373;0.567
+5;west ham, plaistow;51.5280966, 0.0045685;0.6666666666666667
+6;caernarvonshire;53.1428925, -4.2740782;1
+7;newcastle-upon-lyme;54.98017505, -1.6146802127187847;0.63
+8;iverness-shire and ross and croma;53.180191, -2.549774;0
+9;clay cross, derbyshire;53.1652765, -1.4132383;1
+10;stirling and falkirk;56.291291, -4.452616;1
+11;wycombe, buckinghamshire;51.627422, -0.7484153;0.9
+12;cambridgeshire;52.333333, 0.083333;1
+13;fermanagh county;54.3459403, -7.644566876404299;1
+14;birkenhead;53.3895177, -3.0248007;1
+15;boston;52.9776561, -0.0237985;1
+16;hasting;54.883288, -1.4521818;1
+17;coventry;52.4081812, -1.510477;1
+18;middlesex, wood green;51.588798, -0.229632;0.63
+19;stone, straffordshire;57.332026, -2.81547;0.81
+20;maidstone;51.2748258, 0.5231646;1
+21;buckinghamshire;51.840894, -0.8998073587480795;1
+22;macclesfield, cheshire;53.2606635, -2.1255158;1
+23;grimsby;53.5671407, -0.0788045;1
+24;darlington;54.5242081, -1.5555812;1
+25;salford;53.4877463, -2.2891921;1
+26;rossendale, lancashire;53.6848806, -2.261439758907419;1
+27;winchester;51.0672545, -1.3200089;1
+28;greenock;55.9473423, -4.7564721;1
+29;carrickfergus;54.7136165, -5.8073112;1
+30;warwick;52.2814519, -1.5815742;1
+31;argyll;57.8967251, -5.15604;1
+32;northumberland;55.25, -2.000559;1
+33;dudley;52.5110832, -2.0816813;1
+34;hitchin, herfortshire;51.953184, -0.274664;0.5
+35;ilford;51.5582734, 0.0711669;1
+36;west ham, stratford;51.539058, -0.003909;1
+37;aberdeen;57.1482429, -2.0928095;1
+38;barrow-in-furness;54.1113351, -3.2289494;1
+39;glasgow, backfriars and hutcheson;;
+40;gloucester;51.8653705, -2.2458192;1
+41;batley and morley;52.9780992, -0.0214482;0.567
+42;glasgow, hillhead;55.879505, -4.290972;0.567
+43;antrim county;54.715139, -6.2192038;0.9
+44;kent, maidstone;51.2748258, 0.5231646;0.567
+45;sleaford, lincolnshire;52.99965, -0.4095586;1
+46;paisley;55.8455828, -4.4239646;1
+47;aldershot, hampshire;51.2494169, -0.7630148;1
+48;peeblesshire and selkirkshire;;
+49;devizes, wiltshire;51.3525027, -1.9958302;1
+0;liskeard;50.4546303, -4.4644227;1.0
+1;durham, bishop auckland;54.66119, -1.678765;0.9
+2;middlesex, tottenham;51.472718, -0.323957;0.81
+3;spalding, lincolnshire;52.787641, -0.1526475;1.0
+4;tower hamlets, poplar;51.51667, -0.05;0.6666666666666667
+5;wisbech, cabridgeshire;52.650605, 0.158108;0.567
