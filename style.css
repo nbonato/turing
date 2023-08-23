@@ -2,29 +2,36 @@
     font-family: "Public Sans";
 }
 body {
-    width: 80%;
+    width: 90%;
     margin: auto;
+    background-color: gainsboro;
 }
 
 #year-selector {
     display: flex;
 }
 
-h3 {
-    margin: 0;
+h1 {
+    margin: 0.3em 0;
 }
+
+h2, h3 {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
 }
 
 #map {
-    border: 1px solid black;
-    height: 80vh;
+    height: 70vh;
     width: 80%;
     margin: auto;
     margin-top: 1vh;
     z-index: 300;
+    background-color: white;
 }
 
 #reset-button {
@@ -51,18 +58,48 @@ h3 {
 
 
 .donut-chart-wrapper {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 12em;
+    max-height: 12em;
+}
+
+
+#info-box {
+    background-color: white;
+    padding: 1em;
+}
+
+
+/* Colour scheme legend */
+
+.colour-scheme-legend {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.colour-scheme-legend-item {
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.colour-scheme-square {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.6em;
+    border: solid 1px black;
 }
 
 
 
-
-
 /* Test slider */
+
+.year-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .range-wrap {
   position: relative;
-  margin: 0 auto 3rem;
+  margin-bottom: 2rem;
 }
 .range {
   width: 100%;

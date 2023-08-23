@@ -12,6 +12,42 @@ electionChartWrapper.appendChild(electionChart);
 pressChartWrapper.classList.add("donut-chart-wrapper");
 electionChartWrapper.classList.add("donut-chart-wrapper");
 
+// Define a colour scheme and display the relevant legend
+const colourScheme = {
+    "liberal": 'red',
+    "multiple majority": "forestgreen",
+    "independent": "gray",
+    "neutral": "DarkSlateGray",
+    "conservative": '#034EA2',
+    "undefined": "gold",
+    "unionist" : "MidnightBlue",
+    "constitutional": "Olive",
+    "nationalist": "Tomato",
+    "liberal; unionist": "BlueViolet",
+    "liberal; conservative": "purple",
+    "independent; liberal": "pink",
+    "no-politics": "gold",
+    "whig": "orange",
+    "other" : "fuchsia"
+};
+
+const legendDiv = document.getElementById('legendDiv');
+
+for (const label in colourScheme) {
+  const color = colourScheme[label];
+  const legendItem = document.createElement('div');
+  legendItem.className = 'colour-scheme-legend-item';
+  legendItem.innerHTML = `
+    <div class="colour-scheme-square" style="background-color: ${color};"></div>
+    ${label}
+  `;
+  legendDiv.appendChild(legendItem);
+} 
+
+
+
+
+
 // Define geojsonLayer outside so it's accessible by the select element
 let geojsonLayer;
 
@@ -27,15 +63,17 @@ var clickedLayer = null;
 // Create the map
 var map = L.map('map', {
     zoomControl: false, // Disable zoom control
-    minZoom: 5, // Set maximum zoom level
-    zoomSnap: 0.5 
-}).setView([55.3781, -3.4360], 5);
+    minZoom: 4.5, // Set maximum zoom level
+    zoomSnap: 0.25 
+}).setView([55.3781, -3.4360], 4.5);
 
 // Block users from panning away from the map
 map.setMaxBounds(map.getBounds());
 
 document.getElementById("reset-button").onclick = function() {
-    map.setView([55.3781, -3.4360], 5);
+    map.setView([55.3781, -3.4360], 4.5);
+    infoBox.innerHTML = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
+
 };
 // Find the first election year that is equal or greater than the target year.
 var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
@@ -97,7 +135,41 @@ function findIntersection(list1, list2) {
     return intersection;
 }
 
-// Function to update the map and info box
+// Function to update the map
+
+function updateMap(geojsonLayer) {
+    geojsonLayer.resetStyle();
+    // Create a list of available counties for the year
+    let relevantPressCounties = Object.keys(pressDirectories[year]);
+    //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
+    //let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
+    let availableCounties = relevantPressCounties;
+
+
+    // Loop through the GeoJSON features and update fillColor based on selectedYear
+    geojsonLayer.eachLayer(function (layer) {
+        let countyName = layer.feature.properties.press_county.toLowerCase();
+        if (availableCounties.includes(countyName)) {
+            let pressMajorityColour = colourScheme[pressDirectories[year][countyName]["majority"]]
+            layer.setStyle({
+                fillColor: pressMajorityColour,
+                color: pressMajorityColour
+            });
+
+        } else {
+            layer.setStyle({
+                fillColor: "gainsboro",
+                opacity: 1,
+                color: "lightgray"
+            });
+        }
+        //console.log(layer.feature.properties.press_county);
+        
+    });
+
+}
+
+// Function to update the info box
 function updateView(county, year) {
 
 
@@ -106,10 +178,17 @@ function updateView(county, year) {
 
     // Retrieve the data for the specific key
     var pressChartData = pressDirectories[year][county.toLowerCase()];
-    if (typeof(pressChartData) === "undefined") {
-        infoBox.innerHTML = "No press data"
+    if (county != "") {
+        if (typeof(pressChartData) === "undefined") {
+            infoBox.innerHTML =`${county} no press data`;
+            console.log(county, year, closestElection); 
+            return
+        };
+    } else {
+        infoBox.innerHTML = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
         return
     };
+    
     // Create the chart
     chartCreator(pressChart, pressChartData["press_data"]);
 
@@ -117,7 +196,8 @@ function updateView(county, year) {
     var electionChartData = elections[closestElection.toString()][county.toLowerCase()];
 
     if (typeof(electionChartData) === "undefined") {
-        infoBox.innerHTML = "No press data"
+        infoBox.innerHTML ="no election data";
+        console.log(county, year, closestElection);
         return
     };
     // Create the chart
@@ -125,8 +205,8 @@ function updateView(county, year) {
 
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
-    var infoBoxTitle = document.createElement("h2");
-    infoBoxTitle.textContent = `${titleCase(county)} ${year}`;
+    var infoBoxTitle = document.createElement("h3");
+    infoBoxTitle.textContent = `${titleCase(county)} press in ${year}`;
     infoBoxContent.className = "chart-container"
     infoBoxContent.appendChild(infoBoxTitle);
     infoBoxContent.appendChild(pressChartWrapper);
@@ -151,7 +231,6 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
         // Extract labels and values from the data
         var labels = Object.keys(data);
         var values = Object.values(data);
-        console.log(values);
 
         new Chart(canvas.getContext('2d'), {
             type: chart_type,
@@ -197,7 +276,9 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
                 label: "Chart",
                 labels: labels,
                 datasets: [{
-                    data: values
+                    data: values,
+                    backgroundColor: labels.map(label => colourScheme[label]),
+
                 }]
             },
             options: {
@@ -205,8 +286,11 @@ function chartCreator(canvas, data, chart_type = "doughnut") {
                 responsive: true,
                 maintainAspectRatio: true,
                 plugins: {
+                    datalabels : {
+                        color: "white"
+                    },
                     legend: {
-                        position: "right"
+                        display: false
                     }
                 }
             }
@@ -236,7 +320,6 @@ function checkLocalStorage(key) {
 // Function to initialize the web app after data is ready
 function initializeWebApp(elections, pressDirectories) {
     
-
     pressYears = Object.keys(pressDirectories)
     // Set the minimum and maximum values of the slider
     range.min = pressYears[0];
@@ -255,24 +338,10 @@ function initializeWebApp(elections, pressDirectories) {
             setBubble(range, bubble);
             closestElection = electionYear(year);
             yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
-            // Create a list of available counties for the year
-            let relevantPressCounties = Object.keys(pressDirectories[year]);
-            console.log("test")
-            //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
-            let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
-            geojsonLayer.resetStyle();
-            // Loop through the GeoJSON features and update fillColor based on selectedYear
-            geojsonLayer.eachLayer(function (layer) {
-                if (availableCounties.includes(layer.feature.properties.press_county.toLowerCase())) {
-                    layer.setStyle({
-                        fillColor: "green"
-                    });
-                }
-                //console.log(layer.feature.properties.press_county);
-                
-            });
-    
+
+            updateMap(geojsonLayer);
             updateView(county, year);
+
             oldRange = range.value;
         }
 
@@ -285,7 +354,12 @@ function initializeWebApp(elections, pressDirectories) {
         .then(response => response.json())
         .then(data => {        
             geojsonLayer = L.geoJSON(data, {
-                pointToLayer: function (feature, latlng) {
+                style: {
+                    weight: 1,
+                    fillOpacity: 0.9
+                    
+                },
+/*                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, {
                         radius: 6,
                         fillColor: "#ff7800",
@@ -294,7 +368,7 @@ function initializeWebApp(elections, pressDirectories) {
                         opacity: 1,
                         fillOpacity: 0.8
                     });
-                },
+                }, */
                 onEachFeature: function (feature, layer) {
                     layer.on('click', function () {
                         county = feature.properties.press_county;
@@ -314,10 +388,11 @@ function initializeWebApp(elections, pressDirectories) {
                     });
                 }
             }).addTo(map);
-
+            updateMap(geojsonLayer);
         
 
         });
+
 }
 
 // Initialise datasets variables
