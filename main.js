@@ -12,6 +12,11 @@ electionChartWrapper.appendChild(electionChart);
 pressChartWrapper.classList.add("donut-chart-wrapper");
 electionChartWrapper.classList.add("donut-chart-wrapper");
 
+const radioButtons = document.querySelectorAll('input[name="display-dataset"]');
+var displayDataset = document.querySelector('input[name="display-dataset"]:checked').value;
+
+
+
 // Define a colour scheme and display the relevant legend
 const colourScheme = {
     "liberal": 'red',
@@ -137,8 +142,18 @@ function findIntersection(list1, list2) {
 
 // Function to update the map
 
-function updateMap(geojsonLayer, updateDataset, updateYear) {
+function updateMap(geojsonLayer) {
     geojsonLayer.resetStyle();
+    let updateDataset;
+    let updateYear;
+    if (displayDataset === "Press") {
+        updateDataset = pressDirectories;
+        updateYear = year;
+    } else {
+        updateDataset = elections;
+        updateYear = closestElection;
+    };
+
     // Create a list of available counties for the year
     //let relevantPressCounties = Object.keys(pressDirectories[year]);
     //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
@@ -342,7 +357,7 @@ function initializeWebApp(elections, pressDirectories) {
             closestElection = electionYear(year);
             yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
 
-            updateMap(geojsonLayer, pressDirectories, year);
+            updateMap(geojsonLayer);
             updateView(county, year);
 
             oldRange = range.value;
@@ -391,11 +406,17 @@ function initializeWebApp(elections, pressDirectories) {
                     });
                 }
             }).addTo(map);
-            updateMap(geojsonLayer, pressDirectories, year);
+            updateMap(geojsonLayer);
         
 
         });
 
+    radioButtons.forEach(radioButton => {
+        radioButton.addEventListener('change', (event) => {
+            displayDataset = event.target.value;
+            updateMap(geojsonLayer);
+        });
+    });
 }
 
 // Initialise datasets variables

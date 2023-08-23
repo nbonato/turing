@@ -96,7 +96,7 @@ h2, h3 {
 
 .year-selection {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2.5fr 2.5fr 1fr;
 }
 .range-wrap {
   position: relative;
@@ -123,4 +123,6 @@ h2, h3 {
   top: -1px;
   left: 50%;
 }
+
+/* Radio selector */
 
