@@ -2845,7 +2845,7 @@
         "conservative": 16.67,
         "liberal; conservative": 16.67
       },
-      "majority": "whig"
+      "majority": "other"
     },
     "down county": {
       "press_data": {
@@ -2939,7 +2939,7 @@
       "press_data": {
         "no-politics": 100.0
       },
-      "majority": "no-politics"
+      "majority": "other"
     },
     "hampshire": {
       "press_data": {
@@ -3312,7 +3312,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "armagh county": {
       "press_data": {
@@ -3562,7 +3562,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -4207,7 +4207,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -4401,7 +4401,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "oxfordshire": {
       "press_data": {
@@ -4872,7 +4872,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -4951,7 +4951,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -5075,7 +5075,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "oxfordshire": {
       "press_data": {
@@ -5574,7 +5574,7 @@
         "conservative": 14.29,
         "liberal; conservative": 14.29
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -5624,7 +5624,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -5756,7 +5756,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "oxfordshire": {
       "press_data": {
@@ -6266,7 +6266,7 @@
         "conservative": 11.11,
         "liberal; conservative": 11.11
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -6315,7 +6315,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -6442,7 +6442,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "oxfordshire": {
       "press_data": {
@@ -6939,7 +6939,7 @@
         "conservative": 13.04,
         "other": 4.35
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "herefordshire": {
       "press_data": {
@@ -6958,7 +6958,7 @@
         "liberal; conservative": 10.0,
         "conservative": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -7007,7 +7007,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -7135,7 +7135,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "oxfordshire": {
       "press_data": {
@@ -7701,7 +7701,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -8400,7 +8400,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -8428,7 +8428,7 @@
         "liberal": 20.0,
         "conservative": 20.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lincolnshire": {
       "press_data": {
@@ -9030,7 +9030,7 @@
         "conservative": 16.67,
         "liberal": 16.67
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -9090,7 +9090,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -9485,7 +9485,7 @@
         "undefined": 33.33,
         "neutral": 33.33
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "buckinghamshire": {
       "press_data": {
@@ -9723,7 +9723,7 @@
         "conservative": 16.67,
         "liberal": 16.67
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -9783,7 +9783,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -9920,7 +9920,7 @@
         "conservative": 14.29,
         "liberal; conservative": 7.14
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "peeblesshire": {
       "press_data": {
@@ -10180,7 +10180,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "buckinghamshire": {
       "press_data": {
@@ -10433,7 +10433,7 @@
         "liberal": 20.0,
         "conservative": 20.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -10484,7 +10484,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lanarkshire": {
       "press_data": {
@@ -11132,7 +11132,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -11343,7 +11343,7 @@
         "liberal": 16.67,
         "conservative": 16.67
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "perthshire": {
       "press_data": {
@@ -11839,7 +11839,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -11848,7 +11848,7 @@
         "liberal": 22.22,
         "conservative": 11.11
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -11961,7 +11961,7 @@
         "liberal": 12.5,
         "liberal; conservative": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -12560,7 +12560,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -12687,7 +12687,7 @@
         "liberal": 12.5,
         "liberal; conservative": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -13291,7 +13291,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -13300,7 +13300,7 @@
         "conservative": 10.0,
         "liberal": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -13345,7 +13345,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "kirkcudbrightshire": {
       "press_data": {
@@ -14751,7 +14751,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -15497,7 +15497,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -16247,7 +16247,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hampshire": {
       "press_data": {
@@ -17126,7 +17126,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -17282,7 +17282,7 @@
         "neutral": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "selkirkshire": {
       "press_data": {
@@ -17892,7 +17892,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -17917,7 +17917,7 @@
         "liberal": 7.69,
         "conservative": 7.69
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -18163,7 +18163,7 @@
         "liberal": 10.0,
         "conservative": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "wigtownshire": {
       "press_data": {
@@ -18663,7 +18663,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -19238,7 +19238,7 @@
         "liberal": 6.45,
         "other": 3.23
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "fermanagh county": {
       "press_data": {
@@ -20213,7 +20213,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -20351,7 +20351,7 @@
         "neutral": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "renfrewshire": {
       "press_data": {
@@ -20494,7 +20494,7 @@
         "liberal": 12.5,
         "conservative": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "wigtownshire": {
       "press_data": {
@@ -20616,7 +20616,7 @@
         "neutral": 50.0,
         "independent": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "buckinghamshire": {
       "press_data": {
@@ -20870,7 +20870,7 @@
         "conservative": 10.0,
         "liberal": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -20988,7 +20988,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -21013,7 +21013,7 @@
         "conservative": 14.29,
         "liberal": 7.14
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -21264,7 +21264,7 @@
         "liberal": 12.5,
         "conservative": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "wigtownshire": {
       "press_data": {
@@ -21764,7 +21764,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -21789,7 +21789,7 @@
         "conservative": 14.29,
         "liberal": 7.14
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -21927,7 +21927,7 @@
         "neutral": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "selkirkshire": {
       "press_data": {
@@ -22545,7 +22545,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -22571,7 +22571,7 @@
         "conservative": 18.75,
         "independent": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -23219,7 +23219,7 @@
         "undefined": 7.14,
         "liberal; conservative": 7.14
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -23328,7 +23328,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -23355,7 +23355,7 @@
         "conservative": 18.75,
         "independent": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -24120,7 +24120,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -24147,7 +24147,7 @@
         "liberal": 14.29,
         "conservative": 14.29
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -24806,7 +24806,7 @@
         "liberal": 6.25,
         "liberal; conservative": 6.25
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -24816,7 +24816,7 @@
         "conservative": 10.0,
         "neutral": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "inverness-shire": {
       "press_data": {
@@ -24918,7 +24918,7 @@
         "independent": 50.0,
         "neutral": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "londonderry county": {
       "press_data": {
@@ -24945,7 +24945,7 @@
         "conservative": 18.18,
         "liberal": 9.09
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -25753,7 +25753,7 @@
         "independent": 8.7,
         "other": 4.35
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -26407,7 +26407,7 @@
         "liberal": 20.0,
         "conservative": 20.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -27222,7 +27222,7 @@
         "liberal": 20.0,
         "conservative": 20.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -28247,7 +28247,7 @@
         "conservative": 23.08,
         "liberal": 15.38
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "peeblesshire": {
       "press_data": {
@@ -28985,7 +28985,7 @@
         "liberal": 6.9,
         "conservative": 6.9
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "monmouthshire": {
       "press_data": {
@@ -29129,7 +29129,7 @@
         "independent": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "selkirkshire": {
       "press_data": {
@@ -29153,7 +29153,7 @@
         "independent": 11.11,
         "liberal": 11.11
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "somersetshire": {
       "press_data": {
@@ -29653,7 +29653,7 @@
         "conservative": 15.38,
         "liberal": 7.69
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -29951,7 +29951,7 @@
         "independent": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "selkirkshire": {
       "press_data": {
@@ -29975,7 +29975,7 @@
         "independent": 20.0,
         "liberal": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "somersetshire": {
       "press_data": {
@@ -29998,7 +29998,7 @@
         "unionist": 7.84,
         "other": 1.96
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "stirlingshire": {
       "press_data": {
@@ -30225,7 +30225,7 @@
         "liberal": 16.67,
         "liberal; unionist": 16.67
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "cambridgeshire": {
       "press_data": {
@@ -30796,7 +30796,7 @@
         "independent": 20.0,
         "liberal": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "somersetshire": {
       "press_data": {
@@ -31531,7 +31531,7 @@
         "conservative": 20.0,
         "liberal": 5.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "peeblesshire": {
       "press_data": {
@@ -31546,7 +31546,7 @@
         "liberal": 20.0,
         "conservative": 20.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "perthshire": {
       "press_data": {
@@ -32127,7 +32127,7 @@
         "liberal": 8.33,
         "undefined": 8.33
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -32852,7 +32852,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "durham": {
       "press_data": {
@@ -32976,7 +32976,7 @@
         "liberal": 5.0,
         "liberal; conservative": 5.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "huntingdonshire": {
       "press_data": {
@@ -33208,7 +33208,7 @@
         "undefined": 10.53,
         "liberal": 10.53
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "peeblesshire": {
       "press_data": {
@@ -33287,7 +33287,7 @@
         "liberal": 16.67,
         "liberal; unionist": 16.67
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "shetland isles": {
       "press_data": {
@@ -33704,7 +33704,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "durham": {
       "press_data": {
@@ -33938,7 +33938,7 @@
         "independent": 6.9,
         "other": 3.45
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "linlithgowshire": {
       "press_data": {
@@ -34285,7 +34285,7 @@
         "undefined": 8.7,
         "other": 4.35
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "yorkshire": {
       "press_data": {
@@ -34544,7 +34544,7 @@
         "conservative": 14.29,
         "liberal": 14.29
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "durham": {
       "press_data": {
@@ -35396,7 +35396,7 @@
         "conservative": 14.29,
         "liberal": 14.29
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "durham": {
       "press_data": {
@@ -35407,7 +35407,7 @@
         "conservative": 9.09,
         "other": 4.55
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "essex": {
       "press_data": {
@@ -36368,7 +36368,7 @@
         "unionist": 10.0,
         "liberal": 10.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "hertfordshire": {
       "press_data": {
@@ -36798,7 +36798,7 @@
         "unionist": 6.38,
         "other": 2.13
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "westmorland": {
       "press_data": {
@@ -37457,7 +37457,7 @@
         "independent; liberal": 7.14,
         "other": 3.57
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "orkney": {
       "press_data": {
@@ -38164,7 +38164,7 @@
         "neutral": 50.0,
         "undefined": 50.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "kirkcudbrightshire": {
       "press_data": {
@@ -38815,7 +38815,7 @@
         "conservative": 12.5,
         "liberal": 12.5
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "down county": {
       "press_data": {
@@ -38930,7 +38930,7 @@
         "independent": 7.69,
         "other": 2.56
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "haddingtonshire": {
       "press_data": {
@@ -39057,7 +39057,7 @@
         "unionist": 10.0,
         "neutral": 5.0
       },
-      "majority": "multiple majority"
+      "majority": "undefined"
     },
     "lincolnshire": {
       "press_data": {

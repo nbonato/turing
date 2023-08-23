@@ -59,11 +59,19 @@ def calculate_frequency(x):
     # Sort the dictionary based on values in descending order
     frequency_dict = dict(sorted(frequency_dict.items(), key=lambda item: item[1], reverse=True))
     max_value = max(frequency_dict.values())
-    max_keys = [key for key, value in frequency_dict.items() if value == max_value]
-    if len(max_keys) > 1 :
-        majority = "multiple majority"
-    else:
+    max_keys = sorted([key for key, value in frequency_dict.items() if value == max_value])
+    unspecified = ["undefined", "no-politics", "independent", "neutral"]
+
+    if len(max_keys) == 1:
         majority = max_keys[0]
+    else:
+        if all(key in unspecified for key in max_keys):
+            majority = "undefined"
+        else:    
+            # if len(max_keys) == 2:
+            #     majority = f"{max_keys[0]} & {max_keys[1]}"
+            # else:
+            majority = "multiple majority"
     county_dict = {
         "press_data": frequency_dict,
         "majority": majority
@@ -112,6 +120,29 @@ def calculate_relative_frequency(data_list):
 data_list = positions
 
 relative_frequencies = calculate_relative_frequency(data_list)
+
+sorted_items = sorted(relative_frequencies.items(), key=lambda item: item[1], reverse=True)
+most_common = [item[0] for item in sorted_items[:12]]
+
+for year in final_dict:
+    for county_data in final_dict[year]:
+        if final_dict[year][county_data]["majority"] not in most_common:
+            if "&" in final_dict[year][county_data]["majority"]:
+                final_dict[year][county_data]["majority"] = "multiple majority"
+            final_dict[year][county_data]["majority"] = "other"
+
+
+# positions = []
+# for year in final_dict:
+#     for county in final_dict[year]:
+
+#         positions.append(final_dict[year][county]["majority"])
+
+# positions_unique= set(positions)
+# # Example list
+# data_list = positions
+
+# relative_frequencies = calculate_relative_frequency(data_list)
 
 
 map_counties = []
