@@ -137,23 +137,26 @@ function findIntersection(list1, list2) {
 
 // Function to update the map
 
-function updateMap(geojsonLayer) {
+function updateMap(geojsonLayer, updateDataset, updateYear) {
     geojsonLayer.resetStyle();
     // Create a list of available counties for the year
-    let relevantPressCounties = Object.keys(pressDirectories[year]);
+    //let relevantPressCounties = Object.keys(pressDirectories[year]);
     //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
     //let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
-    let availableCounties = relevantPressCounties;
+    //let availableCounties = relevantPressCounties;
+
+
+    let availableCounties = Object.keys(updateDataset[updateYear]);
 
 
     // Loop through the GeoJSON features and update fillColor based on selectedYear
     geojsonLayer.eachLayer(function (layer) {
         let countyName = layer.feature.properties.press_county.toLowerCase();
         if (availableCounties.includes(countyName)) {
-            let pressMajorityColour = colourScheme[pressDirectories[year][countyName]["majority"]]
+            let majorityColour = colourScheme[updateDataset[updateYear][countyName]["majority"]]
             layer.setStyle({
-                fillColor: pressMajorityColour,
-                color: pressMajorityColour
+                fillColor: majorityColour,
+                color: majorityColour
             });
 
         } else {
@@ -339,7 +342,7 @@ function initializeWebApp(elections, pressDirectories) {
             closestElection = electionYear(year);
             yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
 
-            updateMap(geojsonLayer);
+            updateMap(geojsonLayer, pressDirectories, year);
             updateView(county, year);
 
             oldRange = range.value;
@@ -388,7 +391,7 @@ function initializeWebApp(elections, pressDirectories) {
                     });
                 }
             }).addTo(map);
-            updateMap(geojsonLayer);
+            updateMap(geojsonLayer, pressDirectories, year);
         
 
         });
