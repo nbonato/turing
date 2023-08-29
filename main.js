@@ -154,12 +154,6 @@ function updateMap(geojsonLayer) {
         updateYear = closestElection;
     };
 
-    // Create a list of available counties for the year
-    //let relevantPressCounties = Object.keys(pressDirectories[year]);
-    //console.log("relevant press", relevantPressCounties, "Object.keys(elections[closestElection])", Object.keys(elections[closestElection]));
-    //let availableCounties = findIntersection(Object.keys(elections[closestElection]), relevantPressCounties);
-    //let availableCounties = relevantPressCounties;
-
 
     let availableCounties = Object.keys(updateDataset[updateYear]);
 
@@ -189,10 +183,6 @@ function updateMap(geojsonLayer) {
 
 // Function to update the info box
 function updateView(county, year) {
-
-
-
-    // Use the localStorage datasets
 
     // Retrieve the data for the specific key
     var pressChartData = pressDirectories[year][county.toLowerCase()];
@@ -377,16 +367,6 @@ function initializeWebApp(elections, pressDirectories) {
                     fillOpacity: 0.9
                     
                 },
-/*                 pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, {
-                        radius: 6,
-                        fillColor: "#ff7800",
-                        color: "#000",
-                        weight: 1,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                    });
-                }, */
                 onEachFeature: function (feature, layer) {
                     layer.on('click', function () {
                         county = feature.properties.NAME.toLowerCase();
