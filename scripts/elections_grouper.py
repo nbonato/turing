@@ -125,7 +125,7 @@ def map_county(cst_n):
     try:
         return county_mapping[changes[cst_n]]
     except:
-        print(cst_n)
+        print("unfound", cst_n)
 
 elections["geolocated_county"] = elections['cst_n'].apply(map_county)
 

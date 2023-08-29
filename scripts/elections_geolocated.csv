@@ -15,7 +15,7 @@
 13,622,1847,armagh county,ireland,9,2,Liberal Party (Original),63,-992,-992,3342,-992,-992.0,-992,-992.0,armagh county,Armagh
 14,622,1847,armagh county,ireland,9,2,Conservative,27,-992,-992,3342,-992,-992.0,-992,-992.0,armagh county,Armagh
 15,622,1847,arundel,england - provincial boroughs,10,1,Liberal Party (Original),63,-992,-992,221,-992,-992.0,-992,-992.0,arundel,Sussex
-16,622,1847,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,262,-992,-992.0,-992,-992.0,ashburton,Devonshire
+16,622,1847,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,262,-992,-992.0,-992,-992.0,ashburton,Devon
 17,622,1847,ashton-under-lyne,england - provincial boroughs,12,1,Liberal Party (Original),63,-992,-992,871,-992,-992.0,-992,-992.0,ashton-under-lyne,Lancashire
 18,622,1847,athlone,ireland,13,1,Peelites,101,-990,-990,243,101,0.5153061151504517,-990,0.5153061151504517,athlone,Surrey
 19,622,1847,athlone,ireland,13,1,Repealers,114,-990,-990,243,95,0.4846938848495483,-990,0.4846938848495483,athlone,Surrey
@@ -181,7 +181,7 @@
 196,622,1847,"cumberland, eastern",england - counties,91,2,Liberal Party (Original),63,liberals candidate 2,-992,5348,-992,-992.0,liberals candidate 2,-992.0,"cumberland, eastern",Cumberland
 197,622,1847,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 1,-992,4042,-992,-992.0,conservatives candidate 1,-992.0,"cumberland, western",Cumberland
 198,622,1847,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 2,-992,4042,-992,-992.0,conservatives candidate 2,-992.0,"cumberland, western",Cumberland
-199,622,1847,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-992,-992,376,-992,-992.0,-992,-992.0,dartmouth,Devonshire
+199,622,1847,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-992,-992,376,-992,-992.0,-992,-992.0,dartmouth,Devon
 200,622,1847,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Conservative,27,-992,-992,841,-992,-992.0,-992,-992.0,denbigh district of boroughs,Denbighshire
 201,622,1847,denbigshire,wales and monmouthshire - counties,95,2,Liberal Party (Original),63,-990,-990,3939,1394,0.2799758911132813,-990,0.2799758911132813,denbigshire,Denbighshire
 202,622,1847,denbigshire,wales and monmouthshire - counties,95,2,Conservative,27,conservatives candidate 2,-990,3939,3585,0.7200241088867188,conservatives candidate 2,0.3072906136512756,denbigshire,Denbighshire
@@ -196,10 +196,10 @@
 211,622,1847,"derbyshire, southern",england - counties,98,2,Conservative,27,conservatives candidate 2,-992,7272,-992,-992.0,conservatives candidate 2,-992.0,"derbyshire, southern",Derbyshire
 212,622,1847,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 2,-992,389,-992,-992.0,conservatives candidate 2,-992.0,wiltshire,
 213,622,1847,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 1,-992,389,-992,-992.0,conservatives candidate 1,-992.0,wiltshire,
-214,622,1847,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-992,8597,-992,-992.0,conservatives candidate 1,-992.0,"devon, northern",Devonshire
-215,622,1847,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-992,8597,-992,-992.0,conservatives candidate 2,-992.0,"devon, northern",Devonshire
-216,622,1847,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,10411,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-217,622,1847,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,10411,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+214,622,1847,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-992,8597,-992,-992.0,conservatives candidate 1,-992.0,"devon, northern",Devon
+215,622,1847,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-992,8597,-992,-992.0,conservatives candidate 2,-992.0,"devon, northern",Devon
+216,622,1847,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,10411,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+217,622,1847,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,10411,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 218,622,1847,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 2,-990,2343,2158,0.7193333506584167,liberals candidate 2,0.3406666815280914,devonshire,
 219,622,1847,devonport,england - provincial boroughs,102,2,Conservative,27,-990,-990,2343,842,0.2806666791439056,-990,0.2806666791439056,devonshire,
 220,622,1847,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 1,-990,2343,2158,0.7193333506584167,liberals candidate 1,0.3786666691303253,devonshire,
@@ -336,8 +336,8 @@
 366,622,1847,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 1,-992,5591,-992,-992.0,conservatives candidate 1,-992.0,hertfordshire,Hertfordshire
 367,622,1847,hertfordshire,england - counties,172,3,Liberal Party (Original),63,-992,-992,5591,-992,-992.0,-992,-992.0,hertfordshire,Hertfordshire
 368,622,1847,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 2,-992,5591,-992,-992.0,conservatives candidate 2,-992.0,hertfordshire,Hertfordshire
-369,622,1847,honiton,england - provincial boroughs,173,2,Conservative,27,-992,-992,446,-992,-992.0,-992,-992.0,honiton,Devonshire
-370,622,1847,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-992,-992,446,-992,-992.0,-992,-992.0,honiton,Devonshire
+369,622,1847,honiton,england - provincial boroughs,173,2,Conservative,27,-992,-992,446,-992,-992.0,-992,-992.0,honiton,Devon
+370,622,1847,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-992,-992,446,-992,-992.0,-992,-992.0,honiton,Devon
 371,622,1847,horsham,england - provincial boroughs,174,1,Liberal Party (Original),63,-990,-990,341,164,0.5141065716743469,-990,0.5141065716743469,horsham,Sussex
 372,622,1847,horsham,england - provincial boroughs,174,1,Conservative,27,-990,-990,341,155,0.4858934283256531,-990,0.4858934283256531,horsham,Sussex
 373,622,1847,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 1,-990,1142,1013,1.0,liberals candidate 1,0.5182625651359558,huddersfield,Yorkshire
@@ -371,8 +371,8 @@
 413,622,1847,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 2,-990,4618,6008,1.0,liberals candidate 2,0.3553595244884491,kingston upon hull,Yorkshire
 414,622,1847,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 1,-990,4618,6008,1.0,liberals candidate 1,0.3608522117137909,kingston upon hull,Yorkshire
 415,622,1847,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 3,-990,4618,6008,1.0,liberals candidate 3,0.2837882936000824,kingston upon hull,Yorkshire
-416,622,1847,kinsale,ireland,196,1,Liberal Party (Original),63,-990,-990,206,97,0.5078533887863159,-990,0.5078533887863159,kinsale,Devonshire
-417,622,1847,kinsale,ireland,196,1,Conservative,27,-990,-990,206,94,0.4921466112136841,-990,0.4921466112136841,kinsale,Devonshire
+416,622,1847,kinsale,ireland,196,1,Liberal Party (Original),63,-990,-990,206,97,0.5078533887863159,-990,0.5078533887863159,kinsale,Devon
+417,622,1847,kinsale,ireland,196,1,Conservative,27,-990,-990,206,94,0.4921466112136841,-990,0.4921466112136841,kinsale,Devon
 418,622,1847,kirkcaldy district of burghs,scotland - burghs,197,1,Liberal Party (Original),63,-992,-992,896,-992,-992.0,-992,-992.0,kirkcaldy district of burghs,Fife
 419,622,1847,kirkcudbrightshire,scotland - counties,198,1,Liberal Party (Original),63,-992,-992,1351,-992,-992.0,-992,-992.0,kirkcudbrightshire,Kirkcudbrightshire
 420,622,1847,knaresborough,england - provincial boroughs,199,2,Liberal Party (Original),63,liberals candidate 1,-990,242,286,0.7149999737739563,liberals candidate 1,0.3950000107288361,knaresborough,Yorkshire
@@ -679,10 +679,10 @@
 760,622,1847,taunton,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,911,931,0.7123183012008667,liberals candidate 1,0.4154552519321442,somersetshire,
 761,622,1847,taunton,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,911,931,0.7123183012008667,liberals candidate 2,0.2968630492687225,somersetshire,
 762,622,1847,taunton,england - provincial boroughs,346,2,Conservative,27,-990,-990,911,376,0.2876817286014557,-990,0.2876817286014557,somersetshire,
-763,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 3,-990,315,445,1.0,liberals candidate 3,0.1932584196329117,tavistock,Devonshire
-764,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 2,-990,315,445,1.0,liberals candidate 2,0.3370786607265472,tavistock,Devonshire
-765,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 4,-990,315,445,1.0,liberals candidate 4,0.1258426904678345,tavistock,Devonshire
-766,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 1,-990,315,445,1.0,liberals candidate 1,0.3438202142715454,tavistock,Devonshire
+763,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 3,-990,315,445,1.0,liberals candidate 3,0.1932584196329117,tavistock,Devon
+764,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 2,-990,315,445,1.0,liberals candidate 2,0.3370786607265472,tavistock,Devon
+765,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 4,-990,315,445,1.0,liberals candidate 4,0.1258426904678345,tavistock,Devon
+766,622,1847,tavistock,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 1,-990,315,445,1.0,liberals candidate 1,0.3438202142715454,tavistock,Devon
 767,622,1847,tewkesbury,england - provincial boroughs,348,2,Liberal Party (Original),63,liberals candidate 1,-990,409,86,1.0,liberals candidate 1,0.5,tewkesbury,Gloucestershire
 768,622,1847,tewkesbury,england - provincial boroughs,348,2,Liberal Party (Original),63,liberals candidate 2,-990,409,86,1.0,liberals candidate 2,0.5,tewkesbury,Gloucestershire
 769,622,1847,thetford,england - provincial boroughs,349,2,Liberal Party (Original),63,-992,-992,214,-992,-992.0,-992,-992.0,thetford,Norfolk
@@ -690,9 +690,9 @@
 771,622,1847,thrisk,england - provincial boroughs,350,1,Liberal Party (Original),63,-992,-992,332,-992,-992.0,-992,-992.0,thrisk,
 774,622,1847,tiverton,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,445,275,1.0,liberals candidate 2,0.4618181884288788,tiverton,Cheshire
 775,622,1847,tiverton,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,445,275,1.0,liberals candidate 1,0.5381818413734436,tiverton,Cheshire
-776,622,1847,totnes,england - provincial boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-990,378,433,0.7376490831375122,liberals candidate 2,0.2606473565101624,totnes,Devonshire
-777,622,1847,totnes,england - provincial boroughs,353,2,Conservative,27,-990,-990,378,154,0.2623509466648102,-990,0.2623509466648102,totnes,Devonshire
-778,622,1847,totnes,england - provincial boroughs,353,2,Liberal Party (Original),63,liberals candidate 1,-990,378,433,0.7376490831375122,liberals candidate 1,0.4770016968250275,totnes,Devonshire
+776,622,1847,totnes,england - provincial boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-990,378,433,0.7376490831375122,liberals candidate 2,0.2606473565101624,totnes,Devon
+777,622,1847,totnes,england - provincial boroughs,353,2,Conservative,27,-990,-990,378,154,0.2623509466648102,-990,0.2623509466648102,totnes,Devon
+778,622,1847,totnes,england - provincial boroughs,353,2,Liberal Party (Original),63,liberals candidate 1,-990,378,433,0.7376490831375122,liberals candidate 1,0.4770016968250275,totnes,Devon
 779,622,1847,tower hamlets,england - london boroughs,354,2,Liberal Party (Original),63,liberals candidate 3,-990,18748,12729,1.0,liberals candidate 3,0.2059863358736038,tower hamlets,Kent
 780,622,1847,tower hamlets,england - london boroughs,354,2,Liberal Party (Original),63,liberals candidate 2,-990,18748,12729,1.0,liberals candidate 2,0.3015947937965393,tower hamlets,Kent
 781,622,1847,tower hamlets,england - london boroughs,354,2,Liberal Party (Original),63,liberals candidate 1,-990,18748,12729,1.0,liberals candidate 1,0.4924188852310181,tower hamlets,Kent
@@ -790,7 +790,7 @@
 886,623,1852,armagh county,ireland,9,2,Liberal Party (Original),63,-992,-992,3342,-992,-992.0,-992,-992.0,armagh county,Armagh
 887,623,1852,armagh county,ireland,9,2,Conservative,27,-992,-992,3342,-992,-992.0,-992,-992.0,armagh county,Armagh
 888,623,1852,arundel,england - provincial boroughs,10,1,Liberal Party (Original),63,-992,-992,208,-992,-992.0,-992,-992.0,arundel,Sussex
-889,623,1852,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,236,-992,-992.0,-992,-992.0,ashburton,Devonshire
+889,623,1852,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,236,-992,-992.0,-992,-992.0,ashburton,Devon
 890,623,1852,ashton-under-lyne,england - provincial boroughs,12,1,Liberal Party (Original),63,-992,-992,937,-992,-992.0,-992,-992.0,ashton-under-lyne,Lancashire
 891,623,1852,athlone,ireland,13,1,Liberal Party (Original),63,-990,-990,243,87,0.8969072103500366,-990,0.8969072103500366,athlone,Surrey
 892,623,1852,athlone,ireland,13,1,Conservative,27,-990,-990,243,10,0.1030927821993828,-990,0.1030927821993828,athlone,Surrey
@@ -975,8 +975,8 @@
 1090,623,1852,"cumberland, eastern",england - counties,91,2,Liberal Party (Original),63,liberals candidate 1,-990,5351,4630,0.7021534442901611,liberals candidate 1,0.3601759076118469,"cumberland, eastern",Cumberland
 1091,623,1852,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 1,-992,4144,-992,-992.0,conservatives candidate 1,-992.0,"cumberland, western",Cumberland
 1092,623,1852,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 2,-992,4144,-992,-992.0,conservatives candidate 2,-992.0,"cumberland, western",Cumberland
-1093,623,1852,dartmouth,england - provincial boroughs,93,1,Conservative,27,-990,-990,302,146,0.5195729732513428,-990,0.5195729732513428,dartmouth,Devonshire
-1094,623,1852,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-990,-990,302,135,0.4804270565509796,-990,0.4804270565509796,dartmouth,Devonshire
+1093,623,1852,dartmouth,england - provincial boroughs,93,1,Conservative,27,-990,-990,302,146,0.5195729732513428,-990,0.5195729732513428,dartmouth,Devon
+1094,623,1852,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-990,-990,302,135,0.4804270565509796,-990,0.4804270565509796,dartmouth,Devon
 1095,623,1852,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Liberal Party (Original),63,-990,-990,858,288,0.4430769085884094,-990,0.4430769085884094,denbigh district of boroughs,Denbighshire
 1096,623,1852,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Conservative,27,-990,-990,858,362,0.5569230914115906,-990,0.5569230914115906,denbigh district of boroughs,Denbighshire
 1097,623,1852,denbigshire,wales and monmouthshire - counties,95,2,Conservative,27,conservatives candidate 2,-990,3901,3667,0.6947707533836365,conservatives candidate 2,0.2902614772319794,denbigshire,Denbighshire
@@ -992,10 +992,10 @@
 1107,623,1852,"derbyshire, southern",england - counties,98,2,Conservative,27,conservatives candidate 1,-992,7099,-992,-992.0,conservatives candidate 1,-992.0,"derbyshire, southern",Derbyshire
 1108,623,1852,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 2,-992,373,-992,-992.0,conservatives candidate 2,-992.0,wiltshire,
 1109,623,1852,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 1,-992,373,-992,-992.0,conservatives candidate 1,-992.0,wiltshire,
-1110,623,1852,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-992,8064,-992,-992.0,conservatives candidate 2,-992.0,"devon, northern",Devonshire
-1111,623,1852,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-992,8064,-992,-992.0,conservatives candidate 1,-992.0,"devon, northern",Devonshire
-1112,623,1852,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9569,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-1113,623,1852,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9569,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+1110,623,1852,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-992,8064,-992,-992.0,conservatives candidate 2,-992.0,"devon, northern",Devon
+1111,623,1852,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-992,8064,-992,-992.0,conservatives candidate 1,-992.0,"devon, northern",Devon
+1112,623,1852,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9569,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+1113,623,1852,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9569,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 1114,623,1852,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 2,-990,2407,2125,0.5043911933898926,liberals candidate 2,0.2482791393995285,devonshire,
 1115,623,1852,devonport,england - provincial boroughs,102,2,Conservative,27,conservatives candidate 1,-990,2407,2088,0.4956088364124298,conservatives candidate 1,0.2506527304649353,devonshire,
 1116,623,1852,devonport,england - provincial boroughs,102,2,Conservative,27,conservatives candidate 2,-990,2407,2088,0.4956088364124298,conservatives candidate 2,0.2449560910463333,devonshire,
@@ -1150,9 +1150,9 @@
 1282,623,1852,hertfordshire,england - counties,172,3,Liberal Party (Original),63,liberals candidate 2,-990,5779,5801,0.4665058255195618,liberals candidate 2,0.1519903540611267,hertfordshire,Hertfordshire
 1283,623,1852,hertfordshire,england - counties,172,3,Liberal Party (Original),63,liberals candidate 3,-990,5779,5801,0.4665058255195618,liberals candidate 3,0.1502211540937424,hertfordshire,Hertfordshire
 1284,623,1852,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 1,-990,5779,6634,0.5334941744804382,conservatives candidate 1,0.1789304316043854,hertfordshire,Hertfordshire
-1285,623,1852,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 1,-990,287,275,0.6235827803611755,conservatives candidate 1,0.3446711897850037,honiton,Devonshire
-1286,623,1852,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-990,-990,287,166,0.3764172196388245,-990,0.3764172196388245,honiton,Devonshire
-1287,623,1852,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 2,-990,287,275,0.6235827803611755,conservatives candidate 2,0.2789115607738495,honiton,Devonshire
+1285,623,1852,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 1,-990,287,275,0.6235827803611755,conservatives candidate 1,0.3446711897850037,honiton,Devon
+1286,623,1852,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-990,-990,287,166,0.3764172196388245,-990,0.3764172196388245,honiton,Devon
+1287,623,1852,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 2,-990,287,275,0.6235827803611755,conservatives candidate 2,0.2789115607738495,honiton,Devon
 1288,623,1852,horsham,england - provincial boroughs,174,1,Conservative,27,-992,-992,350,-992,-992.0,-992,-992.0,horsham,Sussex
 1289,623,1852,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 2,-990,1364,1215,1.0,liberals candidate 2,0.4855967164039612,yorkshire,Yorkshire
 1290,623,1852,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 1,-990,1364,1215,1.0,liberals candidate 1,0.5144032835960388,yorkshire,Yorkshire
@@ -1189,7 +1189,7 @@
 1334,623,1852,kingston upon hull,england - provincial boroughs,195,2,Conservative,27,conservatives candidate 2,-990,5221,3441,0.4339765310287476,conservatives candidate 2,0.2050699889659882,kingston upon hull,Yorkshire
 1335,623,1852,kingston upon hull,england - provincial boroughs,195,2,Conservative,27,conservatives candidate 1,-990,5221,3441,0.4339765310287476,conservatives candidate 1,0.2289065420627594,kingston upon hull,Yorkshire
 1336,623,1852,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 1,-990,5221,4488,0.5660234689712524,liberals candidate 1,0.2832639813423157,kingston upon hull,Yorkshire
-1337,623,1852,kinsale,ireland,196,1,Liberal Party (Original),63,-992,-992,206,-992,-992.0,-992,-992.0,kinsale,Devonshire
+1337,623,1852,kinsale,ireland,196,1,Liberal Party (Original),63,-992,-992,206,-992,-992.0,-992,-992.0,kinsale,Devon
 1338,623,1852,kirkcaldy district of burghs,scotland - burghs,197,1,Liberal Party (Original),63,-992,-992,786,-992,-992.0,-992,-992.0,kirkcaldy district of burghs,Fife
 1339,623,1852,kirkcudbrightshire,scotland - counties,198,1,Liberal Party (Original),63,-992,-992,1326,-992,-992.0,-992,-992.0,kirkcudbrightshire,Kirkcudbrightshire
 1340,623,1852,knaresborough,england - provincial boroughs,199,2,Liberal Party (Original),63,liberals candidate 1,-990,242,226,0.5067264437675476,liberals candidate 1,0.2533632218837738,knaresborough,Yorkshire
@@ -1506,9 +1506,9 @@
 1687,623,1852,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 2,-990,790,788,0.6858137249946594,liberals candidate 2,0.3115752935409546,somersetshire,
 1688,623,1852,taunton,england - provincial boroughs,345,2,Conservative,27,-990,-990,790,361,0.3141862452030182,-990,0.3141862452030182,somersetshire,
 1689,623,1852,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 1,-990,790,788,0.6858137249946594,liberals candidate 1,0.3742384612560272,somersetshire,
-1690,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,349,493,1.0,liberals candidate 3,0.2109533399343491,tavistock,Devonshire
-1691,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,349,493,1.0,liberals candidate 2,0.342799186706543,tavistock,Devonshire
-1692,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,349,493,1.0,liberals candidate 1,0.4462474584579468,tavistock,Devonshire
+1690,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,349,493,1.0,liberals candidate 3,0.2109533399343491,tavistock,Devon
+1691,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,349,493,1.0,liberals candidate 2,0.342799186706543,tavistock,Devon
+1692,623,1852,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,349,493,1.0,liberals candidate 1,0.4462474584579468,tavistock,Devon
 1693,623,1852,tewkesbury,england - provincial boroughs,347,2,Conservative,27,-990,-990,370,147,0.2717190384864807,-990,0.2717190384864807,tewkesbury,Gloucestershire
 1694,623,1852,tewkesbury,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 1,-990,370,394,0.7282809615135193,liberals candidate 1,0.3789279162883759,tewkesbury,Gloucestershire
 1695,623,1852,tewkesbury,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 2,-990,370,394,0.7282809615135193,liberals candidate 2,0.3493530452251434,tewkesbury,Gloucestershire
@@ -1517,9 +1517,9 @@
 1698,623,1852,thrisk,england - provincial boroughs,349,1,Conservative,27,-992,-992,357,-992,-992.0,-992,-992.0,thrisk,
 1703,623,1852,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 2,-992,461,-992,-992.0,liberals candidate 2,-992.0,tiverton,Cheshire
 1704,623,1852,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 1,-992,461,-992,-992.0,liberals candidate 1,-992.0,tiverton,Cheshire
-1705,623,1852,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,371,417,0.7473118305206299,liberals candidate 1,0.4713261723518372,totnes,Devonshire
-1706,623,1852,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,371,417,0.7473118305206299,liberals candidate 2,0.2759856581687927,totnes,Devonshire
-1707,623,1852,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,371,141,0.2526881694793701,-990,0.2526881694793701,totnes,Devonshire
+1705,623,1852,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,371,417,0.7473118305206299,liberals candidate 1,0.4713261723518372,totnes,Devon
+1706,623,1852,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,371,417,0.7473118305206299,liberals candidate 2,0.2759856581687927,totnes,Devon
+1707,623,1852,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,371,141,0.2526881694793701,-990,0.2526881694793701,totnes,Devon
 1708,623,1852,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 3,-990,23534,23901,1.0,liberals candidate 3,0.1911217123270035,tower hamlets,Kent
 1709,623,1852,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 4,-990,23534,23901,1.0,liberals candidate 4,0.1168151944875717,tower hamlets,Kent
 1710,623,1852,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-990,23534,23901,1.0,liberals candidate 2,0.3229153454303741,tower hamlets,Kent
@@ -1635,7 +1635,7 @@
 1838,624,1857,armagh county,ireland,9,2,Conservative,27,conservatives candidate 1,-990,3342,1868,0.9967982769012451,conservatives candidate 1,0.5016008615493774,armagh county,Armagh
 1839,624,1857,armagh county,ireland,9,2,Liberal Party (Original),63,-990,-990,3342,6,0.003201707499101758,-990,0.003201707499101758,armagh county,Armagh
 1840,624,1857,arundel,england - provincial boroughs,10,1,Liberal Party (Original),63,-992,-992,199,-992,-992.0,-992,-992.0,sussex,Sussex
-1841,624,1857,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,182,-992,-992.0,-992,-992.0,ashburton,Devonshire
+1841,624,1857,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,182,-992,-992.0,-992,-992.0,ashburton,Devon
 1842,624,1857,ashton-under-lyne,england - provincial boroughs,12,1,Liberal Party (Original),63,-992,-992,1085,-992,-992.0,-992,-992.0,lancashire,Lancashire
 1843,624,1857,athlone,ireland,13,1,Irish Independent Opposition,52,-990,-990,243,100,0.6666666865348816,-990,0.6666666865348816,athlone,Surrey
 1844,624,1857,athlone,ireland,13,1,Conservative,27,-990,-990,243,50,0.3333333432674408,-990,0.3333333432674408,athlone,Surrey
@@ -1809,8 +1809,8 @@
 2027,624,1857,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 2,-990,4389,3673,0.7026975154876709,conservatives candidate 2,0.3491486608982086,"cumberland, western",Cumberland
 2028,624,1857,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 1,-990,4389,3673,0.7026975154876709,conservatives candidate 1,0.3535488843917847,"cumberland, western",Cumberland
 2029,624,1857,"cumberland, western",england - counties,92,2,Liberal Party (Original),63,-990,-990,4389,1554,0.2973024547100067,-990,0.2973024547100067,"cumberland, western",Cumberland
-2030,624,1857,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,liberals candidate 2,-990,269,221,1.0,liberals candidate 2,0.4253393709659576,devonshire,Devonshire
-2031,624,1857,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,liberals candidate 1,-990,269,221,1.0,liberals candidate 1,0.5746606588363647,devonshire,Devonshire
+2030,624,1857,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,liberals candidate 2,-990,269,221,1.0,liberals candidate 2,0.4253393709659576,devonshire,Devon
+2031,624,1857,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,liberals candidate 1,-990,269,221,1.0,liberals candidate 1,0.5746606588363647,devonshire,Devon
 2032,624,1857,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Liberal Party (Original),63,-990,-990,861,302,0.4534534513950348,-990,0.4534534513950348,denbigh district of boroughs,Denbighshire
 2033,624,1857,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Conservative,27,-990,-990,861,364,0.5465465188026428,-990,0.5465465188026428,denbigh district of boroughs,Denbighshire
 2034,624,1857,denbigshire,wales and monmouthshire - counties,95,2,Conservative,27,-992,-992,4506,-992,-992.0,-992,-992.0,denbigshire,Denbighshire
@@ -1827,11 +1827,11 @@
 2045,624,1857,devizes,england - provincial boroughs,99,2,Liberal Party (Original),63,-990,-990,319,230,0.4536489248275757,-990,0.4536489248275757,wiltshire,
 2046,624,1857,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 2,-990,319,277,0.5463510751724243,conservatives candidate 2,0.2327416241168976,wiltshire,
 2047,624,1857,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 1,-990,319,277,0.5463510751724243,conservatives candidate 1,0.3136094808578491,wiltshire,
-2048,624,1857,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-990,7264,4427,0.5479638576507568,conservatives candidate 2,0.2605520486831665,"devon, northern",Devonshire
-2049,624,1857,"devon, northern",england - counties,100,2,Liberal Party (Original),63,-990,-990,7264,3652,0.4520361423492432,-990,0.4520361423492432,"devon, northern",Devonshire
-2050,624,1857,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-990,7264,4427,0.5479638576507568,conservatives candidate 1,0.2874118089675903,"devon, northern",Devonshire
-2051,624,1857,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9625,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-2052,624,1857,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9625,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+2048,624,1857,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 2,-990,7264,4427,0.5479638576507568,conservatives candidate 2,0.2605520486831665,"devon, northern",Devon
+2049,624,1857,"devon, northern",england - counties,100,2,Liberal Party (Original),63,-990,-990,7264,3652,0.4520361423492432,-990,0.4520361423492432,"devon, northern",Devon
+2050,624,1857,"devon, northern",england - counties,100,2,Conservative,27,conservatives candidate 1,-990,7264,4427,0.5479638576507568,conservatives candidate 1,0.2874118089675903,"devon, northern",Devon
+2051,624,1857,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9625,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+2052,624,1857,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9625,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 2053,624,1857,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 1,-992,2628,-992,-992.0,liberals candidate 1,-992.0,devonshire,
 2054,624,1857,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 2,-992,2628,-992,-992.0,liberals candidate 2,-992.0,devonshire,
 2057,624,1857,dorchester,england - provincial boroughs,104,2,Liberal Party (Original),63,-992,-992,451,-992,-992.0,-992,-992.0,dorset,
@@ -1968,9 +1968,9 @@
 2205,624,1857,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 1,-992,6061,-992,-992.0,conservatives candidate 1,-992.0,hertfordshire,Hertfordshire
 2206,624,1857,hertfordshire,england - counties,172,3,Liberal Party (Original),63,-992,-992,6061,-992,-992.0,-992,-992.0,hertfordshire,Hertfordshire
 2207,624,1857,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 2,-992,6061,-992,-992.0,conservatives candidate 2,-992.0,hertfordshire,Hertfordshire
-2208,624,1857,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 1,-990,264,236,0.5244444608688354,conservatives candidate 1,0.2644444406032562,honiton,Devonshire
-2209,624,1857,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-990,-990,264,214,0.4755555689334869,-990,0.4755555689334869,honiton,Devonshire
-2210,624,1857,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 2,-990,264,236,0.5244444608688354,conservatives candidate 2,0.2599999904632568,honiton,Devonshire
+2208,624,1857,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 1,-990,264,236,0.5244444608688354,conservatives candidate 1,0.2644444406032562,honiton,Devon
+2209,624,1857,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-990,-990,264,214,0.4755555689334869,-990,0.4755555689334869,honiton,Devon
+2210,624,1857,honiton,england - provincial boroughs,173,2,Conservative,27,conservatives candidate 2,-990,264,236,0.5244444608688354,conservatives candidate 2,0.2599999904632568,honiton,Devon
 2211,624,1857,horsham,england - provincial boroughs,174,1,Conservative,27,-990,-990,350,173,0.5965517163276672,-990,0.5965517163276672,horsham,Sussex
 2212,624,1857,horsham,england - provincial boroughs,174,1,Liberal Party (Original),63,-990,-990,350,117,0.4034482836723328,-990,0.4034482836723328,horsham,Sussex
 2213,624,1857,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 1,-990,1552,1413,1.0,liberals candidate 1,0.5824486613273621,yorkshire,Yorkshire
@@ -2009,7 +2009,7 @@
 2258,624,1857,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 4,-990,5494,6494,1.0,liberals candidate 4,0.06683091819286346,kingston upon hull,Yorkshire
 2259,624,1857,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 1,-990,5494,6494,1.0,liberals candidate 1,0.364182323217392,kingston upon hull,Yorkshire
 2260,624,1857,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 3,-990,5494,6494,1.0,liberals candidate 3,0.2143517136573792,kingston upon hull,Yorkshire
-2261,624,1857,kinsale,ireland,196,1,Liberal Party (Original),63,-992,-992,206,-992,-992.0,-992,-992.0,kinsale,Devonshire
+2261,624,1857,kinsale,ireland,196,1,Liberal Party (Original),63,-992,-992,206,-992,-992.0,-992,-992.0,kinsale,Devon
 2262,624,1857,kirkcaldy district of burghs,scotland - burghs,197,1,Liberal Party (Original),63,-992,-992,728,-992,-992.0,-992,-992.0,kirkcaldy district of burghs,Fife
 2263,624,1857,kirkcudbrightshire,scotland - counties,198,1,Liberal Party (Original),63,liberals candidate 2,-990,1312,697,1.0,liberals candidate 2,0.476327121257782,kirkcudbrightshire,Kirkcudbrightshire
 2264,624,1857,kirkcudbrightshire,scotland - counties,198,1,Liberal Party (Original),63,liberals candidate 1,-990,1312,697,1.0,liberals candidate 1,0.523672878742218,kirkcudbrightshire,Kirkcudbrightshire
@@ -2303,9 +2303,9 @@
 2584,624,1857,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 1,-990,887,808,0.6683209538459778,liberals candidate 1,0.3655914068222046,somersetshire,
 2585,624,1857,taunton,england - provincial boroughs,345,2,Conservative,27,-990,-990,887,401,0.3316790759563446,-990,0.3316790759563446,somersetshire,
 2586,624,1857,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 2,-990,887,808,0.6683209538459778,liberals candidate 2,0.3027295172214508,somersetshire,
-2587,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,395,570,1.0,liberals candidate 3,0.2280701696872711,tavistock,Devonshire
-2588,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,395,570,1.0,liberals candidate 2,0.3473684191703796,tavistock,Devonshire
-2589,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,395,570,1.0,liberals candidate 1,0.4245614111423492,tavistock,Devonshire
+2587,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,395,570,1.0,liberals candidate 3,0.2280701696872711,tavistock,Devon
+2588,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,395,570,1.0,liberals candidate 2,0.3473684191703796,tavistock,Devon
+2589,624,1857,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,395,570,1.0,liberals candidate 1,0.4245614111423492,tavistock,Devon
 2590,624,1857,tewkesbury,england - provincial boroughs,347,2,Conservative,27,conservatives candidate 2,-990,371,225,0.4318618178367615,conservatives candidate 2,0.04798464477062225,tewkesbury,Gloucestershire
 2591,624,1857,tewkesbury,england - provincial boroughs,347,2,Conservative,27,conservatives candidate 1,-990,371,225,0.4318618178367615,conservatives candidate 1,0.383877158164978,tewkesbury,Gloucestershire
 2592,624,1857,tewkesbury,england - provincial boroughs,347,2,Liberal Party (Original),63,liberals candidate 1,-990,371,296,0.5681381821632385,liberals candidate 1,0.3243761956691742,tewkesbury,Gloucestershire
@@ -2315,10 +2315,10 @@
 2596,624,1857,thrisk,england - provincial boroughs,349,1,Conservative,27,-992,-992,398,-992,-992.0,-992,-992.0,thrisk,
 2599,624,1857,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 2,-992,482,-992,-992.0,liberals candidate 2,-992.0,tiverton,Cheshire
 2600,624,1857,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 1,-992,482,-992,-992.0,liberals candidate 1,-992.0,tiverton,Cheshire
-2601,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 3,-990,315,439,0.8850806355476379,liberals candidate 3,0.2379032224416733,totnes,Devonshire
-2602,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,315,439,0.8850806355476379,liberals candidate 2,0.3024193644523621,totnes,Devonshire
-2603,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,315,439,0.8850806355476379,liberals candidate 1,0.3447580635547638,totnes,Devonshire
-2604,624,1857,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,315,57,0.1149193570017815,-990,0.1149193570017815,totnes,Devonshire
+2601,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 3,-990,315,439,0.8850806355476379,liberals candidate 3,0.2379032224416733,totnes,Devon
+2602,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,315,439,0.8850806355476379,liberals candidate 2,0.3024193644523621,totnes,Devon
+2603,624,1857,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,315,439,0.8850806355476379,liberals candidate 1,0.3447580635547638,totnes,Devon
+2604,624,1857,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,315,57,0.1149193570017815,-990,0.1149193570017815,totnes,Devon
 2605,624,1857,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 3,-990,27980,21764,1.0,liberals candidate 3,0.305734246969223,tower hamlets,Kent
 2606,624,1857,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 1,-990,27980,21764,1.0,liberals candidate 1,0.3589873313903809,tower hamlets,Kent
 2607,624,1857,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-990,27980,21764,1.0,liberals candidate 2,0.3352784514427185,tower hamlets,Kent
@@ -2413,8 +2413,8 @@
 2711,625,1859,armagh county,ireland,9,2,Conservative,27,conservatives candidate 1,-992,3342,-992,-992.0,conservatives candidate 1,-992.0,armagh county,Armagh
 2712,625,1859,armagh county,ireland,9,2,Conservative,27,conservatives candidate 2,-992,3342,-992,-992.0,conservatives candidate 2,-992.0,armagh county,Armagh
 2713,625,1859,arundel,england - provincial boroughs,10,1,Liberal Party (Original),63,-992,-992,196,-992,-992.0,-992,-992.0,sussex,Sussex
-2714,625,1859,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-990,-990,196,90,0.4972375631332397,-990,0.4972375631332397,ashburton,Devonshire
-2715,625,1859,ashburton,england - provincial boroughs,11,1,Conservative,27,-990,-990,196,91,0.5027624368667603,-990,0.5027624368667603,ashburton,Devonshire
+2714,625,1859,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-990,-990,196,90,0.4972375631332397,-990,0.4972375631332397,ashburton,Devon
+2715,625,1859,ashburton,england - provincial boroughs,11,1,Conservative,27,-990,-990,196,91,0.5027624368667603,-990,0.5027624368667603,ashburton,Devon
 2716,625,1859,ashton-under-lyne,england - provincial boroughs,12,1,Liberal Party (Original),63,-992,-992,1081,-992,-992.0,-992,-992.0,lancashire,Lancashire
 2717,625,1859,athlone,ireland,13,1,Conservative,27,-990,-990,243,74,0.3874345421791077,-990,0.3874345421791077,athlone,Surrey
 2718,625,1859,athlone,ireland,13,1,Liberal Party (Original),63,-990,-990,243,117,0.6125654578208923,-990,0.6125654578208923,athlone,Surrey
@@ -2583,8 +2583,8 @@
 2895,625,1859,"cumberland, eastern",england - counties,91,2,Liberal Party (Original),63,liberals candidate 1,-992,5582,-992,-992.0,liberals candidate 1,-992.0,"cumberland, eastern",Cumberland
 2896,625,1859,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 2,-992,4780,-992,-992.0,conservatives candidate 2,-992.0,"cumberland, western",Cumberland
 2897,625,1859,"cumberland, western",england - counties,92,2,Conservative,27,conservatives candidate 1,-992,4780,-992,-992.0,conservatives candidate 1,-992.0,"cumberland, western",Cumberland
-2898,625,1859,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-990,-990,257,123,0.5146443247795105,-990,0.5146443247795105,devonshire,Devonshire
-2899,625,1859,dartmouth,england - provincial boroughs,93,1,Conservative,27,-990,-990,257,116,0.4853556454181671,-990,0.4853556454181671,devonshire,Devonshire
+2898,625,1859,dartmouth,england - provincial boroughs,93,1,Liberal Party (Original),63,-990,-990,257,123,0.5146443247795105,-990,0.5146443247795105,devonshire,Devon
+2899,625,1859,dartmouth,england - provincial boroughs,93,1,Conservative,27,-990,-990,257,116,0.4853556454181671,-990,0.4853556454181671,devonshire,Devon
 2900,625,1859,denbigh district of boroughs,wales and monmouthshire - boroughs,94,1,Conservative,27,-992,-992,852,-992,-992.0,-992,-992.0,denbigh district of boroughs,Denbighshire
 2901,625,1859,denbigshire,wales and monmouthshire - counties,95,2,Conservative,27,-992,-992,4508,-992,-992.0,-992,-992.0,denbigshire,Denbighshire
 2902,625,1859,denbigshire,wales and monmouthshire - counties,95,2,Liberal Party (Original),63,-992,-992,4508,-992,-992.0,-992,-992.0,denbigshire,Denbighshire
@@ -2600,10 +2600,10 @@
 2912,625,1859,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 1,-990,314,338,0.6954732537269592,conservatives candidate 1,0.3518518507480621,wiltshire,
 2913,625,1859,devizes,england - provincial boroughs,99,2,Liberal Party (Original),63,-990,-990,314,148,0.3045267462730408,-990,0.3045267462730408,wiltshire,
 2914,625,1859,devizes,england - provincial boroughs,99,2,Conservative,27,conservatives candidate 2,-990,314,338,0.6954732537269592,conservatives candidate 2,0.3436214029788971,wiltshire,
-2915,625,1859,"devon, northern",england - counties,100,2,Liberal Party (Original),63,-992,-992,8764,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-2916,625,1859,"devon, northern",england - counties,100,2,Conservative,27,-992,-992,8764,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-2917,625,1859,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9466,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-2918,625,1859,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9466,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+2915,625,1859,"devon, northern",england - counties,100,2,Liberal Party (Original),63,-992,-992,8764,-992,-992.0,-992,-992.0,"devon, northern",Devon
+2916,625,1859,"devon, northern",england - counties,100,2,Conservative,27,-992,-992,8764,-992,-992.0,-992,-992.0,"devon, northern",Devon
+2917,625,1859,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 2,-992,9466,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+2918,625,1859,"devon, southern",england - counties,101,2,Conservative,27,conservatives candidate 1,-992,9466,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 2919,625,1859,devonport,england - provincial boroughs,102,2,Conservative,27,conservatives candidate 2,-990,2759,2114,0.4668727815151215,conservatives candidate 2,0.229461133480072,devonshire,
 2920,625,1859,devonport,england - provincial boroughs,102,2,Liberal Party (Original),63,liberals candidate 2,-990,2759,2414,0.5331271886825562,liberals candidate 2,0.2645759582519531,devonshire,
 2921,625,1859,devonport,england - provincial boroughs,102,2,Conservative,27,conservatives candidate 1,-990,2759,2114,0.4668727815151215,conservatives candidate 1,0.2374116629362106,devonshire,
@@ -2733,8 +2733,8 @@
 3061,625,1859,hertfordshire,england - counties,172,3,Liberal Party (Original),63,-992,-992,6190,-992,-992.0,-992,-992.0,hertfordshire,Hertfordshire
 3062,625,1859,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 2,-992,6190,-992,-992.0,conservatives candidate 2,-992.0,hertfordshire,Hertfordshire
 3063,625,1859,hertfordshire,england - counties,172,3,Conservative,27,conservatives candidate 1,-992,6190,-992,-992.0,conservatives candidate 1,-992.0,hertfordshire,Hertfordshire
-3064,625,1859,honiton,england - provincial boroughs,173,2,Conservative,27,-992,-992,287,-992,-992.0,-992,-992.0,honiton,Devonshire
-3065,625,1859,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-992,-992,287,-992,-992.0,-992,-992.0,honiton,Devonshire
+3064,625,1859,honiton,england - provincial boroughs,173,2,Conservative,27,-992,-992,287,-992,-992.0,-992,-992.0,honiton,Devon
+3065,625,1859,honiton,england - provincial boroughs,173,2,Liberal Party (Original),63,-992,-992,287,-992,-992.0,-992,-992.0,honiton,Devon
 3066,625,1859,horsham,england - provincial boroughs,174,1,Conservative,27,-992,-992,387,-992,-992.0,-992,-992.0,horsham,Sussex
 3067,625,1859,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 2,-990,1660,1539,1.0,liberals candidate 2,0.4938271641731262,yorkshire,Yorkshire
 3068,625,1859,huddersfield,england - provincial boroughs,175,1,Liberal Party (Original),63,liberals candidate 1,-990,1660,1539,1.0,liberals candidate 1,0.5061728358268738,yorkshire,Yorkshire
@@ -2769,8 +2769,8 @@
 3111,625,1859,kingston upon hull,england - provincial boroughs,195,2,Conservative,27,-990,-990,5526,2269,0.3400269746780396,-990,0.3400269746780396,kingston upon hull,Yorkshire
 3112,625,1859,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 2,-990,5526,4404,0.6599730253219604,liberals candidate 2,0.2935711145401001,kingston upon hull,Yorkshire
 3113,625,1859,kingston upon hull,england - provincial boroughs,195,2,Liberal Party (Original),63,liberals candidate 1,-990,5526,4404,0.6599730253219604,liberals candidate 1,0.3664019107818604,kingston upon hull,Yorkshire
-3114,625,1859,kinsale,ireland,196,1,Liberal Party (Original),63,-990,-990,206,79,0.6752136945724487,-990,0.6752136945724487,kinsale,Devonshire
-3115,625,1859,kinsale,ireland,196,1,Conservative,27,-990,-990,206,38,0.3247863352298737,-990,0.3247863352298737,kinsale,Devonshire
+3114,625,1859,kinsale,ireland,196,1,Liberal Party (Original),63,-990,-990,206,79,0.6752136945724487,-990,0.6752136945724487,kinsale,Devon
+3115,625,1859,kinsale,ireland,196,1,Conservative,27,-990,-990,206,38,0.3247863352298737,-990,0.3247863352298737,kinsale,Devon
 3116,625,1859,kirkcaldy district of burghs,scotland - burghs,197,1,Liberal Party (Original),63,liberals candidate 1,-990,777,606,1.0,liberals candidate 1,0.5148515105247498,kirkcaldy district of burghs,Fife
 3117,625,1859,kirkcaldy district of burghs,scotland - burghs,197,1,Liberal Party (Original),63,liberals candidate 2,-990,777,606,1.0,liberals candidate 2,0.4851485192775726,kirkcaldy district of burghs,Fife
 3118,625,1859,kirkcudbrightshire,scotland - counties,198,1,Liberal Party (Original),63,-992,-992,1573,-992,-992.0,-992,-992.0,kirkcudbrightshire,Kirkcudbrightshire
@@ -3073,8 +3073,8 @@
 3448,625,1859,taunton,england - provincial boroughs,345,2,Conservative,27,conservatives candidate 2,-990,832,740,0.535068690776825,conservatives candidate 2,0.2349963784217834,somersetshire,
 3449,625,1859,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 2,-990,832,643,0.464931309223175,liberals candidate 2,0.1843817830085754,somersetshire,
 3450,625,1859,taunton,england - provincial boroughs,345,2,Conservative,27,conservatives candidate 1,-990,832,740,0.535068690776825,conservatives candidate 1,0.3000723123550415,somersetshire,
-3451,625,1859,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-992,414,-992,-992.0,liberals candidate 1,-992.0,tavistock,Devonshire
-3452,625,1859,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-992,414,-992,-992.0,liberals candidate 2,-992.0,tavistock,Devonshire
+3451,625,1859,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-992,414,-992,-992.0,liberals candidate 1,-992.0,tavistock,Devon
+3452,625,1859,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-992,414,-992,-992.0,liberals candidate 2,-992.0,tavistock,Devon
 3453,625,1859,tewkesbury,england - provincial boroughs,347,2,Liberal Party (Original),63,-992,-992,341,-992,-992.0,-992,-992.0,tewkesbury,Gloucestershire
 3454,625,1859,tewkesbury,england - provincial boroughs,347,2,Conservative,27,-992,-992,341,-992,-992.0,-992,-992.0,tewkesbury,Gloucestershire
 3455,625,1859,thetford,england - provincial boroughs,348,2,Liberal Party (Original),63,liberals candidate 1,-992,231,-992,-992.0,liberals candidate 1,-992.0,thetford,Norfolk
@@ -3082,9 +3082,9 @@
 3457,625,1859,thrisk,england - provincial boroughs,349,1,Conservative,27,-992,-992,414,-992,-992.0,-992,-992.0,thrisk,
 3460,625,1859,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 1,-992,506,-992,-992.0,liberals candidate 1,-992.0,tiverton,Cheshire
 3461,625,1859,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 2,-992,506,-992,-992.0,liberals candidate 2,-992.0,tiverton,Cheshire
-3462,625,1859,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,341,135,0.2890792191028595,-990,0.2890792191028595,totnes,Devonshire
-3463,625,1859,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,341,332,0.7109207510948181,liberals candidate 1,0.3854389786720276,totnes,Devonshire
-3464,625,1859,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,341,332,0.7109207510948181,liberals candidate 2,0.3254818022251129,totnes,Devonshire
+3462,625,1859,totnes,england - provincial boroughs,352,2,Conservative,27,-990,-990,341,135,0.2890792191028595,-990,0.2890792191028595,totnes,Devon
+3463,625,1859,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,341,332,0.7109207510948181,liberals candidate 1,0.3854389786720276,totnes,Devon
+3464,625,1859,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,341,332,0.7109207510948181,liberals candidate 2,0.3254818022251129,totnes,Devon
 3465,625,1859,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-992,28843,-992,-992.0,liberals candidate 2,-992.0,tower hamlets,Kent
 3466,625,1859,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 1,-992,28843,-992,-992.0,liberals candidate 1,-992.0,tower hamlets,Kent
 3467,625,1859,tralee,ireland,354,1,Liberal Party (Original),63,-992,-992,180,-992,-992.0,-992,-992.0,tralee,Argyllshire
@@ -3178,7 +3178,7 @@
 3568,626,1865,armagh county,ireland,9,2,Conservative,27,conservatives candidate 1,-992,5893,-992,-992.0,conservatives candidate 1,-992.0,armagh county,Armagh
 3569,626,1865,armagh county,ireland,9,2,Conservative,27,conservatives candidate 2,-992,5893,-992,-992.0,conservatives candidate 2,-992.0,armagh county,Armagh
 3570,626,1865,arundel,england - provincial boroughs,10,1,Liberal Party (Original),63,-992,-992,174,-992,-992.0,-992,-992.0,sussex,Sussex
-3571,626,1865,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,350,-992,-992.0,-992,-992.0,ashburton,Devonshire
+3571,626,1865,ashburton,england - provincial boroughs,11,1,Liberal Party (Original),63,-992,-992,350,-992,-992.0,-992,-992.0,ashburton,Devon
 3572,626,1865,ashton-under-lyne,england - provincial boroughs,12,1,Liberal Party (Original),63,-992,-992,967,-992,-992.0,-992,-992.0,lancashire,Lancashire
 3573,626,1865,athlone,ireland,13,1,Liberal Party (Original),63,liberals candidate 2,-990,222,167,0.8882978558540344,liberals candidate 2,0.3191489279270172,athlone,Surrey
 3574,626,1865,athlone,ireland,13,1,Conservative,27,-990,-990,222,21,0.1117021292448044,-990,0.1117021292448044,athlone,Surrey
@@ -3355,7 +3355,7 @@
 3758,626,1865,"cumberland, eastern",england - counties,92,2,Liberal Party (Original),63,liberals candidate 1,-992,5455,-992,-992.0,liberals candidate 1,-992.0,"cumberland, eastern",Cumberland
 3759,626,1865,"cumberland, western",england - counties,93,2,Conservative,27,conservatives candidate 1,-992,4602,-992,-992.0,conservatives candidate 1,-992.0,"cumberland, western",Cumberland
 3760,626,1865,"cumberland, western",england - counties,93,2,Conservative,27,conservatives candidate 2,-992,4602,-992,-992.0,conservatives candidate 2,-992.0,"cumberland, western",Cumberland
-3761,626,1865,dartmouth,england - provincial boroughs,94,1,Conservative,27,-992,-992,282,-992,-992.0,-992,-992.0,devonshire,Devonshire
+3761,626,1865,dartmouth,england - provincial boroughs,94,1,Conservative,27,-992,-992,282,-992,-992.0,-992,-992.0,devonshire,Devon
 3762,626,1865,denbigh district of boroughs,wales and monmouthshire - boroughs,95,1,Conservative,27,-992,-992,903,-992,-992.0,-992,-992.0,denbigh district of boroughs,Denbighshire
 3763,626,1865,denbigshire,wales and monmouthshire - counties,96,2,Conservative,27,-992,-992,5333,-992,-992.0,-992,-992.0,denbigshire,Denbighshire
 3764,626,1865,denbigshire,wales and monmouthshire - counties,96,2,Liberal Party (Original),63,-992,-992,5333,-992,-992.0,-992,-992.0,denbigshire,Denbighshire
@@ -3370,10 +3370,10 @@
 3773,626,1865,"derbyshire, southern",england - counties,99,2,Liberal Party (Original),63,liberals candidate 1,-990,7976,7541,0.9594147801399231,liberals candidate 1,0.4950381815433502,"derbyshire, southern",Derbyshire
 3774,626,1865,devizes,england - provincial boroughs,100,2,Conservative,27,conservatives candidate 1,-990,359,333,1.0,conservatives candidate 1,0.5435435175895691,wiltshire,
 3775,626,1865,devizes,england - provincial boroughs,100,2,Conservative,27,conservatives candidate 2,-990,359,333,1.0,conservatives candidate 2,0.4564564526081085,wiltshire,
-3776,626,1865,"devon, northern",england - counties,101,2,Liberal Party (Original),63,-992,-992,8746,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-3777,626,1865,"devon, northern",england - counties,101,2,Conservative,27,-992,-992,8746,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-3778,626,1865,"devon, southern",england - counties,102,2,Conservative,27,conservatives candidate 2,-992,9592,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-3779,626,1865,"devon, southern",england - counties,102,2,Conservative,27,conservatives candidate 1,-992,9592,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+3776,626,1865,"devon, northern",england - counties,101,2,Liberal Party (Original),63,-992,-992,8746,-992,-992.0,-992,-992.0,"devon, northern",Devon
+3777,626,1865,"devon, northern",england - counties,101,2,Conservative,27,-992,-992,8746,-992,-992.0,-992,-992.0,"devon, northern",Devon
+3778,626,1865,"devon, southern",england - counties,102,2,Conservative,27,conservatives candidate 2,-992,9592,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+3779,626,1865,"devon, southern",england - counties,102,2,Conservative,27,conservatives candidate 1,-992,9592,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 3780,626,1865,devonport,england - provincial boroughs,103,2,Liberal Party (Original),63,liberals candidate 2,-990,2820,2522,0.4926743507385254,liberals candidate 2,0.2428208589553833,devonshire,
 3781,626,1865,devonport,england - provincial boroughs,103,2,Liberal Party (Original),63,liberals candidate 1,-990,2820,2522,0.4926743507385254,liberals candidate 1,0.2498534917831421,devonshire,
 3782,626,1865,devonport,england - provincial boroughs,103,2,Conservative,27,conservatives candidate 1,-990,2820,2597,0.5073256492614746,conservatives candidate 1,0.2553232908248901,devonshire,
@@ -3522,9 +3522,9 @@
 3942,626,1865,hertfordshire,england - counties,173,3,Conservative,27,conservatives candidate 1,-990,6228,7410,0.7449482083320618,conservatives candidate 1,0.2498240619897842,hertfordshire,Hertfordshire
 3943,626,1865,hertfordshire,england - counties,173,3,Conservative,27,conservatives candidate 3,-990,6228,7410,0.7449482083320618,conservatives candidate 3,0.2460038214921951,hertfordshire,Hertfordshire
 3944,626,1865,hertfordshire,england - counties,173,3,Conservative,27,conservatives candidate 2,-990,6228,7410,0.7449482083320618,conservatives candidate 2,0.2491203397512436,hertfordshire,Hertfordshire
-3945,626,1865,honiton,england - provincial boroughs,174,2,Conservative,27,-990,-990,267,140,0.3508771955966949,-990,0.3508771955966949,honiton,Devonshire
-3946,626,1865,honiton,england - provincial boroughs,174,2,Liberal Party (Original),63,liberals candidate 1,-990,267,259,0.6491228342056274,liberals candidate 1,0.4285714328289032,honiton,Devonshire
-3947,626,1865,honiton,england - provincial boroughs,174,2,Liberal Party (Original),63,liberals candidate 2,-990,267,259,0.6491228342056274,liberals candidate 2,0.2205513715744019,honiton,Devonshire
+3945,626,1865,honiton,england - provincial boroughs,174,2,Conservative,27,-990,-990,267,140,0.3508771955966949,-990,0.3508771955966949,honiton,Devon
+3946,626,1865,honiton,england - provincial boroughs,174,2,Liberal Party (Original),63,liberals candidate 1,-990,267,259,0.6491228342056274,liberals candidate 1,0.4285714328289032,honiton,Devon
+3947,626,1865,honiton,england - provincial boroughs,174,2,Liberal Party (Original),63,liberals candidate 2,-990,267,259,0.6491228342056274,liberals candidate 2,0.2205513715744019,honiton,Devon
 3948,626,1865,horsham,england - provincial boroughs,175,1,Liberal Party (Original),63,-990,-990,400,164,0.5077399611473083,-990,0.5077399611473083,sussex,Sussex
 3949,626,1865,horsham,england - provincial boroughs,175,1,Conservative,27,-990,-990,400,159,0.492260068655014,-990,0.492260068655014,sussex,Sussex
 3950,626,1865,huddersfield,england - provincial boroughs,176,1,Liberal Party (Original),63,liberals candidate 2,-990,2138,1806,1.0,liberals candidate 2,0.435769647359848,yorkshire,Yorkshire
@@ -3563,8 +3563,8 @@
 3994,626,1865,kingston upon hull,england - provincial boroughs,196,2,Conservative,27,conservatives candidate 1,-990,5566,3284,0.3903018832206726,conservatives candidate 1,0.2270026206970215,kingston upon hull,Yorkshire
 3995,626,1865,kingston upon hull,england - provincial boroughs,196,2,Liberal Party (Original),63,liberals candidate 1,-990,5566,5130,0.6096981167793274,liberals candidate 1,0.3069883584976196,kingston upon hull,Yorkshire
 3996,626,1865,kingston upon hull,england - provincial boroughs,196,2,Conservative,27,conservatives candidate 2,-990,5566,3284,0.3903018832206726,conservatives candidate 2,0.1632992625236511,kingston upon hull,Yorkshire
-3997,626,1865,kinsale,ireland,197,1,Liberal Party (Original),63,liberals candidate 2,-990,130,118,1.0,liberals candidate 2,0.4745762646198273,kinsale,Devonshire
-3998,626,1865,kinsale,ireland,197,1,Liberal Party (Original),63,liberals candidate 1,-990,130,118,1.0,liberals candidate 1,0.5254237055778503,kinsale,Devonshire
+3997,626,1865,kinsale,ireland,197,1,Liberal Party (Original),63,liberals candidate 2,-990,130,118,1.0,liberals candidate 2,0.4745762646198273,kinsale,Devon
+3998,626,1865,kinsale,ireland,197,1,Liberal Party (Original),63,liberals candidate 1,-990,130,118,1.0,liberals candidate 1,0.5254237055778503,kinsale,Devon
 3999,626,1865,kirkcaldy district of burghs,scotland - burghs,198,1,Liberal Party (Original),63,-992,-992,816,-992,-992.0,-992,-992.0,kirkcaldy district of burghs,Fife
 4000,626,1865,kirkcudbrightshire,scotland - counties,199,1,Liberal Party (Original),63,-992,-992,1353,-992,-992.0,-992,-992.0,kirkcudbrightshire,Kirkcudbrightshire
 4001,626,1865,knaresborough,england - provincial boroughs,200,2,Conservative,27,conservatives candidate 1,-990,272,279,0.6871921420097351,conservatives candidate 1,0.3842364549636841,yorkshire,Yorkshire
@@ -3877,11 +3877,11 @@
 4343,626,1865,taunton,england - provincial boroughs,345,2,Conservative,27,conservatives candidate 1,-990,839,552,0.3680000007152557,conservatives candidate 1,0.1946666687726974,somersetshire,
 4344,626,1865,taunton,england - provincial boroughs,345,2,Conservative,27,conservatives candidate 2,-990,839,552,0.3680000007152557,conservatives candidate 2,0.1733333319425583,somersetshire,
 4345,626,1865,taunton,england - provincial boroughs,345,2,Liberal Party (Original),63,liberals candidate 1,-990,839,948,0.6320000290870667,liberals candidate 1,0.3186666667461395,somersetshire,
-4346,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,426,636,0.8724279999732971,liberals candidate 2,0.2455418407917023,devonshire,Devonshire
-4347,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,426,636,0.8724279999732971,liberals candidate 1,0.4526748955249786,devonshire,Devonshire
-4348,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 4,-990,426,636,0.8724279999732971,liberals candidate 4,0.01097393687814474,devonshire,Devonshire
-4349,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,426,636,0.8724279999732971,liberals candidate 3,0.1632373183965683,devonshire,Devonshire
-4350,626,1865,tavistock,england - provincial boroughs,346,2,Conservative,27,-990,-990,426,93,0.1275720149278641,-990,0.1275720149278641,devonshire,Devonshire
+4346,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 2,-990,426,636,0.8724279999732971,liberals candidate 2,0.2455418407917023,devonshire,Devon
+4347,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 1,-990,426,636,0.8724279999732971,liberals candidate 1,0.4526748955249786,devonshire,Devon
+4348,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 4,-990,426,636,0.8724279999732971,liberals candidate 4,0.01097393687814474,devonshire,Devon
+4349,626,1865,tavistock,england - provincial boroughs,346,2,Liberal Party (Original),63,liberals candidate 3,-990,426,636,0.8724279999732971,liberals candidate 3,0.1632373183965683,devonshire,Devon
+4350,626,1865,tavistock,england - provincial boroughs,346,2,Conservative,27,-990,-990,426,93,0.1275720149278641,-990,0.1275720149278641,devonshire,Devon
 4351,626,1865,tewkesbury,england - provincial boroughs,347,2,Conservative,27,conservatives candidate 1,-990,325,377,0.7153699994087219,conservatives candidate 1,0.3700189888477325,gloucestershire,Gloucestershire
 4352,626,1865,tewkesbury,england - provincial boroughs,347,2,Conservative,27,conservatives candidate 2,-990,325,377,0.7153699994087219,conservatives candidate 2,0.3453510403633118,gloucestershire,Gloucestershire
 4353,626,1865,tewkesbury,england - provincial boroughs,347,2,Liberal Party (Original),63,-990,-990,325,150,0.2846299707889557,-990,0.2846299707889557,gloucestershire,Gloucestershire
@@ -3892,10 +3892,10 @@
 4361,626,1865,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 1,-990,465,698,1.0,liberals candidate 1,0.373925507068634,devonshire,Cheshire
 4362,626,1865,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 3,-990,465,698,1.0,liberals candidate 3,0.310888260602951,devonshire,Cheshire
 4363,626,1865,tiverton,england - provincial boroughs,351,2,Liberal Party (Original),63,liberals candidate 2,-990,465,698,1.0,liberals candidate 2,0.3151862323284149,devonshire,Cheshire
-4364,626,1865,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,382,414,0.5726141333580017,liberals candidate 2,0.282157689332962,devonshire,Devonshire
-4365,626,1865,totnes,england - provincial boroughs,352,2,Conservative,27,conservatives candidate 2,-990,382,309,0.4273858964443207,conservatives candidate 2,0.2033195048570633,devonshire,Devonshire
-4366,626,1865,totnes,england - provincial boroughs,352,2,Conservative,27,conservatives candidate 1,-990,382,309,0.4273858964443207,conservatives candidate 1,0.2240663915872574,devonshire,Devonshire
-4367,626,1865,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,382,414,0.5726141333580017,liberals candidate 1,0.2904564440250397,devonshire,Devonshire
+4364,626,1865,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 2,-990,382,414,0.5726141333580017,liberals candidate 2,0.282157689332962,devonshire,Devon
+4365,626,1865,totnes,england - provincial boroughs,352,2,Conservative,27,conservatives candidate 2,-990,382,309,0.4273858964443207,conservatives candidate 2,0.2033195048570633,devonshire,Devon
+4366,626,1865,totnes,england - provincial boroughs,352,2,Conservative,27,conservatives candidate 1,-990,382,309,0.4273858964443207,conservatives candidate 1,0.2240663915872574,devonshire,Devon
+4367,626,1865,totnes,england - provincial boroughs,352,2,Liberal Party (Original),63,liberals candidate 1,-990,382,414,0.5726141333580017,liberals candidate 1,0.2904564440250397,devonshire,Devon
 4368,626,1865,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 1,-992,34115,-992,-992.0,liberals candidate 1,-992.0,tower hamlets,Kent
 4369,626,1865,tower hamlets,england - london boroughs,353,2,Liberal Party (Original),63,liberals candidate 2,-992,34115,-992,-992.0,liberals candidate 2,-992.0,tower hamlets,Kent
 4370,626,1865,tralee,ireland,354,1,Liberal Party (Original),63,-992,-992,256,-992,-992.0,-992,-992.0,tralee,Argyllshire
@@ -4236,15 +4236,15 @@
 4736,627,1868,devizes,england - provincial boroughs,105,1,Liberal Party (Original),63,-990,-990,858,321,0.4337837696075439,-990,0.4337837696075439,wiltshire,
 4737,627,1868,devizes,england - provincial boroughs,105,1,Conservative,27,conservatives candidate 1,-990,858,419,0.566216230392456,conservatives candidate 1,0.5202702879905701,wiltshire,
 4738,627,1868,devizes,england - provincial boroughs,105,1,Conservative,27,conservatives candidate 2,-990,858,419,0.566216230392456,conservatives candidate 2,0.04594594612717628,wiltshire,
-4739,627,1868,"devon, eastern",england - counties,106,2,Liberal Party (Original),63,-990,-990,9933,3457,0.3290187418460846,-990,0.3290187418460846,"devon, eastern",Devonshire
-4740,627,1868,"devon, eastern",england - counties,106,2,Conservative,27,conservatives candidate 1,-990,9933,7050,0.670981228351593,conservatives candidate 1,0.2887598872184753,"devon, eastern",Devonshire
-4741,627,1868,"devon, eastern",england - counties,106,2,Conservative,27,conservatives candidate 2,-990,9933,7050,0.670981228351593,conservatives candidate 2,0.3822213709354401,"devon, eastern",Devonshire
-4742,627,1868,"devon, northern",england - counties,107,2,Conservative,27,conservatives candidate 1,-990,9260,7487,0.6576196551322937,conservatives candidate 1,0.348440945148468,"devon, northern",Devonshire
-4743,627,1868,"devon, northern",england - counties,107,2,Liberal Party (Original),63,-990,-990,9260,3898,0.3423803150653839,-990,0.3423803150653839,"devon, northern",Devonshire
-4744,627,1868,"devon, northern",england - counties,107,2,Conservative,27,conservatives candidate 2,-990,9260,7487,0.6576196551322937,conservatives candidate 2,0.3091787397861481,"devon, northern",Devonshire
-4745,627,1868,"devon, southern",england - counties,108,2,Conservative,27,conservatives candidate 2,-990,8047,6467,0.705927312374115,conservatives candidate 2,0.3529090583324432,"devon, southern",Devonshire
-4746,627,1868,"devon, southern",england - counties,108,2,Conservative,27,conservatives candidate 1,-990,8047,6467,0.705927312374115,conservatives candidate 1,0.3530182242393494,"devon, southern",Devonshire
-4747,627,1868,"devon, southern",england - counties,108,2,Liberal Party (Original),63,-990,-990,8047,2694,0.294072687625885,-990,0.294072687625885,"devon, southern",Devonshire
+4739,627,1868,"devon, eastern",england - counties,106,2,Liberal Party (Original),63,-990,-990,9933,3457,0.3290187418460846,-990,0.3290187418460846,"devon, eastern",Devon
+4740,627,1868,"devon, eastern",england - counties,106,2,Conservative,27,conservatives candidate 1,-990,9933,7050,0.670981228351593,conservatives candidate 1,0.2887598872184753,"devon, eastern",Devon
+4741,627,1868,"devon, eastern",england - counties,106,2,Conservative,27,conservatives candidate 2,-990,9933,7050,0.670981228351593,conservatives candidate 2,0.3822213709354401,"devon, eastern",Devon
+4742,627,1868,"devon, northern",england - counties,107,2,Conservative,27,conservatives candidate 1,-990,9260,7487,0.6576196551322937,conservatives candidate 1,0.348440945148468,"devon, northern",Devon
+4743,627,1868,"devon, northern",england - counties,107,2,Liberal Party (Original),63,-990,-990,9260,3898,0.3423803150653839,-990,0.3423803150653839,"devon, northern",Devon
+4744,627,1868,"devon, northern",england - counties,107,2,Conservative,27,conservatives candidate 2,-990,9260,7487,0.6576196551322937,conservatives candidate 2,0.3091787397861481,"devon, northern",Devon
+4745,627,1868,"devon, southern",england - counties,108,2,Conservative,27,conservatives candidate 2,-990,8047,6467,0.705927312374115,conservatives candidate 2,0.3529090583324432,"devon, southern",Devon
+4746,627,1868,"devon, southern",england - counties,108,2,Conservative,27,conservatives candidate 1,-990,8047,6467,0.705927312374115,conservatives candidate 1,0.3530182242393494,"devon, southern",Devon
+4747,627,1868,"devon, southern",england - counties,108,2,Liberal Party (Original),63,-990,-990,8047,2694,0.294072687625885,-990,0.294072687625885,"devon, southern",Devon
 4748,627,1868,devonport,england - provincial boroughs,109,2,Conservative,27,conservatives candidate 1,-990,3374,2735,0.4719585776329041,conservatives candidate 1,0.2364106923341751,devonshire,
 4749,627,1868,devonport,england - provincial boroughs,109,2,Liberal Party (Original),63,liberals candidate 1,-990,3374,3060,0.528041422367096,liberals candidate 1,0.2659188807010651,devonshire,
 4750,627,1868,devonport,england - provincial boroughs,109,2,Conservative,27,conservatives candidate 2,-990,3374,2735,0.4719585776329041,conservatives candidate 2,0.2355478852987289,devonshire,
@@ -4454,7 +4454,7 @@
 4984,627,1868,kingston upon hull,england - provincial boroughs,207,2,Liberal Party (Original),63,liberals candidate 1,-990,17146,14156,0.5448177456855774,liberals candidate 1,0.2802601754665375,kingston upon hull,Yorkshire
 4985,627,1868,kingston upon hull,england - provincial boroughs,207,2,Liberal Party (Original),63,liberals candidate 2,-990,17146,14156,0.5448177456855774,liberals candidate 2,0.2645576000213623,kingston upon hull,Yorkshire
 4986,627,1868,kingston upon hull,england - provincial boroughs,207,2,Conservative,27,conservatives candidate 2,-990,17146,11827,0.4551822245121002,conservatives candidate 2,0.2095216065645218,kingston upon hull,Yorkshire
-4987,627,1868,kinsale,ireland,208,1,Liberal Party (Original),63,-992,-992,130,-992,-992.0,-992,-992.0,kinsale,Devonshire
+4987,627,1868,kinsale,ireland,208,1,Liberal Party (Original),63,-992,-992,130,-992,-992.0,-992,-992.0,kinsale,Devon
 4988,627,1868,kirkcaldy district of burghs,scotland - burghs,209,1,Liberal Party (Original),63,-992,-992,3160,-992,-992.0,-992,-992.0,kirkcaldy district of burghs,Fife
 4989,627,1868,kirkcudbrightshire,scotland - counties,210,1,Liberal Party (Original),63,liberals candidate 2,-990,1940,1635,1.0,liberals candidate 2,0.4299694299697876,kirkcudbrightshire,Kirkcudbrightshire
 4990,627,1868,kirkcudbrightshire,scotland - counties,210,1,Liberal Party (Original),63,liberals candidate 1,-990,1940,1635,1.0,liberals candidate 1,0.5700305700302124,kirkcudbrightshire,Kirkcudbrightshire
@@ -4815,7 +4815,7 @@
 5379,627,1868,taunton,england - provincial boroughs,365,2,Liberal Party (Original),63,liberals candidate 2,-990,1977,1995,0.668789803981781,liberals candidate 2,0.298357367515564,somersetshire,
 5380,627,1868,taunton,england - provincial boroughs,365,2,Liberal Party (Original),63,liberals candidate 1,-990,1977,1995,0.668789803981781,liberals candidate 1,0.370432436466217,somersetshire,
 5381,627,1868,taunton,england - provincial boroughs,365,2,Conservative,27,-990,-990,1977,988,0.331210196018219,-990,0.331210196018219,somersetshire,
-5382,627,1868,tavistock,england - provincial boroughs,366,1,Liberal Party (Original),63,-992,-992,802,-992,-992.0,-992,-992.0,devonshire,Devonshire
+5382,627,1868,tavistock,england - provincial boroughs,366,1,Liberal Party (Original),63,-992,-992,802,-992,-992.0,-992,-992.0,devonshire,Devon
 5383,627,1868,tewkesbury,england - provincial boroughs,367,1,Liberal Party (Original),63,-990,-990,745,355,0.5599368810653687,-990,0.5599368810653687,gloucestershire,Gloucestershire
 5384,627,1868,tewkesbury,england - provincial boroughs,367,1,Conservative,27,-990,-990,745,279,0.440063089132309,-990,0.440063089132309,gloucestershire,Gloucestershire
 5385,627,1868,the hartlepools,england - provincial boroughs,368,1,Liberal Party (Original),63,-990,-990,3922,1547,0.4995156526565552,-990,0.4995156526565552,durham,
@@ -5182,12 +5182,12 @@
 5779,628,1874,devizes,england - provincial boroughs,102,1,Independents,6002,-990,-990,902,2,0.002624671906232834,-990,-990.0,wiltshire,
 5780,628,1874,devizes,england - provincial boroughs,102,1,Conservative,27,conservatives candidate 2,-990,902,760,0.9973753094673157,conservatives candidate 2,0.4776902794837952,wiltshire,
 5781,628,1874,devizes,england - provincial boroughs,102,1,Conservative,27,conservatives candidate 1,-990,902,760,0.9973753094673157,conservatives candidate 1,0.5196850299835205,wiltshire,
-5782,628,1874,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 1,-992,10246,-992,-992.0,conservatives candidate 1,-992.0,"devon, eastern",Devonshire
-5783,628,1874,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 2,-992,10246,-992,-992.0,conservatives candidate 2,-992.0,"devon, eastern",Devonshire
-5784,628,1874,"devon, northern",england - counties,104,2,Conservative,27,-992,-992,9829,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-5785,628,1874,"devon, northern",england - counties,104,2,Liberal Party (Original),63,-992,-992,9829,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-5786,628,1874,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 1,-992,8350,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
-5787,628,1874,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 2,-992,8350,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
+5782,628,1874,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 1,-992,10246,-992,-992.0,conservatives candidate 1,-992.0,"devon, eastern",Devon
+5783,628,1874,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 2,-992,10246,-992,-992.0,conservatives candidate 2,-992.0,"devon, eastern",Devon
+5784,628,1874,"devon, northern",england - counties,104,2,Conservative,27,-992,-992,9829,-992,-992.0,-992,-992.0,"devon, northern",Devon
+5785,628,1874,"devon, northern",england - counties,104,2,Liberal Party (Original),63,-992,-992,9829,-992,-992.0,-992,-992.0,"devon, northern",Devon
+5786,628,1874,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 1,-992,8350,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
+5787,628,1874,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 2,-992,8350,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
 5788,628,1874,devonport,england - provincial boroughs,106,2,Conservative,27,conservatives candidate 2,-990,3348,3008,0.5385854840278625,conservatives candidate 2,0.2655326724052429,devonshire,
 5789,628,1874,devonport,england - provincial boroughs,106,2,Conservative,27,conservatives candidate 1,-990,3348,3008,0.5385854840278625,conservatives candidate 1,0.2730528116226196,devonshire,
 5790,628,1874,devonport,england - provincial boroughs,106,2,Liberal Party (Original),63,liberals candidate 1,-990,3348,2577,0.4614145159721375,liberals candidate 1,0.237600713968277,devonshire,
@@ -5406,8 +5406,8 @@
 6036,628,1874,kingston upon hull,england - provincial boroughs,204,2,Conservative,27,-990,-990,22026,7706,0.3065112829208374,-990,0.3065112829208374,kingston upon hull,Yorkshire
 6037,628,1874,kingston upon hull,england - provincial boroughs,204,2,Liberal Party (Original),63,liberals candidate 1,-990,22026,17435,0.6934887170791626,liberals candidate 1,0.3534465730190277,kingston upon hull,Yorkshire
 6038,628,1874,kingston upon hull,england - provincial boroughs,204,2,Liberal Party (Original),63,liberals candidate 2,-990,22026,17435,0.6934887170791626,liberals candidate 2,0.3400421738624573,kingston upon hull,Yorkshire
-6039,628,1874,kinsale,ireland,205,1,Home Rule Party,43,-990,-990,130,107,0.6948052048683167,-990,0.6948052048683167,kinsale,Devonshire
-6040,628,1874,kinsale,ireland,205,1,Conservative,27,-990,-990,130,47,0.3051947951316833,-990,0.3051947951316833,kinsale,Devonshire
+6039,628,1874,kinsale,ireland,205,1,Home Rule Party,43,-990,-990,130,107,0.6948052048683167,-990,0.6948052048683167,kinsale,Devon
+6040,628,1874,kinsale,ireland,205,1,Conservative,27,-990,-990,130,47,0.3051947951316833,-990,0.3051947951316833,kinsale,Devon
 6041,628,1874,kirkcaldy district of burghs,scotland - burghs,206,1,Liberal Party (Original),63,-990,-990,3766,1967,0.6156494617462158,-990,0.6156494617462158,kirkcaldy district of burghs,Fife
 6042,628,1874,kirkcaldy district of burghs,scotland - burghs,206,1,Conservative,27,-990,-990,3766,1228,0.3843505382537842,-990,0.3843505382537842,kirkcaldy district of burghs,Fife
 6043,628,1874,kirkcudbrightshire,scotland - counties,207,1,Liberal Party (Original),63,-990,-990,1996,835,0.5012004971504211,-990,0.5012004971504211,kirkcudbrightshire,Kirkcudbrightshire
@@ -5771,8 +5771,8 @@
 6439,628,1874,tamworth,england - provincial boroughs,360,2,Conservative,27,-990,-990,1850,1086,0.383474588394165,-990,0.383474588394165,staffordshire,Staffordshire
 6440,628,1874,taunton,england - provincial boroughs,361,2,Liberal Party (Original),63,liberals candidate 1,-992,1999,-992,-992.0,liberals candidate 1,-992.0,somersetshire,
 6441,628,1874,taunton,england - provincial boroughs,361,2,Liberal Party (Original),63,liberals candidate 2,-992,1999,-992,-992.0,liberals candidate 2,-992.0,somersetshire,
-6442,628,1874,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,liberals candidate 1,-990,805,635,1.0,liberals candidate 1,0.5700787305831909,devonshire,Devonshire
-6443,628,1874,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,liberals candidate 2,-990,805,635,1.0,liberals candidate 2,0.4299212694168091,devonshire,Devonshire
+6442,628,1874,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,liberals candidate 1,-990,805,635,1.0,liberals candidate 1,0.5700787305831909,devonshire,Devon
+6443,628,1874,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,liberals candidate 2,-990,805,635,1.0,liberals candidate 2,0.4299212694168091,devonshire,Devon
 6444,628,1874,tewkesbury,england - provincial boroughs,363,1,Liberal Party (Original),63,-990,-990,730,350,0.5200594067573547,-990,0.5200594067573547,gloucestershire,Gloucestershire
 6445,628,1874,tewkesbury,england - provincial boroughs,363,1,Conservative,27,-990,-990,730,323,0.4799405634403229,-990,0.4799405634403229,gloucestershire,Gloucestershire
 6446,628,1874,the hartlepools,england - provincial boroughs,364,1,Conservative,27,-990,-990,4524,1390,0.3758788406848907,-990,0.3758788406848907,durham,
@@ -6152,13 +6152,13 @@
 6871,629,1880,"derbyshire, southern",england - counties,101,2,Conservative,27,-992,-992,8934,-992,-992.0,-992,-992.0,"derbyshire, southern",Derbyshire
 6872,629,1880,devizes,england - provincial boroughs,102,1,Liberal Party (Original),63,-990,-990,913,388,0.4652278125286102,-990,0.4652278125286102,wiltshire,
 6873,629,1880,devizes,england - provincial boroughs,102,1,Conservative,27,-990,-990,913,446,0.5347721576690674,-990,0.5347721576690674,wiltshire,
-6874,629,1880,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 1,-990,10416,8958,0.7198071479797363,conservatives candidate 1,0.3616713583469391,"devon, eastern",Devonshire
-6875,629,1880,"devon, eastern",england - counties,103,2,Liberal Party (Original),63,-990,-990,10416,3487,0.2801928520202637,-990,0.2801928520202637,"devon, eastern",Devonshire
-6876,629,1880,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 2,-990,10416,8958,0.7198071479797363,conservatives candidate 2,0.3581357896327972,"devon, eastern",Devonshire
-6877,629,1880,"devon, northern",england - counties,104,2,Liberal Party (Original),63,-992,-992,9496,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-6878,629,1880,"devon, northern",england - counties,104,2,Conservative,27,-992,-992,9496,-992,-992.0,-992,-992.0,"devon, northern",Devonshire
-6879,629,1880,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 2,-992,7982,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devonshire
-6880,629,1880,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 1,-992,7982,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devonshire
+6874,629,1880,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 1,-990,10416,8958,0.7198071479797363,conservatives candidate 1,0.3616713583469391,"devon, eastern",Devon
+6875,629,1880,"devon, eastern",england - counties,103,2,Liberal Party (Original),63,-990,-990,10416,3487,0.2801928520202637,-990,0.2801928520202637,"devon, eastern",Devon
+6876,629,1880,"devon, eastern",england - counties,103,2,Conservative,27,conservatives candidate 2,-990,10416,8958,0.7198071479797363,conservatives candidate 2,0.3581357896327972,"devon, eastern",Devon
+6877,629,1880,"devon, northern",england - counties,104,2,Liberal Party (Original),63,-992,-992,9496,-992,-992.0,-992,-992.0,"devon, northern",Devon
+6878,629,1880,"devon, northern",england - counties,104,2,Conservative,27,-992,-992,9496,-992,-992.0,-992,-992.0,"devon, northern",Devon
+6879,629,1880,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 2,-992,7982,-992,-992.0,conservatives candidate 2,-992.0,"devon, southern",Devon
+6880,629,1880,"devon, southern",england - counties,105,2,Conservative,27,conservatives candidate 1,-992,7982,-992,-992.0,conservatives candidate 1,-992.0,"devon, southern",Devon
 6881,629,1880,devonport,england - provincial boroughs,106,2,Liberal Party (Original),63,liberals candidate 2,-990,3790,2985,0.4603639841079712,liberals candidate 2,0.2276372611522675,devonshire,
 6882,629,1880,devonport,england - provincial boroughs,106,2,Conservative,27,conservatives candidate 1,-990,3790,3499,0.5396360158920288,conservatives candidate 1,0.2703578174114227,devonshire,
 6883,629,1880,devonport,england - provincial boroughs,106,2,Liberal Party (Original),63,liberals candidate 1,-990,3790,2985,0.4603639841079712,liberals candidate 1,0.2327267080545425,devonshire,
@@ -6380,8 +6380,8 @@
 7131,629,1880,kingston upon hull,england - provincial boroughs,204,2,Conservative,27,conservatives candidate 1,-990,26193,12834,0.3493005335330963,conservatives candidate 1,0.1841761469841003,kingston upon hull,Yorkshire
 7132,629,1880,kingston upon hull,england - provincial boroughs,204,2,Liberal Party (Original),63,liberals candidate 2,-990,26193,23908,0.6506994962692261,liberals candidate 2,0.3221653699874878,kingston upon hull,Yorkshire
 7133,629,1880,kingston upon hull,england - provincial boroughs,204,2,Conservative,27,conservatives candidate 2,-990,26193,12834,0.3493005335330963,conservatives candidate 2,0.165124386548996,kingston upon hull,Yorkshire
-7134,629,1880,kinsale,ireland,205,1,Home Rule Party,43,-990,-990,130,112,0.7272727489471436,-990,0.7272727489471436,kinsale,Devonshire
-7135,629,1880,kinsale,ireland,205,1,Conservative,27,-990,-990,130,42,0.2727272808551788,-990,0.2727272808551788,kinsale,Devonshire
+7134,629,1880,kinsale,ireland,205,1,Home Rule Party,43,-990,-990,130,112,0.7272727489471436,-990,0.7272727489471436,kinsale,Devon
+7135,629,1880,kinsale,ireland,205,1,Conservative,27,-990,-990,130,42,0.2727272808551788,-990,0.2727272808551788,kinsale,Devon
 7136,629,1880,kirkcaldy district of burghs,scotland - burghs,206,1,Liberal Party (Original),63,-990,-990,4465,2763,0.9790928363800049,-990,0.9790928363800049,kirkcaldy district of burghs,Fife
 7137,629,1880,kirkcaldy district of burghs,scotland - burghs,206,1,Conservative,27,-990,-990,4465,59,0.02090715803205967,-990,0.02090715803205967,kirkcaldy district of burghs,Fife
 7138,629,1880,kirkcudbrightshire,scotland - counties,207,1,Liberal Party (Original),63,-990,-990,2204,982,0.505403995513916,-990,0.505403995513916,kirkcudbrightshire,Kirkcudbrightshire
@@ -6768,7 +6768,7 @@
 7558,629,1880,taunton,england - provincial boroughs,361,2,Conservative,27,conservatives candidate 1,-990,2225,2055,0.5108128190040588,conservatives candidate 1,0.2694506645202637,somersetshire,
 7559,629,1880,taunton,england - provincial boroughs,361,2,Liberal Party (Original),63,liberals candidate 1,-990,2225,1968,0.4891871809959412,liberals candidate 1,0.2485707253217697,somersetshire,
 7560,629,1880,taunton,england - provincial boroughs,361,2,Liberal Party (Original),63,liberals candidate 2,-990,2225,1968,0.4891871809959412,liberals candidate 2,0.2406164556741714,somersetshire,
-7561,629,1880,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,-992,-992,847,-992,-992.0,-992,-992.0,devonshire,Devonshire
+7561,629,1880,tavistock,england - provincial boroughs,362,1,Liberal Party (Original),63,-992,-992,847,-992,-992.0,-992,-992.0,devonshire,Devon
 7562,629,1880,tewkesbury,england - provincial boroughs,363,1,Conservative,27,-990,-990,733,341,0.493487685918808,-990,0.493487685918808,gloucestershire,Gloucestershire
 7563,629,1880,tewkesbury,england - provincial boroughs,363,1,Liberal Party (Original),63,-990,-990,733,350,0.5065122842788696,-990,0.5065122842788696,gloucestershire,Gloucestershire
 7564,629,1880,the hartlepools,england - provincial boroughs,364,1,Liberal Party (Original),63,liberals candidate 1,-990,6681,3682,0.6974805593490601,liberals candidate 1,0.3722295761108398,durham,
@@ -7170,24 +7170,24 @@
 8012,630,1885,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-990,-990,11575,6186,0.6017509698867798,-990,0.6017509698867798,"derbyshire, southern",Derbyshire
 8013,630,1885,"derbyshire, western",england-counties,137,1,Liberal Party (Original),63,-990,-990,10310,5020,0.5481545925140381,-990,0.5481545925140381,"derbyshire, western",Derbyshire
 8014,630,1885,"derbyshire, western",england-counties,137,1,Conservative,27,-990,-990,10310,4138,0.4518453776836395,-990,0.4518453776836395,"derbyshire, western",Derbyshire
-8015,630,1885,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9300,4433,0.5821405053138733,-990,0.5821405053138733,"devon, ashburton",Devonshire
-8016,630,1885,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9300,3182,0.4178594946861267,-990,0.4178594946861267,"devon, ashburton",Devonshire
-8017,630,1885,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10189,4577,0.5507159233093262,-990,0.5507159233093262,"devon, barnstaple",Devonshire
-8018,630,1885,"devon, barnstaple",england-counties,139,1,Conservative,27,-990,-990,10189,3734,0.4492840766906738,-990,0.4492840766906738,"devon, barnstaple",Devonshire
-8019,630,1885,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,9758,4543,0.5415424704551697,-990,0.5415424704551697,"devon, eastern",Devonshire
-8020,630,1885,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,9758,3846,0.4584574997425079,-990,0.4584574997425079,"devon, eastern",Devonshire
-8021,630,1885,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9012,2957,0.3944244384765625,-990,0.3944244384765625,"devon, honiton",Devonshire
-8022,630,1885,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9012,4540,0.6055755615234375,-990,0.6055755615234375,"devon, honiton",Devonshire
-8023,630,1885,"devon, south molton",england-counties,142,1,Conservative,27,-990,-990,9343,2924,0.372531533241272,-990,0.372531533241272,"devon, south molton",Devonshire
-8024,630,1885,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,9343,4925,0.627468466758728,-990,0.627468466758728,"devon, south molton",Devonshire
-8025,630,1885,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,10851,5390,0.6295258402824402,-990,0.6295258402824402,"devon, tavistock",Devonshire
-8026,630,1885,"devon, tavistock",england-counties,143,1,Conservative,27,-990,-990,10851,3172,0.3704741895198822,-990,0.3704741895198822,"devon, tavistock",Devonshire
-8027,630,1885,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9349,3460,0.4312601387500763,-990,0.4312601387500763,"devon, tiverton",Devonshire
-8028,630,1885,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9349,4563,0.5687398910522461,-990,0.5687398910522461,"devon, tiverton",Devonshire
-8029,630,1885,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,7738,3509,0.5260869860649109,-990,0.5260869860649109,"devon, torquay",Devonshire
-8030,630,1885,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,7738,3161,0.4739130437374115,-990,0.4739130437374115,"devon, torquay",Devonshire
-8031,630,1885,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9188,4389,0.5744012594223022,-990,0.5744012594223022,"devon, totnes",Devonshire
-8032,630,1885,"devon, totnes",england-counties,146,1,Conservative,27,-990,-990,9188,3252,0.4255987405776978,-990,0.4255987405776978,"devon, totnes",Devonshire
+8015,630,1885,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9300,4433,0.5821405053138733,-990,0.5821405053138733,"devon, ashburton",Devon
+8016,630,1885,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9300,3182,0.4178594946861267,-990,0.4178594946861267,"devon, ashburton",Devon
+8017,630,1885,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10189,4577,0.5507159233093262,-990,0.5507159233093262,"devon, barnstaple",Devon
+8018,630,1885,"devon, barnstaple",england-counties,139,1,Conservative,27,-990,-990,10189,3734,0.4492840766906738,-990,0.4492840766906738,"devon, barnstaple",Devon
+8019,630,1885,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,9758,4543,0.5415424704551697,-990,0.5415424704551697,"devon, eastern",Devon
+8020,630,1885,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,9758,3846,0.4584574997425079,-990,0.4584574997425079,"devon, eastern",Devon
+8021,630,1885,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9012,2957,0.3944244384765625,-990,0.3944244384765625,"devon, honiton",Devon
+8022,630,1885,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9012,4540,0.6055755615234375,-990,0.6055755615234375,"devon, honiton",Devon
+8023,630,1885,"devon, south molton",england-counties,142,1,Conservative,27,-990,-990,9343,2924,0.372531533241272,-990,0.372531533241272,"devon, south molton",Devon
+8024,630,1885,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,9343,4925,0.627468466758728,-990,0.627468466758728,"devon, south molton",Devon
+8025,630,1885,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,10851,5390,0.6295258402824402,-990,0.6295258402824402,"devon, tavistock",Devon
+8026,630,1885,"devon, tavistock",england-counties,143,1,Conservative,27,-990,-990,10851,3172,0.3704741895198822,-990,0.3704741895198822,"devon, tavistock",Devon
+8027,630,1885,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9349,3460,0.4312601387500763,-990,0.4312601387500763,"devon, tiverton",Devon
+8028,630,1885,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9349,4563,0.5687398910522461,-990,0.5687398910522461,"devon, tiverton",Devon
+8029,630,1885,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,7738,3509,0.5260869860649109,-990,0.5260869860649109,"devon, torquay",Devon
+8030,630,1885,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,7738,3161,0.4739130437374115,-990,0.4739130437374115,"devon, torquay",Devon
+8031,630,1885,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9188,4389,0.5744012594223022,-990,0.5744012594223022,"devon, totnes",Devon
+8032,630,1885,"devon, totnes",england-counties,146,1,Conservative,27,-990,-990,9188,3252,0.4255987405776978,-990,0.4255987405776978,"devon, totnes",Devon
 8033,630,1885,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,6527,5912,0.5278571248054504,conservatives candidate 2,0.2628571391105652,devonshire,
 8034,630,1885,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 2,-990,6527,5288,0.4721428453922272,liberals candidate 2,0.2352678626775742,devonshire,
 8035,630,1885,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,6527,5288,0.4721428453922272,liberals candidate 1,0.2368749976158142,devonshire,
@@ -8364,22 +8364,22 @@
 9343,631,1886,"derbyshire, southern",england-counties,136,1,Liberal Unionists,64,-990,-990,11575,3949,0.4363053739070892,-990,0.4363053739070892,"derbyshire, southern",Derbyshire
 9344,631,1886,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-990,-990,11575,5102,0.5636945962905884,-990,0.5636945962905884,"derbyshire, southern",Derbyshire
 9345,631,1886,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-992,-992,-992,-992,-992.0,-992,-992.0,"derbyshire, western",Derbyshire
-9346,631,1886,"devon, ashburton",england-counties,138,1,Liberal Unionists,64,-990,-990,9300,3007,0.4683800637722015,-990,0.4683800637722015,"devon, ashburton",Devonshire
-9347,631,1886,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9300,3413,0.5316199660301208,-990,0.5316199660301208,"devon, ashburton",Devonshire
-9348,631,1886,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10189,2960,0.4121414721012115,-990,0.4121414721012115,"devon, barnstaple",Devonshire
-9349,631,1886,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10189,4222,0.5878585577011108,-990,0.5878585577011108,"devon, barnstaple",Devonshire
-9350,631,1886,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,9758,3662,0.4589547514915466,-990,0.4589547514915466,"devon, eastern",Devonshire
-9351,631,1886,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,9758,4317,0.5410452485084534,-990,0.5410452485084534,"devon, eastern",Devonshire
-9352,631,1886,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devonshire
-9353,631,1886,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,9343,4041,0.632097601890564,-990,0.632097601890564,"devon, south molton",Devonshire
-9354,631,1886,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,9343,2352,0.367902398109436,-990,0.367902398109436,"devon, south molton",Devonshire
-9355,631,1886,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,10851,3917,0.5899984836578369,-990,0.5899984836578369,"devon, tavistock",Devonshire
-9356,631,1886,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,10851,2722,0.4100015163421631,-990,0.4100015163421631,"devon, tavistock",Devonshire
-9357,631,1886,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devonshire
-9358,631,1886,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,7738,3135,0.506462037563324,-990,0.506462037563324,"devon, torquay",Devonshire
-9359,631,1886,"devon, torquay",england-counties,145,1,Liberal Unionists,64,-990,-990,7738,3055,0.493537962436676,-990,0.493537962436676,"devon, torquay",Devonshire
-9360,631,1886,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9188,1141,0.1969618499279022,-990,0.1969618499279022,"devon, totnes",Devonshire
-9361,631,1886,"devon, totnes",england-counties,146,1,Liberal/Labour Alliance,65,-990,-990,9188,4652,0.8030381202697754,-990,0.8030381202697754,"devon, totnes",Devonshire
+9346,631,1886,"devon, ashburton",england-counties,138,1,Liberal Unionists,64,-990,-990,9300,3007,0.4683800637722015,-990,0.4683800637722015,"devon, ashburton",Devon
+9347,631,1886,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9300,3413,0.5316199660301208,-990,0.5316199660301208,"devon, ashburton",Devon
+9348,631,1886,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10189,2960,0.4121414721012115,-990,0.4121414721012115,"devon, barnstaple",Devon
+9349,631,1886,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10189,4222,0.5878585577011108,-990,0.5878585577011108,"devon, barnstaple",Devon
+9350,631,1886,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,9758,3662,0.4589547514915466,-990,0.4589547514915466,"devon, eastern",Devon
+9351,631,1886,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,9758,4317,0.5410452485084534,-990,0.5410452485084534,"devon, eastern",Devon
+9352,631,1886,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devon
+9353,631,1886,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,9343,4041,0.632097601890564,-990,0.632097601890564,"devon, south molton",Devon
+9354,631,1886,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,9343,2352,0.367902398109436,-990,0.367902398109436,"devon, south molton",Devon
+9355,631,1886,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,10851,3917,0.5899984836578369,-990,0.5899984836578369,"devon, tavistock",Devon
+9356,631,1886,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,10851,2722,0.4100015163421631,-990,0.4100015163421631,"devon, tavistock",Devon
+9357,631,1886,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devon
+9358,631,1886,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,7738,3135,0.506462037563324,-990,0.506462037563324,"devon, torquay",Devon
+9359,631,1886,"devon, torquay",england-counties,145,1,Liberal Unionists,64,-990,-990,7738,3055,0.493537962436676,-990,0.493537962436676,"devon, torquay",Devon
+9360,631,1886,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9188,1141,0.1969618499279022,-990,0.1969618499279022,"devon, totnes",Devon
+9361,631,1886,"devon, totnes",england-counties,146,1,Liberal/Labour Alliance,65,-990,-990,9188,4652,0.8030381202697754,-990,0.8030381202697754,"devon, totnes",Devon
 9362,631,1886,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 2,-990,6527,3881,0.3969114422798157,liberals candidate 2,0.1961546391248703,devonshire,
 9363,631,1886,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,6527,3881,0.3969114422798157,liberals candidate 1,0.2007568031549454,devonshire,
 9364,631,1886,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,6527,5897,0.6030885577201843,conservatives candidate 1,0.3021067678928375,devonshire,
@@ -9405,23 +9405,23 @@
 10493,632,1892,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"derbyshire, southern",Derbyshire
 10494,632,1892,"derbyshire, western",england-counties,137,1,Liberal Party (Original),63,-990,-990,11956,2768,0.3171038925647736,-990,0.3171038925647736,"derbyshire, western",Derbyshire
 10495,632,1892,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-990,-990,11956,5961,0.682896077632904,-990,0.682896077632904,"derbyshire, western",Derbyshire
-10496,632,1892,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9392,3650,0.4556235074996948,-990,0.4556235074996948,"devon, ashburton",Devonshire
-10497,632,1892,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9392,4361,0.5443764925003052,-990,0.5443764925003052,"devon, ashburton",Devonshire
-10498,632,1892,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10422,4383,0.5085276961326599,-990,0.5085276961326599,"devon, barnstaple",Devonshire
-10499,632,1892,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10422,4236,0.4914723336696625,-990,0.4914723336696625,"devon, barnstaple",Devonshire
-10500,632,1892,"devon, eastern",england-counties,140,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, eastern",Devonshire
-10501,632,1892,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9167,2565,0.3584404587745667,-990,0.3584404587745667,"devon, honiton",Devonshire
-10502,632,1892,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9167,4591,0.6415595412254333,-990,0.6415595412254333,"devon, honiton",Devonshire
-10503,632,1892,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8737,4278,0.592767059803009,-990,0.592767059803009,"devon, south molton",Devonshire
-10504,632,1892,"devon, south molton",england-counties,142,1,Conservative,27,-990,-990,8737,2939,0.4072329103946686,-990,0.4072329103946686,"devon, south molton",Devonshire
-10505,632,1892,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,11720,4458,0.5124726891517639,-990,0.5124726891517639,"devon, tavistock",Devonshire
-10506,632,1892,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,11720,4241,0.4875273108482361,-990,0.4875273108482361,"devon, tavistock",Devonshire
-10507,632,1892,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,8972,3101,0.4116007387638092,-990,0.4116007387638092,"devon, tiverton",Devonshire
-10508,632,1892,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,8972,4433,0.5883992314338684,-990,0.5883992314338684,"devon, tiverton",Devonshire
-10509,632,1892,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,9404,3763,0.4751262664794922,-990,0.4751262664794922,"devon, torquay",Devonshire
-10510,632,1892,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,9404,4157,0.5248737335205078,-990,0.5248737335205078,"devon, torquay",Devonshire
-10511,632,1892,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9263,4815,0.6688429117202759,-990,0.6688429117202759,"devon, totnes",Devonshire
-10512,632,1892,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9263,2384,0.3311571180820465,-990,0.3311571180820465,"devon, totnes",Devonshire
+10496,632,1892,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9392,3650,0.4556235074996948,-990,0.4556235074996948,"devon, ashburton",Devon
+10497,632,1892,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9392,4361,0.5443764925003052,-990,0.5443764925003052,"devon, ashburton",Devon
+10498,632,1892,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10422,4383,0.5085276961326599,-990,0.5085276961326599,"devon, barnstaple",Devon
+10499,632,1892,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10422,4236,0.4914723336696625,-990,0.4914723336696625,"devon, barnstaple",Devon
+10500,632,1892,"devon, eastern",england-counties,140,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, eastern",Devon
+10501,632,1892,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9167,2565,0.3584404587745667,-990,0.3584404587745667,"devon, honiton",Devon
+10502,632,1892,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9167,4591,0.6415595412254333,-990,0.6415595412254333,"devon, honiton",Devon
+10503,632,1892,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8737,4278,0.592767059803009,-990,0.592767059803009,"devon, south molton",Devon
+10504,632,1892,"devon, south molton",england-counties,142,1,Conservative,27,-990,-990,8737,2939,0.4072329103946686,-990,0.4072329103946686,"devon, south molton",Devon
+10505,632,1892,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,11720,4458,0.5124726891517639,-990,0.5124726891517639,"devon, tavistock",Devon
+10506,632,1892,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,11720,4241,0.4875273108482361,-990,0.4875273108482361,"devon, tavistock",Devon
+10507,632,1892,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,8972,3101,0.4116007387638092,-990,0.4116007387638092,"devon, tiverton",Devon
+10508,632,1892,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,8972,4433,0.5883992314338684,-990,0.5883992314338684,"devon, tiverton",Devon
+10509,632,1892,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,9404,3763,0.4751262664794922,-990,0.4751262664794922,"devon, torquay",Devon
+10510,632,1892,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,9404,4157,0.5248737335205078,-990,0.5248737335205078,"devon, torquay",Devon
+10511,632,1892,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9263,4815,0.6688429117202759,-990,0.6688429117202759,"devon, totnes",Devon
+10512,632,1892,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9263,2384,0.3311571180820465,-990,0.3311571180820465,"devon, totnes",Devon
 10513,632,1892,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,7629,6679,0.5274421572685242,liberals candidate 1,0.2648661434650421,devonshire,
 10514,632,1892,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,7629,5984,0.4725578427314758,conservatives candidate 1,0.2378583252429962,devonshire,
 10515,632,1892,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,7629,5984,0.4725578427314758,conservatives candidate 2,0.2346995174884796,devonshire,
@@ -10541,21 +10541,21 @@
 11791,633,1895,"derbyshire, southern",england-counties,136,1,Conservative,27,-990,-990,13347,6104,0.5391749739646912,-990,0.5391749739646912,"derbyshire, southern",Derbyshire
 11792,633,1895,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-990,-990,13347,5217,0.4608250260353088,-990,0.4608250260353088,"derbyshire, southern",Derbyshire
 11793,633,1895,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-992,-992,-992,-992,-992.0,-992,-992.0,"derbyshire, western",Derbyshire
-11794,633,1895,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9726,3976,0.4758257567882538,-990,0.4758257567882538,"devon, ashburton",Devonshire
-11795,633,1895,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9726,4380,0.5241742730140686,-990,0.5241742730140686,"devon, ashburton",Devonshire
-11796,633,1895,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10885,4593,0.4876831471920013,-990,0.4876831471920013,"devon, barnstaple",Devonshire
-11797,633,1895,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10885,4825,0.5123168230056763,-990,0.5123168230056763,"devon, barnstaple",Devonshire
-11798,633,1895,"devon, eastern",england-counties,140,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, eastern",Devonshire
-11799,633,1895,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devonshire
-11800,633,1895,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8662,4283,0.5943658351898193,-990,0.5943658351898193,"devon, south molton",Devonshire
-11801,633,1895,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,8662,2923,0.4056341946125031,-990,0.4056341946125031,"devon, south molton",Devonshire
-11802,633,1895,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,12154,4970,0.5194941163063049,-990,0.5194941163063049,"devon, tavistock",Devonshire
-11803,633,1895,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,12154,4597,0.4805059134960175,-990,0.4805059134960175,"devon, tavistock",Devonshire
-11804,633,1895,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devonshire
-11805,633,1895,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,10039,4030,0.4893746078014374,-990,0.4893746078014374,"devon, torquay",Devonshire
-11806,633,1895,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,10039,4205,0.5106253623962402,-990,0.5106253623962402,"devon, torquay",Devonshire
-11807,633,1895,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9431,4630,0.671598494052887,-990,0.671598494052887,"devon, totnes",Devonshire
-11808,633,1895,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9431,2264,0.328401505947113,-990,0.328401505947113,"devon, totnes",Devonshire
+11794,633,1895,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9726,3976,0.4758257567882538,-990,0.4758257567882538,"devon, ashburton",Devon
+11795,633,1895,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9726,4380,0.5241742730140686,-990,0.5241742730140686,"devon, ashburton",Devon
+11796,633,1895,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,10885,4593,0.4876831471920013,-990,0.4876831471920013,"devon, barnstaple",Devon
+11797,633,1895,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,10885,4825,0.5123168230056763,-990,0.5123168230056763,"devon, barnstaple",Devon
+11798,633,1895,"devon, eastern",england-counties,140,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, eastern",Devon
+11799,633,1895,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devon
+11800,633,1895,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8662,4283,0.5943658351898193,-990,0.5943658351898193,"devon, south molton",Devon
+11801,633,1895,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,8662,2923,0.4056341946125031,-990,0.4056341946125031,"devon, south molton",Devon
+11802,633,1895,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,12154,4970,0.5194941163063049,-990,0.5194941163063049,"devon, tavistock",Devon
+11803,633,1895,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,12154,4597,0.4805059134960175,-990,0.4805059134960175,"devon, tavistock",Devon
+11804,633,1895,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devon
+11805,633,1895,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,10039,4030,0.4893746078014374,-990,0.4893746078014374,"devon, torquay",Devon
+11806,633,1895,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,10039,4205,0.5106253623962402,-990,0.5106253623962402,"devon, torquay",Devon
+11807,633,1895,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9431,4630,0.671598494052887,-990,0.671598494052887,"devon, totnes",Devon
+11808,633,1895,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9431,2264,0.328401505947113,-990,0.328401505947113,"devon, totnes",Devon
 11809,633,1895,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,7911,6566,0.481131374835968,conservatives candidate 1,0.2420312166213989,devonshire,
 11810,633,1895,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,7911,6566,0.481131374835968,conservatives candidate 2,0.2391001731157303,devonshire,
 11811,633,1895,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,7911,7081,0.518868625164032,liberals candidate 1,0.2615959644317627,devonshire,
@@ -11596,20 +11596,20 @@
 12969,634,1900,"derbyshire, southern",england-counties,136,1,Conservative,27,-990,-990,14499,6073,0.5155348181724548,-990,0.5155348181724548,"derbyshire, southern",Derbyshire
 12970,634,1900,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-990,-990,14499,5707,0.4844651818275452,-990,0.4844651818275452,"derbyshire, southern",Derbyshire
 12971,634,1900,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-992,-992,-992,-992,-992.0,-992,-992.0,"derbyshire, western",Derbyshire
-12972,634,1900,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9777,4487,0.5469949841499329,-990,0.5469949841499329,"devon, ashburton",Devonshire
-12973,634,1900,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9777,3716,0.4530049860477448,-990,0.4530049860477448,"devon, ashburton",Devonshire
-12974,634,1900,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,11916,4660,0.482052356004715,-990,0.482052356004715,"devon, barnstaple",Devonshire
-12975,634,1900,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,11916,5007,0.5179476737976074,-990,0.5179476737976074,"devon, barnstaple",Devonshire
-12976,634,1900,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,11616,4776,0.5050761699676514,-990,0.5050761699676514,"devon, eastern",Devonshire
-12977,634,1900,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,11616,4680,0.494923859834671,-990,0.494923859834671,"devon, eastern",Devonshire
-12978,634,1900,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devonshire
-12979,634,1900,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devonshire
-12980,634,1900,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,12202,4746,0.5007913708686829,-990,0.5007913708686829,"devon, tavistock",Devonshire
-12981,634,1900,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,12202,4731,0.4992085993289948,-990,0.4992085993289948,"devon, tavistock",Devonshire
-12982,634,1900,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devonshire
-12983,634,1900,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,9313,4020,0.5081532001495361,-990,0.5081532001495361,"devon, torquay",Devonshire
-12984,634,1900,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,9313,3891,0.4918467998504639,-990,0.4918467998504639,"devon, torquay",Devonshire
-12985,634,1900,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, totnes",Devonshire
+12972,634,1900,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,9777,4487,0.5469949841499329,-990,0.5469949841499329,"devon, ashburton",Devon
+12973,634,1900,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,9777,3716,0.4530049860477448,-990,0.4530049860477448,"devon, ashburton",Devon
+12974,634,1900,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,11916,4660,0.482052356004715,-990,0.482052356004715,"devon, barnstaple",Devon
+12975,634,1900,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,11916,5007,0.5179476737976074,-990,0.5179476737976074,"devon, barnstaple",Devon
+12976,634,1900,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,11616,4776,0.5050761699676514,-990,0.5050761699676514,"devon, eastern",Devon
+12977,634,1900,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,11616,4680,0.494923859834671,-990,0.494923859834671,"devon, eastern",Devon
+12978,634,1900,"devon, honiton",england-counties,141,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devon
+12979,634,1900,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devon
+12980,634,1900,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,12202,4746,0.5007913708686829,-990,0.5007913708686829,"devon, tavistock",Devon
+12981,634,1900,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,12202,4731,0.4992085993289948,-990,0.4992085993289948,"devon, tavistock",Devon
+12982,634,1900,"devon, tiverton",england-counties,144,1,Conservative,27,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, tiverton",Devon
+12983,634,1900,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,9313,4020,0.5081532001495361,-990,0.5081532001495361,"devon, torquay",Devon
+12984,634,1900,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,9313,3891,0.4918467998504639,-990,0.4918467998504639,"devon, torquay",Devon
+12985,634,1900,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, totnes",Devon
 12986,634,1900,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,8351,7164,0.511130154132843,liberals candidate 1,0.2587043344974518,devonshire,
 12987,634,1900,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,8351,6852,0.4888698756694794,conservatives candidate 1,0.2467180341482162,devonshire,
 12988,634,1900,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,8351,6852,0.4888698756694794,conservatives candidate 2,0.2421518266201019,devonshire,
@@ -12645,23 +12645,23 @@
 14140,635,1906,"derbyshire, southern",england-counties,136,1,Conservative,27,-990,-990,16326,6468,0.4482639133930206,-990,0.4482639133930206,"derbyshire, southern",Derbyshire
 14141,635,1906,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-990,-990,11443,5283,0.5279304385185242,-990,0.5279304385185242,"derbyshire, western",Derbyshire
 14142,635,1906,"derbyshire, western",england-counties,137,1,Liberal Party (Original),63,-990,-990,11443,4724,0.4720695614814758,-990,0.4720695614814758,"derbyshire, western",Derbyshire
-14143,635,1906,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,10429,5079,0.5726688504219055,-990,0.5726688504219055,"devon, ashburton",Devonshire
-14144,635,1906,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,10429,3790,0.4273311495780945,-990,0.4273311495780945,"devon, ashburton",Devonshire
-14145,635,1906,"devon, barnstaple",england-counties,139,1,Conservative,27,-990,-990,12908,4465,0.4068337082862854,-990,0.4068337082862854,"devon, barnstaple",Devonshire
-14146,635,1906,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,12908,6510,0.5931662917137146,-990,0.5931662917137146,"devon, barnstaple",Devonshire
-14147,635,1906,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,13557,6104,0.5008615851402283,-990,0.5008615851402283,"devon, eastern",Devonshire
-14148,635,1906,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,13557,6083,0.4991384148597717,-990,0.4991384148597717,"devon, eastern",Devonshire
-14149,635,1906,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9797,4854,0.5667250156402588,-990,0.5667250156402588,"devon, honiton",Devonshire
-14150,635,1906,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9797,3711,0.4332749545574188,-990,0.4332749545574188,"devon, honiton",Devonshire
-14151,635,1906,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devonshire
-14152,635,1906,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,13989,5196,0.447892427444458,-990,0.447892427444458,"devon, tavistock",Devonshire
-14153,635,1906,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,13989,6405,0.552107572555542,-990,0.552107572555542,"devon, tavistock",Devonshire
-14154,635,1906,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9248,3970,0.47121661901474,-990,0.47121661901474,"devon, tiverton",Devonshire
-14155,635,1906,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9248,4455,0.52878338098526,-990,0.52878338098526,"devon, tiverton",Devonshire
-14156,635,1906,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,10343,4856,0.5248594880104065,-990,0.5248594880104065,"devon, torquay",Devonshire
-14157,635,1906,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,10343,4396,0.4751405119895935,-990,0.4751405119895935,"devon, torquay",Devonshire
-14158,635,1906,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9370,2998,0.3645428121089935,-990,0.3645428121089935,"devon, totnes",Devonshire
-14159,635,1906,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9370,5226,0.6354572176933289,-990,0.6354572176933289,"devon, totnes",Devonshire
+14143,635,1906,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,10429,5079,0.5726688504219055,-990,0.5726688504219055,"devon, ashburton",Devon
+14144,635,1906,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,10429,3790,0.4273311495780945,-990,0.4273311495780945,"devon, ashburton",Devon
+14145,635,1906,"devon, barnstaple",england-counties,139,1,Conservative,27,-990,-990,12908,4465,0.4068337082862854,-990,0.4068337082862854,"devon, barnstaple",Devon
+14146,635,1906,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,12908,6510,0.5931662917137146,-990,0.5931662917137146,"devon, barnstaple",Devon
+14147,635,1906,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,13557,6104,0.5008615851402283,-990,0.5008615851402283,"devon, eastern",Devon
+14148,635,1906,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,13557,6083,0.4991384148597717,-990,0.4991384148597717,"devon, eastern",Devon
+14149,635,1906,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,9797,4854,0.5667250156402588,-990,0.5667250156402588,"devon, honiton",Devon
+14150,635,1906,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,9797,3711,0.4332749545574188,-990,0.4332749545574188,"devon, honiton",Devon
+14151,635,1906,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devon
+14152,635,1906,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,13989,5196,0.447892427444458,-990,0.447892427444458,"devon, tavistock",Devon
+14153,635,1906,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,13989,6405,0.552107572555542,-990,0.552107572555542,"devon, tavistock",Devon
+14154,635,1906,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9248,3970,0.47121661901474,-990,0.47121661901474,"devon, tiverton",Devon
+14155,635,1906,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9248,4455,0.52878338098526,-990,0.52878338098526,"devon, tiverton",Devon
+14156,635,1906,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,10343,4856,0.5248594880104065,-990,0.5248594880104065,"devon, torquay",Devon
+14157,635,1906,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,10343,4396,0.4751405119895935,-990,0.4751405119895935,"devon, torquay",Devon
+14158,635,1906,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,9370,2998,0.3645428121089935,-990,0.3645428121089935,"devon, totnes",Devon
+14159,635,1906,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,9370,5226,0.6354572176933289,-990,0.6354572176933289,"devon, totnes",Devon
 14160,635,1906,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 1,-990,14978,13450,0.5658630728721619,liberals candidate 1,0.2912617325782776,devonshire,
 14161,635,1906,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,14978,10319,0.4341368973255157,conservatives candidate 2,0.2137237638235092,devonshire,
 14162,635,1906,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,14978,10319,0.4341368973255157,conservatives candidate 1,0.2204131484031677,devonshire,
@@ -13850,24 +13850,24 @@
 15448,636,1910,"derbyshire, southern",england-counties,136,1,Liberal Party (Original),63,-990,-990,17368,8259,0.524980902671814,-990,0.524980902671814,"derbyshire, southern",Derbyshire
 15449,636,1910,"derbyshire, western",england-counties,137,1,Liberal Party (Original),63,-990,-990,11962,4925,0.451876312494278,-990,0.451876312494278,"derbyshire, western",Derbyshire
 15450,636,1910,"derbyshire, western",england-counties,137,1,Liberal Unionists,64,-990,-990,11962,5974,0.5481236577033997,-990,0.5481236577033997,"derbyshire, western",Derbyshire
-15451,636,1910,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,11976,5668,0.5111371874809265,-990,0.5111371874809265,"devon, ashburton",Devonshire
-15452,636,1910,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,11976,5421,0.4888628423213959,-990,0.4888628423213959,"devon, ashburton",Devonshire
-15453,636,1910,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,13126,6236,0.5380500555038452,-990,0.5380500555038452,"devon, barnstaple",Devonshire
-15454,636,1910,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,13126,5354,0.4619499444961548,-990,0.4619499444961548,"devon, barnstaple",Devonshire
-15455,636,1910,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,14794,6957,0.5157918334007263,-990,0.5157918334007263,"devon, eastern",Devonshire
-15456,636,1910,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,14794,6531,0.4842081964015961,-990,0.4842081964015961,"devon, eastern",Devonshire
-15457,636,1910,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,10522,5604,0.6001927852630615,-990,0.6001927852630615,"devon, honiton",Devonshire
-15458,636,1910,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,10522,3733,0.3998072147369385,-990,0.3998072147369385,"devon, honiton",Devonshire
-15459,636,1910,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,8700,3398,0.4346936047077179,-990,0.4346936047077179,"devon, south molton",Devonshire
-15460,636,1910,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8700,4419,0.5653063654899597,-990,0.5653063654899597,"devon, south molton",Devonshire
-15461,636,1910,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,15395,6343,0.491210401058197,-990,0.491210401058197,"devon, tavistock",Devonshire
-15462,636,1910,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,15395,6570,0.508789598941803,-990,0.508789598941803,"devon, tavistock",Devonshire
-15463,636,1910,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9660,4153,0.4564739465713501,-990,0.4564739465713501,"devon, tiverton",Devonshire
-15464,636,1910,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9660,4945,0.5435260534286499,-990,0.5435260534286499,"devon, tiverton",Devonshire
-15465,636,1910,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,11241,5093,0.4994606375694275,-990,0.4994606375694275,"devon, torquay",Devonshire
-15466,636,1910,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,11241,5104,0.5005393624305725,-990,0.5005393624305725,"devon, torquay",Devonshire
-15467,636,1910,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,10107,5505,0.6060773134231567,-990,0.6060773134231567,"devon, totnes",Devonshire
-15468,636,1910,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,10107,3578,0.3939227163791656,-990,0.3939227163791656,"devon, totnes",Devonshire
+15451,636,1910,"devon, ashburton",england-counties,138,1,Liberal Party (Original),63,-990,-990,11976,5668,0.5111371874809265,-990,0.5111371874809265,"devon, ashburton",Devon
+15452,636,1910,"devon, ashburton",england-counties,138,1,Conservative,27,-990,-990,11976,5421,0.4888628423213959,-990,0.4888628423213959,"devon, ashburton",Devon
+15453,636,1910,"devon, barnstaple",england-counties,139,1,Liberal Party (Original),63,-990,-990,13126,6236,0.5380500555038452,-990,0.5380500555038452,"devon, barnstaple",Devon
+15454,636,1910,"devon, barnstaple",england-counties,139,1,Liberal Unionists,64,-990,-990,13126,5354,0.4619499444961548,-990,0.4619499444961548,"devon, barnstaple",Devon
+15455,636,1910,"devon, eastern",england-counties,140,1,Liberal Party (Original),63,-990,-990,14794,6957,0.5157918334007263,-990,0.5157918334007263,"devon, eastern",Devon
+15456,636,1910,"devon, eastern",england-counties,140,1,Conservative,27,-990,-990,14794,6531,0.4842081964015961,-990,0.4842081964015961,"devon, eastern",Devon
+15457,636,1910,"devon, honiton",england-counties,141,1,Conservative,27,-990,-990,10522,5604,0.6001927852630615,-990,0.6001927852630615,"devon, honiton",Devon
+15458,636,1910,"devon, honiton",england-counties,141,1,Liberal Party (Original),63,-990,-990,10522,3733,0.3998072147369385,-990,0.3998072147369385,"devon, honiton",Devon
+15459,636,1910,"devon, south molton",england-counties,142,1,Liberal Unionists,64,-990,-990,8700,3398,0.4346936047077179,-990,0.4346936047077179,"devon, south molton",Devon
+15460,636,1910,"devon, south molton",england-counties,142,1,Liberal Party (Original),63,-990,-990,8700,4419,0.5653063654899597,-990,0.5653063654899597,"devon, south molton",Devon
+15461,636,1910,"devon, tavistock",england-counties,143,1,Liberal Unionists,64,-990,-990,15395,6343,0.491210401058197,-990,0.491210401058197,"devon, tavistock",Devon
+15462,636,1910,"devon, tavistock",england-counties,143,1,Liberal Party (Original),63,-990,-990,15395,6570,0.508789598941803,-990,0.508789598941803,"devon, tavistock",Devon
+15463,636,1910,"devon, tiverton",england-counties,144,1,Liberal Party (Original),63,-990,-990,9660,4153,0.4564739465713501,-990,0.4564739465713501,"devon, tiverton",Devon
+15464,636,1910,"devon, tiverton",england-counties,144,1,Conservative,27,-990,-990,9660,4945,0.5435260534286499,-990,0.5435260534286499,"devon, tiverton",Devon
+15465,636,1910,"devon, torquay",england-counties,145,1,Conservative,27,-990,-990,11241,5093,0.4994606375694275,-990,0.4994606375694275,"devon, torquay",Devon
+15466,636,1910,"devon, torquay",england-counties,145,1,Liberal Party (Original),63,-990,-990,11241,5104,0.5005393624305725,-990,0.5005393624305725,"devon, torquay",Devon
+15467,636,1910,"devon, totnes",england-counties,146,1,Liberal Unionists,64,-990,-990,10107,5505,0.6060773134231567,-990,0.6060773134231567,"devon, totnes",Devon
+15468,636,1910,"devon, totnes",england-counties,146,1,Liberal Party (Original),63,-990,-990,10107,3578,0.3939227163791656,-990,0.3939227163791656,"devon, totnes",Devon
 15469,636,1910,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 2,-990,12125,10944,0.5154969096183777,conservatives candidate 2,0.2489872872829437,devonshire,
 15470,636,1910,devonport,england-provincial boroughs,147,2,Conservative,27,conservatives candidate 1,-990,12125,10944,0.5154969096183777,conservatives candidate 1,0.2665096521377563,devonshire,
 15471,636,1910,devonport,england-provincial boroughs,147,2,Liberal Party (Original),63,liberals candidate 2,-990,12125,10286,0.4845030605792999,liberals candidate 2,0.2421102225780487,devonshire,
@@ -15113,21 +15113,21 @@
 18018,638,1918,"derbyshire, southern",england-counties,152,1,Liberals (Coalition),67,-990,-990,40112,15504,0.6618005037307739,-990,0.6618005037307739,"derbyshire, southern",Derbyshire
 18019,638,1918,"derbyshire, western",england-counties,153,1,Conservatives (Coalition),28,-990,-990,29323,8592,0.444168746471405,-990,0.444168746471405,"derbyshire, western",Derbyshire
 18020,638,1918,"derbyshire, western",england-counties,153,1,Liberal Party (Original),63,-990,-990,29323,10752,0.555831253528595,-990,0.555831253528595,"derbyshire, western",Derbyshire
-18021,638,1918,"devon, barnstaple",england-counties,154,1,Liberal Party (Original),63,-990,-990,31790,11281,0.5137067437171936,-990,0.5137067437171936,"devon, barnstaple",Devonshire
-18022,638,1918,"devon, barnstaple",england-counties,154,1,Conservative,27,-990,-990,31790,10679,0.4862932562828064,-990,0.4862932562828064,"devon, barnstaple",Devonshire
-18023,638,1918,"devon, honiton",england-counties,155,1,Conservatives (Coalition),28,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devonshire
-18024,638,1918,"devon, south molton",england-counties,156,1,Conservatives (Coalition),28,-990,-990,28139,8093,0.4370578527450562,-990,0.4370578527450562,"devon, south molton",Devonshire
-18025,638,1918,"devon, south molton",england-counties,156,1,Liberal Party (Original),63,-990,-990,28139,10424,0.5629421472549438,-990,0.5629421472549438,"devon, south molton",Devonshire
-18026,638,1918,"devon, tavistock",england-counties,157,1,Conservatives (Coalition),28,-990,-990,25979,9157,0.5665759444236755,-990,0.5665759444236755,"devon, tavistock",Devonshire
-18027,638,1918,"devon, tavistock",england-counties,157,1,Liberal Party (Original),63,-990,-990,25979,7005,0.4334240853786469,-990,0.4334240853786469,"devon, tavistock",Devonshire
-18028,638,1918,"devon, tiverton",england-counties,158,1,Liberal Party (Original),63,-990,-990,25925,4827,0.2872872352600098,-990,0.2872872352600098,"devon, tiverton",Devonshire
-18029,638,1918,"devon, tiverton",england-counties,158,1,Conservatives (Coalition),28,-990,-990,25925,9598,0.5712414979934692,-990,0.5712414979934692,"devon, tiverton",Devonshire
-18030,638,1918,"devon, tiverton",england-counties,158,1,Labour Party,56,-990,-990,25925,2377,0.1414712518453598,-990,0.1414712518453598,"devon, tiverton",Devonshire
-18031,638,1918,"devon, torquay",england-counties,159,1,Liberal Party (Original),63,-990,-990,32584,3173,0.1491772383451462,-990,0.1491772383451462,"devon, torquay",Devonshire
-18032,638,1918,"devon, torquay",england-counties,159,1,Conservatives (Coalition),28,-990,-990,32584,14068,0.6614010334014893,-990,0.6614010334014893,"devon, torquay",Devonshire
-18033,638,1918,"devon, torquay",england-counties,159,1,Labour Party,56,-990,-990,32584,4029,0.1894217133522034,-990,0.1894217133522034,"devon, torquay",Devonshire
-18034,638,1918,"devon, totnes",england-counties,160,1,Conservatives (Coalition),28,-990,-990,39042,14680,0.5884711146354675,-990,0.5884711146354675,"devon, totnes",Devonshire
-18035,638,1918,"devon, totnes",england-counties,160,1,Liberal Party (Original),63,-990,-990,39042,10266,0.4115289151668549,-990,0.4115289151668549,"devon, totnes",Devonshire
+18021,638,1918,"devon, barnstaple",england-counties,154,1,Liberal Party (Original),63,-990,-990,31790,11281,0.5137067437171936,-990,0.5137067437171936,"devon, barnstaple",Devon
+18022,638,1918,"devon, barnstaple",england-counties,154,1,Conservative,27,-990,-990,31790,10679,0.4862932562828064,-990,0.4862932562828064,"devon, barnstaple",Devon
+18023,638,1918,"devon, honiton",england-counties,155,1,Conservatives (Coalition),28,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, honiton",Devon
+18024,638,1918,"devon, south molton",england-counties,156,1,Conservatives (Coalition),28,-990,-990,28139,8093,0.4370578527450562,-990,0.4370578527450562,"devon, south molton",Devon
+18025,638,1918,"devon, south molton",england-counties,156,1,Liberal Party (Original),63,-990,-990,28139,10424,0.5629421472549438,-990,0.5629421472549438,"devon, south molton",Devon
+18026,638,1918,"devon, tavistock",england-counties,157,1,Conservatives (Coalition),28,-990,-990,25979,9157,0.5665759444236755,-990,0.5665759444236755,"devon, tavistock",Devon
+18027,638,1918,"devon, tavistock",england-counties,157,1,Liberal Party (Original),63,-990,-990,25979,7005,0.4334240853786469,-990,0.4334240853786469,"devon, tavistock",Devon
+18028,638,1918,"devon, tiverton",england-counties,158,1,Liberal Party (Original),63,-990,-990,25925,4827,0.2872872352600098,-990,0.2872872352600098,"devon, tiverton",Devon
+18029,638,1918,"devon, tiverton",england-counties,158,1,Conservatives (Coalition),28,-990,-990,25925,9598,0.5712414979934692,-990,0.5712414979934692,"devon, tiverton",Devon
+18030,638,1918,"devon, tiverton",england-counties,158,1,Labour Party,56,-990,-990,25925,2377,0.1414712518453598,-990,0.1414712518453598,"devon, tiverton",Devon
+18031,638,1918,"devon, torquay",england-counties,159,1,Liberal Party (Original),63,-990,-990,32584,3173,0.1491772383451462,-990,0.1491772383451462,"devon, torquay",Devon
+18032,638,1918,"devon, torquay",england-counties,159,1,Conservatives (Coalition),28,-990,-990,32584,14068,0.6614010334014893,-990,0.6614010334014893,"devon, torquay",Devon
+18033,638,1918,"devon, torquay",england-counties,159,1,Labour Party,56,-990,-990,32584,4029,0.1894217133522034,-990,0.1894217133522034,"devon, torquay",Devon
+18034,638,1918,"devon, totnes",england-counties,160,1,Conservatives (Coalition),28,-990,-990,39042,14680,0.5884711146354675,-990,0.5884711146354675,"devon, totnes",Devon
+18035,638,1918,"devon, totnes",england-counties,160,1,Liberal Party (Original),63,-990,-990,39042,10266,0.4115289151668549,-990,0.4115289151668549,"devon, totnes",Devon
 18036,638,1918,dewsbury,england-provincial boroughs,161,1,Liberal Party (Original),63,-990,-990,27592,5130,0.2761181890964508,-990,0.2761181890964508,yorkshire,
 18037,638,1918,dewsbury,england-provincial boroughs,161,1,Labour Party,56,-990,-990,27592,5596,0.301200270652771,-990,0.301200270652771,yorkshire,
 18038,638,1918,dewsbury,england-provincial boroughs,161,1,Conservatives (Coalition),28,-990,-990,27592,7853,0.4226815104484558,-990,0.4226815104484558,yorkshire,
@@ -15141,8 +15141,8 @@
 18055,638,1918,down east,northern ireland,170,1,Unionists,145,-990,-990,17846,6007,0.4216918349266052,-990,0.4216918349266052,down east,Kent
 18056,638,1918,down east,northern ireland,170,1,Sinn Fein,127,-990,-990,17846,3876,0.2720954716205597,-990,0.2720954716205597,down east,Kent
 18057,638,1918,down east,northern ireland,170,1,Nationalists,89,-990,-990,17846,4362,0.3062126934528351,-990,0.3062126934528351,down east,Kent
-18058,638,1918,down mid,northern ireland,171,1,Sinn Fein,127,-990,-990,17195,707,0.06231271103024483,-990,0.06231271103024483,down mid,Devonshire
-18059,638,1918,down mid,northern ireland,171,1,Unionists,145,-990,-990,17195,10639,0.9376872777938843,-990,0.9376872777938843,down mid,Devonshire
+18058,638,1918,down mid,northern ireland,171,1,Sinn Fein,127,-990,-990,17195,707,0.06231271103024483,-990,0.06231271103024483,down mid,Devon
+18059,638,1918,down mid,northern ireland,171,1,Unionists,145,-990,-990,17195,10639,0.9376872777938843,-990,0.9376872777938843,down mid,Devon
 18060,638,1918,down north,northern ireland,172,1,Unionists,145,-990,-990,18399,9200,0.8103585243225098,-990,0.8103585243225098,down north,Somerset
 18061,638,1918,down north,northern ireland,172,1,Independent Unionists,6004,-990,-990,18399,2153,0.1896415054798126,-990,0.1896415054798126,down north,Somerset
 18062,638,1918,down south,northern ireland,173,1,Independents,6005,-990,-990,18708,436,0.02946344017982483,-990,0.02946344017982483,down south,Gloucestershire
@@ -15825,14 +15825,14 @@
 18826,638,1918,"perthshire and kinross-shire, kin",scotland-counties,496,1,Liberal Party (Original),63,-990,-990,23888,7579,0.5207502841949463,-990,0.5207502841949463,"perthshire and kinross-shire, kin",Kinross-shire
 18827,638,1918,"perthshire and kinross-shire, kin",scotland-counties,496,1,Conservatives (Coalition),28,-990,-990,23888,6975,0.4792496860027313,-990,0.4792496860027313,"perthshire and kinross-shire, kin",Kinross-shire
 18828,638,1918,"perthshire and kinross-shire, per",scotland-counties,497,1,Liberals (Coalition),67,-992,-992,-992,-992,-992.0,-992,-992.0,"perthshire and kinross-shire, per",Kinross-shire
-18829,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Conservatives (Coalition),28,-990,-990,31687,13240,0.6220343112945557,-990,0.6220343112945557,"plymouth, devonport",Devonshire
-18830,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Liberal Party (Original),63,-990,-990,31687,3930,0.1846370697021484,-990,0.1846370697021484,"plymouth, devonport",Devonshire
-18831,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Labour Party,56,-990,-990,31687,4115,0.1933286339044571,-990,0.1933286339044571,"plymouth, devonport",Devonshire
-18832,638,1918,"plymouth, drake",england-provincial boroughs,499,1,Liberal Party (Original),63,-990,-990,42833,6225,0.2658779323101044,-990,0.2658779323101044,"plymouth, drake",Devonshire
-18833,638,1918,"plymouth, drake",england-provincial boroughs,499,1,Conservatives (Coalition),28,-990,-990,42833,17188,0.734122097492218,-990,0.734122097492218,"plymouth, drake",Devonshire
-18834,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Liberals (Coalition),67,-990,-990,43444,17091,0.6595531105995178,-990,0.6595531105995178,"plymouth, sutton",Devonshire
-18835,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Labour Party,56,-990,-990,43444,5334,0.2058426290750504,-990,0.2058426290750504,"plymouth, sutton",Devonshire
-18836,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Liberal Party (Original),63,-990,-990,43444,3488,0.1346042454242706,-990,0.1346042454242706,"plymouth, sutton",Devonshire
+18829,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Conservatives (Coalition),28,-990,-990,31687,13240,0.6220343112945557,-990,0.6220343112945557,"plymouth, devonport",Devon
+18830,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Liberal Party (Original),63,-990,-990,31687,3930,0.1846370697021484,-990,0.1846370697021484,"plymouth, devonport",Devon
+18831,638,1918,"plymouth, devonport",england-provincial boroughs,498,1,Labour Party,56,-990,-990,31687,4115,0.1933286339044571,-990,0.1933286339044571,"plymouth, devonport",Devon
+18832,638,1918,"plymouth, drake",england-provincial boroughs,499,1,Liberal Party (Original),63,-990,-990,42833,6225,0.2658779323101044,-990,0.2658779323101044,"plymouth, drake",Devon
+18833,638,1918,"plymouth, drake",england-provincial boroughs,499,1,Conservatives (Coalition),28,-990,-990,42833,17188,0.734122097492218,-990,0.734122097492218,"plymouth, drake",Devon
+18834,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Liberals (Coalition),67,-990,-990,43444,17091,0.6595531105995178,-990,0.6595531105995178,"plymouth, sutton",Devon
+18835,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Labour Party,56,-990,-990,43444,5334,0.2058426290750504,-990,0.2058426290750504,"plymouth, sutton",Devon
+18836,638,1918,"plymouth, sutton",england-provincial boroughs,500,1,Liberal Party (Original),63,-990,-990,43444,3488,0.1346042454242706,-990,0.1346042454242706,"plymouth, sutton",Devon
 18837,638,1918,"poplar, bow and bromley",england-london boroughs,501,1,Labour Party,56,-990,-990,33436,7248,0.4434383511543274,-990,0.4434383511543274,"poplar, bow and bromley",Middlesex
 18838,638,1918,"poplar, bow and bromley",england-london boroughs,501,1,Conservatives (Coalition),28,-990,-990,33436,8109,0.4961150288581848,-990,0.4961150288581848,"poplar, bow and bromley",Middlesex
 18839,638,1918,"poplar, bow and bromley",england-london boroughs,501,1,Liberal Party (Original),63,-990,-990,33436,988,0.06044661998748779,-990,0.06044661998748779,"poplar, bow and bromley",Middlesex
@@ -16578,20 +16578,20 @@
 19630,639,1922,"derbyshire, southern",england-counties,129,1,Labour Party,56,-990,-990,43172,10201,0.2961103022098541,-990,0.2961103022098541,"derbyshire, southern",Derbyshire
 19631,639,1922,"derbyshire, western",england-counties,130,1,Conservative,27,-990,-990,30231,12973,0.4983290433883667,-990,0.4983290433883667,"derbyshire, western",Derbyshire
 19632,639,1922,"derbyshire, western",england-counties,130,1,Liberal Party (Original),63,-990,-990,30231,13060,0.5016709566116333,-990,0.5016709566116333,"derbyshire, western",Derbyshire
-19633,639,1922,"devon, barnstaple",england-counties,131,1,Conservative,27,-990,-990,33004,13793,0.5031737685203552,-990,0.5031737685203552,"devon, barnstaple",Devonshire
-19634,639,1922,"devon, barnstaple",england-counties,131,1,Liberal Party (Original),63,-990,-990,33004,13619,0.4968262016773224,-990,0.4968262016773224,"devon, barnstaple",Devonshire
-19635,639,1922,"devon, honiton",england-counties,132,1,Liberal Party (Original),63,-990,-990,29546,10404,0.4450718760490417,-990,0.4450718760490417,"devon, honiton",Devonshire
-19636,639,1922,"devon, honiton",england-counties,132,1,Conservative,27,-990,-990,29546,12972,0.5549281239509583,-990,0.5549281239509583,"devon, honiton",Devonshire
-19637,639,1922,"devon, south molton",england-counties,133,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devonshire
-19638,639,1922,"devon, tavistock",england-counties,134,1,Conservative,27,-990,-990,27651,9757,0.4545539319515228,-990,0.4545539319515228,"devon, tavistock",Devonshire
-19639,639,1922,"devon, tavistock",england-counties,134,1,Liberal Party (Original),63,-990,-990,27651,11708,0.5454460978507996,-990,0.5454460978507996,"devon, tavistock",Devonshire
-19640,639,1922,"devon, tiverton",england-counties,135,1,Labour Party,56,-990,-990,27452,1457,0.0662543773651123,-990,0.0662543773651123,"devon, tiverton",Devonshire
-19641,639,1922,"devon, tiverton",england-counties,135,1,Liberal Party (Original),63,-990,-990,27452,10230,0.4651902914047241,-990,0.4651902914047241,"devon, tiverton",Devonshire
-19642,639,1922,"devon, tiverton",england-counties,135,1,Conservative,27,-990,-990,27452,10304,0.4685553312301636,-990,0.4685553312301636,"devon, tiverton",Devonshire
-19643,639,1922,"devon, torquay",england-counties,136,1,Liberal Party (Original),63,-990,-990,35817,13425,0.477741003036499,-990,0.477741003036499,"devon, torquay",Devonshire
-19644,639,1922,"devon, torquay",england-counties,136,1,Conservative,27,-990,-990,35817,14676,0.522258996963501,-990,0.522258996963501,"devon, torquay",Devonshire
-19645,639,1922,"devon, totnes",england-counties,137,1,Liberal Party (Original),63,-990,-990,40417,15032,0.4762387573719025,-990,0.4762387573719025,"devon, totnes",Devonshire
-19646,639,1922,"devon, totnes",england-counties,137,1,Conservative,27,-990,-990,40417,16532,0.5237612724304199,-990,0.5237612724304199,"devon, totnes",Devonshire
+19633,639,1922,"devon, barnstaple",england-counties,131,1,Conservative,27,-990,-990,33004,13793,0.5031737685203552,-990,0.5031737685203552,"devon, barnstaple",Devon
+19634,639,1922,"devon, barnstaple",england-counties,131,1,Liberal Party (Original),63,-990,-990,33004,13619,0.4968262016773224,-990,0.4968262016773224,"devon, barnstaple",Devon
+19635,639,1922,"devon, honiton",england-counties,132,1,Liberal Party (Original),63,-990,-990,29546,10404,0.4450718760490417,-990,0.4450718760490417,"devon, honiton",Devon
+19636,639,1922,"devon, honiton",england-counties,132,1,Conservative,27,-990,-990,29546,12972,0.5549281239509583,-990,0.5549281239509583,"devon, honiton",Devon
+19637,639,1922,"devon, south molton",england-counties,133,1,Liberal Party (Original),63,-992,-992,-992,-992,-992.0,-992,-992.0,"devon, south molton",Devon
+19638,639,1922,"devon, tavistock",england-counties,134,1,Conservative,27,-990,-990,27651,9757,0.4545539319515228,-990,0.4545539319515228,"devon, tavistock",Devon
+19639,639,1922,"devon, tavistock",england-counties,134,1,Liberal Party (Original),63,-990,-990,27651,11708,0.5454460978507996,-990,0.5454460978507996,"devon, tavistock",Devon
+19640,639,1922,"devon, tiverton",england-counties,135,1,Labour Party,56,-990,-990,27452,1457,0.0662543773651123,-990,0.0662543773651123,"devon, tiverton",Devon
+19641,639,1922,"devon, tiverton",england-counties,135,1,Liberal Party (Original),63,-990,-990,27452,10230,0.4651902914047241,-990,0.4651902914047241,"devon, tiverton",Devon
+19642,639,1922,"devon, tiverton",england-counties,135,1,Conservative,27,-990,-990,27452,10304,0.4685553312301636,-990,0.4685553312301636,"devon, tiverton",Devon
+19643,639,1922,"devon, torquay",england-counties,136,1,Liberal Party (Original),63,-990,-990,35817,13425,0.477741003036499,-990,0.477741003036499,"devon, torquay",Devon
+19644,639,1922,"devon, torquay",england-counties,136,1,Conservative,27,-990,-990,35817,14676,0.522258996963501,-990,0.522258996963501,"devon, torquay",Devon
+19645,639,1922,"devon, totnes",england-counties,137,1,Liberal Party (Original),63,-990,-990,40417,15032,0.4762387573719025,-990,0.4762387573719025,"devon, totnes",Devon
+19646,639,1922,"devon, totnes",england-counties,137,1,Conservative,27,-990,-990,40417,16532,0.5237612724304199,-990,0.5237612724304199,"devon, totnes",Devon
 19647,639,1922,dewsbury,england-provincial boroughs,138,1,Labour Party,56,-990,-990,28145,8821,0.3732966482639313,-990,0.3732966482639313,yorkshire,
 19648,639,1922,dewsbury,england-provincial boroughs,138,1,Liberal Party (Original),63,-990,-990,28145,8065,0.3413034379482269,-990,0.3413034379482269,yorkshire,
 19649,639,1922,dewsbury,england-provincial boroughs,138,1,Conservative,27,-990,-990,28145,6744,0.2853999137878418,-990,0.2853999137878418,yorkshire,
@@ -17302,16 +17302,16 @@
 20360,639,1922,"perthshire and kinross-shire, per",scotland-counties,423,1,Conservative,27,-990,-990,34590,11387,0.4628673493862152,-990,0.4628673493862152,"perthshire and kinross-shire, per",Kinross-shire
 20361,639,1922,"perthshire and kinross-shire, per",scotland-counties,423,1,National Liberals,82,-990,-990,34590,2689,0.1093045026063919,-990,0.1093045026063919,"perthshire and kinross-shire, per",Kinross-shire
 20362,639,1922,"perthshire and kinross-shire, per",scotland-counties,423,1,Labour Party,56,-990,-990,34590,4651,0.1890573501586914,-990,0.1890573501586914,"perthshire and kinross-shire, per",Kinross-shire
-20363,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Liberal Party (Original),63,-990,-990,31268,8538,0.3451230823993683,-990,0.3451230823993683,"plymouth, devonport",Devonshire
-20364,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Labour Party,56,-990,-990,31268,5742,0.2321031540632248,-990,0.2321031540632248,"plymouth, devonport",Devonshire
-20365,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Conservative,27,-990,-990,31268,10459,0.4227737486362457,-990,0.4227737486362457,"plymouth, devonport",Devonshire
-20366,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Labour Party,56,-990,-990,35845,8359,0.3136467635631561,-990,0.3136467635631561,"plymouth, drake",Devonshire
-20367,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Conservative,27,-990,-990,35845,11698,0.438932865858078,-990,0.438932865858078,"plymouth, drake",Devonshire
-20368,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Liberal Party (Original),63,-990,-990,35845,6594,0.2474203556776047,-990,0.2474203556776047,"plymouth, drake",Devonshire
-20369,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Conservative,27,-990,-990,37696,13924,0.4736376702785492,-990,0.4736376702785492,"plymouth, sutton",Devonshire
-20370,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Independent Conservatives,6032,-990,-990,37696,4643,0.1579359173774719,-990,-990.0,"plymouth, sutton",Devonshire
-20371,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Independent Conservatives,6032,-990,-990,37696,4643,0.1579359173774719,-990,0.1579359173774719,"plymouth, sutton",Devonshire
-20372,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Labour Party,56,-990,-990,37696,10831,0.3684264123439789,-990,0.3684264123439789,"plymouth, sutton",Devonshire
+20363,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Liberal Party (Original),63,-990,-990,31268,8538,0.3451230823993683,-990,0.3451230823993683,"plymouth, devonport",Devon
+20364,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Labour Party,56,-990,-990,31268,5742,0.2321031540632248,-990,0.2321031540632248,"plymouth, devonport",Devon
+20365,639,1922,"plymouth, devonport",england-provincial boroughs,424,1,Conservative,27,-990,-990,31268,10459,0.4227737486362457,-990,0.4227737486362457,"plymouth, devonport",Devon
+20366,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Labour Party,56,-990,-990,35845,8359,0.3136467635631561,-990,0.3136467635631561,"plymouth, drake",Devon
+20367,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Conservative,27,-990,-990,35845,11698,0.438932865858078,-990,0.438932865858078,"plymouth, drake",Devon
+20368,639,1922,"plymouth, drake",england-provincial boroughs,425,1,Liberal Party (Original),63,-990,-990,35845,6594,0.2474203556776047,-990,0.2474203556776047,"plymouth, drake",Devon
+20369,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Conservative,27,-990,-990,37696,13924,0.4736376702785492,-990,0.4736376702785492,"plymouth, sutton",Devon
+20370,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Independent Conservatives,6032,-990,-990,37696,4643,0.1579359173774719,-990,-990.0,"plymouth, sutton",Devon
+20371,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Independent Conservatives,6032,-990,-990,37696,4643,0.1579359173774719,-990,0.1579359173774719,"plymouth, sutton",Devon
+20372,639,1922,"plymouth, sutton",england-provincial boroughs,426,1,Labour Party,56,-990,-990,37696,10831,0.3684264123439789,-990,0.3684264123439789,"plymouth, sutton",Devon
 20373,639,1922,"poplar, bow and bromley",england-london boroughs,427,1,Labour Party,56,-990,-990,34383,15402,0.6410021781921387,-990,0.6410021781921387,"poplar, bow and bromley",Middlesex
 20374,639,1922,"poplar, bow and bromley",england-london boroughs,427,1,Conservative,27,-990,-990,34383,8626,0.3589978218078613,-990,0.3589978218078613,"poplar, bow and bromley",Middlesex
 20375,639,1922,"poplar, south poplar",england-london boroughs,428,1,National Liberals,82,-990,-990,37026,10146,0.4119366705417633,-990,0.4119366705417633,"poplar, south poplar",Middlesex

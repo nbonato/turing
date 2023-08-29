@@ -221,38 +221,38 @@ data = list(set(data))
 
 
 
-start = 0
-locations_dict_list = []
-while start <= len(data)-1:
-    coordinates = getLocations(data[start:start+50])
-    start += 50
+# start = 0
+# locations_dict_list = []
+# while start <= len(data)-1:
+#     coordinates = getLocations(data[start:start+50])
+#     start += 50
     
 
-    for element in coordinates:
-        locations_dictionary  = {}
+#     for element in coordinates:
+#         locations_dictionary  = {}
 
-        locations_dictionary["query"] = element["query"]["text"]
-        # try:
-        #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
-        # except:
-        #     print(locations_dictionary["query"], " not a city")
-        #     locations_dictionary["searched"] = element["query"]["text"]
-        #     try:
-        #         locations_dictionary["searched_type"] = element["result_type"]
-        #         locations_dictionary["found"] = "yes"
-        #     except:
-        #         locations_dictionary["found"] = "no"
-        try:
-            locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
-        except:
-            locations_dictionary["coordinates"] = ""
-        try:
-            locations_dictionary["confidence"] = element["rank"]["confidence"]
-        except:
-            locations_dictionary["confidence"] = ""
-        locations_dict_list.append(locations_dictionary)
+#         locations_dictionary["query"] = element["query"]["text"]
+#         # try:
+#         #     locations_dictionary["searched"] = element["query"]["parsed"]["city"]
+#         # except:
+#         #     print(locations_dictionary["query"], " not a city")
+#         #     locations_dictionary["searched"] = element["query"]["text"]
+#         #     try:
+#         #         locations_dictionary["searched_type"] = element["result_type"]
+#         #         locations_dictionary["found"] = "yes"
+#         #     except:
+#         #         locations_dictionary["found"] = "no"
+#         try:
+#             locations_dictionary["coordinates"] = f"{element['lat']}, {element['lon']}"
+#         except:
+#             locations_dictionary["coordinates"] = ""
+#         try:
+#             locations_dictionary["confidence"] = element["rank"]["confidence"]
+#         except:
+#             locations_dictionary["confidence"] = ""
+#         locations_dict_list.append(locations_dictionary)
 
 
-locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
-locations_dataframe.to_csv("coordinat.csv", mode="a", index=True, header=False, sep=";")
+# locations_dataframe = pd.DataFrame.from_dict(locations_dict_list)
+# locations_dataframe.to_csv("coordinat.csv", index=True, header=False, sep=";")
 

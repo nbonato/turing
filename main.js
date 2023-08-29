@@ -166,7 +166,7 @@ function updateMap(geojsonLayer) {
 
     // Loop through the GeoJSON features and update fillColor based on selectedYear
     geojsonLayer.eachLayer(function (layer) {
-        let countyName = layer.feature.properties.press_county.toLowerCase();
+        let countyName = layer.feature.properties.NAME.toLowerCase();
         if (availableCounties.includes(countyName)) {
             let majorityColour = colourScheme[updateDataset[updateYear][countyName]["majority"]]
             layer.setStyle({
@@ -389,7 +389,7 @@ function initializeWebApp(elections, pressDirectories) {
                 }, */
                 onEachFeature: function (feature, layer) {
                     layer.on('click', function () {
-                        county = feature.properties.press_county;
+                        county = feature.properties.NAME.toLowerCase();
                         updateView(county, year);
                         // Change the style of the clicked feature
                         layer.setStyle({
@@ -439,7 +439,7 @@ function initializeApp() {
 		// Data does not exist in local storage, fetch and store them
 		Promise.all([
 			fetchAndStoreJSON("scripts/elections.json", "elections"),
-			fetchAndStoreJSON("new_data.json", "pressDirectories"),
+			fetchAndStoreJSON("press_data.json", "pressDirectories"),
 		])
 			.then(([elections, pressDirectories]) => {
 				// Call the web app initialization function
