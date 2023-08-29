@@ -15,27 +15,51 @@ electionChartWrapper.classList.add("donut-chart-wrapper");
 const radioButtons = document.querySelectorAll('input[name="display-dataset"]');
 var displayDataset = document.querySelector('input[name="display-dataset"]:checked').value;
 
-
-
-// Define a colour scheme and display the relevant legend
-const colourScheme = {
+const pressColourScheme = {
     "liberal": 'red',
-    "multiple majority": "forestgreen",
-    "independent": "gray",
+    "multiple majority": "#4CBB17",
+    "independent": "gold",
     "neutral": "DarkSlateGray",
     "conservative": '#034EA2',
-    "undefined": "gold",
+    "undefined": "gray",
     "unionist" : "MidnightBlue",
     "constitutional": "Olive",
     "nationalist": "Tomato",
     "liberal; unionist": "BlueViolet",
     "liberal; conservative": "purple",
     "independent; liberal": "pink",
-    "no-politics": "gold",
+    "no-politics": "gray",
     "whig": "orange",
     "other" : "fuchsia"
 };
 
+
+const electionsColourScheme = {
+    'Nationalists': 'red',
+    'Independent Liberals': 'blue',
+    'National Liberals': 'green',
+    'Liberal Party (Original)': 'purple',
+    'Independent Nationalists': 'orange',
+    'Sinn Fein': 'yellow',
+    'Anti-Parnell Nationalists': 'cyan',
+    'Independent Conservatives': 'magenta',
+    'Liberal Unionists': 'pink',
+    'Independent Labour': 'brown',
+    'Labour Party': 'gray',
+    'Independent Unionists': 'lime',
+    'Peelites': 'indigo',
+    'Unionists': 'olive',
+    'Conservatives (Coalition)': 'teal',
+    'Liberals (Coalition)': 'orange',
+    'Conservative': 'DarkBlue',
+    "multiple majority" : "#4CBB17"
+}
+
+
+
+
+// Define a colour scheme and display the relevant legend
+let colourScheme = pressColourScheme;
 const legendDiv = document.getElementById('legendDiv');
 
 for (const label in colourScheme) {
@@ -44,7 +68,7 @@ for (const label in colourScheme) {
   legendItem.className = 'colour-scheme-legend-item';
   legendItem.innerHTML = `
     <div class="colour-scheme-square" style="background-color: ${color};"></div>
-    ${label}
+    ${titleCase(label)}
   `;
   legendDiv.appendChild(legendItem);
 } 
@@ -198,7 +222,7 @@ function updateView(county, year) {
     };
     
     // Create the chart
-    chartCreator(pressChart, pressChartData["press_data"]);
+    chartCreator(pressChart, pressChartData["press_data"], "Press leanings", "Press");
 
     // Retrieve the data for the specific key
     var electionChartData = elections[closestElection.toString()][county.toLowerCase()];
@@ -209,14 +233,11 @@ function updateView(county, year) {
         return
     };
     // Create the chart
-    chartCreator(electionChart, electionChartData, "bar");
+    chartCreator(electionChart, electionChartData["data"], "Electoral results", "Elections");
 
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
-    var infoBoxTitle = document.createElement("h3");
-    infoBoxTitle.textContent = `${titleCase(county)} press in ${year}`;
     infoBoxContent.className = "chart-container"
-    infoBoxContent.appendChild(infoBoxTitle);
     infoBoxContent.appendChild(pressChartWrapper);
     infoBoxContent.appendChild(electionChartWrapper);
     infoBox.appendChild(infoBoxContent);
@@ -224,89 +245,63 @@ function updateView(county, year) {
 
 // Function to create the chart
 
-function chartCreator(canvas, data, chart_type = "doughnut") {
+function chartCreator(canvas, data, titleText, typeDataset) {
+    // Get the existing chart instance
+    let existingChart = Chart.getChart(canvas);
 
-
-    if (chart_type == "bar") {
-        // Get the existing chart instance
-        let existingChart = Chart.getChart(canvas);
-
-        // Destroy the existing chart if it exists
-        if (existingChart) {
-            existingChart.destroy();
-        }
-
-        // Extract labels and values from the data
-        var labels = Object.keys(data);
-        var values = Object.values(data);
-
-        new Chart(canvas.getContext('2d'), {
-            type: chart_type,
-            
-            data: {
-                labels: [county],
-                datasets: [{
-                    label: "Liberal Party (Original)",
-                    data: [1],
-                 },{
-                    label: "Conservative",
-                    data: [1],
-                 }]
-            },
-            options: {
-                animation: false,
-                responsive: true,
-                maintainAspectRatio: true,
-                title: { display: true, text: `Electoral results in ${closestElection}`},
-                plugins: {
-                    legend: {
-                        position: "top"
-                    }
-                }
-            }
-        });
-
-    } else {
-        // Get the existing chart instance
-        let existingChart = Chart.getChart(canvas);
-
-        // Destroy the existing chart if it exists
-        if (existingChart) {
-            existingChart.destroy();
-        }
-
-        // Extract labels and values from the data
-        var labels = Object.keys(data);
-        var values = Object.values(data);
-        new Chart(canvas.getContext('2d'), {
-            type: chart_type,
-            data: {
-                label: "Chart",
-                labels: labels,
-                datasets: [{
-                    data: values,
-                    backgroundColor: labels.map(label => colourScheme[label]),
-
-                }]
-            },
-            options: {
-                animation: false,
-                responsive: true,
-                maintainAspectRatio: true,
-                plugins: {
-                    datalabels : {
-                        color: "white"
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            }
-        });
+    // Destroy the existing chart if it exists
+    if (existingChart) {
+        existingChart.destroy();
     }
 
-   
-}
+    // Extract labels and values from the data
+    var labels = Object.keys(data);
+    var values = Object.values(data);
+
+    switch (typeDataset) {
+        case "Elections":
+            backgroundColor = labels.map(label => electionsColourScheme[label]);
+            break;
+        case "Press":
+            backgroundColor = labels.map(label => pressColourScheme[label]);
+            break;
+    }
+    new Chart(canvas.getContext('2d'), {
+        type: "doughnut",
+        data: {
+            label: "Chart",
+            labels: labels,
+            datasets: [{
+                data: values,
+                backgroundColor: backgroundColor,
+
+            }]
+        },
+        options: {
+            animation: false,
+            responsive: true,
+            maintainAspectRatio: true,
+            layout: {
+                padding: {
+                  left: 30
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: `${titleText} in ${titleCase(county)} in ${year}`,
+                },
+                datalabels : {
+                    color: "white"
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        }
+    });
+};
+
 
 
 // Function to fetch and store JSON data in local storage
@@ -394,6 +389,29 @@ function initializeWebApp(elections, pressDirectories) {
     radioButtons.forEach(radioButton => {
         radioButton.addEventListener('change', (event) => {
             displayDataset = event.target.value;
+            console.log(displayDataset)
+            switch (displayDataset) {
+                case "Elections":
+                    colourScheme = electionsColourScheme;
+                    break;
+                case "Press":
+                    colourScheme = pressColourScheme;
+                    break;
+            }
+            legendDiv.innerHTML = "";
+
+            for (const label in colourScheme) {
+                const color = colourScheme[label];
+                const legendItem = document.createElement('div');
+                legendItem.className = 'colour-scheme-legend-item';
+                legendItem.innerHTML = `
+                  <div class="colour-scheme-square" style="background-color: ${color};"></div>
+                  ${titleCase(label)}
+                `;
+                legendDiv.appendChild(legendItem);
+            } 
+              
+
             updateMap(geojsonLayer);
         });
     });
