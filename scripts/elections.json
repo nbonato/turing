@@ -5473,5 +5473,869 @@
     "wigtownshire": {
       "Conservative": 1
     }
+  },
+  "1918": {
+    "aberdeenshire": {
+      "Independent Labour": 1,
+      "Liberals (Coalition)": 1,
+      "Conservatives (Coalition)": 1,
+      "Independents": 1,
+      "Liberal Party (Original)": 1
+    },
+    "not_found": {
+      "Conservatives (Coalition)": 8,
+      "Labour Party": 10,
+      "Liberal Party (Original)": 10,
+      "Liberals (Coalition)": 11,
+      "Independents": 1
+    },
+    "lancashire": {
+      "Conservatives (Coalition)": 38,
+      "Labour Party": 48,
+      "Liberal Party (Original)": 23,
+      "National Federation Of Discharged And Demobilised Sailors An": 1,
+      "Conservative": 11,
+      "Liberals (Coalition)": 11,
+      "Independents": 4,
+      "Socialist Labour Party": 2,
+      "Agriculturalists": 1,
+      "Independent Liberals": 1,
+      "Nationalists": 2,
+      "National Party": 1,
+      "Independent Conservatives": 1,
+      "Independent Labour": 1
+    },
+    "anglesey": {
+      "Independent Labour": 1,
+      "Liberals (Coalition)": 1
+    },
+    "antrim": {
+      "Sinn Fein": 12,
+      "Unionists": 9,
+      "Labour Party": 4,
+      "Nationalists": 2,
+      "Independent Unionists": 2,
+      "Independent Labour": 1,
+      "Labour Unionists": 3
+    },
+    "argyllshire": {
+      "Highland Land League": 1,
+      "Liberals (Coalition)": 1
+    },
+    "armagh": {
+      "Sinn Fein": 3,
+      "Unionists": 2,
+      "Nationalists": 1
+    },
+    "ayrshire": {
+      "Conservatives (Coalition)": 2,
+      "Labour Party": 2,
+      "Liberal Party (Original)": 2
+    },
+    "banffshire": {
+      "Liberals (Coalition)": 1
+    },
+    "yorkshire": {
+      "Liberals (Coalition)": 19,
+      "Labour Party": 42,
+      "Conservatives (Coalition)": 27,
+      "Liberal Party (Original)": 31,
+      "National Democratic And Labour Party (Coalition)": 3,
+      "Socialist Labour Party": 1,
+      "Conservative": 2,
+      "Labour Party (Coalition)": 1,
+      "Independents": 4,
+      "National Party": 1,
+      "British Socialist Party": 1,
+      "Independent Labour": 4,
+      "Agriculturalists": 1
+    },
+    "somerset": {
+      "Conservatives (Coalition)": 7,
+      "Labour Party": 5,
+      "Liberal Party (Original)": 4,
+      "National Party": 1
+    },
+    "middlesex": {
+      "Labour Party": 37,
+      "Liberals (Coalition)": 14,
+      "Conservatives (Coalition)": 53,
+      "Liberal Party (Original)": 33,
+      "Independents": 12,
+      "National Party": 6,
+      "Conservative": 6,
+      "Independent Progressives": 2,
+      "Independent Labour": 3,
+      "British Socialist Party": 2,
+      "Independent Conservatives": 1,
+      "National Democratic And Labour Party": 1
+    },
+    "bedfordshire": {
+      "Independents": 1,
+      "Liberals (Coalition)": 2,
+      "Labour Party": 1,
+      "Conservatives (Coalition)": 1,
+      "Liberal Party (Original)": 1
+    },
+    "berkshire": {
+      "Conservatives (Coalition)": 4,
+      "Independent Labour": 1,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "cheshire": {
+      "Conservatives (Coalition)": 10,
+      "Labour Party": 8,
+      "Liberal Party (Original)": 6,
+      "Liberals (Coalition)": 2,
+      "Conservative": 1,
+      "Labour Party (Coalition)": 1
+    },
+    "warwickshire": {
+      "Conservatives (Coalition)": 16,
+      "Labour Party": 9,
+      "National Federation Of Discharged And Demobilised Sailors An": 1,
+      "Liberal Party (Original)": 12,
+      "Independent Labour": 2,
+      "Independents": 1
+    },
+    "hampshire": {
+      "Labour Party": 4,
+      "Liberal Party (Original)": 6,
+      "National Party": 1,
+      "Conservatives (Coalition)": 10,
+      "Independent Labour": 1,
+      "Independents": 1,
+      "Conservative": 1,
+      "Liberals (Coalition)": 2
+    },
+    "sussex": {
+      "Conservatives (Coalition)": 9,
+      "Labour Party": 6,
+      "Liberal Party (Original)": 2,
+      "Independents": 2
+    },
+    "gloucestershire": {
+      "Conservatives (Coalition)": 5,
+      "Labour Party": 8,
+      "Liberals (Coalition)": 6,
+      "National Party": 2,
+      "Independent Liberals": 1,
+      "Liberal Party (Original)": 1,
+      "Independent Labour": 1
+    },
+    "kent": {
+      "Conservatives (Coalition)": 17,
+      "Liberal Party (Original)": 4,
+      "Conservative": 2,
+      "Independents": 3,
+      "Labour Party": 13,
+      "National Party": 1,
+      "Liberals (Coalition)": 1,
+      "Independent Conservatives": 2,
+      "Independent Labour": 1
+    },
+    "buckinghamshire": {
+      "Conservatives (Coalition)": 3,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "caernarfonshire": {
+      "Independents": 1,
+      "Liberals (Coalition)": 2,
+      "Independent Labour": 1,
+      "Liberal Party (Original)": 1
+    },
+    "cambridgeshire": {
+      "Conservatives (Coalition)": 1,
+      "Labour Party": 1,
+      "Independent Labour": 1,
+      "Liberals (Coalition)": 2
+    },
+    "glamorgan": {
+      "Conservative": 5,
+      "Labour Party": 16,
+      "Liberal Party (Original)": 5,
+      "Liberals (Coalition)": 6,
+      "Independents": 2,
+      "Conservatives (Coalition)": 1,
+      "National Democratic And Labour Party (Coalition)": 1
+    },
+    "cardiganshire": {
+      "Liberals (Coalition)": 1
+    },
+    "cumberland": {
+      "Labour Party": 3,
+      "Liberals (Coalition)": 1,
+      "Conservatives (Coalition)": 3,
+      "Conservative": 1,
+      "Liberal Party (Original)": 1
+    },
+    "carmarthenshire": {
+      "Liberals (Coalition)": 2,
+      "Labour Party": 1
+    },
+    "lanarkshire": {
+      "Labour Party": 18,
+      "Labour Party (Coalition)": 1,
+      "Independents": 1,
+      "Liberals (Coalition)": 4,
+      "Conservatives (Coalition)": 17,
+      "Liberal Party (Original)": 9,
+      "Independent Labour": 2,
+      "British Socialist Party": 1,
+      "National Democratic And Labour Party": 1
+    },
+    "cornwall": {
+      "Conservatives (Coalition)": 2,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 2,
+      "Liberals (Coalition)": 2,
+      "Independent Conservatives": 1
+    },
+    "surrey": {
+      "Conservatives (Coalition)": 14,
+      "Liberal Party (Original)": 5,
+      "Labour Party": 6,
+      "Independents": 3,
+      "Independent Conservatives": 1,
+      "Conservative": 1,
+      "Liberals (Coalition)": 1,
+      "National Party": 2
+    },
+    "durham": {
+      "Conservatives (Coalition)": 4,
+      "Liberal Party (Original)": 9,
+      "Labour Party": 14,
+      "Liberals (Coalition)": 7,
+      "National Democratic And Labour Party (Coalition)": 2,
+      "Conservative": 2
+    },
+    "denbighshire": {
+      "Labour Party": 2,
+      "Liberals (Coalition)": 2
+    },
+    "derbyshire": {
+      "Conservative": 1,
+      "Labour Party": 6,
+      "Liberal Party (Original)": 6,
+      "Liberals (Coalition)": 3,
+      "Conservatives (Coalition)": 3,
+      "Independent Conservatives": 1
+    },
+    "devon": {
+      "Conservative": 1,
+      "Liberal Party (Original)": 10,
+      "Conservatives (Coalition)": 9,
+      "Labour Party": 4,
+      "Liberals (Coalition)": 1
+    },
+    "dorset": {
+      "Labour Party": 2,
+      "Liberals (Coalition)": 1,
+      "Conservatives (Coalition)": 3,
+      "Liberal Party (Original)": 1
+    },
+    "down": {
+      "Nationalists": 2,
+      "Sinn Fein": 3,
+      "Unionists": 5,
+      "Independent Unionists": 1,
+      "Independents": 1
+    },
+    "pembrokeshire": {
+      "Nationalists": 1,
+      "Sinn Fein": 1,
+      "Unionists": 1,
+      "Christian Socialists": 1,
+      "Labour Party": 1,
+      "Liberals (Coalition)": 1
+    },
+    "worcestershire": {
+      "Conservatives (Coalition)": 5,
+      "Labour Party": 4,
+      "Liberal Party (Original)": 3,
+      "National Democratic And Labour Party (Coalition)": 1
+    },
+    "dunbartonshire": {
+      "Labour Party": 2,
+      "Liberals (Coalition)": 1,
+      "Conservatives (Coalition)": 1,
+      "Liberal Party (Original)": 1
+    },
+    "dumfriesshire": {
+      "Conservatives (Coalition)": 1,
+      "Liberal Party (Original)": 1
+    },
+    "angus": {
+      "Labour Party": 2,
+      "Liberals (Coalition)": 2,
+      "Scottish Prohibition Party": 1,
+      "Conservative": 1,
+      "Liberal Party (Original)": 1
+    },
+    "fife": {
+      "Independent Labour": 1,
+      "Independents": 1,
+      "Liberals (Coalition)": 2,
+      "Conservative": 1,
+      "Independent Progressives": 1,
+      "Liberal Party (Original)": 1,
+      "Conservatives (Coalition)": 1,
+      "Labour Party": 1
+    },
+    "essex": {
+      "Liberals (Coalition)": 4,
+      "National Party": 1,
+      "Conservative": 2,
+      "Labour Party": 13,
+      "National Democratic And Labour Party (Coalition)": 2,
+      "Conservatives (Coalition)": 13,
+      "Independents": 1,
+      "Liberal Party (Original)": 11,
+      "National Socialist Party": 2,
+      "Independent Conservatives": 1,
+      "Independent Liberals": 1
+    },
+    "midlothian": {
+      "Labour Party": 3,
+      "Liberals (Coalition)": 1,
+      "Liberal Party (Original)": 5,
+      "National Democratic And Labour Party (Coalition)": 1,
+      "Conservatives (Coalition)": 4
+    },
+    "fermanagh": {
+      "Sinn Fein": 2,
+      "Unionists": 2,
+      "Nationalists": 1
+    },
+    "flintshire": {
+      "Liberals (Coalition)": 1
+    },
+    "norfolk": {
+      "Conservatives (Coalition)": 4,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 5,
+      "Agriculturalists": 1,
+      "Liberals (Coalition)": 1,
+      "Independent Labour": 1,
+      "Labour Party (Coalition)": 1
+    },
+    "renfrewshire": {
+      "Conservative": 1,
+      "Labour Party": 4,
+      "Liberal Party (Original)": 2,
+      "National Democratic And Labour Party (Coalition)": 1,
+      "Liberals (Coalition)": 2
+    },
+    "lincolnshire": {
+      "Conservatives (Coalition)": 8,
+      "Independents": 1,
+      "Labour Party": 4,
+      "Liberal Party (Original)": 3,
+      "Independent Labour": 1,
+      "Nationalists": 1,
+      "Sinn Fein": 1
+    },
+    "herefordshire": {
+      "Conservatives (Coalition)": 2,
+      "Labour Party": 1,
+      "Agriculturalists": 1,
+      "Liberal Party (Original)": 1
+    },
+    "hertfordshire": {
+      "Conservatives (Coalition)": 4,
+      "Labour Party": 4,
+      "Independents": 2,
+      "National Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "huntingdonshire": {
+      "Conservatives (Coalition)": 1,
+      "Liberal Party (Original)": 1
+    },
+    "suffolk": {
+      "Conservatives (Coalition)": 4,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 3,
+      "Conservative": 1,
+      "Liberals (Coalition)": 2,
+      "Agriculturalists": 1
+    },
+    "oxfordshire": {
+      "Conservatives (Coalition)": 3,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 3,
+      "Liberals (Coalition)": 1
+    },
+    "leicestershire": {
+      "Labour Party": 6,
+      "Liberals (Coalition)": 3,
+      "Conservatives (Coalition)": 3,
+      "National Democratic And Labour Party (Coalition)": 1,
+      "Liberal Party (Original)": 1
+    },
+    "west-lothian": {
+      "Conservatives (Coalition)": 1,
+      "Labour Party": 1
+    },
+    "londonderry": {
+      "Nationalists": 2,
+      "Sinn Fein": 3,
+      "Unionists": 3
+    },
+    "merionethshire": {
+      "Liberal Party (Original)": 1
+    },
+    "monmouthshire": {
+      "Labour Party": 4,
+      "Liberals (Coalition)": 1,
+      "Conservative": 1,
+      "Liberal Party (Original)": 2,
+      "Conservatives (Coalition)": 1
+    },
+    "montgomeryshire": {
+      "Liberal Party (Original)": 1
+    },
+    "northumberland": {
+      "Conservative": 1,
+      "Labour Party": 8,
+      "Liberal Party (Original)": 6,
+      "Independent Liberals": 1,
+      "Conservatives (Coalition)": 4,
+      "Independents": 2,
+      "Liberals (Coalition)": 3,
+      "Independent Labour": 1,
+      "National Democratic And Labour Party (Coalition)": 1
+    },
+    "northamptonshire": {
+      "Labour Party": 5,
+      "Liberals (Coalition)": 3,
+      "Conservatives (Coalition)": 2,
+      "National Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "nottinghamshire": {
+      "Conservatives (Coalition)": 6,
+      "Liberal Party (Original)": 5,
+      "National Party": 1,
+      "Labour Party": 5,
+      "National Federation Of Discharged And Demobilised Sailors An": 1,
+      "Independent Labour": 1,
+      "National Democratic And Labour Party (Coalition)": 2
+    },
+    "shropshire": {
+      "Conservatives (Coalition)": 3,
+      "Labour Party": 2,
+      "Liberals (Coalition)": 1
+    },
+    "staffordshire": {
+      "Labour Party": 9,
+      "Women's Party": 1,
+      "Conservatives (Coalition)": 6,
+      "Labour Party (Coalition)": 1,
+      "Liberal Party (Original)": 7,
+      "Conservative": 1,
+      "Liberals (Coalition)": 3,
+      "Independent Liberals": 1,
+      "National Democratic And Labour Party (Coalition)": 2,
+      "Agriculturalists": 1,
+      "National Party": 1
+    },
+    "stirlingshire": {
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "tyrone": {
+      "Nationalists": 1,
+      "Sinn Fein": 3,
+      "Unionists": 3,
+      "Independent Nationalists": 1
+    },
+    "westmorland": {
+      "Conservatives (Coalition)": 1
+    },
+    "wiltshire": {
+      "Conservatives (Coalition)": 5,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 5
+    }
+  },
+  "1922": {
+    "aberdeenshire": {
+      "Labour Party": 1,
+      "Liberal Party (Original)": 2,
+      "National Liberals": 1,
+      "Conservative": 1
+    },
+    "not_found": {
+      "Liberal Party (Original)": 14,
+      "Conservative": 7,
+      "Labour Party": 10,
+      "National Liberals": 11,
+      "Nationalists": 2,
+      "Unionists": 1
+    },
+    "lancashire": {
+      "Conservative": 55,
+      "Labour Party": 45,
+      "Liberal Party (Original)": 25,
+      "National Liberals": 7,
+      "Independents": 6,
+      "Nationalists": 2
+    },
+    "anglesey": {
+      "Independent Labour": 2,
+      "National Liberals": 1
+    },
+    "antrim": {
+      "Unionists": 6
+    },
+    "argyllshire": {
+      "Liberal Party (Original)": 1,
+      "National Liberals": 1
+    },
+    "armagh": {
+      "Unionists": 1
+    },
+    "ayrshire": {
+      "Conservative": 2,
+      "Labour Party": 2,
+      "Liberal Party (Original)": 2
+    },
+    "banffshire": {
+      "Liberal Party (Original)": 1
+    },
+    "yorkshire": {
+      "Labour Party": 42,
+      "National Liberals": 15,
+      "Conservative": 39,
+      "Liberal Party (Original)": 35,
+      "Agriculturalists": 1
+    },
+    "somerset": {
+      "Conservative": 7,
+      "Labour Party": 5,
+      "Liberal Party (Original)": 5
+    },
+    "middlesex": {
+      "Labour Party": 46,
+      "Liberal Party (Original)": 37,
+      "National Liberals": 15,
+      "Conservative": 57,
+      "Communist Party Of Great Britain": 2,
+      "Independent Conservatives": 4,
+      "Independents": 7,
+      "Independent Liberals": 1
+    },
+    "bedfordshire": {
+      "Conservative": 3,
+      "Labour Party": 2,
+      "National Liberals": 1,
+      "Liberal Party (Original)": 2
+    },
+    "berkshire": {
+      "Conservative": 4,
+      "Liberal Party (Original)": 4,
+      "Labour Party": 1
+    },
+    "cheshire": {
+      "Conservative": 12,
+      "Liberal Party (Original)": 8,
+      "Labour Party": 9,
+      "National Liberals": 2
+    },
+    "warwickshire": {
+      "Conservative": 17,
+      "Labour Party": 11,
+      "Liberal Party (Original)": 6,
+      "Independents": 2
+    },
+    "hampshire": {
+      "Conservative": 13,
+      "Independent Conservatives": 2,
+      "Liberal Party (Original)": 7,
+      "Labour Party": 6,
+      "National Liberals": 1
+    },
+    "sussex": {
+      "Conservative": 9,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 4
+    },
+    "gloucestershire": {
+      "Conservative": 7,
+      "Labour Party": 9,
+      "National Liberals": 4,
+      "Liberal Party (Original)": 5,
+      "Independent Conservatives": 1
+    },
+    "kent": {
+      "Conservative": 20,
+      "Labour Party": 15,
+      "Liberal Party (Original)": 10,
+      "Constitutionalist": 1,
+      "Independent Conservatives": 2
+    },
+    "buckinghamshire": {
+      "Conservative": 3,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 2
+    },
+    "caernarfonshire": {
+      "National Liberals": 2,
+      "Labour Party": 1
+    },
+    "cambridgeshire": {
+      "Conservative": 3,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 1,
+      "National Liberals": 2
+    },
+    "glamorgan": {
+      "Conservative": 10,
+      "Labour Party": 16,
+      "Liberal Party (Original)": 5,
+      "National Liberals": 8,
+      "Independents": 2
+    },
+    "cardiganshire": {
+      "Liberal Party (Original)": 1,
+      "National Liberals": 1
+    },
+    "cumberland": {
+      "Conservative": 5,
+      "Labour Party": 3,
+      "National Liberals": 1,
+      "Liberal Party (Original)": 3
+    },
+    "carmarthenshire": {
+      "Agriculturalists": 1,
+      "Conservative": 1,
+      "National Liberals": 2,
+      "Labour Party": 1
+    },
+    "lanarkshire": {
+      "Communist Party Of Great Britain": 3,
+      "Labour Party": 18,
+      "National Liberals": 7,
+      "Conservative": 15,
+      "Liberal Party (Original)": 12,
+      "Independent Conservatives": 1
+    },
+    "cornwall": {
+      "Conservative": 3,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 2,
+      "National Liberals": 3
+    },
+    "surrey": {
+      "Conservative": 15,
+      "Labour Party": 8,
+      "Liberal Party (Original)": 8,
+      "Independent Conservatives": 1
+    },
+    "durham": {
+      "Conservative": 14,
+      "Labour Party": 14,
+      "Liberal Party (Original)": 10,
+      "National Liberals": 5
+    },
+    "denbighshire": {
+      "Conservative": 2,
+      "Liberal Party (Original)": 1,
+      "National Liberals": 2,
+      "Labour Party": 1
+    },
+    "derbyshire": {
+      "Conservative": 7,
+      "Labour Party": 8,
+      "Liberal Party (Original)": 7,
+      "National Liberals": 3
+    },
+    "devon": {
+      "Conservative": 10,
+      "Liberal Party (Original)": 10,
+      "Labour Party": 4,
+      "Independent Conservatives": 1
+    },
+    "dorset": {
+      "Independent Conservatives": 1,
+      "Labour Party": 3,
+      "National Liberals": 1,
+      "Conservative": 3,
+      "Liberal Party (Original)": 2
+    },
+    "down": {
+      "Unionists": 2
+    },
+    "worcestershire": {
+      "Conservative": 6,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 3
+    },
+    "dunbartonshire": {
+      "Labour Party": 2,
+      "National Liberals": 1,
+      "Conservative": 1
+    },
+    "dumfriesshire": {
+      "Conservative": 1,
+      "Liberal Party (Original)": 1
+    },
+    "angus": {
+      "Labour Party": 2,
+      "National Liberals": 2,
+      "Scottish Prohibition Party": 1,
+      "Conservative": 1,
+      "Liberal Party (Original)": 1
+    },
+    "fife": {
+      "Labour Party": 3,
+      "National Liberals": 2,
+      "Conservative": 1,
+      "Liberal Party (Original)": 1
+    },
+    "essex": {
+      "Conservative": 17,
+      "Labour Party": 17,
+      "National Liberals": 6,
+      "Liberal Party (Original)": 12
+    },
+    "midlothian": {
+      "Labour Party": 2,
+      "National Liberals": 2,
+      "Liberal Party (Original)": 5,
+      "Conservative": 4
+    },
+    "flintshire": {
+      "Conservative": 1,
+      "Labour Party": 1,
+      "National Liberals": 1
+    },
+    "norfolk": {
+      "Conservative": 5,
+      "Labour Party": 7,
+      "Liberal Party (Original)": 3,
+      "National Liberals": 2,
+      "Independents": 1
+    },
+    "renfrewshire": {
+      "Communist Party Of Great Britain": 1,
+      "Conservative": 2,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 3,
+      "National Liberals": 1
+    },
+    "lincolnshire": {
+      "Conservative": 6,
+      "Labour Party": 5,
+      "Liberal Party (Original)": 4,
+      "Agriculturalists": 1
+    },
+    "herefordshire": {
+      "Conservative": 2,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "hertfordshire": {
+      "Conservative": 5,
+      "Labour Party": 4,
+      "Liberal Party (Original)": 2
+    },
+    "huntingdonshire": {
+      "Conservative": 1,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "suffolk": {
+      "Conservative": 5,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 2,
+      "National Liberals": 3
+    },
+    "oxfordshire": {
+      "Conservative": 4,
+      "Independents": 2,
+      "Liberal Party (Original)": 3,
+      "Labour Party": 1
+    },
+    "leicestershire": {
+      "Labour Party": 4,
+      "National Liberals": 4,
+      "Conservative": 4,
+      "Liberal Party (Original)": 4
+    },
+    "west-lothian": {
+      "Conservative": 1,
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "londonderry": {
+      "Independent Nationalists": 2,
+      "Unionists": 1
+    },
+    "merionethshire": {
+      "Labour Party": 1,
+      "Liberal Party (Original)": 1
+    },
+    "monmouthshire": {
+      "Labour Party": 4,
+      "Conservative": 4,
+      "Liberal Party (Original)": 1
+    },
+    "montgomeryshire": {
+      "Liberal Party (Original)": 1
+    },
+    "northumberland": {
+      "Conservative": 7,
+      "Labour Party": 9,
+      "Liberal Party (Original)": 9,
+      "National Liberals": 5,
+      "Independent Labour": 1
+    },
+    "northamptonshire": {
+      "Labour Party": 5,
+      "Liberal Party (Original)": 2,
+      "National Liberals": 2,
+      "Conservative": 3
+    },
+    "nottinghamshire": {
+      "Conservative": 7,
+      "Liberal Party (Original)": 4,
+      "Independent Labour": 2,
+      "Labour Party": 6,
+      "National Liberals": 1
+    },
+    "pembrokeshire": {
+      "Labour Party": 1,
+      "National Liberals": 1
+    },
+    "shropshire": {
+      "Conservative": 4,
+      "National Liberals": 1,
+      "Labour Party": 2,
+      "Liberal Party (Original)": 2
+    },
+    "staffordshire": {
+      "Conservative": 11,
+      "Labour Party": 15,
+      "Independents": 1,
+      "Liberal Party (Original)": 6,
+      "National Liberals": 5,
+      "Agriculturalists": 1
+    },
+    "stirlingshire": {
+      "Labour Party": 1,
+      "National Liberals": 1
+    },
+    "westmorland": {
+      "Conservative": 1
+    },
+    "wiltshire": {
+      "Conservative": 5,
+      "Labour Party": 3,
+      "Liberal Party (Original)": 4
+    }
   }
 }
