@@ -13,6 +13,7 @@ pressChartWrapper.classList.add("donut-chart-wrapper");
 electionChartWrapper.classList.add("donut-chart-wrapper");
 
 const radioButtons = document.querySelectorAll('input[name="display-dataset"]');
+const legendTitle = document.getElementById("legend-title");
 var displayDataset = document.querySelector('input[name="display-dataset"]:checked').value;
 
 const pressColourScheme = {
@@ -35,27 +36,26 @@ const pressColourScheme = {
 
 
 const electionsColourScheme = {
-    'Nationalists': 'red',
-    'Independent Liberals': 'blue',
-    'National Liberals': 'green',
-    'Liberal Party (Original)': 'purple',
-    'Independent Nationalists': 'orange',
-    'Sinn Fein': 'yellow',
-    'Anti-Parnell Nationalists': 'cyan',
-    'Independent Conservatives': 'magenta',
-    'Liberal Unionists': 'pink',
-    'Independent Labour': 'brown',
-    'Labour Party': 'gray',
-    'Independent Unionists': 'lime',
-    'Peelites': 'indigo',
-    'Unionists': 'olive',
+    'Liberal Party (Original)': 'red',
+    "multiple majority": "#4CBB17",
+    'Conservative': '#034EA2',
+    'Unionists': 'MidnightBlue',
+    'Labour Party': 'DarkRed',
     'Conservatives (Coalition)': 'teal',
     'Liberals (Coalition)': 'orange',
-    'Conservative': 'DarkBlue',
-    "multiple majority" : "#4CBB17"
-}
-
-
+    'Liberal Unionists': 'BlueViolet',
+    'Independent Liberals': 'blue',
+    'Nationalists': 'Tomato',
+    'Sinn Fein': 'ForestGreen',
+    'National Liberals': 'violet',
+    'Independent Unionists': 'lime',
+    'Independent Nationalists': '#ff9380',
+    'Anti-Parnell Nationalists': '#ffbeb3',
+    'Independent Conservatives': 'magenta',
+    'Independent Labour': 'brown',
+    'Peelites': 'indigo',
+};
+    
 
 
 // Define a colour scheme and display the relevant legend
@@ -108,7 +108,7 @@ document.getElementById("reset-button").onclick = function() {
 var electionYears = [1847, 1852, 1857, 1859, 1865, 1868, 1874, 1880, 1885, 1886, 1892, 1895, 1900, 1906, 1910, 1918, 1922]
 
 var pressYears = [1846]
-var year = pressYears; // Initial value of the year variable
+var year = pressYears[0]; // Initial value of the year variable
 var closestElection = electionYear(year); // First available election
 
 var county = "";
@@ -213,7 +213,7 @@ function updateView(county, year) {
     if (county != "") {
         if (typeof(pressChartData) === "undefined") {
             infoBox.innerHTML =`${county} no press data`;
-            console.log(county, year, closestElection); 
+            //console.log(county, year, closestElection); 
             return
         };
     } else {
@@ -229,7 +229,7 @@ function updateView(county, year) {
 
     if (typeof(electionChartData) === "undefined") {
         infoBox.innerHTML ="no election data";
-        console.log(county, year, closestElection);
+        //console.log(county, year, closestElection);
         return
     };
     // Create the chart
@@ -389,13 +389,14 @@ function initializeWebApp(elections, pressDirectories) {
     radioButtons.forEach(radioButton => {
         radioButton.addEventListener('change', (event) => {
             displayDataset = event.target.value;
-            console.log(displayDataset)
             switch (displayDataset) {
                 case "Elections":
                     colourScheme = electionsColourScheme;
+                    legendTitle.textContent = "Majority parties"
                     break;
                 case "Press":
                     colourScheme = pressColourScheme;
+                    legendTitle.textContent = "Press leanings"
                     break;
             }
             legendDiv.innerHTML = "";

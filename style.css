@@ -56,9 +56,12 @@ h2, h3 {
   font-weight: bold;
 }
 
-
+.chart-container {
+    display: grid;
+    justify-content: center;
+}
 .donut-chart-wrapper {
-    max-width: 18em;
+    max-width: 12em;
     max-height: 12em;
 }
 
@@ -76,6 +79,7 @@ h2, h3 {
     flex-direction: column;
     margin: 0 auto;
     padding: 0 1em;
+    font-size: 80%;
 }
 .colour-scheme-legend-item {
     display: flex;
@@ -90,6 +94,9 @@ h2, h3 {
     border: solid 1px black;
 }
 
+#legend-title {
+    padding-left: 0.5em
+}
 
 
 /* Test slider */
