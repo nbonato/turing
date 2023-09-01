@@ -24,7 +24,7 @@ const pressColourScheme = {
     "multiple majority": "#4CBB17",
     "independent": "gold",
     "neutral": "DarkSlateGray",
-    "conservative": '#034EA2',
+    "conservative": '#005ac2',
     "undefined": "gray",
     "unionist" : "MidnightBlue",
     "constitutional": "Olive",
@@ -37,11 +37,10 @@ const pressColourScheme = {
     "other" : "fuchsia"
 };
 
-
 const electionsColourScheme = {
     'Liberal Party (Original)': 'red',
     "multiple majority": "#4CBB17",
-    'Conservative': '#034EA2',
+    'Conservative': '#005ac2',
     'Unionists': 'MidnightBlue',
     'Labour Party': 'DarkRed',
     'Conservatives (Coalition)': 'teal',
@@ -60,9 +59,20 @@ const electionsColourScheme = {
 };
     
 
+let colourScheme;
 
-// Define a colour scheme and display the relevant legend
-let colourScheme = pressColourScheme;
+// Define a colour scheme based on the radio button value
+
+switch (displayDataset) {
+    case "Elections":
+        colourScheme = electionsColourScheme;
+        legendTitle.textContent = "Majority parties"
+        break;
+    case "Press":
+        colourScheme = pressColourScheme;
+        legendTitle.textContent = "Press leanings"
+        break;
+}
 const legendDiv = document.getElementById('legendDiv');
 
 for (const label in colourScheme) {
@@ -202,7 +212,7 @@ function updateMap(geojsonLayer) {
                 color: "lightgray"
             });
         }
-        //console.log(layer.feature.properties.press_county);
+
         
     });
 
@@ -210,13 +220,12 @@ function updateMap(geojsonLayer) {
 
 // Function to update the info box
 function updateView(county, year) {
-    console.log("Executing", county, year)
     // Retrieve the data for the specific key
     var pressChartData = pressDirectories[year][county.toLowerCase()];
     if (county != "") {
         if (typeof(pressChartData) === "undefined") {
             infoBox.innerHTML =`${county} no press data`;
-            //console.log(county, year, closestElection); 
+
             return
         };
     } else {
@@ -231,7 +240,7 @@ function updateView(county, year) {
 
     if (typeof(electionChartData) === "undefined") {
         infoBox.innerHTML ="no election data";
-        //console.log(county, year, closestElection);
+
         return
     };
     // Create the chart
@@ -250,7 +259,7 @@ function updateView(county, year) {
 function chartCreator(canvas, data, titleText, typeDataset) {
     // Get the existing chart instance
     let existingChart = Chart.getChart(canvas);
-    console.log(Chart.getChart(canvas))
+
     // Destroy the existing chart if it exists
     if (existingChart != undefined) {
         existingChart.destroy();
@@ -302,7 +311,7 @@ function chartCreator(canvas, data, titleText, typeDataset) {
             }
         }
     });
-    console.log(canvas,data )
+
 };
 
 // Function to fetch a JSON file and return a promise
@@ -380,18 +389,17 @@ function initialiseWebApp() {
             layer.on('click', function () {
                 county = feature.properties.NAME.toLowerCase();
                 // Change the style of the clicked feature
+
+ 
+
+                updateMap(geojsonLayer);
                 layer.setStyle({
-                    fillColor: 'red'
+                    color: "DarkSlateGray",
+                    weight: 4
+
+                    
                 });
-                // Store the clicked layer
-                clickedLayer = layer;
-                // Reset the style for all other features
-                geojsonLayer.eachLayer(function (otherLayer) {
-                    if (otherLayer !== layer) {
-                        geojsonLayer.resetStyle(otherLayer);
-                    }
-                });
-                console.log("Triggerting update view", county, year)
+                layer.bringToFront()
                 updateView(county, year);
             });
         }
