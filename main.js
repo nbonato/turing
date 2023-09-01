@@ -11,6 +11,9 @@ electionChartWrapper.appendChild(electionChart);
 
 pressChartWrapper.classList.add("donut-chart-wrapper");
 electionChartWrapper.classList.add("donut-chart-wrapper");
+infoBox.appendChild(pressChartWrapper);
+infoBox.appendChild(electionChartWrapper);
+
 
 const radioButtons = document.querySelectorAll('input[name="display-dataset"]');
 const legendTitle = document.getElementById("legend-title");
@@ -207,7 +210,7 @@ function updateMap(geojsonLayer) {
 
 // Function to update the info box
 function updateView(county, year) {
-
+    console.log("Executing", county, year)
     // Retrieve the data for the specific key
     var pressChartData = pressDirectories[year][county.toLowerCase()];
     if (county != "") {
@@ -220,7 +223,6 @@ function updateView(county, year) {
         infoBox.innerHTML = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
         return
     };
-    
     // Create the chart
     chartCreator(pressChart, pressChartData["press_data"], "Press leanings", "Press");
 
@@ -248,11 +250,11 @@ function updateView(county, year) {
 function chartCreator(canvas, data, titleText, typeDataset) {
     // Get the existing chart instance
     let existingChart = Chart.getChart(canvas);
-
+    console.log(Chart.getChart(canvas))
     // Destroy the existing chart if it exists
-    if (existingChart) {
+    if (existingChart != undefined) {
         existingChart.destroy();
-    }
+    };
 
     // Extract labels and values from the data
     var labels = Object.keys(data);
@@ -300,30 +302,47 @@ function chartCreator(canvas, data, titleText, typeDataset) {
             }
         }
     });
+    console.log(canvas,data )
 };
 
-
-
-// Function to fetch and store JSON data in local storage
-function fetchAndStoreJSON(url, key) {
-	return fetch(url)
-		.then((response) => response.json())
-		.then((data) => {
-			localStorage.setItem(key, JSON.stringify(data));
-			return data;
-		});
+// Function to fetch a JSON file and return a promise
+function fetchJSON(url) {
+    return fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      });
 }
 
-// Function to check if data is present in local storage
-function checkLocalStorage(key) {
-	const data = localStorage.getItem(key);
-	return data ? JSON.parse(data) : null;
-}
 
-// Function to initialize the web app after data is ready
-function initializeWebApp(elections, pressDirectories) {
-    
-    pressYears = Object.keys(pressDirectories)
+
+// Fetch both JSON files and store them
+Promise.all([
+    fetchJSON('scripts/elections.json'),
+    fetchJSON('press_data.json'),
+    fetchJSON('updated_map.json')
+])  
+.then(([elections, pressDirectories, mapJson]) => {
+    // Both JSON files have been successfully fetched and parsed
+
+    // Create global variables for these datasets
+    window.elections = elections;
+    window.pressDirectories = pressDirectories;
+    window.mapJson = mapJson
+    initialiseWebApp();
+})
+.catch(error => {
+    // Handle errors if any of the fetches fail
+    console.error('Error fetching JSON:', error);
+});
+
+
+
+// Function to initialize the web app 
+function initialiseWebApp() {
+    pressYears = Object.keys(pressDirectories);
     // Set the minimum and maximum values of the slider
     range.min = pressYears[0];
     range.max = pressYears[pressYears.length - 1];
@@ -341,10 +360,8 @@ function initializeWebApp(elections, pressDirectories) {
             setBubble(range, bubble);
             closestElection = electionYear(year);
             yearSelectValue.innerText = `You picked ${year}, the closest election was in ${closestElection}`;
-
             updateMap(geojsonLayer);
             updateView(county, year);
-
             oldRange = range.value;
         }
 
@@ -352,39 +369,35 @@ function initializeWebApp(elections, pressDirectories) {
     
     // Removes the attribution watermark
     map.attributionControl.setPrefix(''); 
-    // Load and add the GeoJSON data layer
-    fetch('updated_map.json')
-        .then(response => response.json())
-        .then(data => {        
-            geojsonLayer = L.geoJSON(data, {
-                style: {
-                    weight: 1,
-                    fillOpacity: 0.9
-                    
-                },
-                onEachFeature: function (feature, layer) {
-                    layer.on('click', function () {
-                        county = feature.properties.NAME.toLowerCase();
-                        updateView(county, year);
-                        // Change the style of the clicked feature
-                        layer.setStyle({
-                            fillColor: 'red'
-                        });
-                        // Store the clicked layer and its popup
-                        clickedLayer = layer;
-                        // Reset the style for all other features
-                        geojsonLayer.eachLayer(function (otherLayer) {
-                            if (otherLayer !== layer) {
-                                geojsonLayer.resetStyle(otherLayer);
-                            }
-                        });
-                    });
-                }
-            }).addTo(map);
-            updateMap(geojsonLayer);
-        
+      
+    geojsonLayer = L.geoJSON(mapJson, {
+        style: {
+            weight: 1,
+            fillOpacity: 0.9
+            
+        },
+        onEachFeature: function (feature, layer) {
+            layer.on('click', function () {
+                county = feature.properties.NAME.toLowerCase();
+                // Change the style of the clicked feature
+                layer.setStyle({
+                    fillColor: 'red'
+                });
+                // Store the clicked layer
+                clickedLayer = layer;
+                // Reset the style for all other features
+                geojsonLayer.eachLayer(function (otherLayer) {
+                    if (otherLayer !== layer) {
+                        geojsonLayer.resetStyle(otherLayer);
+                    }
+                });
+                console.log("Triggerting update view", county, year)
+                updateView(county, year);
+            });
+        }
+    }).addTo(map);
 
-        });
+    updateMap(geojsonLayer);
 
     radioButtons.forEach(radioButton => {
         radioButton.addEventListener('change', (event) => {
@@ -417,43 +430,4 @@ function initializeWebApp(elections, pressDirectories) {
         });
     });
 }
-
-// Initialise datasets variables
-var elections;
-var pressDirectories;
-
-// Main function to handle the process
-function initializeApp() {
-    const electionsData = checkLocalStorage("elections");
-	const pressDirectoriesData = checkLocalStorage("pressDirectories");
-
-	if (electionsData && pressDirectoriesData) {
-		// Data exists in local storage, use it directly
-		elections = electionsData;
-		pressDirectories = pressDirectoriesData;
-
-		// Call the web app initialization function
-		initializeWebApp(elections, pressDirectories);
-	} else {
-		// Data does not exist in local storage, fetch and store them
-		Promise.all([
-			fetchAndStoreJSON("scripts/elections.json", "elections"),
-			fetchAndStoreJSON("press_data.json", "pressDirectories"),
-		])
-			.then(([elections, pressDirectories]) => {
-				// Call the web app initialization function
-				initializeWebApp(elections, pressDirectories);
-			})
-			.catch((error) => {
-				console.error("Error fetching and storing JSON data:", error);
-			});
-	}
-
-    electionYears = Object.keys(electionsData);
-
-}
-
-// Call the main function to initialize the app
-initializeApp();
-
 
