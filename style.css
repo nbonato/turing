@@ -7,6 +7,11 @@ body {
     background-color: gainsboro;
 }
 
+canvas {
+    width: 0;
+    height: 0;
+}
+
 #year-selector {
     display: flex;
 }
@@ -61,8 +66,8 @@ h2, h3 {
     justify-content: center;
 }
 .donut-chart-wrapper {
-    max-width: 12em;
-    max-height: 12em;
+    max-width: 10em;
+    max-height: 10em;
 }
 
 
