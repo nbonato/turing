@@ -30,8 +30,8 @@
     "antrim": {
       "data": {
         "Conservative": 4,
-        "Liberal Party (Original)": 1,
-        "Peelites": 2
+        "Peelites": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -50,8 +50,8 @@
     },
     "sussex": {
       "data": {
-        "Liberal Party (Original)": 9,
-        "Conservative": 14
+        "Conservative": 14,
+        "Liberal Party (Original)": 9
       },
       "majority": "Conservative"
     },
@@ -98,8 +98,8 @@
     },
     "somerset": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -112,8 +112,8 @@
     },
     "northumberland": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -125,8 +125,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 16,
         "Liberal Party (Original)": 26,
+        "Conservative": 16,
         "Chartists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -214,8 +214,8 @@
     },
     "wiltshire": {
       "data": {
-        "Liberal Party (Original)": 4,
-        "Conservative": 16
+        "Conservative": 16,
+        "Liberal Party (Original)": 4
       },
       "majority": "Conservative"
     },
@@ -235,8 +235,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -249,22 +249,22 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
     "carmarthenshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
     "cheshire": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -306,8 +306,8 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -346,8 +346,8 @@
     },
     "durham": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -368,15 +368,15 @@
     },
     "morayshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "fermanagh": {
       "data": {
-        "Repealers": 1,
-        "Conservative": 3
+        "Conservative": 3,
+        "Repealers": 1
       },
       "majority": "Conservative"
     },
@@ -396,8 +396,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -445,8 +445,8 @@
     },
     "pembrokeshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -499,8 +499,8 @@
     },
     "staffordshire": {
       "data": {
-        "Liberal Party (Original)": 11,
-        "Conservative": 12
+        "Conservative": 12,
+        "Liberal Party (Original)": 11
       },
       "majority": "Conservative"
     },
@@ -518,8 +518,8 @@
     },
     "monmouthshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -637,8 +637,8 @@
     },
     "sussex": {
       "data": {
-        "Liberal Party (Original)": 8,
-        "Conservative": 14
+        "Conservative": 14,
+        "Liberal Party (Original)": 8
       },
       "majority": "Conservative"
     },
@@ -672,8 +672,8 @@
     },
     "oxfordshire": {
       "data": {
-        "Liberal Party (Original)": 3,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 3
       },
       "majority": "Conservative"
     },
@@ -686,22 +686,22 @@
     },
     "somerset": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -735,8 +735,8 @@
     },
     "cornwall": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -803,8 +803,8 @@
     },
     "wiltshire": {
       "data": {
-        "Liberal Party (Original)": 7,
-        "Conservative": 16
+        "Conservative": 16,
+        "Liberal Party (Original)": 7
       },
       "majority": "Conservative"
     },
@@ -824,8 +824,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -845,8 +845,8 @@
     },
     "carmarthenshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -859,8 +859,8 @@
     },
     "middlesex": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 16
+        "Liberal Party (Original)": 16,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -934,8 +934,8 @@
     },
     "durham": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -962,8 +962,8 @@
     },
     "fermanagh": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 3
+        "Conservative": 3,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -1017,8 +1017,8 @@
     },
     "surrey": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1077,15 +1077,15 @@
     },
     "leicestershire": {
       "data": {
-        "Liberal Party (Original)": 2,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
     "staffordshire": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 13
+        "Liberal Party (Original)": 13,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1242,8 +1242,8 @@
     },
     "buckinghamshire": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1276,15 +1276,15 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1346,8 +1346,8 @@
     },
     "dorset": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1399,8 +1399,8 @@
     },
     "kent": {
       "data": {
-        "Conservative": 10,
-        "Liberal Party (Original)": 16
+        "Liberal Party (Original)": 16,
+        "Conservative": 10
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1420,15 +1420,15 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
     "carmarthenshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -1476,8 +1476,8 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1543,8 +1543,8 @@
     },
     "fermanagh": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 3
+        "Conservative": 3,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -1584,8 +1584,8 @@
     },
     "norfolk": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1599,8 +1599,8 @@
     },
     "surrey": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1620,8 +1620,8 @@
     },
     "herefordshire": {
       "data": {
-        "Liberal Party (Original)": 3,
-        "Conservative": 5
+        "Conservative": 5,
+        "Liberal Party (Original)": 3
       },
       "majority": "Conservative"
     },
@@ -1660,8 +1660,8 @@
     },
     "leicestershire": {
       "data": {
-        "Liberal Party (Original)": 2,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
@@ -1808,8 +1808,8 @@
     },
     "devon": {
       "data": {
-        "Conservative": 11,
-        "Liberal Party (Original)": 17
+        "Liberal Party (Original)": 17,
+        "Conservative": 11
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1855,8 +1855,8 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1876,8 +1876,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 17,
-        "Liberal Party (Original)": 29
+        "Liberal Party (Original)": 29,
+        "Conservative": 17
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1897,15 +1897,15 @@
     },
     "cornwall": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1932,8 +1932,8 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -1980,8 +1980,8 @@
     },
     "kent": {
       "data": {
-        "Conservative": 11,
-        "Liberal Party (Original)": 14
+        "Liberal Party (Original)": 14,
+        "Conservative": 11
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2000,15 +2000,15 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
     "carmarthenshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -2096,15 +2096,15 @@
     },
     "durham": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
     "nottinghamshire": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2123,8 +2123,8 @@
     },
     "fermanagh": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 3
+        "Conservative": 3,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -2144,8 +2144,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2163,8 +2163,8 @@
     },
     "norfolk": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2177,8 +2177,8 @@
     },
     "surrey": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2198,8 +2198,8 @@
     },
     "herefordshire": {
       "data": {
-        "Liberal Party (Original)": 4,
-        "Conservative": 5
+        "Conservative": 5,
+        "Liberal Party (Original)": 4
       },
       "majority": "Conservative"
     },
@@ -2343,8 +2343,8 @@
     },
     "berkshire": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2404,8 +2404,8 @@
     },
     "buckinghamshire": {
       "data": {
-        "Liberal Party (Original)": 4,
-        "Conservative": 7
+        "Conservative": 7,
+        "Liberal Party (Original)": 4
       },
       "majority": "Conservative"
     },
@@ -2438,15 +2438,15 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2458,8 +2458,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 20,
-        "Liberal Party (Original)": 28
+        "Liberal Party (Original)": 28,
+        "Conservative": 20
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2479,15 +2479,15 @@
     },
     "warwickshire": {
       "data": {
-        "Liberal Party (Original)": 6,
-        "Conservative": 8
+        "Conservative": 8,
+        "Liberal Party (Original)": 6
       },
       "majority": "Conservative"
     },
     "cornwall": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2555,8 +2555,8 @@
     },
     "wiltshire": {
       "data": {
-        "Liberal Party (Original)": 11,
-        "Conservative": 13
+        "Conservative": 13,
+        "Liberal Party (Original)": 11
       },
       "majority": "Conservative"
     },
@@ -2569,8 +2569,8 @@
     },
     "kent": {
       "data": {
-        "Conservative": 13,
-        "Liberal Party (Original)": 14
+        "Liberal Party (Original)": 14,
+        "Conservative": 13
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2588,15 +2588,15 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
     "carmarthenshire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
@@ -2637,8 +2637,8 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2704,8 +2704,8 @@
     },
     "fermanagh": {
       "data": {
-        "Liberal Party (Original)": 2,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
@@ -2718,8 +2718,8 @@
     },
     "stirlingshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2757,8 +2757,8 @@
     },
     "surrey": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2785,8 +2785,8 @@
     },
     "hertfordshire": {
       "data": {
-        "Liberal Party (Original)": 2,
-        "Conservative": 3
+        "Conservative": 3,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
@@ -2825,8 +2825,8 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 16
+        "Liberal Party (Original)": 16,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -2999,8 +2999,8 @@
     },
     "devon": {
       "data": {
-        "Conservative": 10,
-        "Liberal Party (Original)": 14
+        "Liberal Party (Original)": 14,
+        "Conservative": 10
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3013,15 +3013,15 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Conservative": 6,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3033,16 +3033,16 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 20,
         "Liberal Party (Original)": 35,
+        "Conservative": 20,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "worcestershire": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3070,8 +3070,8 @@
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3105,8 +3105,8 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3133,8 +3133,8 @@
     },
     "caithness": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3161,8 +3161,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3189,8 +3189,8 @@
     },
     "middlesex": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 23
+        "Liberal Party (Original)": 23,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3224,15 +3224,15 @@
     },
     "denbighshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "derbyshire": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3291,8 +3291,8 @@
     },
     "fermanagh": {
       "data": {
-        "Liberal Party (Original)": 2,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
@@ -3337,8 +3337,8 @@
     },
     "surrey": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3365,15 +3365,15 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
     "hertfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3411,15 +3411,15 @@
     },
     "leicestershire": {
       "data": {
-        "Liberal Party (Original)": 3,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Party (Original)": 3
       },
       "majority": "Conservative"
     },
     "staffordshire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 17,
+        "Conservative": 8,
         "Independents": 1
       },
       "majority": "Liberal Party (Original)"
@@ -3493,8 +3493,8 @@
   "1874": {
     "aberdeenshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3514,8 +3514,8 @@
     },
     "anglesey": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3591,8 +3591,8 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3634,8 +3634,8 @@
     },
     "cornwall": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3648,8 +3648,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 27,
         "Liberal Party (Original)": 29,
+        "Conservative": 27,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -3670,8 +3670,8 @@
     },
     "dorset": {
       "data": {
-        "Liberal Party (Original)": 7,
-        "Conservative": 9
+        "Conservative": 9,
+        "Liberal Party (Original)": 7
       },
       "majority": "Conservative"
     },
@@ -3684,8 +3684,8 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3711,15 +3711,15 @@
     },
     "caithness": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "wiltshire": {
       "data": {
-        "Liberal Party (Original)": 9,
         "Conservative": 13,
+        "Liberal Party (Original)": 9,
         "Independents": 1
       },
       "majority": "Conservative"
@@ -3740,8 +3740,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 6,
+        "Conservative": 3,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -3769,16 +3769,16 @@
     },
     "middlesex": {
       "data": {
-        "Conservative": 14,
         "Liberal Party (Original)": 15,
+        "Conservative": 14,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "not_found": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3791,15 +3791,15 @@
     },
     "londonderry": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
     "durham": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 14
+        "Liberal Party (Original)": 14,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -3854,8 +3854,8 @@
     },
     "nottinghamshire": {
       "data": {
-        "Liberal Party (Original)": 4,
-        "Conservative": 8
+        "Conservative": 8,
+        "Liberal Party (Original)": 4
       },
       "majority": "Conservative"
     },
@@ -3874,9 +3874,9 @@
     },
     "fermanagh": {
       "data": {
-        "Home Rule Party": 1,
         "Conservative": 3,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Home Rule Party": 1
       },
       "majority": "Conservative"
     },
@@ -3889,29 +3889,29 @@
     },
     "stirlingshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "fife": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "flintshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "lanarkshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4050,8 +4050,8 @@
     },
     "radnorshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4083,8 +4083,8 @@
   "1880": {
     "aberdeenshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4104,8 +4104,8 @@
     },
     "anglesey": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4132,22 +4132,22 @@
     },
     "lancashire": {
       "data": {
-        "Conservative": 24,
-        "Liberal Party (Original)": 25
+        "Liberal Party (Original)": 25,
+        "Conservative": 24
       },
       "majority": "Liberal Party (Original)"
     },
     "buckinghamshire": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
     "ayrshire": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4180,15 +4180,15 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 8,
+        "Conservative": 6,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -4202,8 +4202,8 @@
     },
     "worcestershire": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4237,8 +4237,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 25,
         "Liberal Party (Original)": 35,
+        "Conservative": 25,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -4273,8 +4273,8 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 9,
-        "Liberal Party (Original)": 10
+        "Liberal Party (Original)": 10,
+        "Conservative": 9
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4301,8 +4301,8 @@
     },
     "caithness": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4330,8 +4330,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4344,8 +4344,8 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4365,8 +4365,8 @@
     },
     "not_found": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4379,8 +4379,8 @@
     },
     "londonderry": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4400,8 +4400,8 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 4,
-        "Liberal Party (Original)": 7
+        "Liberal Party (Original)": 7,
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4428,8 +4428,8 @@
     },
     "angus": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4442,15 +4442,15 @@
     },
     "nottinghamshire": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
     "midlothian": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4463,9 +4463,9 @@
     },
     "fermanagh": {
       "data": {
-        "Home Rule Party": 1,
         "Conservative": 3,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Home Rule Party": 1
       },
       "majority": "Conservative"
     },
@@ -4485,15 +4485,15 @@
     },
     "fife": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "flintshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4506,8 +4506,8 @@
     },
     "renfrewshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4541,8 +4541,8 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 5,
+        "Conservative": 4,
         "Home Rule Party": 1
       },
       "majority": "Liberal Party (Original)"
@@ -4598,8 +4598,8 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 12,
         "Liberal Party (Original)": 15,
+        "Conservative": 12,
         "Liberal/Labour Alliance": 2
       },
       "majority": "Liberal Party (Original)"
@@ -4677,8 +4677,8 @@
     "aberdeenshire": {
       "data": {
         "Conservative": 4,
-        "Independent Liberals": 2,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Independent Liberals": 2
       },
       "majority": "multiple majority"
     },
@@ -4719,9 +4719,9 @@
       "data": {
         "Conservative": 55,
         "Liberal Party (Original)": 52,
-        "Liberal/Labour Alliance": 1,
         "Nationalists": 2,
-        "Independent Conservatives": 2
+        "Independent Conservatives": 2,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Conservative"
     },
@@ -4759,8 +4759,8 @@
       "data": {
         "Conservative": 60,
         "Liberal Party (Original)": 55,
-        "Liberal/Labour Alliance": 4,
         "Independent Liberals": 7,
+        "Liberal/Labour Alliance": 4,
         "Social Democratic Federation": 2
       },
       "majority": "Conservative"
@@ -4805,9 +4805,9 @@
       "data": {
         "Conservative": 48,
         "Liberal Party (Original)": 48,
+        "Liberal/Labour Alliance": 2,
         "Independent Liberal/Labour": 1,
-        "Independent Liberals": 1,
-        "Liberal/Labour Alliance": 2
+        "Independent Liberals": 1
       },
       "majority": "multiple majority"
     },
@@ -4835,15 +4835,15 @@
     "buckinghamshire": {
       "data": {
         "Conservative": 3,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Independent Liberals": 1
       },
       "majority": "multiple majority"
     },
     "suffolk": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -4877,16 +4877,16 @@
     },
     "kent": {
       "data": {
-        "Conservative": 18,
         "Liberal Party (Original)": 19,
+        "Conservative": 18,
         "Independent Liberals": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "glamorgan": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 10,
+        "Conservative": 5,
         "Independent Liberals": 2
       },
       "majority": "Liberal Party (Original)"
@@ -4938,8 +4938,8 @@
     },
     "cornwall": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 7,
+        "Conservative": 6,
         "Independent Liberals": 2
       },
       "majority": "Liberal Party (Original)"
@@ -4969,8 +4969,8 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 10,
+        "Conservative": 9,
         "Independent Liberal/Labour": 1
       },
       "majority": "Liberal Party (Original)"
@@ -4992,15 +4992,15 @@
     "down": {
       "data": {
         "Conservative": 4,
-        "Liberal Party (Original)": 1,
-        "Nationalists": 2
+        "Nationalists": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
     },
     "worcestershire": {
       "data": {
-        "Conservative": 7,
-        "Liberal Party (Original)": 8
+        "Liberal Party (Original)": 8,
+        "Conservative": 7
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5020,17 +5020,17 @@
     },
     "angus": {
       "data": {
-        "Independent Liberals": 2,
         "Liberal Party (Original)": 4,
+        "Independent Liberals": 2,
         "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "midlothian": {
       "data": {
-        "Conservative": 4,
+        "Liberal Party (Original)": 6,
         "Independent Liberals": 5,
-        "Liberal Party (Original)": 6
+        "Conservative": 4
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5042,9 +5042,9 @@
     },
     "stirlingshire": {
       "data": {
+        "Liberal Party (Original)": 3,
         "Conservative": 2,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 3
+        "Independent Liberals": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5057,9 +5057,9 @@
     },
     "fife": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
         "Independent Liberals": 3,
+        "Conservative": 2,
         "Liberal/Labour Alliance": 1
       },
       "majority": "multiple majority"
@@ -5106,8 +5106,8 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 16,
-        "Liberal Party (Original)": 17
+        "Liberal Party (Original)": 17,
+        "Conservative": 16
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5163,8 +5163,8 @@
     },
     "leicestershire": {
       "data": {
-        "Conservative": 5,
-        "Liberal Party (Original)": 6
+        "Liberal Party (Original)": 6,
+        "Conservative": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5207,17 +5207,17 @@
     },
     "northumberland": {
       "data": {
-        "Liberal/Labour Alliance": 2,
         "Conservative": 6,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Liberal/Labour Alliance": 2,
+        "Independent Liberals": 1
       },
       "majority": "Conservative"
     },
     "northamptonshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 7,
+        "Conservative": 5,
         "Independent Liberals": 2
       },
       "majority": "Liberal Party (Original)"
@@ -5247,8 +5247,8 @@
     "perthshire": {
       "data": {
         "Conservative": 3,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Independent Liberals": 1
       },
       "majority": "multiple majority"
     },
@@ -5357,9 +5357,9 @@
     },
     "warwickshire": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 8,
-        "Liberal Unionists": 7
+        "Liberal Unionists": 7,
+        "Conservative": 6
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5398,8 +5398,8 @@
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -5436,8 +5436,8 @@
     },
     "yorkshire": {
       "data": {
-        "Conservative": 32,
         "Liberal Party (Original)": 43,
+        "Conservative": 32,
         "Liberal Unionists": 9,
         "Liberal/Labour Alliance": 2
       },
@@ -5458,8 +5458,8 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 9,
+        "Conservative": 8,
         "Liberal Unionists": 3
       },
       "majority": "Liberal Party (Original)"
@@ -5467,8 +5467,8 @@
     "buckinghamshire": {
       "data": {
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5497,16 +5497,16 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "caithness": {
       "data": {
-        "Conservative": 1,
         "Liberal Unionists": 2,
+        "Conservative": 1,
         "Liberal Party (Original)": 1
       },
       "majority": "Liberal Unionists"
@@ -5536,8 +5536,8 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -5616,8 +5616,8 @@
     "devon": {
       "data": {
         "Liberal Party (Original)": 9,
-        "Liberal Unionists": 5,
         "Conservative": 9,
+        "Liberal Unionists": 5,
         "Liberal/Labour Alliance": 1
       },
       "majority": "multiple majority"
@@ -5625,8 +5625,8 @@
     "dorset": {
       "data": {
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5648,8 +5648,8 @@
     },
     "dumfriesshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 2,
+        "Conservative": 1,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -5746,8 +5746,8 @@
     "staffordshire": {
       "data": {
         "Liberal Party (Original)": 13,
-        "Liberal Unionists": 5,
-        "Conservative": 9
+        "Conservative": 9,
+        "Liberal Unionists": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5760,8 +5760,8 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -5781,8 +5781,8 @@
     },
     "inverness-shire": {
       "data": {
-        "Liberal Party (Original)": 1,
-        "Liberal Unionists": 2
+        "Liberal Unionists": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Liberal Unionists"
     },
@@ -5802,8 +5802,8 @@
     "leicestershire": {
       "data": {
         "Liberal Party (Original)": 5,
-        "Liberal Unionists": 1,
-        "Conservative": 4
+        "Conservative": 4,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5817,8 +5817,8 @@
     "londonderry": {
       "data": {
         "Unionists": 2,
-        "Liberal Unionists": 1,
-        "Nationalists": 2
+        "Nationalists": 2,
+        "Liberal Unionists": 1
       },
       "majority": "multiple majority"
     },
@@ -5831,8 +5831,8 @@
     },
     "monmouthshire": {
       "data": {
-        "Conservative": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Conservative": 3
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5845,9 +5845,9 @@
     },
     "northumberland": {
       "data": {
-        "Liberal/Labour Alliance": 2,
         "Liberal Party (Original)": 6,
         "Liberal Unionists": 5,
+        "Liberal/Labour Alliance": 2,
         "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
@@ -5906,10 +5906,10 @@
     },
     "wiltshire": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 5,
-        "Independent Liberals": 1,
-        "Liberal Unionists": 3
+        "Conservative": 3,
+        "Liberal Unionists": 3,
+        "Independent Liberals": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -5930,8 +5930,8 @@
     },
     "tyrone": {
       "data": {
-        "Liberal Unionists": 2,
         "Nationalists": 3,
+        "Liberal Unionists": 2,
         "Unionists": 2,
         "Liberal Party (Original)": 1
       },
@@ -5957,8 +5957,8 @@
       "data": {
         "Liberal Party (Original)": 4,
         "Liberal Unionists": 2,
-        "Scottish United Trades Councils Labour Party": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Scottish United Trades Councils Labour Party": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6006,19 +6006,19 @@
     },
     "warwickshire": {
       "data": {
+        "Liberal Party (Original)": 8,
         "Conservative": 7,
-        "Independent Labour": 3,
         "Liberal Unionists": 7,
+        "Independent Labour": 3,
         "Liberal/Labour Alliance": 3,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 8
+        "Independent Liberals": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "ayrshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -6032,8 +6032,8 @@
     },
     "somerset": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 9,
+        "Conservative": 8,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -6041,21 +6041,21 @@
     "middlesex": {
       "data": {
         "Conservative": 57,
-        "Liberal/Labour Alliance": 6,
         "Liberal Party (Original)": 48,
-        "Social Democratic Federation": 1,
-        "Independent Liberals": 2,
-        "Independent Conservatives": 1,
+        "Liberal/Labour Alliance": 6,
         "Liberal Unionists": 3,
+        "Independent Liberals": 2,
+        "Social Democratic Federation": 1,
+        "Independent Conservatives": 1,
         "Independents": 1
       },
       "majority": "Conservative"
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 2
+        "Liberal Unionists": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6075,15 +6075,15 @@
     },
     "cheshire": {
       "data": {
-        "Conservative": 11,
-        "Liberal Party (Original)": 12
+        "Liberal Party (Original)": 12,
+        "Conservative": 11
       },
       "majority": "Liberal Party (Original)"
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 11,
+        "Conservative": 9,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -6091,8 +6091,8 @@
     "yorkshire": {
       "data": {
         "Liberal Party (Original)": 46,
-        "Liberal Unionists": 11,
         "Conservative": 35,
+        "Liberal Unionists": 11,
         "Liberal/Labour Alliance": 3,
         "Independent Liberals": 1
       },
@@ -6116,16 +6116,16 @@
     "gloucestershire": {
       "data": {
         "Liberal Party (Original)": 9,
-        "Liberal Unionists": 2,
-        "Conservative": 8
+        "Conservative": 8,
+        "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "buckinghamshire": {
       "data": {
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6153,15 +6153,15 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "caithness": {
       "data": {
-        "Conservative": 1,
         "Liberal Unionists": 2,
+        "Conservative": 1,
         "Liberal Party (Original)": 1
       },
       "majority": "Liberal Unionists"
@@ -6178,8 +6178,8 @@
     "glamorgan": {
       "data": {
         "Liberal Party (Original)": 9,
-        "Liberal Unionists": 1,
         "Conservative": 6,
+        "Liberal Unionists": 1,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6193,8 +6193,8 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6208,8 +6208,8 @@
     },
     "hampshire": {
       "data": {
-        "Conservative": 10,
-        "Liberal Party (Original)": 11
+        "Liberal Party (Original)": 11,
+        "Conservative": 10
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6249,32 +6249,32 @@
         "Liberal Party (Original)": 15,
         "Liberal Unionists": 7,
         "Conservative": 7,
-        "Independent Liberals": 1,
         "Independent Labour": 2,
+        "Independent Liberals": 1,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "denbighshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "derbyshire": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 10,
+        "Conservative": 6,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "devon": {
       "data": {
-        "Conservative": 10,
         "Liberal Party (Original)": 12,
+        "Conservative": 10,
         "Liberal Unionists": 3
       },
       "majority": "Liberal Party (Original)"
@@ -6290,8 +6290,8 @@
       "data": {
         "Unionists": 4,
         "Anti-Parnell Nationalists": 2,
-        "Liberal Unionists": 1,
-        "Parnell Nationalists": 2
+        "Parnell Nationalists": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Unionists"
     },
@@ -6311,9 +6311,9 @@
     },
     "angus": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 4,
-        "Liberal Unionists": 2
+        "Liberal Unionists": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6351,24 +6351,24 @@
     },
     "fife": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "flintshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 2,
+        "Conservative": 1,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "lanarkshire": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 13,
+        "Conservative": 9,
         "Liberal Unionists": 4,
         "Scottish Parliamentary Labour Party": 2,
         "Scottish United Trades Councils Labour Party": 1
@@ -6377,8 +6377,8 @@
     },
     "norfolk": {
       "data": {
-        "Conservative": 7,
         "Liberal Party (Original)": 9,
+        "Conservative": 7,
         "Liberal Unionists": 2,
         "Liberal/Labour Alliance": 1
       },
@@ -6387,8 +6387,8 @@
     "renfrewshire": {
       "data": {
         "Liberal Party (Original)": 4,
-        "Liberal Unionists": 1,
-        "Conservative": 3
+        "Conservative": 3,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6401,8 +6401,8 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 10,
         "Liberal Party (Original)": 16,
+        "Conservative": 10,
         "Liberal Unionists": 5
       },
       "majority": "Liberal Party (Original)"
@@ -6416,8 +6416,8 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6446,10 +6446,10 @@
     },
     "worcestershire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
-        "Independents": 1,
-        "Liberal Unionists": 2
+        "Conservative": 5,
+        "Liberal Unionists": 2,
+        "Independents": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6513,17 +6513,17 @@
     },
     "northumberland": {
       "data": {
-        "Liberal/Labour Alliance": 2,
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
+        "Liberal/Labour Alliance": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "northamptonshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 7,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6553,9 +6553,9 @@
     },
     "perthshire": {
       "data": {
+        "Liberal Party (Original)": 3,
         "Conservative": 2,
         "Independent Liberals": 1,
-        "Liberal Party (Original)": 3,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6575,16 +6575,16 @@
     },
     "wiltshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "shropshire": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 4,
+        "Conservative": 3,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -6598,10 +6598,10 @@
     },
     "tyrone": {
       "data": {
-        "Anti-Parnell Nationalists": 2,
         "Unionists": 3,
-        "Parnell Nationalists": 1,
+        "Anti-Parnell Nationalists": 2,
         "Liberal Party (Original)": 2,
+        "Parnell Nationalists": 1,
         "Liberal Unionists": 1
       },
       "majority": "Unionists"
@@ -6624,8 +6624,8 @@
   "1895": {
     "aberdeenshire": {
       "data": {
-        "Independent Labour": 2,
         "Liberal Party (Original)": 4,
+        "Independent Labour": 2,
         "Liberal Unionists": 2,
         "Conservative": 1
       },
@@ -6662,10 +6662,10 @@
     "lancashire": {
       "data": {
         "Conservative": 51,
-        "Independent Labour Party": 6,
         "Liberal Party (Original)": 40,
-        "Social Democratic Federation": 2,
+        "Independent Labour Party": 6,
         "Liberal Unionists": 4,
+        "Social Democratic Federation": 2,
         "Liberal/Labour Alliance": 2,
         "Nationalists": 1
       },
@@ -6673,17 +6673,17 @@
     },
     "warwickshire": {
       "data": {
-        "Conservative": 7,
-        "Liberal/Labour Alliance": 1,
         "Liberal Party (Original)": 8,
-        "Liberal Unionists": 7
+        "Conservative": 7,
+        "Liberal Unionists": 7,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "ayrshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -6706,21 +6706,21 @@
     "middlesex": {
       "data": {
         "Conservative": 56,
-        "Liberal/Labour Alliance": 7,
         "Liberal Party (Original)": 38,
-        "Independent Liberals": 3,
-        "Independent Labour Party": 1,
+        "Liberal/Labour Alliance": 7,
         "Liberal Unionists": 4,
+        "Independent Liberals": 3,
         "Social Democratic Federation": 2,
+        "Independent Labour Party": 1,
         "Independents": 1
       },
       "majority": "Conservative"
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 2
+        "Liberal Unionists": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6748,8 +6748,8 @@
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 10,
+        "Conservative": 8,
         "Liberal Unionists": 3,
         "Liberal/Labour Alliance": 1
       },
@@ -6757,10 +6757,10 @@
     },
     "yorkshire": {
       "data": {
-        "Liberal Party (Original)": 38,
-        "Liberal Unionists": 5,
         "Conservative": 40,
+        "Liberal Party (Original)": 38,
         "Independent Labour Party": 6,
+        "Liberal Unionists": 5,
         "Liberal/Labour Alliance": 4
       },
       "majority": "Conservative"
@@ -6781,18 +6781,18 @@
     },
     "gloucestershire": {
       "data": {
-        "Independent Labour Party": 1,
         "Liberal Party (Original)": 10,
-        "Liberal Unionists": 2,
         "Conservative": 7,
+        "Liberal Unionists": 2,
+        "Independent Labour Party": 1,
         "Independents": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "buckinghamshire": {
       "data": {
-        "Liberal Unionists": 1,
         "Conservative": 2,
+        "Liberal Unionists": 1,
         "Liberal Party (Original)": 1
       },
       "majority": "Conservative"
@@ -6820,8 +6820,8 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -6842,8 +6842,8 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 9,
+        "Conservative": 8,
         "Liberal/Labour Alliance": 1,
         "Independent Liberals": 1
       },
@@ -6858,8 +6858,8 @@
     },
     "cumberland": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6882,8 +6882,8 @@
     },
     "not_found": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 7,
+        "Conservative": 4,
         "Liberal Unionists": 3
       },
       "majority": "Liberal Party (Original)"
@@ -6914,8 +6914,8 @@
     "durham": {
       "data": {
         "Liberal Party (Original)": 15,
-        "Liberal Unionists": 6,
         "Conservative": 8,
+        "Liberal Unionists": 6,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -6937,8 +6937,8 @@
     },
     "devon": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 10,
+        "Conservative": 9,
         "Liberal Unionists": 4
       },
       "majority": "Liberal Party (Original)"
@@ -6967,8 +6967,8 @@
     },
     "dumfriesshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 2,
+        "Conservative": 1,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7006,8 +7006,8 @@
     "stirlingshire": {
       "data": {
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -7021,8 +7021,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7036,10 +7036,10 @@
     },
     "lanarkshire": {
       "data": {
-        "Independent Labour Party": 6,
         "Liberal Party (Original)": 13,
-        "Liberal Unionists": 5,
-        "Conservative": 8
+        "Conservative": 8,
+        "Independent Labour Party": 6,
+        "Liberal Unionists": 5
       },
       "majority": "Liberal Party (Original)"
     },
@@ -7054,10 +7054,10 @@
     },
     "renfrewshire": {
       "data": {
-        "Liberal Unionists": 1,
-        "Liberal/Labour Alliance": 1,
         "Conservative": 3,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Liberal Unionists": 1,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Conservative"
     },
@@ -7070,8 +7070,8 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 10,
         "Liberal Party (Original)": 12,
+        "Conservative": 10,
         "Liberal Unionists": 6
       },
       "majority": "Liberal Party (Original)"
@@ -7175,8 +7175,8 @@
     "northumberland": {
       "data": {
         "Conservative": 7,
-        "Liberal/Labour Alliance": 2,
         "Liberal Party (Original)": 5,
+        "Liberal/Labour Alliance": 2,
         "Liberal Unionists": 1
       },
       "majority": "Conservative"
@@ -7192,8 +7192,8 @@
     },
     "nottinghamshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7214,8 +7214,8 @@
     },
     "perthshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7235,8 +7235,8 @@
     },
     "wiltshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7261,8 +7261,8 @@
         "Anti-Parnell Nationalists": 2,
         "Unionists": 2,
         "Liberal Unionists": 2,
-        "Liberal Party (Original)": 1,
-        "Independent Nationalists": 2
+        "Independent Nationalists": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "multiple majority"
     },
@@ -7283,8 +7283,8 @@
   "1900": {
     "aberdeenshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7297,8 +7297,8 @@
     },
     "antrim": {
       "data": {
-        "Independent Unionists": 6,
         "Unionists": 7,
+        "Independent Unionists": 6,
         "Liberal Unionists": 1
       },
       "majority": "Unionists"
@@ -7312,10 +7312,10 @@
     },
     "armagh": {
       "data": {
-        "Liberal Unionists": 1,
         "Unionists": 2,
         "Independent Unionists": 2,
         "Independent Nationalists": 2,
+        "Liberal Unionists": 1,
         "Nationalists": 1
       },
       "majority": "multiple majority"
@@ -7323,11 +7323,11 @@
     "lancashire": {
       "data": {
         "Conservative": 49,
-        "Labour Party": 5,
         "Liberal Party (Original)": 35,
+        "Labour Party": 5,
+        "Liberal Unionists": 4,
         "Independent Labour": 1,
         "Liberal/Labour Alliance": 1,
-        "Liberal Unionists": 4,
         "Nationalists": 1
       },
       "majority": "Conservative"
@@ -7336,15 +7336,15 @@
       "data": {
         "Conservative": 8,
         "Liberal Unionists": 6,
-        "Liberal/Labour Alliance": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Liberal/Labour Alliance": 2
       },
       "majority": "Conservative"
     },
     "ayrshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7367,19 +7367,19 @@
     "middlesex": {
       "data": {
         "Conservative": 58,
-        "Liberal/Labour Alliance": 3,
         "Liberal Party (Original)": 41,
+        "Liberal/Labour Alliance": 3,
         "Liberal Unionists": 2,
-        "Labour Party": 1,
-        "Independent Conservatives": 2
+        "Independent Conservatives": 2,
+        "Labour Party": 1
       },
       "majority": "Conservative"
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 2,
-        "Liberal Unionists": 2
+        "Liberal Unionists": 2,
+        "Conservative": 1
       },
       "majority": "multiple majority"
     },
@@ -7406,20 +7406,20 @@
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 10,
+        "Conservative": 8,
         "Liberal Unionists": 3
       },
       "majority": "Liberal Party (Original)"
     },
     "yorkshire": {
       "data": {
+        "Conservative": 38,
         "Liberal Party (Original)": 36,
         "Liberal Unionists": 8,
-        "Conservative": 38,
         "Independents": 3,
-        "Labour Party": 2,
-        "Liberal/Labour Alliance": 3
+        "Liberal/Labour Alliance": 3,
+        "Labour Party": 2
       },
       "majority": "Conservative"
     },
@@ -7432,8 +7432,8 @@
     "sussex": {
       "data": {
         "Conservative": 9,
-        "Independents": 1,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Independents": 1
       },
       "majority": "Conservative"
     },
@@ -7447,9 +7447,9 @@
     },
     "buckinghamshire": {
       "data": {
-        "Liberal Unionists": 1,
         "Conservative": 2,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Liberal Unionists": 1
       },
       "majority": "multiple majority"
     },
@@ -7477,32 +7477,32 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "caithness": {
       "data": {
         "Conservative": 2,
-        "Independent Liberals": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Independent Liberals": 1
       },
       "majority": "multiple majority"
     },
     "kent": {
       "data": {
         "Conservative": 19,
-        "Liberal/Labour Alliance": 1,
         "Liberal Party (Original)": 5,
-        "Independents": 2
+        "Independents": 2,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Conservative"
     },
     "glamorgan": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 9,
+        "Conservative": 6,
         "Labour Party": 2,
         "Liberal/Labour Alliance": 1
       },
@@ -7540,8 +7540,8 @@
     },
     "not_found": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 7,
+        "Conservative": 5,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7572,34 +7572,34 @@
     },
     "durham": {
       "data": {
-        "Liberal Unionists": 5,
         "Liberal Party (Original)": 13,
         "Conservative": 10,
+        "Liberal Unionists": 5,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "denbighshire": {
       "data": {
+        "Liberal Party (Original)": 2,
         "Conservative": 1,
-        "Liberal/Labour Alliance": 1,
-        "Liberal Party (Original)": 2
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "derbyshire": {
       "data": {
         "Conservative": 8,
-        "Labour Party": 1,
         "Liberal Party (Original)": 7,
+        "Labour Party": 1,
         "Liberal Unionists": 1
       },
       "majority": "Conservative"
     },
     "devon": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 10,
+        "Conservative": 9,
         "Liberal Unionists": 3
       },
       "majority": "Liberal Party (Original)"
@@ -7621,16 +7621,16 @@
     "worcestershire": {
       "data": {
         "Conservative": 5,
-        "Liberal/Labour Alliance": 1,
+        "Liberal Unionists": 3,
         "Liberal Party (Original)": 2,
-        "Liberal Unionists": 3
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Conservative"
     },
     "dumfriesshire": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 2,
+        "Conservative": 1,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7644,8 +7644,8 @@
     },
     "angus": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7681,8 +7681,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
+        "Conservative": 2,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -7696,8 +7696,8 @@
     },
     "lanarkshire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 10,
+        "Conservative": 8,
         "Liberal Unionists": 5,
         "Scottish Workers Representation Committee": 1,
         "Liberal/Labour Alliance": 1
@@ -7729,9 +7729,9 @@
     "staffordshire": {
       "data": {
         "Conservative": 11,
-        "Liberal/Labour Alliance": 1,
         "Liberal Party (Original)": 11,
-        "Liberal Unionists": 5
+        "Liberal Unionists": 5,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "multiple majority"
     },
@@ -7787,8 +7787,8 @@
     },
     "leicestershire": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 5,
+        "Conservative": 4,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7831,16 +7831,16 @@
     "northumberland": {
       "data": {
         "Conservative": 5,
-        "Liberal/Labour Alliance": 2,
         "Liberal Party (Original)": 5,
+        "Liberal/Labour Alliance": 2,
         "Liberal Unionists": 2
       },
       "majority": "multiple majority"
     },
     "northamptonshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 7,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7862,15 +7862,15 @@
     },
     "pembrokeshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "perthshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -7938,10 +7938,10 @@
   "1906": {
     "aberdeenshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 4,
-        "Social Democratic Federation": 1,
-        "Liberal Unionists": 2
+        "Conservative": 2,
+        "Liberal Unionists": 2,
+        "Social Democratic Federation": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -7981,9 +7981,9 @@
         "Conservative": 50,
         "Liberal Party (Original)": 36,
         "Labour Party": 16,
+        "Independent Labour": 3,
         "Liberal/Labour Alliance": 2,
         "Social Democratic Federation": 2,
-        "Independent Labour": 3,
         "Independent Conservatives": 2,
         "Liberal Unionists": 2,
         "Nationalists": 1
@@ -7992,18 +7992,18 @@
     },
     "warwickshire": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 10,
-        "Labour Party": 2,
+        "Conservative": 8,
         "Liberal Unionists": 6,
+        "Labour Party": 2,
         "Liberal/Labour Alliance": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "ayrshire": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 4,
+        "Conservative": 3,
         "Liberal Unionists": 1,
         "Scottish Workers Representation Committee": 1
       },
@@ -8018,8 +8018,8 @@
     },
     "somerset": {
       "data": {
-        "Conservative": 7,
         "Liberal Party (Original)": 10,
+        "Conservative": 7,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -8027,18 +8027,18 @@
     "middlesex": {
       "data": {
         "Conservative": 56,
-        "Liberal/Labour Alliance": 3,
         "Liberal Party (Original)": 56,
+        "Liberal Unionists": 4,
+        "Liberal/Labour Alliance": 3,
         "Independent Liberals": 3,
-        "Independent Conservatives": 2,
-        "Liberal Unionists": 4
+        "Independent Conservatives": 2
       },
       "majority": "multiple majority"
     },
     "bedfordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8060,9 +8060,9 @@
     "cheshire": {
       "data": {
         "Conservative": 10,
+        "Liberal Party (Original)": 10,
         "Independents": 1,
         "Liberal/Labour Alliance": 1,
-        "Liberal Party (Original)": 10,
         "Liberal Unionists": 1,
         "Labour Party": 1
       },
@@ -8070,23 +8070,23 @@
     },
     "lincolnshire": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 11,
-        "Labour Party": 1,
+        "Conservative": 9,
         "Liberal Unionists": 2,
+        "Labour Party": 1,
         "Free Traders": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "yorkshire": {
       "data": {
-        "Conservative": 39,
         "Liberal Party (Original)": 44,
-        "Social Democratic Federation": 1,
+        "Conservative": 39,
         "Labour Party": 7,
         "Liberal Unionists": 3,
-        "Independent Labour": 1,
-        "Liberal/Labour Alliance": 3
+        "Liberal/Labour Alliance": 3,
+        "Social Democratic Federation": 1,
+        "Independent Labour": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -8099,31 +8099,31 @@
     },
     "sussex": {
       "data": {
-        "Conservative": 8,
-        "Liberal Party (Original)": 9
+        "Liberal Party (Original)": 9,
+        "Conservative": 8
       },
       "majority": "Liberal Party (Original)"
     },
     "gloucestershire": {
       "data": {
         "Liberal Party (Original)": 11,
-        "Liberal Unionists": 2,
-        "Conservative": 8
+        "Conservative": 8,
+        "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "buckinghamshire": {
       "data": {
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "suffolk": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 8,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8144,8 +8144,8 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -8169,10 +8169,10 @@
     },
     "glamorgan": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 8,
-        "Independent Liberals": 1,
+        "Conservative": 4,
         "Liberal/Labour Alliance": 2,
+        "Independent Liberals": 1,
         "Labour Party": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8193,15 +8193,15 @@
     },
     "carmarthenshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "hampshire": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 12,
+        "Conservative": 9,
         "Labour Party": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8209,8 +8209,8 @@
     "not_found": {
       "data": {
         "Liberal Party (Original)": 7,
-        "Liberal Unionists": 3,
         "Conservative": 4,
+        "Liberal Unionists": 3,
         "Independent Labour": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8234,29 +8234,29 @@
     },
     "surrey": {
       "data": {
-        "Labour Party": 1,
         "Liberal Party (Original)": 9,
-        "Liberal Unionists": 1,
-        "Conservative": 8
+        "Conservative": 8,
+        "Labour Party": 1,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "durham": {
       "data": {
+        "Liberal Party (Original)": 9,
+        "Conservative": 7,
         "Labour Party": 6,
         "Liberal Unionists": 5,
-        "Free Traders": 1,
-        "Conservative": 7,
-        "Liberal Party (Original)": 9,
-        "Liberal/Labour Alliance": 2
+        "Liberal/Labour Alliance": 2,
+        "Free Traders": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "denbighshire": {
       "data": {
+        "Liberal Party (Original)": 2,
         "Conservative": 1,
-        "Liberal/Labour Alliance": 1,
-        "Liberal Party (Original)": 2
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -8271,8 +8271,8 @@
     },
     "devon": {
       "data": {
-        "Conservative": 9,
         "Liberal Party (Original)": 14,
+        "Conservative": 9,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -8295,8 +8295,8 @@
     },
     "worcestershire": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 8,
+        "Conservative": 6,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -8317,8 +8317,8 @@
     },
     "angus": {
       "data": {
-        "Labour Party": 1,
         "Liberal Party (Original)": 4,
+        "Labour Party": 1,
         "Liberal Unionists": 1,
         "Conservative": 1
       },
@@ -8341,8 +8341,8 @@
     },
     "stirlingshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Scottish Workers Representation Committee": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8357,8 +8357,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 4,
+        "Conservative": 3,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8372,20 +8372,20 @@
     },
     "lanarkshire": {
       "data": {
-        "Conservative": 8,
-        "Labour Party": 3,
         "Liberal Party (Original)": 13,
+        "Conservative": 8,
         "Liberal Unionists": 5,
+        "Labour Party": 3,
+        "Scottish Workers Representation Committee": 2,
         "Independent Conservatives": 1,
-        "Independents": 1,
-        "Scottish Workers Representation Committee": 2
+        "Independents": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "norfolk": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 9,
+        "Conservative": 8,
         "Independent Conservatives": 1,
         "Liberal Unionists": 1,
         "Labour Party": 1
@@ -8394,8 +8394,8 @@
     },
     "renfrewshire": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 4,
+        "Conservative": 3,
         "Liberal Unionists": 1,
         "Scottish Workers Representation Committee": 1
       },
@@ -8410,10 +8410,10 @@
     },
     "staffordshire": {
       "data": {
-        "Conservative": 10,
-        "Liberal/Labour Alliance": 2,
         "Liberal Party (Original)": 14,
+        "Conservative": 10,
         "Liberal Unionists": 7,
+        "Liberal/Labour Alliance": 2,
         "Labour Party": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8428,8 +8428,8 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8473,9 +8473,9 @@
     "leicestershire": {
       "data": {
         "Conservative": 4,
+        "Liberal Party (Original)": 4,
         "Labour Party": 1,
         "Liberal/Labour Alliance": 1,
-        "Liberal Party (Original)": 4,
         "Liberal Unionists": 1
       },
       "majority": "multiple majority"
@@ -8504,33 +8504,33 @@
     "monmouthshire": {
       "data": {
         "Conservative": 3,
-        "Labour Party": 1,
         "Liberal Party (Original)": 3,
+        "Labour Party": 1,
         "Liberal/Labour Alliance": 1
       },
       "majority": "multiple majority"
     },
     "montgomeryshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Liberal Unionists": 1,
-        "Liberal/Labour Alliance": 2,
         "Conservative": 6,
-        "Labour Party": 1,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Liberal/Labour Alliance": 2,
+        "Liberal Unionists": 1,
+        "Labour Party": 1
       },
       "majority": "Conservative"
     },
     "northamptonshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal/Labour Alliance": 1,
         "Liberal Unionists": 1
       },
@@ -8538,10 +8538,10 @@
     },
     "nottinghamshire": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 6,
-        "Liberal/Labour Alliance": 1,
-        "Liberal Unionists": 2
+        "Conservative": 4,
+        "Liberal Unionists": 2,
+        "Liberal/Labour Alliance": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -8561,8 +8561,8 @@
     },
     "perthshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8590,8 +8590,8 @@
     },
     "shropshire": {
       "data": {
-        "Conservative": 3,
         "Liberal Party (Original)": 5,
+        "Conservative": 3,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -8605,10 +8605,10 @@
     },
     "tyrone": {
       "data": {
-        "Nationalists": 2,
         "Unionists": 3,
-        "Liberal Party (Original)": 1,
-        "Independent Unionists": 2
+        "Nationalists": 2,
+        "Independent Unionists": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Unionists"
     },
@@ -8681,9 +8681,9 @@
     "warwickshire": {
       "data": {
         "Conservative": 9,
+        "Liberal Party (Original)": 6,
         "Liberal Unionists": 5,
         "Liberal/Labour Alliance": 1,
-        "Liberal Party (Original)": 6,
         "Labour Party": 1
       },
       "majority": "Conservative"
@@ -8712,10 +8712,10 @@
     "middlesex": {
       "data": {
         "Conservative": 56,
-        "Independent Unionists": 3,
-        "Liberal/Labour Alliance": 3,
         "Liberal Party (Original)": 52,
         "Liberal Unionists": 4,
+        "Independent Unionists": 3,
+        "Liberal/Labour Alliance": 3,
         "Independents": 1,
         "Labour Party": 1
       },
@@ -8745,8 +8745,8 @@
     "cheshire": {
       "data": {
         "Conservative": 11,
-        "Liberal/Labour Alliance": 1,
         "Liberal Party (Original)": 10,
+        "Liberal/Labour Alliance": 1,
         "Labour Party": 1
       },
       "majority": "Conservative"
@@ -8821,15 +8821,15 @@
     },
     "caernarfonshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "caithness": {
       "data": {
-        "Independent Conservatives": 1,
         "Liberal Party (Original)": 2,
+        "Independent Conservatives": 1,
         "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
@@ -8837,18 +8837,18 @@
     "kent": {
       "data": {
         "Conservative": 19,
-        "Independent Conservatives": 1,
         "Liberal Party (Original)": 8,
         "Labour Party": 3,
-        "Liberal/Labour Alliance": 2
+        "Liberal/Labour Alliance": 2,
+        "Independent Conservatives": 1
       },
       "majority": "Conservative"
     },
     "glamorgan": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
         "Labour Party": 6,
+        "Conservative": 5,
         "Liberal/Labour Alliance": 1,
         "Liberal Unionists": 1
       },
@@ -8863,8 +8863,8 @@
     "cumberland": {
       "data": {
         "Conservative": 6,
-        "Social Democratic Party": 1,
         "Liberal Party (Original)": 3,
+        "Social Democratic Party": 1,
         "Labour Party": 1
       },
       "majority": "Conservative"
@@ -8920,34 +8920,34 @@
     },
     "durham": {
       "data": {
-        "Liberal Unionists": 3,
-        "Liberal/Labour Alliance": 2,
         "Liberal Party (Original)": 11,
+        "Conservative": 8,
         "Labour Party": 5,
-        "Conservative": 8
+        "Liberal Unionists": 3,
+        "Liberal/Labour Alliance": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "denbighshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
     "derbyshire": {
       "data": {
         "Conservative": 8,
-        "Labour Party": 4,
         "Liberal Party (Original)": 6,
+        "Labour Party": 4,
         "Liberal Unionists": 1
       },
       "majority": "Conservative"
     },
     "devon": {
       "data": {
-        "Conservative": 10,
         "Liberal Party (Original)": 12,
+        "Conservative": 10,
         "Liberal Unionists": 4
       },
       "majority": "Liberal Party (Original)"
@@ -8961,9 +8961,9 @@
     },
     "down": {
       "data": {
-        "Liberal Party (Original)": 1,
         "Unionists": 4,
-        "Nationalists": 2
+        "Nationalists": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "Unionists"
     },
@@ -8991,17 +8991,17 @@
     },
     "angus": {
       "data": {
-        "Labour Party": 1,
         "Liberal Party (Original)": 3,
-        "Liberal Unionists": 1,
-        "Conservative": 2
+        "Conservative": 2,
+        "Labour Party": 1,
+        "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "midlothian": {
       "data": {
-        "Conservative": 4,
         "Liberal Party (Original)": 6,
+        "Conservative": 4,
         "Liberal Unionists": 2
       },
       "majority": "Liberal Party (Original)"
@@ -9014,8 +9014,8 @@
     },
     "stirlingshire": {
       "data": {
-        "Conservative": 2,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "Conservative": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -9029,8 +9029,8 @@
     },
     "fife": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 4,
+        "Conservative": 1,
         "Labour Party": 1,
         "Liberal Unionists": 1
       },
@@ -9038,24 +9038,24 @@
     },
     "flintshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "lanarkshire": {
       "data": {
-        "Conservative": 7,
-        "Labour Party": 3,
         "Liberal Party (Original)": 12,
-        "Liberal Unionists": 6
+        "Conservative": 7,
+        "Liberal Unionists": 6,
+        "Labour Party": 3
       },
       "majority": "Liberal Party (Original)"
     },
     "norfolk": {
       "data": {
-        "Conservative": 8,
         "Liberal Party (Original)": 9,
+        "Conservative": 8,
         "Liberal Unionists": 1,
         "Labour Party": 1
       },
@@ -9078,9 +9078,9 @@
     "staffordshire": {
       "data": {
         "Conservative": 14,
-        "Labour Party": 2,
         "Liberal Party (Original)": 12,
         "Liberal Unionists": 3,
+        "Labour Party": 2,
         "Liberal/Labour Alliance": 1
       },
       "majority": "Conservative"
@@ -9094,8 +9094,8 @@
     },
     "herefordshire": {
       "data": {
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
+        "Conservative": 2,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -9137,8 +9137,8 @@
     "leicestershire": {
       "data": {
         "Conservative": 5,
-        "Labour Party": 1,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Labour Party": 1
       },
       "majority": "multiple majority"
     },
@@ -9151,9 +9151,9 @@
     },
     "londonderry": {
       "data": {
-        "Nationalists": 1,
         "Unionists": 3,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Nationalists": 1
       },
       "majority": "Unionists"
     },
@@ -9173,24 +9173,24 @@
     },
     "montgomeryshire": {
       "data": {
-        "Conservative": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Conservative": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "northumberland": {
       "data": {
-        "Liberal/Labour Alliance": 2,
         "Conservative": 5,
-        "Labour Party": 1,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Liberal/Labour Alliance": 2,
+        "Labour Party": 1
       },
       "majority": "multiple majority"
     },
     "northamptonshire": {
       "data": {
-        "Conservative": 6,
         "Liberal Party (Original)": 7,
+        "Conservative": 6,
         "Independent Labour": 1
       },
       "majority": "Liberal Party (Original)"
@@ -9240,8 +9240,8 @@
     },
     "wiltshire": {
       "data": {
-        "Conservative": 5,
         "Liberal Party (Original)": 6,
+        "Conservative": 5,
         "Liberal Unionists": 1
       },
       "majority": "Liberal Party (Original)"
@@ -9249,9 +9249,9 @@
     "shropshire": {
       "data": {
         "Conservative": 4,
+        "Liberal Party (Original)": 2,
         "Liberal/Labour Alliance": 1,
-        "Liberal Unionists": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Unionists": 1
       },
       "majority": "Conservative"
     },
@@ -9264,8 +9264,8 @@
     },
     "tyrone": {
       "data": {
-        "Nationalists": 2,
         "Unionists": 4,
+        "Nationalists": 2,
         "Liberal Party (Original)": 2
       },
       "majority": "Unionists"
@@ -9297,27 +9297,27 @@
     },
     "not_found": {
       "data": {
-        "Conservatives (Coalition)": 8,
+        "Liberals (Coalition)": 11,
         "Labour Party": 10,
         "Liberal Party (Original)": 10,
-        "Liberals (Coalition)": 11,
+        "Conservatives (Coalition)": 8,
         "Independents": 1
       },
       "majority": "Liberals (Coalition)"
     },
     "lancashire": {
       "data": {
-        "Conservatives (Coalition)": 38,
         "Labour Party": 48,
+        "Conservatives (Coalition)": 38,
         "Liberal Party (Original)": 23,
-        "National Federation Of Discharged And Demobilised Sailors An": 1,
         "Conservative": 11,
         "Liberals (Coalition)": 11,
         "Independents": 4,
         "Socialist Labour Party": 2,
+        "Nationalists": 2,
+        "National Federation Of Discharged And Demobilised Sailors An": 1,
         "Agriculturalists": 1,
         "Independent Liberals": 1,
-        "Nationalists": 2,
         "National Party": 1,
         "Independent Conservatives": 1,
         "Independent Labour": 1
@@ -9336,10 +9336,10 @@
         "Sinn Fein": 12,
         "Unionists": 9,
         "Labour Party": 4,
+        "Labour Unionists": 3,
         "Nationalists": 2,
         "Independent Unionists": 2,
-        "Independent Labour": 1,
-        "Labour Unionists": 3
+        "Independent Labour": 1
       },
       "majority": "Sinn Fein"
     },
@@ -9374,18 +9374,18 @@
     },
     "yorkshire": {
       "data": {
-        "Liberals (Coalition)": 19,
         "Labour Party": 42,
-        "Conservatives (Coalition)": 27,
         "Liberal Party (Original)": 31,
-        "National Democratic And Labour Party (Coalition)": 3,
-        "Socialist Labour Party": 1,
-        "Conservative": 2,
-        "Labour Party (Coalition)": 1,
+        "Conservatives (Coalition)": 27,
+        "Liberals (Coalition)": 19,
         "Independents": 4,
+        "Independent Labour": 4,
+        "National Democratic And Labour Party (Coalition)": 3,
+        "Conservative": 2,
+        "Socialist Labour Party": 1,
+        "Labour Party (Coalition)": 1,
         "National Party": 1,
         "British Socialist Party": 1,
-        "Independent Labour": 4,
         "Agriculturalists": 1
       },
       "majority": "Labour Party"
@@ -9401,15 +9401,15 @@
     },
     "middlesex": {
       "data": {
-        "Labour Party": 37,
-        "Liberals (Coalition)": 14,
         "Conservatives (Coalition)": 53,
+        "Labour Party": 37,
         "Liberal Party (Original)": 33,
+        "Liberals (Coalition)": 14,
         "Independents": 12,
         "National Party": 6,
         "Conservative": 6,
-        "Independent Progressives": 2,
         "Independent Labour": 3,
+        "Independent Progressives": 2,
         "British Socialist Party": 2,
         "Independent Conservatives": 1,
         "National Democratic And Labour Party": 1
@@ -9418,8 +9418,8 @@
     },
     "bedfordshire": {
       "data": {
-        "Independents": 1,
         "Liberals (Coalition)": 2,
+        "Independents": 1,
         "Labour Party": 1,
         "Conservatives (Coalition)": 1,
         "Liberal Party (Original)": 1
@@ -9449,24 +9449,24 @@
     "warwickshire": {
       "data": {
         "Conservatives (Coalition)": 16,
-        "Labour Party": 9,
-        "National Federation Of Discharged And Demobilised Sailors An": 1,
         "Liberal Party (Original)": 12,
+        "Labour Party": 9,
         "Independent Labour": 2,
+        "National Federation Of Discharged And Demobilised Sailors An": 1,
         "Independents": 1
       },
       "majority": "Conservatives (Coalition)"
     },
     "hampshire": {
       "data": {
-        "Labour Party": 4,
-        "Liberal Party (Original)": 6,
-        "National Party": 1,
         "Conservatives (Coalition)": 10,
+        "Liberal Party (Original)": 6,
+        "Labour Party": 4,
+        "Liberals (Coalition)": 2,
+        "National Party": 1,
         "Independent Labour": 1,
         "Independents": 1,
-        "Conservative": 1,
-        "Liberals (Coalition)": 2
+        "Conservative": 1
       },
       "majority": "Conservatives (Coalition)"
     },
@@ -9481,9 +9481,9 @@
     },
     "gloucestershire": {
       "data": {
-        "Conservatives (Coalition)": 5,
         "Labour Party": 8,
         "Liberals (Coalition)": 6,
+        "Conservatives (Coalition)": 5,
         "National Party": 2,
         "Independent Liberals": 1,
         "Liberal Party (Original)": 1,
@@ -9494,13 +9494,13 @@
     "kent": {
       "data": {
         "Conservatives (Coalition)": 17,
-        "Liberal Party (Original)": 4,
-        "Conservative": 2,
-        "Independents": 3,
         "Labour Party": 13,
+        "Liberal Party (Original)": 4,
+        "Independents": 3,
+        "Conservative": 2,
+        "Independent Conservatives": 2,
         "National Party": 1,
         "Liberals (Coalition)": 1,
-        "Independent Conservatives": 2,
         "Independent Labour": 1
       },
       "majority": "Conservatives (Coalition)"
@@ -9515,8 +9515,8 @@
     },
     "caernarfonshire": {
       "data": {
-        "Independents": 1,
         "Liberals (Coalition)": 2,
+        "Independents": 1,
         "Independent Labour": 1,
         "Liberal Party (Original)": 1
       },
@@ -9524,19 +9524,19 @@
     },
     "cambridgeshire": {
       "data": {
+        "Liberals (Coalition)": 2,
         "Conservatives (Coalition)": 1,
         "Labour Party": 1,
-        "Independent Labour": 1,
-        "Liberals (Coalition)": 2
+        "Independent Labour": 1
       },
       "majority": "Liberals (Coalition)"
     },
     "glamorgan": {
       "data": {
-        "Conservative": 5,
         "Labour Party": 16,
-        "Liberal Party (Original)": 5,
         "Liberals (Coalition)": 6,
+        "Conservative": 5,
+        "Liberal Party (Original)": 5,
         "Independents": 2,
         "Conservatives (Coalition)": 1,
         "National Democratic And Labour Party (Coalition)": 1
@@ -9552,8 +9552,8 @@
     "cumberland": {
       "data": {
         "Labour Party": 3,
-        "Liberals (Coalition)": 1,
         "Conservatives (Coalition)": 3,
+        "Liberals (Coalition)": 1,
         "Conservative": 1,
         "Liberal Party (Original)": 1
       },
@@ -9569,12 +9569,12 @@
     "lanarkshire": {
       "data": {
         "Labour Party": 18,
-        "Labour Party (Coalition)": 1,
-        "Independents": 1,
-        "Liberals (Coalition)": 4,
         "Conservatives (Coalition)": 17,
         "Liberal Party (Original)": 9,
+        "Liberals (Coalition)": 4,
         "Independent Labour": 2,
+        "Labour Party (Coalition)": 1,
+        "Independents": 1,
         "British Socialist Party": 1,
         "National Democratic And Labour Party": 1
       },
@@ -9582,8 +9582,8 @@
     },
     "cornwall": {
       "data": {
-        "Conservatives (Coalition)": 2,
         "Liberal Party (Original)": 3,
+        "Conservatives (Coalition)": 2,
         "Labour Party": 2,
         "Liberals (Coalition)": 2,
         "Independent Conservatives": 1
@@ -9593,22 +9593,22 @@
     "surrey": {
       "data": {
         "Conservatives (Coalition)": 14,
-        "Liberal Party (Original)": 5,
         "Labour Party": 6,
+        "Liberal Party (Original)": 5,
         "Independents": 3,
+        "National Party": 2,
         "Independent Conservatives": 1,
         "Conservative": 1,
-        "Liberals (Coalition)": 1,
-        "National Party": 2
+        "Liberals (Coalition)": 1
       },
       "majority": "Conservatives (Coalition)"
     },
     "durham": {
       "data": {
-        "Conservatives (Coalition)": 4,
-        "Liberal Party (Original)": 9,
         "Labour Party": 14,
+        "Liberal Party (Original)": 9,
         "Liberals (Coalition)": 7,
+        "Conservatives (Coalition)": 4,
         "National Democratic And Labour Party (Coalition)": 2,
         "Conservative": 2
       },
@@ -9623,39 +9623,39 @@
     },
     "derbyshire": {
       "data": {
-        "Conservative": 1,
         "Labour Party": 6,
         "Liberal Party (Original)": 6,
         "Liberals (Coalition)": 3,
         "Conservatives (Coalition)": 3,
+        "Conservative": 1,
         "Independent Conservatives": 1
       },
       "majority": "multiple majority"
     },
     "devon": {
       "data": {
-        "Conservative": 1,
         "Liberal Party (Original)": 10,
         "Conservatives (Coalition)": 9,
         "Labour Party": 4,
+        "Conservative": 1,
         "Liberals (Coalition)": 1
       },
       "majority": "Liberal Party (Original)"
     },
     "dorset": {
       "data": {
+        "Conservatives (Coalition)": 3,
         "Labour Party": 2,
         "Liberals (Coalition)": 1,
-        "Conservatives (Coalition)": 3,
         "Liberal Party (Original)": 1
       },
       "majority": "Conservatives (Coalition)"
     },
     "down": {
       "data": {
-        "Nationalists": 2,
-        "Sinn Fein": 3,
         "Unionists": 5,
+        "Sinn Fein": 3,
+        "Nationalists": 2,
         "Independent Unionists": 1,
         "Independents": 1
       },
@@ -9709,9 +9709,9 @@
     },
     "fife": {
       "data": {
+        "Liberals (Coalition)": 2,
         "Independent Labour": 1,
         "Independents": 1,
-        "Liberals (Coalition)": 2,
         "Conservative": 1,
         "Independent Progressives": 1,
         "Liberal Party (Original)": 1,
@@ -9722,15 +9722,15 @@
     },
     "essex": {
       "data": {
-        "Liberals (Coalition)": 4,
-        "National Party": 1,
-        "Conservative": 2,
         "Labour Party": 13,
-        "National Democratic And Labour Party (Coalition)": 2,
         "Conservatives (Coalition)": 13,
-        "Independents": 1,
         "Liberal Party (Original)": 11,
+        "Liberals (Coalition)": 4,
+        "Conservative": 2,
+        "National Democratic And Labour Party (Coalition)": 2,
         "National Socialist Party": 2,
+        "National Party": 1,
+        "Independents": 1,
         "Independent Conservatives": 1,
         "Independent Liberals": 1
       },
@@ -9738,11 +9738,11 @@
     },
     "midlothian": {
       "data": {
+        "Liberal Party (Original)": 5,
+        "Conservatives (Coalition)": 4,
         "Labour Party": 3,
         "Liberals (Coalition)": 1,
-        "Liberal Party (Original)": 5,
-        "National Democratic And Labour Party (Coalition)": 1,
-        "Conservatives (Coalition)": 4
+        "National Democratic And Labour Party (Coalition)": 1
       },
       "majority": "Liberal Party (Original)"
     },
@@ -9762,9 +9762,9 @@
     },
     "norfolk": {
       "data": {
+        "Liberal Party (Original)": 5,
         "Conservatives (Coalition)": 4,
         "Labour Party": 3,
-        "Liberal Party (Original)": 5,
         "Agriculturalists": 1,
         "Liberals (Coalition)": 1,
         "Independent Labour": 1,
@@ -9774,20 +9774,20 @@
     },
     "renfrewshire": {
       "data": {
-        "Conservative": 1,
         "Labour Party": 4,
         "Liberal Party (Original)": 2,
-        "National Democratic And Labour Party (Coalition)": 1,
-        "Liberals (Coalition)": 2
+        "Liberals (Coalition)": 2,
+        "Conservative": 1,
+        "National Democratic And Labour Party (Coalition)": 1
       },
       "majority": "Labour Party"
     },
     "lincolnshire": {
       "data": {
         "Conservatives (Coalition)": 8,
-        "Independents": 1,
         "Labour Party": 4,
         "Liberal Party (Original)": 3,
+        "Independents": 1,
         "Independent Labour": 1,
         "Nationalists": 1,
         "Sinn Fein": 1
@@ -9823,10 +9823,10 @@
     "suffolk": {
       "data": {
         "Conservatives (Coalition)": 4,
-        "Labour Party": 1,
         "Liberal Party (Original)": 3,
-        "Conservative": 1,
         "Liberals (Coalition)": 2,
+        "Labour Party": 1,
+        "Conservative": 1,
         "Agriculturalists": 1
       },
       "majority": "Conservatives (Coalition)"
@@ -9834,8 +9834,8 @@
     "oxfordshire": {
       "data": {
         "Conservatives (Coalition)": 3,
-        "Labour Party": 1,
         "Liberal Party (Original)": 3,
+        "Labour Party": 1,
         "Liberals (Coalition)": 1
       },
       "majority": "multiple majority"
@@ -9859,9 +9859,9 @@
     },
     "londonderry": {
       "data": {
-        "Nationalists": 2,
         "Sinn Fein": 3,
-        "Unionists": 3
+        "Unionists": 3,
+        "Nationalists": 2
       },
       "majority": "multiple majority"
     },
@@ -9874,9 +9874,9 @@
     "monmouthshire": {
       "data": {
         "Labour Party": 4,
+        "Liberal Party (Original)": 2,
         "Liberals (Coalition)": 1,
         "Conservative": 1,
-        "Liberal Party (Original)": 2,
         "Conservatives (Coalition)": 1
       },
       "majority": "Labour Party"
@@ -9889,13 +9889,13 @@
     },
     "northumberland": {
       "data": {
-        "Conservative": 1,
         "Labour Party": 8,
         "Liberal Party (Original)": 6,
-        "Independent Liberals": 1,
         "Conservatives (Coalition)": 4,
-        "Independents": 2,
         "Liberals (Coalition)": 3,
+        "Independents": 2,
+        "Conservative": 1,
+        "Independent Liberals": 1,
         "Independent Labour": 1,
         "National Democratic And Labour Party (Coalition)": 1
       },
@@ -9915,11 +9915,11 @@
       "data": {
         "Conservatives (Coalition)": 6,
         "Liberal Party (Original)": 5,
-        "National Party": 1,
         "Labour Party": 5,
+        "National Democratic And Labour Party (Coalition)": 2,
+        "National Party": 1,
         "National Federation Of Discharged And Demobilised Sailors An": 1,
-        "Independent Labour": 1,
-        "National Democratic And Labour Party (Coalition)": 2
+        "Independent Labour": 1
       },
       "majority": "Conservatives (Coalition)"
     },
@@ -9934,14 +9934,14 @@
     "staffordshire": {
       "data": {
         "Labour Party": 9,
-        "Women's Party": 1,
-        "Conservatives (Coalition)": 6,
-        "Labour Party (Coalition)": 1,
         "Liberal Party (Original)": 7,
-        "Conservative": 1,
+        "Conservatives (Coalition)": 6,
         "Liberals (Coalition)": 3,
-        "Independent Liberals": 1,
         "National Democratic And Labour Party (Coalition)": 2,
+        "Women's Party": 1,
+        "Labour Party (Coalition)": 1,
+        "Conservative": 1,
+        "Independent Liberals": 1,
         "Agriculturalists": 1,
         "National Party": 1
       },
@@ -9956,9 +9956,9 @@
     },
     "tyrone": {
       "data": {
-        "Nationalists": 1,
         "Sinn Fein": 3,
         "Unionists": 3,
+        "Nationalists": 1,
         "Independent Nationalists": 1
       },
       "majority": "multiple majority"
@@ -9972,8 +9972,8 @@
     "wiltshire": {
       "data": {
         "Conservatives (Coalition)": 5,
-        "Labour Party": 3,
-        "Liberal Party (Original)": 5
+        "Liberal Party (Original)": 5,
+        "Labour Party": 3
       },
       "majority": "multiple majority"
     }
@@ -9981,8 +9981,8 @@
   "1922": {
     "aberdeenshire": {
       "data": {
-        "Labour Party": 1,
         "Liberal Party (Original)": 2,
+        "Labour Party": 1,
         "National Liberals": 1,
         "Conservative": 1
       },
@@ -9991,9 +9991,9 @@
     "not_found": {
       "data": {
         "Liberal Party (Original)": 14,
-        "Conservative": 7,
-        "Labour Party": 10,
         "National Liberals": 11,
+        "Labour Party": 10,
+        "Conservative": 7,
         "Nationalists": 2,
         "Unionists": 1
       },
@@ -10053,9 +10053,9 @@
     "yorkshire": {
       "data": {
         "Labour Party": 42,
-        "National Liberals": 15,
         "Conservative": 39,
         "Liberal Party (Original)": 35,
+        "National Liberals": 15,
         "Agriculturalists": 1
       },
       "majority": "Labour Party"
@@ -10070,13 +10070,13 @@
     },
     "middlesex": {
       "data": {
+        "Conservative": 57,
         "Labour Party": 46,
         "Liberal Party (Original)": 37,
         "National Liberals": 15,
-        "Conservative": 57,
-        "Communist Party Of Great Britain": 2,
-        "Independent Conservatives": 4,
         "Independents": 7,
+        "Independent Conservatives": 4,
+        "Communist Party Of Great Britain": 2,
         "Independent Liberals": 1
       },
       "majority": "Conservative"
@@ -10085,8 +10085,8 @@
       "data": {
         "Conservative": 3,
         "Labour Party": 2,
-        "National Liberals": 1,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "National Liberals": 1
       },
       "majority": "Conservative"
     },
@@ -10101,8 +10101,8 @@
     "cheshire": {
       "data": {
         "Conservative": 12,
-        "Liberal Party (Original)": 8,
         "Labour Party": 9,
+        "Liberal Party (Original)": 8,
         "National Liberals": 2
       },
       "majority": "Conservative"
@@ -10119,9 +10119,9 @@
     "hampshire": {
       "data": {
         "Conservative": 13,
-        "Independent Conservatives": 2,
         "Liberal Party (Original)": 7,
         "Labour Party": 6,
+        "Independent Conservatives": 2,
         "National Liberals": 1
       },
       "majority": "Conservative"
@@ -10129,17 +10129,17 @@
     "sussex": {
       "data": {
         "Conservative": 9,
-        "Liberal Party (Original)": 3,
-        "Labour Party": 4
+        "Labour Party": 4,
+        "Liberal Party (Original)": 3
       },
       "majority": "Conservative"
     },
     "gloucestershire": {
       "data": {
-        "Conservative": 7,
         "Labour Party": 9,
-        "National Liberals": 4,
+        "Conservative": 7,
         "Liberal Party (Original)": 5,
+        "National Liberals": 4,
         "Independent Conservatives": 1
       },
       "majority": "Labour Party"
@@ -10149,8 +10149,8 @@
         "Conservative": 20,
         "Labour Party": 15,
         "Liberal Party (Original)": 10,
-        "Constitutionalist": 1,
-        "Independent Conservatives": 2
+        "Independent Conservatives": 2,
+        "Constitutionalist": 1
       },
       "majority": "Conservative"
     },
@@ -10173,17 +10173,17 @@
       "data": {
         "Conservative": 3,
         "Labour Party": 3,
-        "Liberal Party (Original)": 1,
-        "National Liberals": 2
+        "National Liberals": 2,
+        "Liberal Party (Original)": 1
       },
       "majority": "multiple majority"
     },
     "glamorgan": {
       "data": {
-        "Conservative": 10,
         "Labour Party": 16,
-        "Liberal Party (Original)": 5,
+        "Conservative": 10,
         "National Liberals": 8,
+        "Liberal Party (Original)": 5,
         "Independents": 2
       },
       "majority": "Labour Party"
@@ -10199,27 +10199,27 @@
       "data": {
         "Conservative": 5,
         "Labour Party": 3,
-        "National Liberals": 1,
-        "Liberal Party (Original)": 3
+        "Liberal Party (Original)": 3,
+        "National Liberals": 1
       },
       "majority": "Conservative"
     },
     "carmarthenshire": {
       "data": {
+        "National Liberals": 2,
         "Agriculturalists": 1,
         "Conservative": 1,
-        "National Liberals": 2,
         "Labour Party": 1
       },
       "majority": "National Liberals"
     },
     "lanarkshire": {
       "data": {
-        "Communist Party Of Great Britain": 3,
         "Labour Party": 18,
-        "National Liberals": 7,
         "Conservative": 15,
         "Liberal Party (Original)": 12,
+        "National Liberals": 7,
+        "Communist Party Of Great Britain": 3,
         "Independent Conservatives": 1
       },
       "majority": "Labour Party"
@@ -10228,8 +10228,8 @@
       "data": {
         "Conservative": 3,
         "Liberal Party (Original)": 3,
-        "Labour Party": 2,
-        "National Liberals": 3
+        "National Liberals": 3,
+        "Labour Party": 2
       },
       "majority": "multiple majority"
     },
@@ -10254,16 +10254,16 @@
     "denbighshire": {
       "data": {
         "Conservative": 2,
-        "Liberal Party (Original)": 1,
         "National Liberals": 2,
+        "Liberal Party (Original)": 1,
         "Labour Party": 1
       },
       "majority": "multiple majority"
     },
     "derbyshire": {
       "data": {
-        "Conservative": 7,
         "Labour Party": 8,
+        "Conservative": 7,
         "Liberal Party (Original)": 7,
         "National Liberals": 3
       },
@@ -10280,11 +10280,11 @@
     },
     "dorset": {
       "data": {
-        "Independent Conservatives": 1,
         "Labour Party": 3,
-        "National Liberals": 1,
         "Conservative": 3,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "Independent Conservatives": 1,
+        "National Liberals": 1
       },
       "majority": "multiple majority"
     },
@@ -10340,17 +10340,17 @@
       "data": {
         "Conservative": 17,
         "Labour Party": 17,
-        "National Liberals": 6,
-        "Liberal Party (Original)": 12
+        "Liberal Party (Original)": 12,
+        "National Liberals": 6
       },
       "majority": "multiple majority"
     },
     "midlothian": {
       "data": {
-        "Labour Party": 2,
-        "National Liberals": 2,
         "Liberal Party (Original)": 5,
-        "Conservative": 4
+        "Conservative": 4,
+        "Labour Party": 2,
+        "National Liberals": 2
       },
       "majority": "Liberal Party (Original)"
     },
@@ -10364,8 +10364,8 @@
     },
     "norfolk": {
       "data": {
-        "Conservative": 5,
         "Labour Party": 7,
+        "Conservative": 5,
         "Liberal Party (Original)": 3,
         "National Liberals": 2,
         "Independents": 1
@@ -10374,10 +10374,10 @@
     },
     "renfrewshire": {
       "data": {
-        "Communist Party Of Great Britain": 1,
-        "Conservative": 2,
         "Liberal Party (Original)": 3,
         "Labour Party": 3,
+        "Conservative": 2,
+        "Communist Party Of Great Britain": 1,
         "National Liberals": 1
       },
       "majority": "multiple majority"
@@ -10419,16 +10419,16 @@
       "data": {
         "Conservative": 5,
         "Labour Party": 3,
-        "Liberal Party (Original)": 2,
-        "National Liberals": 3
+        "National Liberals": 3,
+        "Liberal Party (Original)": 2
       },
       "majority": "Conservative"
     },
     "oxfordshire": {
       "data": {
         "Conservative": 4,
-        "Independents": 2,
         "Liberal Party (Original)": 3,
+        "Independents": 2,
         "Labour Party": 1
       },
       "majority": "Conservative"
@@ -10480,9 +10480,9 @@
     },
     "northumberland": {
       "data": {
-        "Conservative": 7,
         "Labour Party": 9,
         "Liberal Party (Original)": 9,
+        "Conservative": 7,
         "National Liberals": 5,
         "Independent Labour": 1
       },
@@ -10491,18 +10491,18 @@
     "northamptonshire": {
       "data": {
         "Labour Party": 5,
+        "Conservative": 3,
         "Liberal Party (Original)": 2,
-        "National Liberals": 2,
-        "Conservative": 3
+        "National Liberals": 2
       },
       "majority": "Labour Party"
     },
     "nottinghamshire": {
       "data": {
         "Conservative": 7,
+        "Labour Party": 6,
         "Liberal Party (Original)": 4,
         "Independent Labour": 2,
-        "Labour Party": 6,
         "National Liberals": 1
       },
       "majority": "Conservative"
@@ -10517,19 +10517,19 @@
     "shropshire": {
       "data": {
         "Conservative": 4,
-        "National Liberals": 1,
         "Labour Party": 2,
-        "Liberal Party (Original)": 2
+        "Liberal Party (Original)": 2,
+        "National Liberals": 1
       },
       "majority": "Conservative"
     },
     "staffordshire": {
       "data": {
-        "Conservative": 11,
         "Labour Party": 15,
-        "Independents": 1,
+        "Conservative": 11,
         "Liberal Party (Original)": 6,
         "National Liberals": 5,
+        "Independents": 1,
         "Agriculturalists": 1
       },
       "majority": "Labour Party"
@@ -10550,8 +10550,8 @@
     "wiltshire": {
       "data": {
         "Conservative": 5,
-        "Labour Party": 3,
-        "Liberal Party (Original)": 4
+        "Liberal Party (Original)": 4,
+        "Labour Party": 3
       },
       "majority": "Conservative"
     }
