@@ -138,3 +138,7 @@ h2, h3 {
 
 /* Radio selector */
 
+.unclickable {
+    pointer-events: none;
+    color: blue;
+}

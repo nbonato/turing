@@ -1,6 +1,7 @@
 Chart.register(ChartDataLabels);
 
 var infoBox = document.getElementById("info-box");
+var infoBoxMessage = document.getElementById("info-box-message");
 var pressChartWrapper = document.createElement("div");
 var pressChart = document.createElement("canvas")
 pressChartWrapper.appendChild(pressChart);
@@ -114,7 +115,7 @@ map.setMaxBounds(map.getBounds());
 
 document.getElementById("reset-button").onclick = function() {
     map.setView([55.3781, -3.4360], 4.5);
-    infoBox.innerHTML = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
+    infoBoxMessage.textContent = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
 
 };
 // Find the first election year that is equal or greater than the target year.
@@ -200,12 +201,14 @@ function updateMap(geojsonLayer) {
         let countyName = layer.feature.properties.NAME.toLowerCase();
         if (availableCounties.includes(countyName)) {
             let majorityColour = colourScheme[updateDataset[updateYear][countyName]["majority"]]
+            layer.available = true;
             layer.setStyle({
                 fillColor: majorityColour,
                 color: majorityColour
             });
 
         } else {
+            layer.available = false;
             layer.setStyle({
                 fillColor: "gainsboro",
                 opacity: 1,
@@ -224,12 +227,12 @@ function updateView(county, year) {
     var pressChartData = pressDirectories[year][county.toLowerCase()];
     if (county != "") {
         if (typeof(pressChartData) === "undefined") {
-            infoBox.innerHTML =`${county} no press data`;
-
+            infoBoxMessage.textContent =`There is no press data for ${county}`;
+            pressChart.innerHTML = "";
             return
         };
     } else {
-        infoBox.innerHTML = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
+        infoBoxMessage.textContent = "Click on any available county to see the data. If a county is grayed out, it means that there are no press information on it for that year, so try moving around the slider above.";
         return
     };
     // Create the chart
@@ -239,12 +242,12 @@ function updateView(county, year) {
     var electionChartData = elections[closestElection.toString()][county.toLowerCase()];
 
     if (typeof(electionChartData) === "undefined") {
-        infoBox.innerHTML ="no election data";
-
+        infoBoxMessage.textContent =`There are no electoral results for ${county} in ${year}`;
+        electionChart.innerHTML = "";        
         return
     };
     // Create the chart
-    chartCreator(electionChart, electionChartData["data"], "Electoral results", "Elections");
+    chartCreator(electionChart, electionChartData["data"], "MPs elected", "Elections");
 
     infoBox.innerHTML = "";
     var infoBoxContent = document.createElement("div");
@@ -387,20 +390,26 @@ function initialiseWebApp() {
         },
         onEachFeature: function (feature, layer) {
             layer.on('click', function () {
-                county = feature.properties.NAME.toLowerCase();
-                // Change the style of the clicked feature
+                if (layer.available == true) {
+                    county = feature.properties.NAME.toLowerCase();
+                    // Change the style of the clicked feature
+    
+     
+    
+                    updateMap(geojsonLayer);
+                    layer.setStyle({
+                        color: "DarkSlateGray",
+                        weight: 4
+    
+                        
+                    });
+                    layer.bringToFront()
+                    updateView(county, year);
 
- 
-
-                updateMap(geojsonLayer);
-                layer.setStyle({
-                    color: "DarkSlateGray",
-                    weight: 4
-
-                    
-                });
-                layer.bringToFront()
-                updateView(county, year);
+                } else {
+                    alert("This county is not available")
+                }
+                
             });
         }
     }).addTo(map);
