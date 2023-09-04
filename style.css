@@ -30,6 +30,10 @@ h2, h3 {
     grid-template-columns: 1.5fr 1fr 1.5fr;
 }
 
+#info-box-message {
+    font-size: 0.8em;
+}
+
 #map {
     height: 70vh;
     width: 80%;

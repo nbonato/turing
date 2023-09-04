@@ -15,11 +15,11 @@ Secondly, I wanted to enrich and expand upon the resources I used, as well as ma
     
 3.  Using Javascript and the JSON files, I **created an interactive web-app** for people to explore the two datasets.
 
-You can find all the code for the web app and the cleaning process on [this GitHub repository]().
+You can find all the code for the web app and the cleaning process on [this GitHub repository](https://github.com/Living-with-machines/VisualisingPressDirectories/).
 
 
 ## The main challenges I faced
-As it often happens, the initial proposal had to come to terms with the realities of available data. While this didn’t force me to change the final planned output significantly, it did present some challenges which I listed below. For a more thorough discussion of them, as well as ways in which I addressed them, you can read [my final report](). If you care about pre-processing and data cleaning, that report also contains [Jupyter notebooks documenting that whole ordeal]().
+As it often happens, the initial proposal had to come to terms with the realities of available data. While this didn’t force me to change the final planned output significantly, it did present some challenges which I listed below. For a more thorough discussion of them, as well as ways in which I addressed them, you can read [my final report](). If you care about pre-processing and data cleaning, that report also contains [Jupyter notebooks documenting that whole ordeal](https://github.com/Living-with-machines/VisualisingPressDirectories/tree/main/Jupyter%20notebooks).
 
 ### Putting press and elections on the map
 
@@ -40,6 +40,8 @@ Due to the complexity of pre-processing tasks, especially with regard to the ele
 ### Newspapers grew more and more independent (at least on paper!)
 
 During the decades spanned by the Press Directories dataset more and more newspapers came to be listed as “independent” all over the country. This picture shows what the country looked like in 1846 (left) and in 1922 (right), when many counties had a majority of “independent” newspapers.
+
+[Image comparing the press leanings in 1846 and 1922](images/1846-1922.png)
 
 Given this shift, it would be important to further investigate the use of the “independent” label in Mitchell’s original work, to understand why they considered so many newspapers independent and what that meant for the people who read them.
 
